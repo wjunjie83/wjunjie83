@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-02-02T01:34:02.227Z</updated>
+  <updated>2018-02-02T01:38:38.710Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,10 +20,10 @@
     <title>趣味编程第6课-蜘蛛织网</title>
     <link href="http://yoursite.com/2018/02/02/%E7%AC%AC6%E8%AF%BE-%E8%9C%98%E8%9B%9B%E7%BB%87%E7%BD%91/"/>
     <id>http://yoursite.com/2018/02/02/第6课-蜘蛛织网/</id>
-    <published>2018-02-02T01:34:02.227Z</published>
-    <updated>2018-02-02T01:34:02.227Z</updated>
+    <published>2018-02-02T01:38:38.710Z</published>
+    <updated>2018-02-02T01:38:38.710Z</updated>
     
-    <content type="html"><![CDATA[<p>通过第五课的学习，大家通过一款微信上流行的小程序对 <em>侦测</em> <em>数据</em> <em>运算</em> <em>声音</em> 等积木模块，有了初步的了解，小朋友们是不是更加喜欢编程了呢？<br>下面是蟑螂画彩圆的效果图。<br><img src="/2018/02/02/第6课-蜘蛛织网/001.png" alt=""><br>下面这幅图，蜘蛛织网，图形很复杂，但是只是非常简单的积木模块。<br><img src="/2018/02/02/第6课-蜘蛛织网/002.png" alt=""><br>直接上积木模块图，用Scratch画笔功能，可以画各种复杂的图形哟。<br><img src="/2018/02/02/第6课-蜘蛛织网/003.png" alt=""><br>小朋友，你会做吧，记得加老师微信并与老师互动讨论哟，你还想加入什么你的功能呢？和老师一起进步吧！<br><img src="/2018/02/02/第6课-蜘蛛织网/张老师.jpeg" alt=""></p><iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/196941143/?autostart=false" frameborder="0" allowfullscreen></iframe>]]></content>
+    <content type="html"><![CDATA[<p>通过第五课的学习，大家通过一款微信上流行的小程序对 <em>侦测</em> <em>数据</em> <em>运算</em> <em>声音</em> 等积木模块，有了初步的了解，小朋友们是不是更加喜欢编程了呢？<br>下面是蟑螂画彩圆的效果图。<br><img src="/2018/02/02/第6课-蜘蛛织网/001.png" alt=""><br>下面这幅图，蜘蛛织网，图形很复杂，但是只是非常简单的积木模块。<br><img src="/2018/02/02/第6课-蜘蛛织网/002.png" alt=""><br>直接上积木模块图，用Scratch画笔功能，可以画各种复杂的图形哟。<br><img src="/2018/02/02/第6课-蜘蛛织网/003.png" alt=""><br>小朋友，你会做吧，记得加老师微信并与老师互动讨论哟，你还想加入什么你的功能呢？和老师一起进步吧！<br><img src="/2018/02/02/第6课-蜘蛛织网/张老师.jpeg" alt=""><br><a href="https://scratch.mit.edu/projects/196941143/" target="_blank" rel="noopener">https://scratch.mit.edu/projects/196941143/</a><br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">allowtransparency</span>=<span class="string">"true"</span> <span class="attr">width</span>=<span class="string">"485"</span> <span class="attr">height</span>=<span class="string">"402"</span> <span class="attr">src</span>=<span class="string">"//scratch.mit.edu/projects/embed/196941143/?autostart=false"</span> <span class="attr">frameborder</span>=<span class="string">"0"</span> <span class="attr">allowfullscreen</span>&gt;</span><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure></p>]]></content>
     
     <summary type="html">
     
