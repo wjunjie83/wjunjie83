@@ -90,7 +90,7 @@
 <meta property="og:site_name" content="卓越趣味编程训练营">
 <meta property="og:description" content="Given an integer array with even length, where different numbers in this array represent different kinds of candies. Each number means one candy of the corresponding kind. You need to distribute these">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-02-09T02:10:29.039Z">
+<meta property="og:updated_time" content="2018-02-09T02:14:57.259Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="distribute-candies">
 <meta name="twitter:description" content="Given an integer array with even length, where different numbers in this array represent different kinds of candies. Each number means one candy of the corresponding kind. You need to distribute these">
@@ -265,7 +265,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-02-09T10:10:29+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-02-09T10:14:57+08:00">
                 2018-02-09
               </time>
             
@@ -305,9 +305,10 @@
       
         <p>Given an integer array with even length, where different numbers in this array represent different kinds of candies. Each number means one candy of the corresponding kind. You need to distribute these candies equally in number to brother and sister. Return the maximum number of kinds of candies the sister could gain.<br>Example 1:<br>Input: candies = [1,1,2,2,3,3]<br>Output: 3<br>Explanation:<br>There are three different kinds of candies (1, 2 and 3), and two candies for each kind.<br>Optimal distribution: The sister has candies [1,2,3] and the brother has candies [1,2,3], too.<br>The sister has three different kinds of candies.<br>Example 2:<br>Input: candies = [1,1,2,3]<br>Output: 2<br>Explanation: For example, the sister has candies [2,3] and the brother has candies [1,1].<br>The sister has two different kinds of candies, the brother has only one kind of candies.<br>Note:</p>
 <p>The length of the given array is in range [2, 10,000], and will be even.<br>The number in given array is in range [-100,000, 100,000].</p>
-<p>solution1:<br>`func distributeCandies(candies []int) int {<br>    var count int<br>    kinds:=make(map[int]int)<br>    for i:=0;i<len(candies);i++{ kinds[candies[i]]="0" }="" if="" len(kinds)="">len(candies)/2{<br>        count=len(candies)/2<br>    }else{<br>        count=len(kinds)<br>    }</len(candies);i++{></p>
+<p>solution1:<br>``` func distributeCandies(candies []int) int {<br>    var count int<br>    kinds:=make(map[int]int)<br>    for i:=0;i<len(candies);i++{ kinds[candies[i]]="0" }="" if="" len(kinds)="">len(candies)/2{<br>        count=len(candies)/2<br>    }else{<br>        count=len(kinds)<br>    }</len(candies);i++{></p>
 <pre><code>return count
-</code></pre><p>}<br><code></code>func distributeCandies(candies []int) int {<br>    var count =1<br>   sort.Ints(candies)<br>    for i:=1;i<len(candies)&&count<len(candies) 2;i++{="" if="" candies[i]="">candies[i-1]{<br>            count++<br>        }<br>    }<br>    return count<br>}<br>`</len(candies)&&count<len(candies)></p>
+</code></pre><p>}</p>
+<p>```func distributeCandies(candies []int) int {<br>    var count =1<br>   sort.Ints(candies)<br>    for i:=1;i<len(candies)&&count<len(candies) 2;i++{="" if="" candies[i]="">candies[i-1]{<br>            count++<br>        }<br>    }<br>    return count<br>}</len(candies)&&count<len(candies)></p>
 
       
     </div>
