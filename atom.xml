@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>卓越趣味编程训练营</title>
+  <title>银卡家</title>
   
-  <subtitle>陪你不断进步</subtitle>
+  <subtitle>办理信用卡,POS养卡攻略</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
@@ -10,7 +10,7 @@
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>王俊杰</name>
+    <name>银卡家</name>
     
   </author>
   
