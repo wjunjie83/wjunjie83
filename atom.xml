@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-13T10:05:10.936Z</updated>
+  <updated>2018-11-15T00:41:06.765Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>DPJ-029-避障机器人</title>
+    <link href="http://yoursite.com/2018/11/15/%E6%8A%80%E6%9C%AF%E7%AD%89%E7%BA%A7%E8%80%83%E8%AF%95/DPJ-029-%E9%81%BF%E9%9A%9C%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
+    <id>http://yoursite.com/2018/11/15/技术等级考试/DPJ-029-避障机器人/</id>
+    <published>2018-11-15T00:41:06.765Z</published>
+    <updated>2018-11-15T00:41:06.765Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦力工程师接到一个新任务，就是设计出一套智能避障装置，来装备到一家大型的综合餐厅，能给每位顾客送饭。<br><img src="/2018/11/15/技术等级考试/DPJ-029-避障机器人/001.jpeg" alt=""><br><img src="/2018/11/15/技术等级考试/DPJ-029-避障机器人/002.jpg" alt=""></p><h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;情景任务&quot;&gt;&lt;a href=&quot;#情景任务&quot; class=&quot;headerlink&quot; title=&quot;情景任务:&quot;&gt;&lt;/a&gt;情景任务:&lt;/h3&gt;&lt;p&gt;瓦力工程师接到一个新任务，就是设计出一套智能避障装置，来装备到一家大型的综合餐厅，能给每位顾客送饭。&lt;br&gt;&lt;img s
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title></title>
@@ -414,27 +435,6 @@
       
       
         &lt;p&gt;当我们学习了第三课小猫猜生肖，对对控制、侦测、运算、事件模块有了初步的了解，今天通过蹦床运动介绍 &lt;em&gt;运动&lt;/em&gt; 模块的 &lt;em&gt;滑行&lt;/em&gt; 、&lt;em&gt;面向&lt;/em&gt; 、&lt;em&gt;左右转&lt;/em&gt; 和 &lt;em&gt;外观&lt;/em&gt; 模块 的 &lt;em&gt;下一个造型&lt;/em&gt;
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>趣味编程第5课-成语猜猜看</title>
-    <link href="http://yoursite.com/2018/11/03/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E7%AC%AC5%E8%AF%BE-%E6%88%90%E8%AF%AD%E7%8C%9C%E7%8C%9C%E7%9C%8B/"/>
-    <id>http://yoursite.com/2018/11/03/瓦力工厂/第5课-成语猜猜看/</id>
-    <published>2018-11-03T01:14:14.791Z</published>
-    <updated>2018-11-03T01:14:14.791Z</updated>
-    
-    <content type="html"><![CDATA[<p>通过第四课的学习，相信小朋友们对 <em>运动</em>、<em>外观</em> 、<em>事件</em> 、<em>侦测</em> 等积木模块有了更深一步的了解。下面通过一款微信上流行的小程序继续向大家介绍 <em>侦测</em> <em>数据</em> <em>运算</em> <em>声音</em> 等积木模块。<br><img src="/2018/11/03/瓦力工厂/第5课-成语猜猜看/001.png" alt=""><br>成语是我国汉字语言词汇中一部分定型的词组和短语。成语有固定的结构形式和固定的说法。表示一定的意义在语句中是作为一个整体来应用的。成语有很大一部分是从古代。形成沿用下来的再用词语方面往往不同与现代汉语。它代表了一个故事和典故。成语又是一种现成的话，跟习用语言语向近也略有区别。<br><img src="/2018/11/03/瓦力工厂/第5课-成语猜猜看/002.png" alt=""><br>主要程序代码如图所示，巧妙地利用角色的造型进行程序图片之间的切换，用链表把成语的图片与意义相关联。答对的话有音乐提示与金币奖励。切换到下一个成语，并且所过的关卡加一。用变量 <em>关名</em> 存储并显示所过的关数，用变量 <em>金钱</em> 来存储并显示所获得的金币数。<br><img src="/2018/11/03/瓦力工厂/第5课-成语猜猜看/003.png" alt=""><br>小朋友，你会做吧，记得加老师微信并与老师互动讨论哟，你还想加入什么你的功能呢？和老师一起进步吧！<br><img src="/2018/11/03/瓦力工厂/第5课-成语猜猜看/瓦力.jpeg" alt=""></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;通过第四课的学习，相信小朋友们对 &lt;em&gt;运动&lt;/em&gt;、&lt;em&gt;外观&lt;/em&gt; 、&lt;em&gt;事件&lt;/em&gt; 、&lt;em&gt;侦测&lt;/em&gt; 等积木模块有了更深一步的了解。下面通过一款微信上流行的小程序继续向大家介绍 &lt;em&gt;侦测&lt;/em&gt; &lt;em&gt;数据&lt;/em&gt; &lt;em&gt;运算&lt;/
       
     
     </summary>
