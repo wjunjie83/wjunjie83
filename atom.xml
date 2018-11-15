@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>编程训练营</title>
+  <title>瓦力工厂-编程训练营</title>
   
   <subtitle>Scratch编程 Ardunio机器人搭建 Python自动化</subtitle>
   <link href="/atom.xml" rel="self"/>
