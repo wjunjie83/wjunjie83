@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-15T00:41:06.765Z</updated>
+  <updated>2018-11-15T02:04:51.927Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>DPJ-029-避障机器人</title>
+    <link href="http://yoursite.com/2018/11/15/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/DPJ-029-%E9%81%BF%E9%9A%9C%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
+    <id>http://yoursite.com/2018/11/15/瓦力工厂/DPJ-029-避障机器人/</id>
+    <published>2018-11-15T02:04:51.927Z</published>
+    <updated>2018-11-15T02:04:51.927Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦力工程师接到一个新任务，就是设计出一套智能避障装置，然后研发出智能避障机器人，来装备到一家大型的综合餐厅，能给每位顾客送饭。<br><img src="/2018/11/15/瓦力工厂/DPJ-029-避障机器人/002.png" alt=""></p><p><img src="/2018/11/15/瓦力工厂/DPJ-029-避障机器人/002.jpeg" alt=""></p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>红外避障传感器基本原理：利用物体的反射性质。在一定范围内，如果没有障碍物，发射出去的红外线，因为传播距离越远而逐渐减弱，最后消失。如果有障碍物，红外线遇到障碍物，被反射到达传感器接收头。传感器检测到这一信号，就可以确认正前方有障碍物，并送给单片机，单片机进行一系列的处理分析，协调小车两轮工作，完成一个漂亮的躲避障碍物动作。<br>超声波其实就是声波的一种，因为频率高于20kHz，所以人耳听不见，并且指向性更强。</p><p>超声波测距的原理比红外线更加简单，因为声波遇到障碍物会反射，而声波的速度已知，所以只需要知道发射到接收的时间差，就能轻松计算出测量距离，再结合发射器和接收器的距离，就能算出障碍物的实际距离，如下图所示。<br><img src="/2018/11/15/瓦力工厂/DPJ-029-避障机器人/004.jpg" alt=""><br>超声波测距相比红外测距，价格更加便宜，相应的感应速度和精度也逊色一些。同样，由于需要主动发射声波，所以对于太远的障碍物，精度也会随着声波的衰减而降低，此外，对于海绵等吸收声波的物体或者在大风干扰的情况下，超声波将无法工作。<br><img src="/2018/11/15/瓦力工厂/DPJ-029-避障机器人/006.jpeg" alt=""></p><h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有轮子（为什么呢？观察生活）<br>３．需要有前进、停止、转弯、后退的控制方法<br>5.需要有避障系统。</p><h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、轮子、CPU、触碰开光、LED灯、红外避障传感器。</p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.了解避障机器人工作原理<br>2.了解红外避障传感器的工作原理<br>3.搭建标准避障小车。</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/11/15/瓦力工厂/DPJ-029-避障机器人/007.png" alt=""><br><img src="/2018/11/15/瓦力工厂/DPJ-029-避障机器人/008.png" alt=""><br><img src="/2018/11/15/瓦力工厂/DPJ-029-避障机器人/009.png" alt=""><br><img src="/2018/11/15/瓦力工厂/DPJ-029-避障机器人/010.png" alt=""><br><img src="/2018/11/15/瓦力工厂/DPJ-029-避障机器人/011.png" alt=""></p><h3 id="避障机器人程序设计："><a href="#避障机器人程序设计：" class="headerlink" title="避障机器人程序设计："></a>避障机器人程序设计：</h3><p><img src="/2018/11/15/瓦力工厂/DPJ-029-避障机器人/012.png" alt=""><br>避障机器人完成了，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/11/15/瓦力工厂/DPJ-029-避障机器人/瓦力.jpeg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;情景任务&quot;&gt;&lt;a href=&quot;#情景任务&quot; class=&quot;headerlink&quot; title=&quot;情景任务:&quot;&gt;&lt;/a&gt;情景任务:&lt;/h3&gt;&lt;p&gt;瓦力工程师接到一个新任务，就是设计出一套智能避障装置，然后研发出智能避障机器人，来装备到一家大型的综合餐厅，能给每位顾客
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>DPJ-029-避障机器人</title>
@@ -414,27 +435,6 @@
       
       
         &lt;p&gt;当我们学习了第二课小猫跳舞后，对角色的添加与删除，背景的添加与删除。有了初步的了解，下面我们演示小猫猜生肖案例，对控制、侦测、运算、事件模块进行介绍！&lt;br&gt;&lt;img src=&quot;/2018/11/03/瓦力工厂/第3课小猫猜生肖/001.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;这就
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>趣味编程第4课-蹦床运动</title>
-    <link href="http://yoursite.com/2018/11/03/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E7%AC%AC4%E8%AF%BE-%E8%B9%A6%E5%BA%8A%E8%BF%90%E5%8A%A8/"/>
-    <id>http://yoursite.com/2018/11/03/瓦力工厂/第4课-蹦床运动/</id>
-    <published>2018-11-03T01:14:17.511Z</published>
-    <updated>2018-11-03T01:14:17.511Z</updated>
-    
-    <content type="html"><![CDATA[<p>当我们学习了第三课小猫猜生肖，对对控制、侦测、运算、事件模块有了初步的了解，今天通过蹦床运动介绍 <em>运动</em> 模块的 <em>滑行</em> 、<em>面向</em> 、<em>左右转</em> 和 <em>外观</em> 模块 的 <em>下一个造型</em>、<em>鱼眼特效</em> 等等…<br><img src="/2018/11/03/瓦力工厂/第4课-蹦床运动/001.png" alt=""><br>今天的程序非常简单，当绿旗被点击时，重复执行<br><img src="/2018/11/03/瓦力工厂/第4课-蹦床运动/002.png" alt=""><br>并通过 <em>空格键</em> 和 <em>左移键</em> 和 <em>右移键</em> 进行程序的交互，变换出不同的蹦极效果。<br><img src="/2018/11/03/瓦力工厂/第4课-蹦床运动/003.png" alt=""><br>蹦床的代码为<br><img src="/2018/11/03/瓦力工厂/第4课-蹦床运动/003.png" alt=""><br>蹦床用到了一个鱼眼特效，变幻出来了动态的效果！<br>想要知道蹦床运动的全部脚本或者有不明白的地方，可以联系老师哟！<br><img src="/2018/11/03/瓦力工厂/第4课-蹦床运动/瓦力.jpeg" alt=""></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;当我们学习了第三课小猫猜生肖，对对控制、侦测、运算、事件模块有了初步的了解，今天通过蹦床运动介绍 &lt;em&gt;运动&lt;/em&gt; 模块的 &lt;em&gt;滑行&lt;/em&gt; 、&lt;em&gt;面向&lt;/em&gt; 、&lt;em&gt;左右转&lt;/em&gt; 和 &lt;em&gt;外观&lt;/em&gt; 模块 的 &lt;em&gt;下一个造型&lt;/em&gt;
       
     
     </summary>
