@@ -306,6 +306,150 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/04/瓦力工厂/Scratch3.0本地部署遇到的坑与井/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/04/瓦力工厂/Scratch3.0本地部署遇到的坑与井/" class="post-title-link" itemprop="http://yoursite.com/index.html">Scratch3.0本地部署遇到的坑与井</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Post created: 2018-12-04 23:56:45" itemprop="dateCreated datePublished" datetime="2018-12-04T23:56:45+08:00">2018-12-04</time>
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="Scratch-clone"><a href="#Scratch-clone" class="headerlink" title="Scratch clone"></a>Scratch clone</h3><p>Scratch3.0 已经大致完工，界面漂亮，但是要访问其官网则需要科学上网，其速度也非常慢。想要和学生一起随着3.0成长则不免要本地部署。<br>Scratch3.0 在github上的位<br><a href="https://github.com/LLK" target="_blank" rel="noopener">https://github.com/LLK</a><br>我们只需要scratch-gui，于是一行如下代码<br>git clone git@github.com:LLK/scratch-gui.git<br>10k/s,多久没有这么慢的速度了，工作的时候电脑下载了，下载了2天没有下载完成。各种断开重来。<br>于是在网上查资料，得到曲线救国的方案。<br>git clone –depth=1 git@github.com:LLK/scratch-gui.git<br>只下载最新一层的更新，然后在项目目录下：<br>git fetch –unshallow #转换为一个完整的仓库<br>git 完成后，运行命令：<br>nmp install<br>nmp start<br>本地Scratch3.0已经可以运行，心中美美的。接着在局域网另一台电脑上输入本机IP地址，悲剧了，连不上。<br>接着找资料，各种论坛狂逛，有一篇说是安装Scratch-www的可以访问，于是Scratch-www、Scratch-wm、等等一并下载安装。满怀期待这样就能解决局域网连接问题，然而，确是伴随着一系列的解决问题时的失望。<br>接着就和webpack较上了劲。webpack-dev-server的使用一阵狂查，网上各种帖说webpack-dev-server<br>有默认本机访问，局域网访问需要指定本机IP地址。按帖子的方法一个个实验，都是无功而返。一不做二不休，问题还是要解决的，于是我上webpack-dev-server的官网，英文说明书一阵狂看，有点费劲，继而找到中文最新官方文档，从头看到尾，终于找到解决方案。<br><a href="https://github.com/webpack/webpack/releases" target="_blank" rel="noopener">https://github.com/webpack/webpack/releases</a><br><a href="https://webpack.docschina.org/concepts/" target="_blank" rel="noopener">https://webpack.docschina.org/concepts/</a><br><a href="https://webpack.docschina.org/configuration/dev-server" target="_blank" rel="noopener">https://webpack.docschina.org/configuration/dev-server</a></p>
+<p>devServer.host<br>string</p>
+<p>指定使用一个 host。默认是 localhost。如果你希望服务器外部可访问，指定如下：</p>
+<p>module.exports = {<br>  //…<br>  devServer: {<br>    host: ‘0.0.0.0’<br>  }<br>};<br>通过 CLI 使用</p>
+<p>webpack-dev-server –host 0.0.0.0</p>
+<p>按照官方最新文档进行配置，然而…<br>突然想起在安装Scratch需要在root权限下，于是切换到root  npm start  …<br>算了，用nginx 架站来处理吧。<br>于是看到 …<br>2.调整防火墙，以免出现各种问题<br>$ sudo ufw app list<br>对，ufw，于是查询ufw文档<br><a href="http://wiki.ubuntu.org.cn/Ufw%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97" target="_blank" rel="noopener">http://wiki.ubuntu.org.cn/Ufw%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97</a><br>于是简单粗暴<br>ufw disable<br>在局域网另一台电脑上登录，一下子天朗气清，所有问题都解决了。<br>突然想起前几天配置ftp服务器失败，一定和 ufw有关，因为ftp服务器不只搭建一次了。<br>看来要好好熟悉一下ufw了</p>
+<p>什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/04/瓦力工厂/Scratch3.0本地部署遇到的坑与井/瓦力.jpeg" alt=""></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/02/瓦力工厂/DPJ-048-六足昆虫机器人/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1655,153 +1799,6 @@ convert page200.png -resize 150% page300.png
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/18/瓦力工厂/DPJ-046-鳐鱼机器人/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/11/18/瓦力工厂/DPJ-046-鳐鱼机器人/" class="post-title-link" itemprop="http://yoursite.com/index.html">DPJ-046-鳐鱼机器人</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Veröffentlicht am</span>
-              
-
-              
-                
-              
-
-              <time title="Post created: 2018-11-18 11:53:06" itemprop="dateCreated datePublished" datetime="2018-11-18T11:53:06+08:00">2018-11-18</time>
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>武器装备部要求瓦力工厂制造一种仿生鱼，用于侦测水下敌方的潜艇，瓦力工厂把这个光荣的任务交给我们瓦力工程师，为了保家卫国，维护世界的和平，我们瓦力工程师流点汗，加点班也没什么。技术在手，什么都有，NO Problem！</p>
-<p><img src="/2018/11/18/瓦力工厂/DPJ-046-鳐鱼机器人/002.jpg" alt=""></p>
-<h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>鱼身体呈流线型中间大两头小，身体表面覆盖鳞片，保护身体；鳞片表面有一层粘液，游泳时减小水的阻力；身体两侧有一行侧线，侧线和神经相连，主要是测定方向和感知水流的作用；鱼的身体长有胸鳍、背鳍、腹鳍和尾鳍是鱼在水中的运动器官；体内有鳔，主要作用是调节身体的比重，鳔在鳍的协同下，可以使鱼停留在不同的水层里。<br>鱼鳍的作用：背鳍和臀鳍主要在行动时起稳定作用和平衡作用。尾鳍和体侧肌肉配合，起推动鱼体和掌握方向的作用。胸鳍和腹鳍的主要作用是保持鱼体平衡，配合鱼体转向，调整鱼体升降。但胸鳍比腹鳍用途更广，可以像船桨一样，一下一下地划动，使鱼体徐徐前进。</p>
-<p><img src="/2018/11/18/瓦力工厂/DPJ-046-鳐鱼机器人/001.jpg" alt=""></p>
-<p>鳐鱼，属于软骨鱼纲鳐形目 Rajiformes和鲼形鱼目，是多种扁体软骨鱼的统称。分布于全世界大部分水区，从包括2亚目，共8科约49属315种。中国产6科8属28种。我国各地俗称不一，舟山渔民称黄貂鳐叫黄虎，称蝠鲼叫燕子花鱼、黑虎、双头花鱼，称何氏鳐叫猫猫花鱼，而胶东渔民则叫劳子鱼、老板鱼。鳐鱼体型大小各异，小鳐成体仅50厘米，大鳐可长达8米。鳐鱼无害，底栖，常常部分埋于水底沙中。</p>
-<h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有伺服马达控制鱼尾游动。<br>３．需要控制伺服马达的指令。</p>
-<h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、马达、伺服马达、CPU、触碰开关、附件</p>
-<h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.伺服马达的认识与应用.<br>2.伺服马达的多功能用途.<br>3.遥控器控制双马达分开编程。</p>
-<h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/11/18/瓦力工厂/DPJ-046-鳐鱼机器人/004.png" alt=""><br><img src="/2018/11/18/瓦力工厂/DPJ-046-鳐鱼机器人/005.png" alt=""><br><img src="/2018/11/18/瓦力工厂/DPJ-046-鳐鱼机器人/006.png" alt=""><br><img src="/2018/11/18/瓦力工厂/DPJ-046-鳐鱼机器人/007.png" alt=""><br><img src="/2018/11/18/瓦力工厂/DPJ-046-鳐鱼机器人/008.png" alt=""><br><img src="/2018/11/18/瓦力工厂/DPJ-046-鳐鱼机器人/009.png" alt=""><br><img src="/2018/11/18/瓦力工厂/DPJ-046-鳐鱼机器人/010.png" alt=""><br><img src="/2018/11/18/瓦力工厂/DPJ-046-鳐鱼机器人/011.png" alt=""><br><img src="/2018/11/18/瓦力工厂/DPJ-046-鳐鱼机器人/012.png" alt=""><br><img src="/2018/11/18/瓦力工厂/DPJ-046-鳐鱼机器人/013.png" alt=""><br><img src="/2018/11/18/瓦力工厂/DPJ-046-鳐鱼机器人/014.png" alt=""><br><img src="/2018/11/18/瓦力工厂/DPJ-046-鳐鱼机器人/015.png" alt=""><br><img src="/2018/11/18/瓦力工厂/DPJ-046-鳐鱼机器人/016.png" alt=""><br><img src="/2018/11/18/瓦力工厂/DPJ-046-鳐鱼机器人/017.png" alt=""><br><img src="/2018/11/18/瓦力工厂/DPJ-046-鳐鱼机器人/018.png" alt=""><br><img src="/2018/11/18/瓦力工厂/DPJ-046-鳐鱼机器人/019.png" alt=""><br><img src="/2018/11/18/瓦力工厂/DPJ-046-鳐鱼机器人/020.png" alt=""><br><img src="/2018/11/18/瓦力工厂/DPJ-046-鳐鱼机器人/021.png" alt=""><br><img src="/2018/11/18/瓦力工厂/DPJ-046-鳐鱼机器人/022.png" alt=""><br><img src="/2018/11/18/瓦力工厂/DPJ-046-鳐鱼机器人/023.png" alt=""><br><img src="/2018/11/18/瓦力工厂/DPJ-046-鳐鱼机器人/024.png" alt=""><br><img src="/2018/11/18/瓦力工厂/DPJ-046-鳐鱼机器人/025.png" alt=""><br><img src="/2018/11/18/瓦力工厂/DPJ-046-鳐鱼机器人/026.png" alt=""><br><img src="/2018/11/18/瓦力工厂/DPJ-046-鳐鱼机器人/027.png" alt=""></p>
-<h3 id="接力赛机器人程序设计："><a href="#接力赛机器人程序设计：" class="headerlink" title="接力赛机器人程序设计："></a>接力赛机器人程序设计：</h3><p><img src="/2018/11/18/瓦力工厂/DPJ-046-鳐鱼机器人/017.png" alt=""><br>道闸机器人已完成，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/11/18/瓦力工厂/DPJ-046-鳐鱼机器人/瓦力.jpeg" alt=""></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -1849,7 +1846,7 @@ convert page200.png -resize 150% page300.png
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">38</span>
+                    <span class="site-state-item-count">39</span>
                     <span class="site-state-item-name">Artikel</span>
                   </a>
                 </div>
