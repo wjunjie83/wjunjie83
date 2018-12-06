@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-04T15:56:45.615Z</updated>
+  <updated>2018-12-05T06:31:03.996Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Scratch3.0-打地鼠</title>
+    <link href="http://yoursite.com/2018/12/05/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/Scratch3.0-%E6%89%93%E5%9C%B0%E9%BC%A0/"/>
+    <id>http://yoursite.com/2018/12/05/瓦力工厂/Scratch3.0-打地鼠/</id>
+    <published>2018-12-05T06:31:03.996Z</published>
+    <updated>2018-12-05T06:31:03.996Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>输入IP地址 <a href="http://192.168.0.103:8061/" target="_blank" rel="noopener">http://192.168.0.103:8061/</a> 打开Scratch3.0 客户端</p><p>从ftp 服务器上下载所需的素材文件夹</p><p><img src="/2018/12/05/瓦力工厂/Scratch3.0-打地鼠/001.png" alt=""></p><p>点击上传背景图，上传desert.jpg</p><p><img src="/2018/12/05/瓦力工厂/Scratch3.0-打地鼠/002.png" alt=""></p><p>删除默认的角色</p><p><img src="/2018/12/05/瓦力工厂/Scratch3.0-打地鼠/003.png" alt=""><br>点击上传角色，依次上传角色洞、地鼠、火花、锤子。</p><p><img src="/2018/12/05/瓦力工厂/Scratch3.0-打地鼠/004.png" alt=""><br>添加程序所需的变量：地鼠个数、总分、时间。</p><p><img src="/2018/12/05/瓦力工厂/Scratch3.0-打地鼠/005.png" alt=""></p><p><img src="/2018/12/05/瓦力工厂/Scratch3.0-打地鼠/006.png" alt=""></p><p><img src="/2018/12/05/瓦力工厂/Scratch3.0-打地鼠/007.png" alt=""></p><p><img src="/2018/12/05/瓦力工厂/Scratch3.0-打地鼠/008.png" alt=""></p><p><img src="/2018/12/05/瓦力工厂/Scratch3.0-打地鼠/009.png" alt=""></p><p><img src="/2018/12/05/瓦力工厂/Scratch3.0-打地鼠/010.png" alt=""></p><p><img src="/2018/12/05/瓦力工厂/Scratch3.0-打地鼠/011.png" alt=""></p><p><img src="/2018/12/05/瓦力工厂/Scratch3.0-打地鼠/012.png" alt=""></p><p><img src="/2018/12/05/瓦力工厂/Scratch3.0-打地鼠/001.png" alt="">/瓦力.jpeg)</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;情景任务&quot;&gt;&lt;a href=&quot;#情景任务&quot; class=&quot;headerlink&quot; title=&quot;情景任务:&quot;&gt;&lt;/a&gt;情景任务:&lt;/h3&gt;&lt;p&gt;输入IP地址 &lt;a href=&quot;http://192.168.0.103:8061/&quot; target=&quot;_blank&quot; 
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Scratch3.0本地部署遇到的坑与井</title>
@@ -93,27 +114,6 @@
       
       
         &lt;h3 id=&quot;情景任务&quot;&gt;&lt;a href=&quot;#情景任务&quot; class=&quot;headerlink&quot; title=&quot;情景任务:&quot;&gt;&lt;/a&gt;情景任务:&lt;/h3&gt;&lt;p&gt;小瓦力来到了一处崎岖的山路，本来有一座吊桥可以通过，但是吊桥断了，只能绕着盘旋的山路行走了。山路上有巨石路的两侧是悬崖，
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Scratch3.0-打地鼠</title>
-    <link href="http://yoursite.com/2018/11/29/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/Scratch3.0-%E6%89%93%E5%9C%B0%E9%BC%A0/"/>
-    <id>http://yoursite.com/2018/11/29/瓦力工厂/Scratch3.0-打地鼠/</id>
-    <published>2018-11-29T09:12:20.787Z</published>
-    <updated>2018-11-29T09:12:20.787Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>小瓦力认识一位老爷爷，老爷爷的子女出国工作去了，因此自己一个人在家里很寂寞，想让小瓦力送他一个宠物。小瓦力制作了一只可爱的宠物机器狗送给这位爷爷，陪伴他，让他不再那么寂寞。</p><p><img src="/2018/11/29/瓦力工厂/Scratch3.0-打地鼠/001.png" alt=""></p><p><img src="/2018/11/29/瓦力工厂/Scratch3.0-打地鼠/002.jpg" alt=""></p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>科学家认为狗是由早期人类从灰狼驯化而来，驯养时间在4万年前~1.5万年前，发展至今日。被称为“人类最忠实的朋友”，现如今是饲养率最高的宠物。其寿命约十多年。</p><p>红外避障传感器基本原理：利用物体的反射性质。在一定范围内，如果没有障碍物，发射出去的红外线，因为传播距离越远而逐渐减弱，最后消失。如果有障碍物，红外线遇到障碍物，被反射到达传感器接收头。传感器检测到这一信号，就可以确认正前方有障碍物，并送给单片机，单片机进行一系列的处理分析，协调小车两轮工作，完成一个漂亮的躲避障碍物动作。</p><h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有轮子（为什么呢？观察生活）<br>３．需要有前进、停止、转弯、后退的控制方法<br>5.需要有避障系统。</p><h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、轮子、CPU、蜂鸣器、LED灯、红外避障传感器。</p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.了解人类最忠实的朋友狗。<br>2.复习红外避障传感器的工作原理<br>3.搭建宠物狗造型避障小车。</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/11/29/瓦力工厂/Scratch3.0-打地鼠/003.png" alt=""><br><img src="/2018/11/29/瓦力工厂/Scratch3.0-打地鼠/004png" alt=""><br><img src="/2018/11/29/瓦力工厂/Scratch3.0-打地鼠/005.png" alt=""><br><img src="/2018/11/29/瓦力工厂/Scratch3.0-打地鼠/006.png" alt=""><br><img src="/2018/11/29/瓦力工厂/Scratch3.0-打地鼠/007.png" alt=""><br><img src="/2018/11/29/瓦力工厂/Scratch3.0-打地鼠/008.png" alt=""><br><img src="/2018/11/29/瓦力工厂/Scratch3.0-打地鼠/009.png" alt=""><br><img src="/2018/11/29/瓦力工厂/Scratch3.0-打地鼠/010png" alt=""><br><img src="/2018/11/29/瓦力工厂/Scratch3.0-打地鼠/011.png" alt=""><br><img src="/2018/11/29/瓦力工厂/Scratch3.0-打地鼠/012.png" alt=""></p><h3 id="避障机器人程序设计："><a href="#避障机器人程序设计：" class="headerlink" title="避障机器人程序设计："></a>避障机器人程序设计：</h3><p><img src="/2018/11/29/瓦力工厂/Scratch3.0-打地鼠/013.png" alt=""><br>宠物狗完成了，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/11/29/瓦力工厂/Scratch3.0-打地鼠/瓦力.jpeg" alt=""></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;情景任务&quot;&gt;&lt;a href=&quot;#情景任务&quot; class=&quot;headerlink&quot; title=&quot;情景任务:&quot;&gt;&lt;/a&gt;情景任务:&lt;/h3&gt;&lt;p&gt;小瓦力认识一位老爷爷，老爷爷的子女出国工作去了，因此自己一个人在家里很寂寞，想让小瓦力送他一个宠物。小瓦力制作了一只可爱
       
     
     </summary>
