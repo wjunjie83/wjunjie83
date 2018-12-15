@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-14T07:45:29.081Z</updated>
+  <updated>2018-12-15T01:53:15.493Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>DPJ-025-送餐机器人单巡线</title>
+    <link href="http://yoursite.com/2018/12/15/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/DPJ-025-%E9%80%81%E9%A4%90%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%8D%95%E5%B7%A1%E7%BA%BF/"/>
+    <id>http://yoursite.com/2018/12/15/瓦力工厂/DPJ-025-送餐机器人单巡线/</id>
+    <published>2018-12-15T01:53:15.493Z</published>
+    <updated>2018-12-15T01:53:15.493Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦里来到了一个特殊的餐厅，这里的服务员只有机器人。点菜、送餐、结账都是由机器人来完成，瓦力对送餐机器人很感兴趣，并发现了一个奇怪的方，每个送餐机器人的脚下都有一条黑线，他们会沿黑色的线行走。瓦力回家查阅资料才明白，原来是利用红外线巡线原理完成的，聪明的瓦力工程师们，让我们一起制作一个巡线机器人吧。</p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.单巡线机器人的原理。</p><p>2.单巡线机器人搭建时重心的稳定。</p><p>3.单巡线机器人的编程逻辑。</p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>随着科技的发展，已经有一些餐厅使用机器人送餐了。在餐厅营业期间，机器人脚底踩着轨道，手上稳稳端着托盘，沿着提前铺设好的环形轨道，面带微笑，端着酒水送着食物。客人可以在行走期间随意将食品拿到桌上，机器人也会沿着轨道继续前行。由于器人是根据设程序设定沿轨道前行，一旦有人出现在行驶路线上，红外感应器就会反应，机器人会自动停下，并语音提示，可以保证店内食客的安全。<br>红外传感器特性：<br>1.反射 ： 在有效范围内，红外线发射管发射的红外线可以被反射，接收管接收到信号。<br>2.吸收： 发射管发出的红外线遇到黑色物体时，会被吸收掉，没有返回信号。<br><img src="/2018/12/15/瓦力工厂/DPJ-025-送餐机器人单巡线/001.png" alt=""></p><h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力</p><p>２．需要有轮子。</p><p>３．需要有黑线的检测原件。</p><h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、CPU、轮子、蜂鸣器、LED灯、红外传感器。</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/15/瓦力工厂/DPJ-025-送餐机器人单巡线/002.png" alt=""></p><p><img src="/2018/12/15/瓦力工厂/DPJ-025-送餐机器人单巡线/003.png" alt=""></p><p><img src="/2018/12/15/瓦力工厂/DPJ-025-送餐机器人单巡线/004.png" alt=""></p><p><img src="/2018/12/15/瓦力工厂/DPJ-025-送餐机器人单巡线/005.png" alt=""></p><p><img src="/2018/12/15/瓦力工厂/DPJ-025-送餐机器人单巡线/006.png" alt=""></p><p><img src="/2018/12/15/瓦力工厂/DPJ-025-送餐机器人单巡线/007.png" alt=""></p><h3 id="安检门机器人程序设计："><a href="#安检门机器人程序设计：" class="headerlink" title="安检门机器人程序设计："></a>安检门机器人程序设计：</h3><p><img src="/2018/12/15/瓦力工厂/DPJ-025-送餐机器人单巡线/008.png" alt=""></p><p>安检门机器人完成了，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/15/瓦力工厂/DPJ-025-送餐机器人单巡线/瓦力.jpeg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;情景任务&quot;&gt;&lt;a href=&quot;#情景任务&quot; class=&quot;headerlink&quot; title=&quot;情景任务:&quot;&gt;&lt;/a&gt;情景任务:&lt;/h3&gt;&lt;p&gt;瓦里来到了一个特殊的餐厅，这里的服务员只有机器人。点菜、送餐、结账都是由机器人来完成，瓦力对送餐机器人很感兴趣，并发现了
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>高尔夫</title>
@@ -413,27 +434,6 @@
       
       
         &lt;h3 id=&quot;情景任务&quot;&gt;&lt;a href=&quot;#情景任务&quot; class=&quot;headerlink&quot; title=&quot;情景任务:&quot;&gt;&lt;/a&gt;情景任务:&lt;/h3&gt;&lt;p&gt;瓦力工程师接到一个新任务，就是设计出一套智能避障装置，然后研发出智能避障机器人，来装备到一家大型的综合餐厅，能给每位顾客
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>DPJ-029-避障机器人</title>
-    <link href="http://yoursite.com/2018/11/15/%E6%8A%80%E6%9C%AF%E7%AD%89%E7%BA%A7%E8%80%83%E8%AF%95/DPJ-029-%E9%81%BF%E9%9A%9C%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
-    <id>http://yoursite.com/2018/11/15/技术等级考试/DPJ-029-避障机器人/</id>
-    <published>2018-11-15T00:41:06.765Z</published>
-    <updated>2018-11-15T00:41:06.765Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦力工程师接到一个新任务，就是设计出一套智能避障装置，来装备到一家大型的综合餐厅，能给每位顾客送饭。<br><img src="/2018/11/15/技术等级考试/DPJ-029-避障机器人/001.jpeg" alt=""><br><img src="/2018/11/15/技术等级考试/DPJ-029-避障机器人/002.jpg" alt=""></p><h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;情景任务&quot;&gt;&lt;a href=&quot;#情景任务&quot; class=&quot;headerlink&quot; title=&quot;情景任务:&quot;&gt;&lt;/a&gt;情景任务:&lt;/h3&gt;&lt;p&gt;瓦力工程师接到一个新任务，就是设计出一套智能避障装置，来装备到一家大型的综合餐厅，能给每位顾客送饭。&lt;br&gt;&lt;img s
       
     
     </summary>

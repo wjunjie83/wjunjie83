@@ -306,6 +306,160 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/15/瓦力工厂/DPJ-025-送餐机器人单巡线/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/15/瓦力工厂/DPJ-025-送餐机器人单巡线/" class="post-title-link" itemprop="http://yoursite.com/index.html">DPJ-025-送餐机器人单巡线</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Post created: 2018-12-15 09:53:15" itemprop="dateCreated datePublished" datetime="2018-12-15T09:53:15+08:00">2018-12-15</time>
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦里来到了一个特殊的餐厅，这里的服务员只有机器人。点菜、送餐、结账都是由机器人来完成，瓦力对送餐机器人很感兴趣，并发现了一个奇怪的方，每个送餐机器人的脚下都有一条黑线，他们会沿黑色的线行走。瓦力回家查阅资料才明白，原来是利用红外线巡线原理完成的，聪明的瓦力工程师们，让我们一起制作一个巡线机器人吧。</p>
+<h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.单巡线机器人的原理。</p>
+<p>2.单巡线机器人搭建时重心的稳定。</p>
+<p>3.单巡线机器人的编程逻辑。</p>
+<h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>随着科技的发展，已经有一些餐厅使用机器人送餐了。在餐厅营业期间，机器人脚底踩着轨道，手上稳稳端着托盘，沿着提前铺设好的环形轨道，面带微笑，端着酒水送着食物。客人可以在行走期间随意将食品拿到桌上，机器人也会沿着轨道继续前行。由于器人是根据设程序设定沿轨道前行，一旦有人出现在行驶路线上，红外感应器就会反应，机器人会自动停下，并语音提示，可以保证店内食客的安全。<br>红外传感器特性：<br>1.反射 ： 在有效范围内，红外线发射管发射的红外线可以被反射，接收管接收到信号。<br>2.吸收： 发射管发出的红外线遇到黑色物体时，会被吸收掉，没有返回信号。<br><img src="/2018/12/15/瓦力工厂/DPJ-025-送餐机器人单巡线/001.png" alt=""></p>
+<h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力</p>
+<p>２．需要有轮子。</p>
+<p>３．需要有黑线的检测原件。</p>
+<h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、CPU、轮子、蜂鸣器、LED灯、红外传感器。</p>
+<h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/15/瓦力工厂/DPJ-025-送餐机器人单巡线/002.png" alt=""></p>
+<p><img src="/2018/12/15/瓦力工厂/DPJ-025-送餐机器人单巡线/003.png" alt=""></p>
+<p><img src="/2018/12/15/瓦力工厂/DPJ-025-送餐机器人单巡线/004.png" alt=""></p>
+<p><img src="/2018/12/15/瓦力工厂/DPJ-025-送餐机器人单巡线/005.png" alt=""></p>
+<p><img src="/2018/12/15/瓦力工厂/DPJ-025-送餐机器人单巡线/006.png" alt=""></p>
+<p><img src="/2018/12/15/瓦力工厂/DPJ-025-送餐机器人单巡线/007.png" alt=""></p>
+<h3 id="安检门机器人程序设计："><a href="#安检门机器人程序设计：" class="headerlink" title="安检门机器人程序设计："></a>安检门机器人程序设计：</h3><p><img src="/2018/12/15/瓦力工厂/DPJ-025-送餐机器人单巡线/008.png" alt=""></p>
+<p>安检门机器人完成了，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/15/瓦力工厂/DPJ-025-送餐机器人单巡线/瓦力.jpeg" alt=""></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/14/瓦力工厂/XKL-043-高尔夫/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1672,155 +1826,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/25/瓦力工厂/DPJ-047-鳄鱼机器人/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/11/25/瓦力工厂/DPJ-047-鳄鱼机器人/" class="post-title-link" itemprop="http://yoursite.com/index.html">DPJ-047-鳄鱼机器人</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Veröffentlicht am</span>
-              
-
-              
-                
-              
-
-              <time title="Post created: 2018-11-25 11:46:37 / Updated at: 11:40:39" itemprop="dateCreated datePublished" datetime="2018-11-25T11:46:37+08:00">2018-11-25</time>
-            
-
-            
-              
-
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>一条鳄鱼患了蛀牙，去看牙医，鳄鱼在心里对着自己不停滴说：“我真的不想看到他，但是我非看不可。而诊所里的牙医也在想：”我真的不想看到他，但是我非看不可“。<br>鳄鱼看到牙医吓得叫出了声：啊！牙医看到鳄鱼吓得叫出了声：啊！鳄鱼看着椅子：我一定得去吗？牙医看着鳄鱼：我一定得去吗？鳄鱼坐到了椅子上：我好害怕。牙医拿起了牙钻：我好害怕。鳄鱼对自己说：我一定要勇敢。牙医对自己说：我一定要勇敢。鳄鱼张大了嘴巴：我做好最坏的打算了。牙医把手伸进了鳄鱼的嘴巴：我做好最坏的打算了。鳄鱼被牙钻钻痛了：哎哟！牙医的手被鳄鱼的嘴咬痛了：哎哟！鳄鱼捂着嘴巴：这是一件多么可怕的事。牙医捂着手腕：这是一件多么可怕的事。鳄鱼又张大了嘴巴：不用太久……牙医又把手伸进了鳄鱼的嘴巴：不用太久……<br>鳄鱼给牙医行了个礼：多谢您啦！明年再见。牙医给鳄鱼还了个礼：多谢您啦！明年再见。 可走出诊所的鳄鱼却在想：我明年真的不想再见到他……牙医在窗口看着鳄鱼也在想：我明年真的不想再见到他……<br>鳄鱼说：所以我一定不要忘记刷牙。牙医说：所以你一定不要忘记刷牙。</p>
-<p><img src="/2018/11/25/瓦力工厂/DPJ-047-鳄鱼机器人/001.png" alt=""></p>
-<h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>概率学随机概念为各时间发生的概率相同，统计随机概念为一个件的结果不受事件的影响或影响较小。<br><img src="/2018/11/25/瓦力工厂/DPJ-047-鳄鱼机器人/002.png" alt=""></p>
-<h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要触碰开关感受到信号。<br>３．需要通过触碰开关信号，控制车轮运动。</p>
-<h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、马达、CPU、LED灯、触碰开关、附件</p>
-<h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.学习触碰开关工作原理.<br>2.学习保险杠机器人的工作原理。<br>3.熟练应用 while、break和触碰开关模块编程。</p>
-<h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/11/25/瓦力工厂/DPJ-047-鳄鱼机器人/003.png" alt=""><br><img src="/2018/11/25/瓦力工厂/DPJ-047-鳄鱼机器人/004.png" alt=""><br><img src="/2018/11/25/瓦力工厂/DPJ-047-鳄鱼机器人/005.png" alt=""><br><img src="/2018/11/25/瓦力工厂/DPJ-047-鳄鱼机器人/006.png" alt=""><br><img src="/2018/11/25/瓦力工厂/DPJ-047-鳄鱼机器人/007.png" alt=""><br><img src="/2018/11/25/瓦力工厂/DPJ-047-鳄鱼机器人/008.png" alt=""><br><img src="/2018/11/25/瓦力工厂/DPJ-047-鳄鱼机器人/009.png" alt=""><br><img src="/2018/11/25/瓦力工厂/DPJ-047-鳄鱼机器人/010.png" alt=""><br><img src="/2018/11/25/瓦力工厂/DPJ-047-鳄鱼机器人/011.png" alt=""><br><img src="/2018/11/25/瓦力工厂/DPJ-047-鳄鱼机器人/012.png" alt=""><br><img src="/2018/11/25/瓦力工厂/DPJ-047-鳄鱼机器人/013.png" alt=""><br><img src="/2018/11/25/瓦力工厂/DPJ-047-鳄鱼机器人/014.png" alt=""><br><img src="/2018/11/25/瓦力工厂/DPJ-047-鳄鱼机器人/015.png" alt=""></p>
-<h3 id="鳄鱼机器人程序设计："><a href="#鳄鱼机器人程序设计：" class="headerlink" title="鳄鱼机器人程序设计："></a>鳄鱼机器人程序设计：</h3><p>鳄鱼机器人已完成，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/11/25/瓦力工厂/DPJ-047-鳄鱼机器人/瓦力.jpeg" alt=""></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -1868,7 +1873,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">43</span>
+                    <span class="site-state-item-count">44</span>
                     <span class="site-state-item-name">Artikel</span>
                   </a>
                 </div>
