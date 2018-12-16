@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-15T03:24:59.059Z</updated>
+  <updated>2018-12-16T03:23:46.002Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>DPJ-049-扎气球机器人</title>
+    <link href="http://yoursite.com/2018/12/16/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/DPJ-049-%E6%89%8E%E6%B0%94%E7%90%83%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
+    <id>http://yoursite.com/2018/12/16/瓦力工厂/DPJ-049-扎气球机器人/</id>
+    <published>2018-12-16T03:23:46.002Z</published>
+    <updated>2018-12-16T03:23:46.002Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>有一天瓦力路过了一个庆典，里面正在踩气球，瓦力觉得把气球弄破是一件很有意思的事，何不用这个来做个比赛邀请大家来一起玩呢！</p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.学习搭建扎气球机器人。</p><p>2.熟练掌握伺服马达应用，高速伺服马达组合应用。</p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>扎气球机器人手臂连接</p><p><img src="/2018/12/16/瓦力工厂/DPJ-049-扎气球机器人/001.png" alt=""></p><p><img src="/2018/12/16/瓦力工厂/DPJ-049-扎气球机器人/002.png" alt=""></p><p><img src="/2018/12/16/瓦力工厂/DPJ-049-扎气球机器人/003.png" alt=""></p><p><img src="/2018/12/16/瓦力工厂/DPJ-049-扎气球机器人/004.png" alt=""></p><h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力</p><p>２．需要有轮子。</p><p>３．需要有抬起放下手臂的执行原件。</p><h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、CPU、轮子、马达、伺服马达、遥控器。</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/16/瓦力工厂/DPJ-049-扎气球机器人/004.png" alt=""></p><p><img src="/2018/12/16/瓦力工厂/DPJ-049-扎气球机器人/005.png" alt=""></p><p><img src="/2018/12/16/瓦力工厂/DPJ-049-扎气球机器人/006.png" alt=""></p><p><img src="/2018/12/16/瓦力工厂/DPJ-049-扎气球机器人/007.png" alt=""></p><p><img src="/2018/12/16/瓦力工厂/DPJ-049-扎气球机器人/008.png" alt=""></p><p><img src="/2018/12/16/瓦力工厂/DPJ-049-扎气球机器人/009.png" alt=""></p><h3 id="扎气球机器人程序设计："><a href="#扎气球机器人程序设计：" class="headerlink" title="扎气球机器人程序设计："></a>扎气球机器人程序设计：</h3><p><img src="/2018/12/16/瓦力工厂/DPJ-049-扎气球机器人/010.png" alt=""></p><p>扎气球机器人完成了，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/16/瓦力工厂/DPJ-049-扎气球机器人/瓦力.jpeg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;情景任务&quot;&gt;&lt;a href=&quot;#情景任务&quot; class=&quot;headerlink&quot; title=&quot;情景任务:&quot;&gt;&lt;/a&gt;情景任务:&lt;/h3&gt;&lt;p&gt;有一天瓦力路过了一个庆典，里面正在踩气球，瓦力觉得把气球弄破是一件很有意思的事，何不用这个来做个比赛邀请大家来一起玩呢！
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>DPJ-025-送餐机器人单巡线</title>
@@ -30,27 +51,6 @@
       
       
         &lt;h3 id=&quot;情景任务&quot;&gt;&lt;a href=&quot;#情景任务&quot; class=&quot;headerlink&quot; title=&quot;情景任务:&quot;&gt;&lt;/a&gt;情景任务:&lt;/h3&gt;&lt;p&gt;瓦力来到了一个特殊的餐厅，这里的服务员只有机器人。点菜、送餐、结账都是由机器人来完成，瓦力对送餐机器人很感兴趣，并发现了
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>DPJ-049-扎气球机器人</title>
-    <link href="http://yoursite.com/2018/12/15/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/DPJ-049-%E6%89%8E%E6%B0%94%E7%90%83%E6%9C%BA%E5%99%A8%E4%BA%BA%20/"/>
-    <id>http://yoursite.com/2018/12/15/瓦力工厂/DPJ-049-扎气球机器人 /</id>
-    <published>2018-12-15T03:24:06.292Z</published>
-    <updated>2018-12-15T03:24:06.292Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>有一天瓦力路过了一个庆典，里面正在踩气球，瓦力觉得把气球弄破是一件很有意思的事，何不用这个来做个比赛邀请大家来一起玩呢！</p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.学习搭建扎气球机器人。</p><p>2.熟练掌握伺服马达应用，高速伺服马达组合应用。</p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>扎气球机器人手臂连接</p><p><img src="/2018/12/15/瓦力工厂/DPJ-049-扎气球机器人 /001.png" alt=""></p><p><img src="/2018/12/15/瓦力工厂/DPJ-049-扎气球机器人 /002.png" alt=""></p><p><img src="/2018/12/15/瓦力工厂/DPJ-049-扎气球机器人 /003.png" alt=""></p><p><img src="/2018/12/15/瓦力工厂/DPJ-049-扎气球机器人 /004.png" alt=""></p><h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力</p><p>２．需要有轮子。</p><p>３．需要有抬起放下手臂的执行原件。</p><h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、CPU、轮子、马达、伺服马达、遥控器。</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/15/瓦力工厂/DPJ-049-扎气球机器人 /004.png" alt=""></p><p><img src="/2018/12/15/瓦力工厂/DPJ-049-扎气球机器人 /005.png" alt=""></p><p><img src="/2018/12/15/瓦力工厂/DPJ-049-扎气球机器人 /006.png" alt=""></p><p><img src="/2018/12/15/瓦力工厂/DPJ-049-扎气球机器人 /007.png" alt=""></p><p><img src="/2018/12/15/瓦力工厂/DPJ-049-扎气球机器人 /008.png" alt=""></p><p><img src="/2018/12/15/瓦力工厂/DPJ-049-扎气球机器人 /009.png" alt=""></p><h3 id="扎气球机器人程序设计："><a href="#扎气球机器人程序设计：" class="headerlink" title="扎气球机器人程序设计："></a>扎气球机器人程序设计：</h3><p><img src="/2018/12/15/瓦力工厂/DPJ-049-扎气球机器人 /010.png" alt=""></p><p>扎气球机器人完成了，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/15/瓦力工厂/DPJ-049-扎气球机器人 /瓦力.jpeg" alt=""></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;情景任务&quot;&gt;&lt;a href=&quot;#情景任务&quot; class=&quot;headerlink&quot; title=&quot;情景任务:&quot;&gt;&lt;/a&gt;情景任务:&lt;/h3&gt;&lt;p&gt;有一天瓦力路过了一个庆典，里面正在踩气球，瓦力觉得把气球弄破是一件很有意思的事，何不用这个来做个比赛邀请大家来一起玩呢！
       
     
     </summary>
