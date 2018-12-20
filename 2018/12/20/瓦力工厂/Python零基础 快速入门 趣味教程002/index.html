@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=6.5.0" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.5.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.5.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.5.0">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=6.5.0" color="#222">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '6.5.0',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="大家在中学就已经学过变量的概念了。例如：我们令 x = 100，则可以推出 x*2 = 200 试试下面这段 Python 代码1234567import turtleturtle.shape(&amp;quot;turtle&amp;quot;)x = 100turtle.forward(x)turtle.left(45)turtle.forward(2*x)turtle.exitonclick() 运行上面的">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Python零基础快速入门趣味教程 002  变量">
+<meta property="og:url" content="http://yoursite.com/2018/12/20/瓦力工厂/Python零基础 快速入门 趣味教程002/index.html">
+<meta property="og:site_name" content="瓦力工厂-编程训练营">
+<meta property="og:description" content="大家在中学就已经学过变量的概念了。例如：我们令 x = 100，则可以推出 x*2 = 200 试试下面这段 Python 代码1234567import turtleturtle.shape(&amp;quot;turtle&amp;quot;)x = 100turtle.forward(x)turtle.left(45)turtle.forward(2*x)turtle.exitonclick() 运行上面的">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://yoursite.com/2018/12/20/瓦力工厂/Python零基础%20快速入门%20趣味教程002/001.png">
+<meta property="og:image" content="http://yoursite.com/2018/12/20/瓦力工厂/Python零基础%20快速入门%20趣味教程002/002.png">
+<meta property="og:updated_time" content="2018-12-20T08:24:54.957Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Python零基础快速入门趣味教程 002  变量">
+<meta name="twitter:description" content="大家在中学就已经学过变量的概念了。例如：我们令 x = 100，则可以推出 x*2 = 200 试试下面这段 Python 代码1234567import turtleturtle.shape(&amp;quot;turtle&amp;quot;)x = 100turtle.forward(x)turtle.left(45)turtle.forward(2*x)turtle.exitonclick() 运行上面的">
+<meta name="twitter:image" content="http://yoursite.com/2018/12/20/瓦力工厂/Python零基础%20快速入门%20趣味教程002/001.png">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="瓦力工厂-编程训练营" type="application/atom+xml" />
+
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2018/12/20/瓦力工厂/Python零基础 快速入门 趣味教程002/"/>
+
+
+
+<script type="text/javascript" id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>Python零基础快速入门趣味教程 002  变量 | 瓦力工厂-编程训练营</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">瓦力工厂-编程训练营</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+      
+        <p class="site-subtitle">Scratch编程 Ardunio机器人搭建 Python自动化</p>
+      
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="Toggle navigation bar">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br />Startseite</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br />Archiv</a>
+
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+    
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/20/瓦力工厂/Python零基础 快速入门 趣味教程002/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">Python零基础快速入门趣味教程 002  变量
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Post created: 2018-12-20 16:24:54" itemprop="dateCreated datePublished" datetime="2018-12-20T16:24:54+08:00">2018-12-20</time>
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>大家在中学就已经学过变量的概念了。例如：我们令 x = 100，则可以推出 x*2 = 200</p>
+<p>试试下面这段 Python 代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line">turtle.shape(&quot;turtle&quot;)</span><br><span class="line">x = 100</span><br><span class="line">turtle.forward(x)</span><br><span class="line">turtle.left(45)</span><br><span class="line">turtle.forward(2*x)</span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure></p>
+<p>运行上面的代码，小海龟将画出下面的图案:</p>
+<p><img src="/2018/12/20/瓦力工厂/Python零基础 快速入门 趣味教程002/001.png" alt=""></p>
+<p>x = 100 声明了变量 x，并将它赋值为 100，用大家熟悉的中学数学语言来说，就是“令 x 等于 100”</p>
+<p>接下来的代码中 turtle.forward(x) 就是让海龟前进 x 个单位的距离，由于前面已经将 x 赋值为 100，所以实际上就是让海龟前进 100 个单位的距离（图像中那条较短的水平线）</p>
+<p>类似地 turtle.forward(2*x) 就是让海龟前进 2 倍的 x 个单位的距离，即前进 2 倍的 100 个单位的距离，最终海龟会向前爬行 2 x 100 = 200 个单位的距离 （图像中指向右上方的那条较长的斜线）</p>
+<h3 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h3><p>Python (以及大多数编程语言) 中用 * 表示数学的乘法运算，以免和字母 x 相混淆<br>与中学数学不同的是，Python 中的变量不仅可以用来表示数字，还可以用来表示各种非数字的东西。例如，通过  wali= turtle  你可以将咪博士变身为一只海龟，然后你就可以用wali 这个变量控制海龟画图啦。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">import turtle</span><br><span class="line"></span><br><span class="line">wali = turtle</span><br><span class="line">wali.shape(&quot;turtle&quot;)</span><br><span class="line">x = 100</span><br><span class="line">wali.forward(x)</span><br><span class="line">wali.left(45)</span><br><span class="line">wali.forward(2*x)</span><br><span class="line">wali.exitonclick()</span><br></pre></td></tr></table></figure>
+<h3 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h3><p>尝试画个房子（使用变量来完成，尝试调整变量的值，绘制出不同大小的房子）</p>
+<h3 id="提示-1"><a href="#提示-1" class="headerlink" title="提示"></a>提示</h3><p>你可能会需要用到开根号的运算，引入 math 模块，然后使用 math 模块的 sqrt 方法可以进行开根号的运算。<br>例如，下面的代码，计算 5 的平方根，并将计算结果赋值给变量 x</p>
+<p><img src="/2018/12/20/瓦力工厂/Python零基础 快速入门 趣味教程002/002.png" alt=""><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">import math</span><br><span class="line">x = math.sqrt(5)</span><br></pre></td></tr></table></figure></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line">import math</span><br><span class="line">turtle.shape(&quot;turtle&quot;)</span><br><span class="line">line=150</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(line)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(line)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(line)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(line)</span><br><span class="line">turtle.left(135)</span><br><span class="line">turtle.forward(math.sqrt(2)*line)</span><br><span class="line">turtle.right(90)</span><br><span class="line">turtle.forward(math.sqrt(2)*line/2)</span><br><span class="line">turtle.right(90)</span><br><span class="line">turtle.forward(math.sqrt(2)*line/2)</span><br><span class="line">turtle.right(90)</span><br><span class="line">turtle.forward(math.sqrt(2)*line)</span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/12/20/瓦力工厂/Python零基础 快速入门 趣味教程001/" rel="next" title="Python零基础快速入门趣味教程 001入门">
+                <i class="fa fa-chevron-left"></i> Python零基础快速入门趣味教程 001入门
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/12/20/瓦力工厂/Python零基础 快速入门 趣味教程0011/" rel="prev" title="Python零基础快速入门趣味教程 001入门">
+                Python零基础快速入门趣味教程 001入门 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+  </div>
+
+
+          </div>
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Inhaltsverzeichnis
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Übersicht
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">王俊杰</p>
+              <p class="site-description motion-element" itemprop="description">点点滴滴在编程</p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">58</span>
+                    <span class="site-state-item-name">Artikel</span>
+                  </a>
+                </div>
+              
+
+              
+
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#提示"><span class="nav-number">1.</span> <span class="nav-text">提示</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#练习"><span class="nav-number">2.</span> <span class="nav-text">练习</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#提示-1"><span class="nav-number">3.</span> <span class="nav-text">提示</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">王俊杰</span>
+
+  
+
+  
+</div>
+
+
+  <div class="powered-by">Erstellt mit  <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.4.4</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v6.5.0</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+	
+    
+
+    
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=6.5.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=6.5.0"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.5.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.5.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.5.0"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>

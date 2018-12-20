@@ -1,0 +1,1847 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=6.5.0" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.5.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.5.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.5.0">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=6.5.0" color="#222">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '6.5.0',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="点点滴滴在编程">
+<meta property="og:type" content="website">
+<meta property="og:title" content="瓦力工厂-编程训练营">
+<meta property="og:url" content="http://yoursite.com/page/6/index.html">
+<meta property="og:site_name" content="瓦力工厂-编程训练营">
+<meta property="og:description" content="点点滴滴在编程">
+<meta property="og:locale" content="zh-Hans">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="瓦力工厂-编程训练营">
+<meta name="twitter:description" content="点点滴滴在编程">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="瓦力工厂-编程训练营" type="application/atom+xml" />
+
+
+
+
+  <link rel="canonical" href="http://yoursite.com/page/6/"/>
+
+
+
+<script type="text/javascript" id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>瓦力工厂-编程训练营</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">瓦力工厂-编程训练营</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+      
+        <p class="site-subtitle">Scratch编程 Ardunio机器人搭建 Python自动化</p>
+      
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="Toggle navigation bar">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br />Startseite</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br />Archiv</a>
+
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+    
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/技术等级考试/第三章跷跷板/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/18/技术等级考试/第三章跷跷板/" class="post-title-link" itemprop="http://yoursite.com/page/6/index.html">全国青少年机器人技术等级考试---跷跷板</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Post created: 2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Updated at: 2018-11-08 16:39:14" itemprop="dateModified" datetime="2018-11-08T16:39:14+08:00">2018-11-08</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>考试安排如下，详询瓦力工厂工作人员！<br><img src="/2018/12/18/技术等级考试/第三章跷跷板/19年考级时间安排.png" alt=""><br>跷跷板是我国一种民间游戏，所用器材是由一块中间有横轴的条形厚木板架在支柱上。两个小朋友对坐两端轮流用脚蹬地是一端翘起。另一端下落，如此反复。</p>
+<h3 id="探索"><a href="#探索" class="headerlink" title="探索"></a>探索</h3><p>在玩跷跷板时，我们会发现，越是重量大的小朋友越容易压下来，而体重轻的小朋友就不容易压下来把对方翘起来，重量轻的小朋友。可能会发现一个现象。当他努力往后坐的时候就能够把比自己重的小朋友翘起来。<br><img src="/2018/12/18/技术等级考试/第三章跷跷板/001.jpg" alt=""></p>
+<h3 id="制作"><a href="#制作" class="headerlink" title="制作"></a>制作</h3><p>下面我们先来制作一个跷跷板吧，跷跷板通常有翘板和支架两个部分组成，我们也按照照样的组成来制作跷跷板。</p>
+<p>制作有座椅的翘板<br>￼<img src="/2018/12/18/技术等级考试/第三章跷跷板/002.png" alt=""><br>制作一个支架<br><img src="/2018/12/18/技术等级考试/第三章跷跷板/003.png" alt=""><br>将支架和壳板通过一个短轴连在一起<br>￼<img src="/2018/12/18/技术等级考试/第三章跷跷板/004.png" alt=""></p>
+<h3 id="杠杆原理"><a href="#杠杆原理" class="headerlink" title="杠杆原理"></a>杠杆原理</h3><p>￼在前面的内容当中，我们说过扳手利用的时杠杆原理，而跷跷板就是最基本的杠杆结构。<br>￼<br>杠杆是能绕某一固定点转动的杆，对于翘翘板来说，翘板这个杆能够绕支架上的点旋转儿扳手，这个杆能够绕螺丝的中心轴旋转，在-杆结果中那个固定的点称为支点，支点两边的力的关系是:</p>
+<p>一边的重量X物体到指定的距离=另一边的重量X另一边物体到支点的距离<br><img src="/2018/12/18/技术等级考试/第三章跷跷板/005.png" alt=""></p>
+<p>杠杆原理的公式是:</p>
+<p><img src="/2018/12/18/技术等级考试/第三章跷跷板/006.png" alt=""></p>
+<p>在跷跷板中，当一边小朋友的重量乘以它到支点的距离等于另一边小朋友的重量乘以它到支点的距离时，跷跷板是平衡的，否则就是那边乘积大哪边会往下沉。<br>小朋友坐的位置离中心支点的距离一样时，跷跷板为一种等臂杠杆，此时哪边小朋友重量大，哪边就会沉下来。<br>而如果重量轻的小朋友尽量的向后排座，此时它到支点的距离变大了，重量和距离的乘积也变大了，这样重量轻的小朋友就可能把比自己重的小朋友翘起来了。</p>
+<h3 id="杠杆的起源"><a href="#杠杆的起源" class="headerlink" title="杠杆的起源"></a>杠杆的起源</h3><p>古希腊科学家阿基米德有一句流传很久的名言，给我一个支点，我就能撬起整个地球。这句话说的便是杠杆原理。推动地球的说法是他在亚力山大留学时候的事。<br>￼当时他从埃及农民提水用的吊杆和奴隶们撬石头用的撬棍受到启发，发现可以借助一种杠杆来达到省力的目的，同时还发现手握的地方到支点的这一段距离越长，就越省力气。<br>由此他提出了这样一个定理，力臂和力的关系成反比，这就是杠杆原理用现代的表达是表述就是动力X动力臂=阻力X阻力臂。<br>为此，他曾给当时的国王亥尼洛写信，说我不会吹飞之力就可以随便移动任何重量的东西，只要给我一个支点，给我一根足够长的-杆，我连地球都可以推动。<br>阿基米德在论《平面图形的平衡》一书中，最早提出了杠杆原理。他首先把杠杆实际应用中的一些经验知识当作不证自明的公理。<br>然后从这些公理出发，运用几何学通过严密的逻辑论证，得出了杠杆原理。<br>杠杆原理的五要素是：<br>动力点：是杠杆转动的力叫做动力使力的点叫做动力作用点。<br>动力臂：从支点到动力作用线的垂直距离叫做动力臂。<br>支点：杠杆绕着转动的固定点叫做支点。<br>阻力点：阻碍杠杆转动的力叫做阻力。使力的点叫阻力作用点。<br>阻力臂：从支点到阻力作用线的垂直距离叫做阻力臂。</p>
+<h3 id="杠杆的分类"><a href="#杠杆的分类" class="headerlink" title="杠杆的分类"></a>杠杆的分类</h3><p> 生活中的杠杆按照施加动力的大小，分为省力杠杆，费力杠杆和等臂杠杆。<br> <img src="/2018/12/18/技术等级考试/第三章跷跷板/007.png" alt=""></p>
+<h3 id="杠杆的应用"><a href="#杠杆的应用" class="headerlink" title="杠杆的应用"></a>杠杆的应用</h3><p>我们在生活中应用杠杆原理的时候，并不是都要使用省力杠杆，而是要看具体的情况，有些情况下，为了省力，有些情况下是为了节省距离，为了省力，就应该用动力臂比阻力臂长的杠杆。为了省距离，就应该用动力臂比阻力臂短的杠杆。</p>
+<p>在杠结构中，要想省力，就必须多移动距离要想少移动距离，就必须多费些力。要想又省力而又少移动距离，是不可能实现的。<br>￼下面我们就来列举一些生活中常见的-杆结构，大家可以分析一下其中包含的-杆五要素。<br>费力杠杆：镊子，钓鱼竿，筷子。费力杠杆的应用主要是为了省距离。<br> <img src="/2018/12/18/技术等级考试/第三章跷跷板/008.png" alt=""><br>省力杠杆：榨汁机，胡桃夹，门把手，扳手，铁钳、指甲刀等省力杠杆的应用是为了省力。<br><img src="/2018/12/18/技术等级考试/第三章跷跷板/009.png" alt=""><br>等臂杠杆：天平主要用来测量两测物体质量。<br><img src="/2018/12/18/技术等级考试/第三章跷跷板/010.png" alt=""><br>￼<br><img src="/2018/12/18/技术等级考试/第三章跷跷板/瓦力二维码.jpeg" alt=""></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/技术等级考试/瓦力工厂许昌校区风采/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/18/技术等级考试/瓦力工厂许昌校区风采/" class="post-title-link" itemprop="http://yoursite.com/page/6/index.html">瓦力工厂许昌校区风采</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Post created: 2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Updated at: 2018-11-09 18:10:17" itemprop="dateModified" datetime="2018-11-09T18:10:17+08:00">2018-11-09</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="瓦力工厂简介："><a href="#瓦力工厂简介：" class="headerlink" title="瓦力工厂简介："></a>瓦力工厂简介：</h3><p>瓦力工厂少儿编程教育是北京优游宝贝教育咨询有限公司旗下品牌，是中华人民共和国教育部、中国青少年活动中心、中国科学协会、中国电子学会等国家行政管理部门及国家级学术非盈利社团指定的青少机器人研发及培训机构，是北京市海淀区社会资源单位、青少年校外教育实践基地；瓦力工厂机器人一直秉承着“阳光、责任、梦想”的教育理念，专注于3-17岁青少年科技动手创新能力的培养，是集科技产品、创新课程、国际机器人赛事、青少年科技交流于一体的科技创新教育品牌。使学生在快乐的氛围下养成主动探究式学习多学科的知识、进而培养领导力、动手能力、语言组织、逻辑思维、团队协作等能力，并最终形成独立解决科学研究和其他社会问题的目标。从2010年起一直致力于科技产品与服务的研发与传递，目前拥有自主知识产权的机器人两个套系、八个型号，以及系列连贯的课程体系，为幼儿园、小学、 中学、文化宫提供机器人教育课程及整体解决方案；目前在北京开设有学习中心30余家，在全国累计有学习中心200余家，截至目前已经为500000名学生及机器人技术爱好者提供了教育指导服务，且广受家长及社会好评。</p>
+<h3 id="课程与服务"><a href="#课程与服务" class="headerlink" title="课程与服务"></a>课程与服务</h3><h4 id="1、Scratch-编程"><a href="#1、Scratch-编程" class="headerlink" title="1、Scratch 编程"></a>1、Scratch 编程</h4><p>Scratch是一款由麻省理工学院(MIT) 设计开发的一款面向少年的简易编程工具。在2012年在中国得到普及，2013在上海举行比赛。针对7岁以上孩子们的认知水平，以及对于界面的喜好，MIT 做了相当深入研究和颇具针对性的设计开发。不仅易于孩子们使用，又能寓教于乐，让孩子们获得创作中的乐趣。Scratch 的下载和使用是完全免费的，开发了Windows系统，苹果系统，Linux系统下运行的版本。</p>
+<h5 id="提升孩子逻辑思维能力"><a href="#提升孩子逻辑思维能力" class="headerlink" title="提升孩子逻辑思维能力"></a>提升孩子逻辑思维能力</h5><p>趣味化编程锻炼孩子的思维能力，抓住孩子思维提升的黄金期。</p>
+<h5 id="提升创造力和学习兴趣"><a href="#提升创造力和学习兴趣" class="headerlink" title="提升创造力和学习兴趣"></a>提升创造力和学习兴趣</h5><p>趣味化的编程方式提升孩子学习兴趣，严密的编程语言是提升孩子专注力的最佳工具。</p>
+<h5 id="培养孩子专注力与耐心"><a href="#培养孩子专注力与耐心" class="headerlink" title="培养孩子专注力与耐心"></a>培养孩子专注力与耐心</h5><p>编程可以把科学，艺术，语言等学科完美融合在一起，让孩子在编程中把复杂的知识灵活的学以致用。</p>
+<h5 id="为升学助力"><a href="#为升学助力" class="headerlink" title="为升学助力"></a>为升学助力</h5><p>国务院发展规划通知要求，在中小学阶段逐步推广编程教育部分省份变成一进入高考考纲。</p>
+<p>图形化编程入门， 拖动鼠标即可写出代码<br>瓦力工厂采用麻省理工开发，哈佛大学力推的 Scratch 图形化编程语言作为入门<br>符合7-12岁孩子的认知发展，让孩子学习编程变得更容易<br><img src="/2018/12/18/技术等级考试/瓦力工厂许昌校区风采/003.jpg" alt=""></p>
+<h4 id="2、单片机机器人课"><a href="#2、单片机机器人课" class="headerlink" title="2、单片机机器人课"></a>2、单片机机器人课</h4><p>机器人采用印刷电路板作为主要结构件，螺丝进行板材件的连接，以图形化编程为主的单片机机器人课程着重培养孩子的逻辑思维能力，通过每堂课四大块九小节的课堂设置，提高孩子认识事物，分析事物，解决问题的能力。<br>单片机机器人课二、是互动动手的课程，老师讲解，导入后，需要学生应用教具进行实操训练，这就要求学生需要人手一套教具。仅仅通过观看老师操作，起不到应有的教学效果</p>
+<h4 id="举办校内比赛"><a href="#举办校内比赛" class="headerlink" title="举办校内比赛"></a>举办校内比赛</h4><p>可以和校方一起举办校内兴趣比赛，丰富学生的知识文化生活，比如：Scratch编程挑战赛、参照IRO挑战赛的超级冰壶比赛、机器人足球赛等等趣味比赛。<br>Scratch编程挑战赛：给定素材，给定已经完成的程序的展示，给定程序要求。通过时间与给定功能的实现度来进行挑战赛成绩判定。<br>超级冰壶比赛：碰撞球对抗赛（超级冰壶赛）分小学组、初中组和高中组。<br>每队由 2 名队员配合，每场同时两个队进行比 赛，双方机器人对抗，以进球的分为目的，比赛结束时获取积分多的一方获胜。</p>
+<p>机器人擂台挑战赛不限制参赛机器人平台，要求：机器人必须为遥控机器人，但并不限制为 无线遥控机器人。<br>不能搭建以损坏对方机器人或比赛场地为目的的结构。机器人展开尺寸不 能超过25cm<em>25cm</em>25cm。<br><img src="/2018/12/18/技术等级考试/瓦力工厂许昌校区风采/004.png" alt=""><br>机器人世界杯：<br>2对2机器人足球比赛规则经过几次调整，基本达到强调机器人足球比赛中的技术而不是一味比拼速度和力量的目的，加强了对参赛学生能力的考核，对机器人足球的正常发展是有益的。<br><img src="/2018/12/18/技术等级考试/瓦力工厂许昌校区风采/005.jpeg" alt=""></p>
+<h4 id="组织考级"><a href="#组织考级" class="headerlink" title="组织考级"></a>组织考级</h4><p>全国青少年机器人技术等级考试考前集训，考试辅导。分为笔试部分与实操部分辅导。</p>
+<h4 id="国际、国内机器人比赛"><a href="#国际、国内机器人比赛" class="headerlink" title="国际、国内机器人比赛"></a>国际、国内机器人比赛</h4><p>比如：IRO 大赛</p>
+<p>国际机器人奥林匹克大赛（International Robot Olympiad）简称IRO，于1998年创立，由国际机器人奥林匹克委员会(IROC)每年举办的国际性机器人比赛</p>
+<p>1999年开始第一届国际机器人奥林匹克大赛，2017年将是第十九届国际机器人奥林匹克大赛</p>
+<p>IRO是经联合国教科文组织的指导与监督下举办的第一个国际机器人大赛</p>
+<p>比赛可媲美数学奥林匹克大赛和物理奥林匹克大赛，通过机器人大赛给学生们提供一个交流科学技术的平台，激发孩子们的潜能，培养他们用自己的能力创造、科学使命意识及操作机器人</p>
+<p>比赛分为竞赛与创意两种类，竞赛类比赛中各组别必须建构机器人和编写程式来解决特定题目，创意类比赛中各组针对特定主题自由设计机器人模型并展示</p>
+<p>现国际机器人奥林匹克大赛参赛国家为31国，参赛总人数超过10万人<br><code>http://www.irochina.com/bbs/board.php?bo_table=game_pr</code></p>
+<p><img src="/2018/12/18/技术等级考试/瓦力工厂许昌校区风采/003.png" alt=""></p>
+<p>￼</p>
+<p><img src="/2018/12/18/技术等级考试/瓦力工厂许昌校区风采/瓦力二维码.jpeg" alt=""></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/技术等级考试/第二章秋千/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/18/技术等级考试/第二章秋千/" class="post-title-link" itemprop="http://yoursite.com/page/6/index.html">全国青少年机器人技术等级考试---秋千</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Post created: 2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Updated at: 2018-11-08 10:36:11" itemprop="dateModified" datetime="2018-11-08T10:36:11+08:00">2018-11-08</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>考试安排如下，详询瓦力工厂工作人员！<br><img src="/2018/12/18/技术等级考试/第二章秋千/19年考级时间安排.png" alt=""><br>秋千是一种运动器具，或者是游戏用具，我们在公园、学校、或者社区都能看到。小朋友坐在座椅上，由他人推动或自己的脚用力，人随座椅来回摆动。</p>
+<h3 id="秋千的起源"><a href="#秋千的起源" class="headerlink" title="秋千的起源"></a>秋千的起源</h3><p>说起秋千可以追溯到几十万年前的上古时代。<br>那是我们的祖先为了谋生，需要上树采摘野果或猎取野兽。在攀援和奔跑中，他们抓住粗壮的蔓生植物。依靠藤条的摇荡摆动，上树或跨越沟涧，这应该是秋千的原始雏形。<br><img src="/2018/12/18/技术等级考试/第二章秋千/001.jpeg" alt=""><br>春秋时期，我国北方有了将绳索悬挂于木架下，下面装上踏板的秋千。如今公园，社区处处可见秋千，认真观察秋千会发现，一般来说秋千的支架两边都是由三角形构成的。<br><img src="/2018/12/18/技术等级考试/第二章秋千/002.jpg" alt=""><br>那么，为什么秋千的支架都是三角形的呢？<br><img src="/2018/12/18/技术等级考试/第二章秋千/003.png" alt=""><br>用长条和螺丝分别制作出三角形和四边形，用手推动一个角。会发现有什么变化吗？</p>
+<p>实验证明三角形结构和稳定，不会形变而四边形结构在一定力量的挤压下会发生形变。根据三角形和四边形的特性，想一想生活中哪些地方应用到了三角形和四边形呢？<br>金字塔、房子、吊车等需要稳定的结构中都用到了三角形，而在拉伸门等需要变形的结构中，则用到了四边形。</p>
+<p><img src="/2018/12/18/技术等级考试/第二章秋千/004.jpg" alt=""></p>
+<h3 id="制作"><a href="#制作" class="headerlink" title="制作"></a>制作</h3><p>秋千通常有框架和底座组成，我们也按照这样的组成来自坐秋千。<br>1.制作秋千的框架。这需要两个稳定的三角形结构。<br><img src="/2018/12/18/技术等级考试/第二章秋千/005.png" alt=""><br>秋千的底座<br><img src="/2018/12/18/技术等级考试/第二章秋千/006.png" alt=""><br>完成整个秋千利用一个圆轴将座椅装在支架上。<br><img src="/2018/12/18/技术等级考试/第二章秋千/007.png" alt=""></p>
+<p>###稳定性分析<br>每个物体都是由简单的图形构成的，也就是说物体的每个面都是由圆、三角形，四边形和多边形构成的。<br>三角形有着稳固、耐压的特点，三角形框架，起重机，三角形吊臂，屋顶，钢架桥中都有三角形的身影。<br>三角形稳定性分析：任取三角形两条边在两条边角度不变的情况下，在两条边的非公共端点连接第三条边。<br>因为第三条边不可伸缩和只弯折，所以两端点距离固定，按照相同的方式任取两条边都符合上述情况。所以三角形固定具有稳定性。<br> 一个结构是否稳定，除了考虑结构外，还要考虑放置的位置和物体的重心。总体来说，要符合一下原则<br> 1.与地面接触面积越大，物体越稳。<br> 2.重心越低，物体越稳。<br>￼3.通过重心做竖直向下的直线与地面的交点，如果在接触面上，则物体较稳，如果在接触面外物体不稳.</p>
+<h3 id="能量转化"><a href="#能量转化" class="headerlink" title="能量转化"></a>能量转化</h3><p>一切物质都具有能量，能量由以多种不同的形式存在。按照物质的不同运动形式分类，能量可分为机械能，化学能，热能，电能，辐射能，核能，光能，潮汐能等。这些不同形式的能量之间可以通过物理效应和化学反应而相互转化。<br>￼秋千中涉及的能量转化是动能和势能之间的转化。动能是物体在运动时具有的能。<br>￼势能包括重力势能和弹性势能，重力势能是物体由于被举高而产生的能量，弹性势能是物体由于弹性形变而产生的能量。机械能是动能和势能的总和，两者之间的转化关系当物体下落时，高度越小，那么它的重力势能就越来越小，但是物体的速度会越来越快，动能也就越来越大，如果不考虑空气阻力的话，机械能是不变的重力势能减小的部分就变成了动能。在荡秋千时，从最低点到最高点的过程中，速度越来越小，而高度越来越大，这时动能转化为重力势能当达到最高点时速度为零，动能为零，全部能量转化为重力势能从最高点下降到最低点的过程中，速度越来越大，而高度越来越小，这时重力势能转化为动能。到达最低点时速度最大，动能最大，重力势能最小。<br><img src="/2018/12/18/技术等级考试/第二章秋千/008.png" alt=""><br>能量守恒，能量不会凭空消失，也不会凭空产生，它只会从一种形式转化为其他形式，或者从一个物体转移到另一个物体，而在转化和转移的过程中，能量的总和保持不变。<br> 能量守恒：能量不会凭空消失，也不会凭空产生，它只会从一种形式转化为其他形式，或者从一个物体转移到另一个物体，而在转化和转移的过程中，能量的总和保持不变。</p>
+<h3 id="单摆"><a href="#单摆" class="headerlink" title="单摆"></a>单摆</h3><p>玩秋千的时候我们可能会发现秋千摆动的幅度越来越小，但摆动一周的时间却没有跟着变短。时间始终是差不多的，这是为什么呢？因为秋千是一个近似的单摆运动（单摆是摆动角度小于100的小幅摆动）。单摆运动的周期T和摆动的幅度以及小朋友的重量无关，而与单摆的长度L（秋千绳索的长度）和重力加速度有关（如果只在地球上进行单摆运动的话，可以认为系也是一个常量）<br>单摆周期公式：</p>
+<p><img src="/2018/12/18/技术等级考试/第二章秋千/009.png" alt=""></p>
+<p>现在人们公认是伽利略发现了单摆的等时性原理，伽利略在比萨教堂里注意到一盏悬灯的摆动，随后用线悬铜球做模拟实验，验证了微小百度的灯时星以及摆长对周期的影响，因此创造出脉搏计用来测量短时间间隔。<br>￼尽管在伽利略之前的好几个世纪等时性早已经为阿拉伯人所熟知，但以科学的态度去研究这一现象的科学家还是首推伽利略。虽然伽利略在1602年注意到了单摆运动，当时他误认为单摆在大摆动条件下也成立。而最早系统地研究单摆的是惠更斯，并且开始用无穷小的机和方法推导出了钟摆的周期公式。</p>
+<p><img src="/2018/12/18/技术等级考试/第二章秋千/瓦力二维码.jpeg" alt=""></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/技术等级考试/第一章基本结构/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/18/技术等级考试/第一章基本结构/" class="post-title-link" itemprop="http://yoursite.com/page/6/index.html">全国青少年机器人技术等级考试---基本结构</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Post created: 2018-12-18 21:10:42" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:42+08:00">2018-12-18</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Updated at: 2018-11-07 12:00:14" itemprop="dateModified" datetime="2018-11-07T12:00:14+08:00">2018-11-07</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>考试安排如下，详询瓦力工厂工作人员！<br><img src="/2018/12/18/技术等级考试/第一章基本结构/19年考级时间安排.png" alt=""></p>
+<h3 id="结构体"><a href="#结构体" class="headerlink" title="结构体"></a>结构体</h3><p>在很久很久以前，当人们想要过河的时候，会在河的两岸搭一根树干。不过树干搭建的乔并不一定结实，如果树干不够粗的话，很容易在中间断开<br><img src="/2018/12/18/技术等级考试/第一章基本结构/001.jpeg" alt=""><br>当人们需要躲避风雨的时候会躲进山洞里，但山洞也不一定安全，里面通常住着凶猛的怪兽。<br><img src="/2018/12/18/技术等级考试/第一章基本结构/002.jpg" alt=""><br>所以就在生活中有目的地搭建一些结构，<strong>这种为了实现某种功能而建造的物体叫做结构体</strong>，结构体通常是多个物品的连接。<br><img src="/2018/12/18/技术等级考试/第一章基本结构/003.jpg" alt=""></p>
+<h3 id="钉子"><a href="#钉子" class="headerlink" title="钉子"></a>钉子</h3><p>钉子是我们生活中最常见的连接零件，外观如下：<br><img src="/2018/12/18/技术等级考试/第一章基本结构/004.jpeg" alt=""><br>钉子指的是尖头状的圆形硬金属(通常是钢)，通常作为固定木头等物用。</p>
+<h3 id="螺丝"><a href="#螺丝" class="headerlink" title="螺丝"></a>螺丝</h3><p>目前在生活中连接时使用最多的是螺丝。<br><img src="/2018/12/18/技术等级考试/第一章基本结构/005.jpeg" alt=""><br>螺丝是利用其身上的斜面旋转纹路，通过旋转的形式，循序渐进地进入被固定件中的。在国定物体时，能够在省力的前提下有效的提高安全性，另外如果我们反方向旋转螺丝的话，还能够完好的将螺丝拆下来，并再次将其使用到其他地方。<br>螺丝是一种通称，可大体的分为螺丝钉与螺丝杆，螺丝钉一般叫做木螺丝，他和钉子有点像，只是螺丝的杆身上有螺旋状的纹路，一般用于紧固木板与塑料件。<br>相对于螺丝钉的另一种螺丝是螺丝杆，螺丝杆也叫机螺丝，螺丝杆前端是平头的，通常用来紧固金属机械部件。<br><img src="/2018/12/18/技术等级考试/第一章基本结构/006.jpg" alt=""><br>除了螺丝，图中还有一个六边形的零件叫做螺母，螺丝杆与螺母是配套使用的，螺母的内部有螺旋状的纹路，能够通过旋转固定在螺丝上。</p>
+<h3 id="楔和螺旋"><a href="#楔和螺旋" class="headerlink" title="楔和螺旋"></a>楔和螺旋</h3><p><strong>钉子和螺丝上其实包含了两种最基本的结构–楔和螺旋。</strong><br>楔形是斜面的应用，原指上厚下薄的小木橛，在结构上表示一头尖，一头稍粗的物品。钉子相当于圆柱形的楔形。最早的记录出现在15世纪，当时的木匠们使用木钉或金属钉子把家具和木结构的建筑物连接起来。16世纪时，欧洲最早出现了金属螺母和螺丝。制钉工人开始生产带纹路线的钉子，这些钉子能够更牢固地连接东西。那是从钉子到螺丝钉所跨出的一小步。</p>
+<p>钉子上的这种纹路叫螺旋，第一个描述螺旋的人是希腊科学家阿基米德。阿基米德螺旋是一个装在木制圆筒里的巨大螺旋物。它用来把水从一个水平提升到另一个水平，对田地进行灌溉。<br><img src="/2018/12/18/技术等级考试/第一章基本结构/007.jpg" alt=""><br>阿基米德螺旋的发明者并非阿基米德本人，他只是描述了这种已经存在的东西。阿基米德螺旋可能是由古代埃及的能工巧匠们设计并在尼罗河两岸灌溉中使用的。<br><img src="/2018/12/18/技术等级考试/第一章基本结构/008.jpeg" alt=""></p>
+<h3 id="螺丝刀与扳手"><a href="#螺丝刀与扳手" class="headerlink" title="螺丝刀与扳手"></a>螺丝刀与扳手</h3><p>在尝试拧螺丝的时候，大家可能发现虽然拧螺丝非常省力，不过，将螺丝和螺母拧紧也不太容易。要想将螺丝和螺母固定紧并需要依靠工具。钉钉子时需要使用的工具是锤子，而拧螺丝需要的工具叫螺丝刀。螺丝刀在1870年前后出现于伦敦。当时工匠们发现，用螺丝刀旋紧螺丝比用锤子敲击，能把东西固定的更好，尤其使用细纹螺丝时。<br><img src="/2018/12/18/技术等级考试/第一章基本结构/009.jpeg" alt=""><br>最开始使用的螺丝刀都是一字螺丝刀，1936年，亨利.M.飞利浦为十字头钉槽头螺丝申请了专利，同时制造了十字螺丝刀。与传统一字槽钉头螺丝不同，十字头钉头螺丝在使用螺丝刀时会自动居中，不易滑落，因此深受欢迎。<br>而固定<br><img src="/2018/12/18/技术等级考试/第一章基本结构/瓦力二维码.jpeg" alt=""></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/" class="post-title-link" itemprop="http://yoursite.com/page/6/index.html">全国青少年机器人技术等级考试---一级模拟试题</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Post created: 2018-12-18 21:10:42" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:42+08:00">2018-12-18</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Updated at: 2018-11-06 18:27:21" itemprop="dateModified" datetime="2018-11-06T18:27:21+08:00">2018-11-06</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>考试安排如下，详询瓦力工厂工作人员！<br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/19年考级时间安排.png" alt=""></p>
+<h3 id="2019年全国青少年机器人技术等级考试"><a href="#2019年全国青少年机器人技术等级考试" class="headerlink" title="2019年全国青少年机器人技术等级考试"></a>2019年全国青少年机器人技术等级考试</h3><p><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_00.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_02.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_03.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_04.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_05.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_06.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_07.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_08.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_09.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_10.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_11.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_12.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_13.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_14.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_15.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/瓦力二维码.jpeg" alt=""></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/技术等级考试/教育1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/18/技术等级考试/教育1/" class="post-title-link" itemprop="http://yoursite.com/page/6/index.html">Unbenannt</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Post created: 2018-12-18 21:10:42" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:42+08:00">2018-12-18</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Updated at: 2018-11-13 18:05:10" itemprop="dateModified" datetime="2018-11-13T18:05:10+08:00">2018-11-13</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>“走近机器人，探索科技的奥秘”</p>
+<p>随着经济发展对人才的需要，STEAM教育逐步走进人们的视野。根据《未来工作:第四次工业革命的就业、技能和劳动力战略》报告中指出，至2020年，就业市场对拥有解决复杂问题能力和社交技能人才的需要会远远高于对体力和专业技能人才的需要，所以STEAM教育所培养的复合型人才将会是就业市场的主要需求之一。所以中国越来越重视STEAM教育呢？<br>瓦力工厂机器人教育是STEAM教育的重要载体，通过组装、搭建、运行机器人，激发学生学习兴趣、培养学生综合能力。有效锻炼孩子思维逻辑性，解决问题的能力，动手能力，提高专注力，塑造孩子空间思维与创造性。<br>机器人教育通过专门课程的方式，使所有学生普遍掌握关于机器人学的基本知识与基本技能。让孩子掌握事物背后的原理，解决孩子对事物探索的好奇心。</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/技术等级考试/教育/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/18/技术等级考试/教育/" class="post-title-link" itemprop="http://yoursite.com/page/6/index.html">Unbenannt</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Post created: 2018-12-18 21:10:42" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:42+08:00">2018-12-18</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Updated at: 2018-11-13 17:51:35" itemprop="dateModified" datetime="2018-11-13T17:51:35+08:00">2018-11-13</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>“走进机器人，探索科技的奥秘”</p>
+<p>瓦力工厂机器人教育是通过组装、搭建、运行机器人，激发学生学习兴趣、培养学生综合能力。有效锻炼孩子思维逻辑性，解决问题的能力，动手能力，提高专注力，塑造孩子空间思维与创造性。<br>机器人教育通过专门课程的方式，使所有学生普遍掌握关于机器人学的基本知识与基本技能。让孩子掌握事物背后的原理，解决孩子对事物探索的好奇心。</p>
+<p>一、活动时间:8月12号下午3：00-4：30/4：30-6：00</p>
+<p>二、活动地点:亨源通3号楼707瓦力工厂机器人构建中心。</p>
+<p>三、活动内容:1、让学生了解机器人的发展和应用现状，理解机器人的概念和工作方式，为进一步学习机器人技术的有关知识打下基础。<br>2、让学生了解机器人各个传感器的功能，学习编写简单的机器人控制程序，提高学生分析问题和解决问题的能力。<br>3、通过机器人竞赛和完成各项任务，使学生在搭建机器人和编制程序的过程中培养动手能力、协作能力和创造能力。<br>4、充分体现了学生的主体地位和老师的主导作用，有目的的培养学生的科学素养。</p>
+<p>四、参加人员:三一班假日小队15人</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/技术等级考试/DPJ-029-避障机器人/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/18/技术等级考试/DPJ-029-避障机器人/" class="post-title-link" itemprop="http://yoursite.com/page/6/index.html">DPJ-029-避障机器人</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Post created: 2018-12-18 21:10:42" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:42+08:00">2018-12-18</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Updated at: 2018-11-15 08:41:06" itemprop="dateModified" datetime="2018-11-15T08:41:06+08:00">2018-11-15</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦力工程师接到一个新任务，就是设计出一套智能避障装置，来装备到一家大型的综合餐厅，能给每位顾客送饭。<br><img src="/2018/12/18/技术等级考试/DPJ-029-避障机器人/001.jpeg" alt=""><br><img src="/2018/12/18/技术等级考试/DPJ-029-避障机器人/002.jpg" alt=""></p>
+<h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3>
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+  <nav class="pagination">
+    <a class="extend prev" rel="prev" href="/page/5/"><i class="fa fa-angle-left" aria-label="Previous page"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/5/">5</a><span class="page-number current">6</span>
+  </nav>
+
+
+
+          </div>
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">王俊杰</p>
+              <p class="site-description motion-element" itemprop="description">点点滴滴在编程</p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">58</span>
+                    <span class="site-state-item-name">Artikel</span>
+                  </a>
+                </div>
+              
+
+              
+
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">王俊杰</span>
+
+  
+
+  
+</div>
+
+
+  <div class="powered-by">Erstellt mit  <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.4.4</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v6.5.0</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+	
+    
+
+    
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=6.5.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=6.5.0"></script>
+
+
+
+  
+  
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.5.0"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
