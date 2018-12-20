@@ -237,7 +237,7 @@
 
     
 
-    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br />Home</a>
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br />Startseite</a>
 
   </li>
         
@@ -254,7 +254,7 @@
 
     
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br />Archives</a>
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br />Archiv</a>
 
   </li>
 
@@ -306,156 +306,6 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/20/瓦力工厂/Python零基础快速入门趣味教程002/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/20/瓦力工厂/Python零基础快速入门趣味教程002/" class="post-title-link" itemprop="http://yoursite.com/index.html">Python零基础快速入门趣味教程 002  变量</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2018-12-20 16:33:22" itemprop="dateCreated datePublished" datetime="2018-12-20T16:33:22+08:00">2018-12-20</time>
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>大家在中学就已经学过变量的概念了。例如：我们令 x = 100，则可以推出 x*2 = 200</p>
-<p>试试下面这段 Python 代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line">turtle.shape(&quot;turtle&quot;)</span><br><span class="line">x = 100</span><br><span class="line">turtle.forward(x)</span><br><span class="line">turtle.left(45)</span><br><span class="line">turtle.forward(2*x)</span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure></p>
-<p>运行上面的代码，小海龟将画出下面的图案:</p>
-<p><img src="/2018/12/20/瓦力工厂/Python零基础快速入门趣味教程002/001.png" alt=""></p>
-<p>x = 100 声明了变量 x，并将它赋值为 100，用大家熟悉的中学数学语言来说，就是“令 x 等于 100”</p>
-<p>接下来的代码中 turtle.forward(x) 就是让海龟前进 x 个单位的距离，由于前面已经将 x 赋值为 100，所以实际上就是让海龟前进 100 个单位的距离（图像中那条较短的水平线）</p>
-<p>类似地 turtle.forward(2*x) 就是让海龟前进 2 倍的 x 个单位的距离，即前进 2 倍的 100 个单位的距离，最终海龟会向前爬行 2 x 100 = 200 个单位的距离 （图像中指向右上方的那条较长的斜线）</p>
-<h3 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h3><p>Python (以及大多数编程语言) 中用 * 表示数学的乘法运算，以免和字母 x 相混淆<br>与中学数学不同的是，Python 中的变量不仅可以用来表示数字，还可以用来表示各种非数字的东西。例如，通过  wali= turtle  你可以将咪博士变身为一只海龟，然后你就可以用wali 这个变量控制海龟画图啦。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">import turtle</span><br><span class="line"></span><br><span class="line">wali = turtle</span><br><span class="line">wali.shape(&quot;turtle&quot;)</span><br><span class="line">x = 100</span><br><span class="line">wali.forward(x)</span><br><span class="line">wali.left(45)</span><br><span class="line">wali.forward(2*x)</span><br><span class="line">wali.exitonclick()</span><br></pre></td></tr></table></figure>
-<h3 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h3><p>尝试画个房子（使用变量来完成，尝试调整变量的值，绘制出不同大小的房子）</p>
-<h3 id="提示-1"><a href="#提示-1" class="headerlink" title="提示"></a>提示</h3><p>你可能会需要用到开根号的运算，引入 math 模块，然后使用 math 模块的 sqrt 方法可以进行开根号的运算。<br>例如，下面的代码，计算 5 的平方根，并将计算结果赋值给变量 x</p>
-<p><img src="/2018/12/20/瓦力工厂/Python零基础快速入门趣味教程002/002.png" alt=""><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">import math</span><br><span class="line">x = math.sqrt(5)</span><br></pre></td></tr></table></figure></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line">import math</span><br><span class="line">turtle.shape(&quot;turtle&quot;)</span><br><span class="line">line=150</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(line)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(line)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(line)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(line)</span><br><span class="line">turtle.left(135)</span><br><span class="line">turtle.forward(math.sqrt(2)*line)</span><br><span class="line">turtle.right(90)</span><br><span class="line">turtle.forward(math.sqrt(2)*line/2)</span><br><span class="line">turtle.right(90)</span><br><span class="line">turtle.forward(math.sqrt(2)*line/2)</span><br><span class="line">turtle.right(90)</span><br><span class="line">turtle.forward(math.sqrt(2)*line)</span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/20/瓦力工厂/Python零基础快速入门趣味教程001/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -476,7 +326,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2018/12/20/瓦力工厂/Python零基础快速入门趣味教程001/" class="post-title-link" itemprop="http://yoursite.com/index.html">Python零基础快速入门趣味教程 001入门</a>
+                <a href="/2018/12/20/瓦力工厂/Python零基础快速入门趣味教程001/" class="post-title-link" itemprop="http://yoursite.com/index.html">Python零基础快速入门趣味教程001</a>
               
             
           </h1>
@@ -494,14 +344,14 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2018-12-20 16:31:59" itemprop="dateCreated datePublished" datetime="2018-12-20T16:31:59+08:00">2018-12-20</time>
+              <time title="Post created: 2018-12-20 16:37:30" itemprop="dateCreated datePublished" datetime="2018-12-20T16:37:30+08:00">2018-12-20</time>
             
 
             
@@ -612,6 +462,156 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/20/瓦力工厂/Python零基础快速入门趣味教程002/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/20/瓦力工厂/Python零基础快速入门趣味教程002/" class="post-title-link" itemprop="http://yoursite.com/index.html">Python零基础快速入门趣味教程002</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Post created: 2018-12-20 16:36:29" itemprop="dateCreated datePublished" datetime="2018-12-20T16:36:29+08:00">2018-12-20</time>
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>大家在中学就已经学过变量的概念了。例如：我们令 x = 100，则可以推出 x*2 = 200</p>
+<p>试试下面这段 Python 代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line">turtle.shape(&quot;turtle&quot;)</span><br><span class="line">x = 100</span><br><span class="line">turtle.forward(x)</span><br><span class="line">turtle.left(45)</span><br><span class="line">turtle.forward(2*x)</span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure></p>
+<p>运行上面的代码，小海龟将画出下面的图案:</p>
+<p><img src="/2018/12/20/瓦力工厂/Python零基础快速入门趣味教程002/001.png" alt=""></p>
+<p>x = 100 声明了变量 x，并将它赋值为 100，用大家熟悉的中学数学语言来说，就是“令 x 等于 100”</p>
+<p>接下来的代码中 turtle.forward(x) 就是让海龟前进 x 个单位的距离，由于前面已经将 x 赋值为 100，所以实际上就是让海龟前进 100 个单位的距离（图像中那条较短的水平线）</p>
+<p>类似地 turtle.forward(2*x) 就是让海龟前进 2 倍的 x 个单位的距离，即前进 2 倍的 100 个单位的距离，最终海龟会向前爬行 2 x 100 = 200 个单位的距离 （图像中指向右上方的那条较长的斜线）</p>
+<h3 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h3><p>Python (以及大多数编程语言) 中用 * 表示数学的乘法运算，以免和字母 x 相混淆<br>与中学数学不同的是，Python 中的变量不仅可以用来表示数字，还可以用来表示各种非数字的东西。例如，通过  wali= turtle  你可以将咪博士变身为一只海龟，然后你就可以用wali 这个变量控制海龟画图啦。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">import turtle</span><br><span class="line"></span><br><span class="line">wali = turtle</span><br><span class="line">wali.shape(&quot;turtle&quot;)</span><br><span class="line">x = 100</span><br><span class="line">wali.forward(x)</span><br><span class="line">wali.left(45)</span><br><span class="line">wali.forward(2*x)</span><br><span class="line">wali.exitonclick()</span><br></pre></td></tr></table></figure>
+<h3 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h3><p>尝试画个房子（使用变量来完成，尝试调整变量的值，绘制出不同大小的房子）</p>
+<h3 id="提示-1"><a href="#提示-1" class="headerlink" title="提示"></a>提示</h3><p>你可能会需要用到开根号的运算，引入 math 模块，然后使用 math 模块的 sqrt 方法可以进行开根号的运算。<br>例如，下面的代码，计算 5 的平方根，并将计算结果赋值给变量 x</p>
+<p><img src="/2018/12/20/瓦力工厂/Python零基础快速入门趣味教程002/002.png" alt=""><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">import math</span><br><span class="line">x = math.sqrt(5)</span><br></pre></td></tr></table></figure></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line">import math</span><br><span class="line">turtle.shape(&quot;turtle&quot;)</span><br><span class="line">line=150</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(line)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(line)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(line)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(line)</span><br><span class="line">turtle.left(135)</span><br><span class="line">turtle.forward(math.sqrt(2)*line)</span><br><span class="line">turtle.right(90)</span><br><span class="line">turtle.forward(math.sqrt(2)*line/2)</span><br><span class="line">turtle.right(90)</span><br><span class="line">turtle.forward(math.sqrt(2)*line/2)</span><br><span class="line">turtle.right(90)</span><br><span class="line">turtle.forward(math.sqrt(2)*line)</span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/20/瓦力工厂/XKL-044-手弩/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -650,14 +650,14 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2018-12-20 11:19:50" itemprop="dateCreated datePublished" datetime="2018-12-20T11:19:50+08:00">2018-12-20</time>
+              <time title="Post created: 2018-12-20 11:19:50" itemprop="dateCreated datePublished" datetime="2018-12-20T11:19:50+08:00">2018-12-20</time>
             
 
             
@@ -802,14 +802,14 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2018-12-18 22:27:13" itemprop="dateCreated datePublished" datetime="2018-12-18T22:27:13+08:00">2018-12-18</time>
+              <time title="Post created: 2018-12-18 22:27:13" itemprop="dateCreated datePublished" datetime="2018-12-18T22:27:13+08:00">2018-12-18</time>
             
 
             
@@ -965,14 +965,14 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
+              <time title="Post created: 2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
             
 
             
@@ -989,7 +989,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2018-11-04 16:40:23" itemprop="dateModified" datetime="2018-11-04T16:40:23+08:00">2018-11-04</time>
+                <time title="Updated at: 2018-11-04 16:40:23" itemprop="dateModified" datetime="2018-11-04T16:40:23+08:00">2018-11-04</time>
               
             
           </span>
@@ -1125,14 +1125,14 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
+              <time title="Post created: 2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
             
 
             
@@ -1149,7 +1149,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2018-11-10 11:43:30" itemprop="dateModified" datetime="2018-11-10T11:43:30+08:00">2018-11-10</time>
+                <time title="Updated at: 2018-11-10 11:43:30" itemprop="dateModified" datetime="2018-11-10T11:43:30+08:00">2018-11-10</time>
               
             
           </span>
@@ -1281,14 +1281,14 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
+              <time title="Post created: 2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
             
 
             
@@ -1305,7 +1305,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2018-11-17 18:37:33" itemprop="dateModified" datetime="2018-11-17T18:37:33+08:00">2018-11-17</time>
+                <time title="Updated at: 2018-11-17 18:37:33" itemprop="dateModified" datetime="2018-11-17T18:37:33+08:00">2018-11-17</time>
               
             
           </span>
@@ -1444,14 +1444,14 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
+              <time title="Post created: 2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
             
 
             
@@ -1468,7 +1468,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2018-11-03 10:17:46" itemprop="dateModified" datetime="2018-11-03T10:17:46+08:00">2018-11-03</time>
+                <time title="Updated at: 2018-11-03 10:17:46" itemprop="dateModified" datetime="2018-11-03T10:17:46+08:00">2018-11-03</time>
               
             
           </span>
@@ -1604,14 +1604,14 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
+              <time title="Post created: 2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
             
 
             
@@ -1628,7 +1628,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2018-11-17 16:51:03" itemprop="dateModified" datetime="2018-11-17T16:51:03+08:00">2018-11-17</time>
+                <time title="Updated at: 2018-11-17 16:51:03" itemprop="dateModified" datetime="2018-11-17T16:51:03+08:00">2018-11-17</time>
               
             
           </span>
@@ -1768,14 +1768,14 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
+              <time title="Post created: 2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
             
 
             
@@ -1792,7 +1792,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2018-11-10 09:58:00" itemprop="dateModified" datetime="2018-11-10T09:58:00+08:00">2018-11-10</time>
+                <time title="Updated at: 2018-11-10 09:58:00" itemprop="dateModified" datetime="2018-11-10T09:58:00+08:00">2018-11-10</time>
               
             
           </span>
@@ -1927,7 +1927,7 @@
                   <a href="/archives/">
                 
                     <span class="site-state-item-count">49</span>
-                    <span class="site-state-item-name">posts</span>
+                    <span class="site-state-item-name">Artikel</span>
                   </a>
                 </div>
               
@@ -1988,7 +1988,7 @@
 </div>
 
 
-  <div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.4.4</div>
+  <div class="powered-by">Erstellt mit  <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.4.4</div>
 
 
 
