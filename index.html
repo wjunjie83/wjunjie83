@@ -237,7 +237,7 @@
 
     
 
-    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br />Home</a>
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br />Startseite</a>
 
   </li>
         
@@ -254,7 +254,7 @@
 
     
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br />Archives</a>
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br />Archiv</a>
 
   </li>
 
@@ -290,6 +290,326 @@
           <div id="content" class="content">
             
   <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程005/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程005/" class="post-title-link" itemprop="http://yoursite.com/index.html">Python零基础快速入门趣味教程005-参数</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Post created: 2018-12-21 15:27:39" itemprop="dateCreated datePublished" datetime="2018-12-21T15:27:39+08:00">2018-12-21</time>
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>上一个教程中，瓦力博士带大家学习了函数的使用。例如，line_without_moving 函数，可以让海龟先画出一条线段，然后再回来起点。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">def line_without_moving():</span><br><span class="line">    turtle.forward(100)</span><br><span class="line">    turtle.backward(100)</span><br></pre></td></tr></table></figure></p>
+<p>  但是，这个函数还是有一些局限性的。譬如，海龟所画线段的长度是固定的，这样就显得不够灵活。那么有什么办法，让函数变得更灵活一些呢？答案就是使用参数。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">def line_without_moving(length):</span><br><span class="line">  turtle.forward(length)</span><br><span class="line">  turtle.backward(length)</span><br></pre></td></tr></table></figure></p>
+<p>对比前后 2 段代码，新版的 line_without_moving 在函数声明的地方（第 1 行），在小括号里面写上了 length；又将函数体中（第 2, 3 行）的数字 100 替换成 length。这里的 length 就称为函数的参数，我们在函数调用时，可以向函数参数传递不同的值，这样函数体中用到 length 参数的地方，也就间接地用到我们提供的值啦。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line"></span><br><span class="line">def line_without_moving(length):</span><br><span class="line">    turtle.forward(length)</span><br><span class="line">    turtle.backward(length)</span><br><span class="line"></span><br><span class="line">line_without_moving(100)</span><br><span class="line">turtle.right(90)</span><br><span class="line">line_without_moving(150)</span><br><span class="line">turtle.right(90)</span><br><span class="line">line_without_moving(200)</span><br><span class="line">turtle.right(90)</span><br><span class="line">line_without_moving(250)</span><br><span class="line"></span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+<p>运行上面这段画十字型的代码，我们看到构成十字型的 4 条线段长短不一。这是因为我们在调用 line_without_moving 函数时，使用了不同的参数（第 9, 11, 13, 15 行）。<br><img src="/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程005/001.png" alt=""></p>
+<p>关于函数参数，瓦力博士要提醒大家的是，函数参数只能在本函数内部（即本函数体中）使用。函数之外，函数参数就无效了。例如，函数 line_without_moving 的参数 length 就只能在 line_without_moving 函数中使用，你不能在其他的地方使用它。</p>
+<p>还记得上个教程中，瓦力博士给大家留的那个画蜂巢的作业吗？聪明的你，是不是已经画出来了呢？</p>
+<p>下面是瓦力博士的代码，代大家参考。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line"></span><br><span class="line">def hexagon():</span><br><span class="line">  for i in range(6):</span><br><span class="line">      turtle.forward(50)</span><br><span class="line">      turtle.left(60)</span><br><span class="line"></span><br><span class="line">def honeycomb():</span><br><span class="line">    for i in range (6):</span><br><span class="line">        hexagon()</span><br><span class="line">        turtle.forward(50)</span><br><span class="line">        turtle.right(60)</span><br><span class="line"></span><br><span class="line">honeycomb()</span><br><span class="line"></span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+<p>现在，蜂巢的大小的固定的。使用这节课的知识，通过函数参数，我们可以很方便地控制蜂巢的大小。</p>
+<p>下面是瓦力博士改进后的代码。通过参数 size，我们可以自由地控制蜂巢的大小。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">import turtle</span><br><span class="line"></span><br><span class="line">def hexagon(size):</span><br><span class="line">  for i in range(6):</span><br><span class="line">      turtle.forward(size)</span><br><span class="line">      turtle.left(60)</span><br><span class="line"></span><br><span class="line">def honeycomb(size):</span><br><span class="line">    for i in range (6):</span><br><span class="line">        hexagon(size)</span><br><span class="line">        turtle.forward(size)</span><br><span class="line">        turtle.right(60)</span><br><span class="line"></span><br><span class="line">honeycomb(80)</span><br><span class="line"></span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+<p><img src="/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程005/002.png" alt=""></p>
+<p>参数的传递过程如下：</p>
+<p>第 14 行，我们在调用函数 honeycomb  时，将 80 传递给了 honeycomb 的参数 size<br>函数 honeycomb 接受了 80 这个参数值（第 8 行），因此函数 honeycomb 中，所有使用到参数 size 的地方（第 10, 11 行），都得到了 80 这个值<br>函数 honeycomb 中，又将 80 这个值传递给被调用的函数，第 10 传递给函数 hexagon, 第 11 行传递给函数 turtle.forward<br>函数 hexagon 接受了 80 个参数值（第 3 行），因此函数 hexagon 中，所有使用到参数 size 的地方（第 5 行），都得到了 80 这个值<br>……<br>这里，瓦力博士要提醒大家的是：函数 hexagon 和 honeycomb 中都有参数 size，这 2 个 size 虽然同名，而且在参数传递的过程中，都被赋予相同的值（80），但它们不是同一个参数！hexagon 中的参数 size，其作用域（即有效范围）是第 3-6 行；honeycomb 中的参数 size，其作用域是第 8-12 行。</p>
+<h3 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h3><p>尝试编写一个带参数的函数，实现任意正多边形的绘制<br><img src="/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程005/003.png" alt=""></p>
+<h3 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h3><p>设计一个名为 draw_polygon 的函数来绘制任意正多边形<br>draw_polygon 接受 2 个参数 sides 和 length（多个参数之间用英文逗号分隔）<br>sides 用于控制正多边形的边数（内角）<br>length 用于控制正多边的边长（大小）</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">def draw_polygon(sides, length):</span><br><span class="line">    pass</span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程007/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程007/" class="post-title-link" itemprop="http://yoursite.com/index.html">Python零基础快速入门趣味教程007-条件循环</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Post created: 2018-12-21 15:27:26" itemprop="dateCreated datePublished" datetime="2018-12-21T15:27:26+08:00">2018-12-21</time>
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>条件循环能够让程序在条件成立时（即为真时）重复执行循环体中的语句。如果条件一直成立（即永远不会为假），则循环会一直进行下去，不会停止。如果初始时，条件不成立，则循环 1 次也不会执行。Python 中条件循环使用 while 关键字来实现。</p>
+<p>看下面这段示例代码，</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line"></span><br><span class="line">turtle.shape(&quot;turtle&quot;)</span><br><span class="line">turtle.speed(0)</span><br><span class="line">def forward(max_distance):</span><br><span class="line">    distance = 0</span><br><span class="line">    step = 1</span><br><span class="line">    while distance &lt; max_distance:</span><br><span class="line">        turtle.forward(step)</span><br><span class="line">        distance += step</span><br><span class="line">forward(100)</span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+<p>函数 forward 实现的功能和原版的 turtle.forward 是一样的，但这里我们是借助条件循环来实现的。</p>
+<p><img src="/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程007/001.png" alt=""></p>
+<p>第 5 行 turtle.speed(0) 设置海龟爬行的速度。速度的取值为 [0, 10]。当取值在 [1, 10] 之间时，数值越大，绘图的速度就越快。当取值为 0 时，海龟将以最快的速度绘图。这里，我们让海龟以最快的速度爬行。因为，在我们自定义的 forward 函数中（第 8-13 行），我们要让海龟移动很多步，但每次只移动 1 个很小的距离，为了尽快看到最终绘图的效果，我们得让海龟爬得快一些。</p>
+<p>第 8 行 def forward(max_distance): 声明 forward 函数，它有 1 个参数 max_distance。这个函数要实现的功能是，让海龟一直爬行，直到海龟总的爬行距离达到（或超过） max_distance 时才停止爬行。</p>
+<p>第 9 行 distance = 0 变量 distance 用于记录当前海龟已经累计爬行了多远的距离。初始时，海龟还没有开始爬行，因此 distance 的初始值为 0。</p>
+<p>第 10 行 step = 1 设置海龟爬行的步长，即每 1 步要爬多远的距离。</p>
+<p>第 11-13 行是用 while 语句实现的条件循环，其中第 11 行， while distance &lt; max_distance: 指明了循环条件为  distance &lt; max_distance 即，当海龟累计爬行距离 (distance) 小于规定的最大爬行距离 (max_distance) 时，执行循环体中的语句（第 12, 13 行）。</p>
+<p>第 12, 13 行是循环体，其中第 12 行 turtle.forward(step) 让海龟以指定步长 step 前进一小段距离。第 13 行 distance += step 这是一种简写的形式，它等价于 distance = distance + step ，即将海龟刚才（第 12 行）爬行的那一小段距离累加到 distance 变量中。类似 for 循环，while 循环的循环体（第 12, 13 行）也要比 while  语句所在的行（第 11 行），向右缩进一些，通常我们用连续的 4 个空格来表示一级的缩进。</p>
+<p>不过，现在的 forward 跟原版的 turtle.forward 效果是一样的，没啥意思，咪博士把代码改进一下，让它变得好玩一些。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">import turtle</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">turtle.shape(&quot;turtle&quot;)</span><br><span class="line">turtle.speed(0)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def forward(max_distance, max_radius):</span><br><span class="line">    distance = 0</span><br><span class="line">    step = 1</span><br><span class="line">    while distance &lt; max_distance:</span><br><span class="line">        if turtle.distance(0,0) &gt;= max_radius:</span><br><span class="line">            angle = turtle.towards(0,0)</span><br><span class="line">            turtle.setheading(angle)</span><br><span class="line">        turtle.forward(step)</span><br><span class="line">        distance += step</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">forward(550, 100)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+<p>再次运行程序，你会看到海龟在一条直线上折返爬行。</p>
+<p><img src="/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程007/002.png" alt=""></p>
+<p>第 8 行 def forward(max_distance, max_radius): 我们为 forward 函数引入了一个新的参数 max_radius。后面，我们要实现的功能是当海龟离开原点的距离达到（或超过） max_radius 时，就调头往回爬，即往复爬行。</p>
+<p>实现往复爬行对应的代码在第 12-14 行。</p>
+<p>第 12 行 if turtle.distance(0,0) &gt;= max_radius: ，其中 turtle.distance(0,0) 返回的是海龟与原点 (0, 0) 的距离。因此，当海龟与原点的距离达到或超过 max_radius 时，if 条件成立，程序将执行相应的语句（第 13, 14 行）。</p>
+<p>第 13 行 angle = turtle.towards(0,0) ，其中  turtle.towards(0,0) 返回的是海龟朝向原点 (0, 0) 的角度。计算角度时，水平向右为 0 度，逆时针方向为角度增大的方向。</p>
+<p>第 14 行 turtle.setheading(angle) 直接设定海龟的朝向，由于前面（第 13 行），将 angle 的值设置为海龟朝向原点的角度，所以这里经过 setheading 设置之后，海龟将朝向原点的方向。因此，后面再调用 turtle.forward  （第 15 行），海龟就会往原点的方向移动，即往回爬行。</p>
+<p>现在，海龟能够在一条直线上往复爬行，虽然比之前改进了一些，但还是显得比较单调。接下来，咪博士再进一步改进代码，让它变得更生动一些。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">import turtle</span><br><span class="line">import random</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">turtle.shape(&quot;turtle&quot;)</span><br><span class="line">turtle.speed(0)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def forward(max_distance, max_radius):</span><br><span class="line">    distance = 0</span><br><span class="line">    step = 1</span><br><span class="line">    while distance &lt; max_distance:</span><br><span class="line">        if turtle.distance(0,0) &gt;= max_radius:</span><br><span class="line">            angle = turtle.towards(0,0) + random.randint(-45, 45)</span><br><span class="line">            turtle.setheading(angle)</span><br><span class="line">        turtle.forward(step)</span><br><span class="line">        distance += step</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">forward(10000, 100)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+<p>运行上面的代码，你会看到海龟随机地往返爬行。刚开始，你看不出什么规律，但等它爬行一段时间之后，你会发现海龟实际上是被限制在一个圆圈当中运动。</p>
+<p><img src="/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程007/003.png" alt=""></p>
+<p>第 2 行 import random 导入 random 模块，用于生成随机数。</p>
+<p>第 14  行 angle = turtle.towards(0,0) + random.randint(-45, 45) 其中的  random.randint(-45, 45) 用于产生 [-45, 45] 之间的随机整数，将这个随机整数加到朝向原点的角度上，这样海龟就不再精确地朝向原点，而是有一个随机波动的角度。因此，海龟就不再精确地按原路返回，从而摆脱直线的束缚。</p>
+<p>但是，原来的 2 个约束依然存在：</p>
+<p>海龟离开原点的距离不能超过 max_radius（第 13 行），所以它被限制在一个圆圈中运动<br>海龟总的运动距离不能超过 max_distance （第 12 行），所以它最终会停止运动</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
     
       
 
@@ -344,14 +664,14 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2018-12-21 15:10:08" itemprop="dateCreated datePublished" datetime="2018-12-21T15:10:08+08:00">2018-12-21</time>
+              <time title="Post created: 2018-12-21 15:10:08" itemprop="dateCreated datePublished" datetime="2018-12-21T15:10:08+08:00">2018-12-21</time>
             
 
             
@@ -465,161 +785,6 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程005/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程005/" class="post-title-link" itemprop="http://yoursite.com/index.html">Python零基础快速入门趣味教程005-参数</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2018-12-21 12:07:09" itemprop="dateCreated datePublished" datetime="2018-12-21T12:07:09+08:00">2018-12-21</time>
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>上一个教程中，瓦力博士带大家学习了函数的使用。例如，line_without_moving 函数，可以让海龟先画出一条线段，然后再回来起点。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">def line_without_moving():</span><br><span class="line">    turtle.forward(100)</span><br><span class="line">    turtle.backward(100)</span><br></pre></td></tr></table></figure></p>
-<p>  但是，这个函数还是有一些局限性的。譬如，海龟所画线段的长度是固定的，这样就显得不够灵活。那么有什么办法，让函数变得更灵活一些呢？答案就是使用参数。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">def line_without_moving(length):</span><br><span class="line">  turtle.forward(length)</span><br><span class="line">  turtle.backward(length)</span><br></pre></td></tr></table></figure></p>
-<p>对比前后 2 段代码，新版的 line_without_moving 在函数声明的地方（第 1 行），在小括号里面写上了 length；又将函数体中（第 2, 3 行）的数字 100 替换成 length。这里的 length 就称为函数的参数，我们在函数调用时，可以向函数参数传递不同的值，这样函数体中用到 length 参数的地方，也就间接地用到我们提供的值啦。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line"></span><br><span class="line">def line_without_moving(length):</span><br><span class="line">    turtle.forward(length)</span><br><span class="line">    turtle.backward(length)</span><br><span class="line"></span><br><span class="line">line_without_moving(100)</span><br><span class="line">turtle.right(90)</span><br><span class="line">line_without_moving(150)</span><br><span class="line">turtle.right(90)</span><br><span class="line">line_without_moving(200)</span><br><span class="line">turtle.right(90)</span><br><span class="line">line_without_moving(250)</span><br><span class="line"></span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
-<p>运行上面这段画十字型的代码，我们看到构成十字型的 4 条线段长短不一。这是因为我们在调用 line_without_moving 函数时，使用了不同的参数（第 9, 11, 13, 15 行）。<br><img src="/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程005/001.png" alt=""></p>
-<p>关于函数参数，瓦力博士要提醒大家的是，函数参数只能在本函数内部（即本函数体中）使用。函数之外，函数参数就无效了。例如，函数 line_without_moving 的参数 length 就只能在 line_without_moving 函数中使用，你不能在其他的地方使用它。</p>
-<p>还记得上个教程中，瓦力博士给大家留的那个画蜂巢的作业吗？聪明的你，是不是已经画出来了呢？</p>
-<p>下面是瓦力博士的代码，代大家参考。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line"></span><br><span class="line">def hexagon():</span><br><span class="line">  for i in range(6):</span><br><span class="line">      turtle.forward(50)</span><br><span class="line">      turtle.left(60)</span><br><span class="line"></span><br><span class="line">def honeycomb():</span><br><span class="line">    for i in range (6):</span><br><span class="line">        hexagon()</span><br><span class="line">        turtle.forward(50)</span><br><span class="line">        turtle.right(60)</span><br><span class="line"></span><br><span class="line">honeycomb()</span><br><span class="line"></span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
-<p>现在，蜂巢的大小的固定的。使用这节课的知识，通过函数参数，我们可以很方便地控制蜂巢的大小。</p>
-<p>下面是瓦力博士改进后的代码。通过参数 size，我们可以自由地控制蜂巢的大小。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">import turtle</span><br><span class="line"></span><br><span class="line">def hexagon(size):</span><br><span class="line">  for i in range(6):</span><br><span class="line">      turtle.forward(size)</span><br><span class="line">      turtle.left(60)</span><br><span class="line"></span><br><span class="line">def honeycomb(size):</span><br><span class="line">    for i in range (6):</span><br><span class="line">        hexagon(size)</span><br><span class="line">        turtle.forward(size)</span><br><span class="line">        turtle.right(60)</span><br><span class="line"></span><br><span class="line">honeycomb(80)</span><br><span class="line"></span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
-<p><img src="/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程005/002.png" alt=""></p>
-<p>参数的传递过程如下：</p>
-<p>第 14 行，我们在调用函数 honeycomb  时，将 80 传递给了 honeycomb 的参数 size<br>函数 honeycomb 接受了 80 这个参数值（第 8 行），因此函数 honeycomb 中，所有使用到参数 size 的地方（第 10, 11 行），都得到了 80 这个值<br>函数 honeycomb 中，又将 80 这个值传递给被调用的函数，第 10 传递给函数 hexagon, 第 11 行传递给函数 turtle.forward<br>函数 hexagon 接受了 80 个参数值（第 3 行），因此函数 hexagon 中，所有使用到参数 size 的地方（第 5 行），都得到了 80 这个值<br>……<br>这里，瓦力博士要提醒大家的是：函数 hexagon 和 honeycomb 中都有参数 size，这 2 个 size 虽然同名，而且在参数传递的过程中，都被赋予相同的值（80），但它们不是同一个参数！hexagon 中的参数 size，其作用域（即有效范围）是第 3-6 行；honeycomb 中的参数 size，其作用域是第 8-12 行。</p>
-<h3 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h3><p>尝试编写一个带参数的函数，实现任意正多边形的绘制<br><img src="/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程005/003.png" alt=""></p>
-<h3 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h3><p>设计一个名为 draw_polygon 的函数来绘制任意正多边形<br>draw_polygon 接受 2 个参数 sides 和 length（多个参数之间用英文逗号分隔）<br>sides 用于控制正多边形的边数（内角）<br>length 用于控制正多边的边长（大小）</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">def draw_polygon(sides, length):</span><br><span class="line">    pass</span><br></pre></td></tr></table></figure>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程004/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -658,14 +823,14 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2018-12-21 11:50:39" itemprop="dateCreated datePublished" datetime="2018-12-21T11:50:39+08:00">2018-12-21</time>
+              <time title="Post created: 2018-12-21 11:50:39" itemprop="dateCreated datePublished" datetime="2018-12-21T11:50:39+08:00">2018-12-21</time>
             
 
             
@@ -814,14 +979,14 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2018-12-21 00:51:38" itemprop="dateCreated datePublished" datetime="2018-12-21T00:51:38+08:00">2018-12-21</time>
+              <time title="Post created: 2018-12-21 00:51:38" itemprop="dateCreated datePublished" datetime="2018-12-21T00:51:38+08:00">2018-12-21</time>
             
 
             
@@ -965,14 +1130,14 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2018-12-20 16:37:30" itemprop="dateCreated datePublished" datetime="2018-12-20T16:37:30+08:00">2018-12-20</time>
+              <time title="Post created: 2018-12-20 16:37:30" itemprop="dateCreated datePublished" datetime="2018-12-20T16:37:30+08:00">2018-12-20</time>
             
 
             
@@ -1121,14 +1286,14 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2018-12-20 16:36:29" itemprop="dateCreated datePublished" datetime="2018-12-20T16:36:29+08:00">2018-12-20</time>
+              <time title="Post created: 2018-12-20 16:36:29" itemprop="dateCreated datePublished" datetime="2018-12-20T16:36:29+08:00">2018-12-20</time>
             
 
             
@@ -1271,14 +1436,14 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2018-12-20 11:19:50" itemprop="dateCreated datePublished" datetime="2018-12-20T11:19:50+08:00">2018-12-20</time>
+              <time title="Post created: 2018-12-20 11:19:50" itemprop="dateCreated datePublished" datetime="2018-12-20T11:19:50+08:00">2018-12-20</time>
             
 
             
@@ -1423,14 +1588,14 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2018-12-18 22:27:13" itemprop="dateCreated datePublished" datetime="2018-12-18T22:27:13+08:00">2018-12-18</time>
+              <time title="Post created: 2018-12-18 22:27:13" itemprop="dateCreated datePublished" datetime="2018-12-18T22:27:13+08:00">2018-12-18</time>
             
 
             
@@ -1586,14 +1751,14 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
+              <time title="Post created: 2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
             
 
             
@@ -1610,7 +1775,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2018-11-04 16:40:23" itemprop="dateModified" datetime="2018-11-04T16:40:23+08:00">2018-11-04</time>
+                <time title="Updated at: 2018-11-04 16:40:23" itemprop="dateModified" datetime="2018-11-04T16:40:23+08:00">2018-11-04</time>
               
             
           </span>
@@ -1652,162 +1817,6 @@
 <h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.三个马达的控制方法<br>2.了解装甲车的基础知识。<br>3.了解导杆系统在控制系统角度方面的应用。</p>
 <h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_07.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_08.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_09.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_10.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_11.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_12.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_13.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_14.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_15.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_16.jpg" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_17.jpg" alt=""></p>
 <h3 id="装甲车机器人程序设计："><a href="#装甲车机器人程序设计：" class="headerlink" title="装甲车机器人程序设计："></a>装甲车机器人程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_18.jpg" alt=""><br>装甲车机器人，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/装甲车机器人/瓦力.jpeg" alt=""></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/日积月累/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/18/瓦力工厂/日积月累/" class="post-title-link" itemprop="http://yoursite.com/index.html">日积月累</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-11-10 11:43:30" itemprop="dateModified" datetime="2018-11-10T11:43:30+08:00">2018-11-10</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="瓦力币的含义"><a href="#瓦力币的含义" class="headerlink" title="瓦力币的含义"></a>瓦力币的含义</h3><p>红色：比赛<br>绿色：团队<br>蓝色：动手<br>黄色：语言<br>紫色：全勤</p>
-<h3 id="遥控板连接"><a href="#遥控板连接" class="headerlink" title="遥控板连接"></a>遥控板连接</h3><p>6按键遥控接收板印有红框内标记的 ”瓦力工厂“ 字样！接收板连接到接收板的 “RXD” 引脚位置</p>
-<p><img src="/2018/12/18/瓦力工厂/日积月累/瓦力.jpeg" alt=""></p>
 
           
         
@@ -1896,8 +1905,8 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">53</span>
-                    <span class="site-state-item-name">posts</span>
+                    <span class="site-state-item-count">54</span>
+                    <span class="site-state-item-name">Artikel</span>
                   </a>
                 </div>
               
@@ -1958,7 +1967,7 @@
 </div>
 
 
-  <div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.4.4</div>
+  <div class="powered-by">Erstellt mit  <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.4.4</div>
 
 
 
