@@ -306,6 +306,161 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程005/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程005/" class="post-title-link" itemprop="http://yoursite.com/index.html">Python零基础快速入门趣味教程005-参数</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Post created: 2018-12-21 12:07:09" itemprop="dateCreated datePublished" datetime="2018-12-21T12:07:09+08:00">2018-12-21</time>
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>上一个教程中，瓦力博士带大家学习了函数的使用。例如，line_without_moving 函数，可以让海龟先画出一条线段，然后再回来起点。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">def line_without_moving():</span><br><span class="line">    turtle.forward(100)</span><br><span class="line">    turtle.backward(100)</span><br></pre></td></tr></table></figure></p>
+<p>  但是，这个函数还是有一些局限性的。譬如，海龟所画线段的长度是固定的，这样就显得不够灵活。那么有什么办法，让函数变得更灵活一些呢？答案就是使用参数。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">def line_without_moving(length):</span><br><span class="line">  turtle.forward(length)</span><br><span class="line">  turtle.backward(length)</span><br></pre></td></tr></table></figure></p>
+<p>对比前后 2 段代码，新版的 line_without_moving 在函数声明的地方（第 1 行），在小括号里面写上了 length；又将函数体中（第 2, 3 行）的数字 100 替换成 length。这里的 length 就称为函数的参数，我们在函数调用时，可以向函数参数传递不同的值，这样函数体中用到 length 参数的地方，也就间接地用到我们提供的值啦。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line"></span><br><span class="line">def line_without_moving(length):</span><br><span class="line">    turtle.forward(length)</span><br><span class="line">    turtle.backward(length)</span><br><span class="line"></span><br><span class="line">line_without_moving(100)</span><br><span class="line">turtle.right(90)</span><br><span class="line">line_without_moving(150)</span><br><span class="line">turtle.right(90)</span><br><span class="line">line_without_moving(200)</span><br><span class="line">turtle.right(90)</span><br><span class="line">line_without_moving(250)</span><br><span class="line"></span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+<p>运行上面这段画十字型的代码，我们看到构成十字型的 4 条线段长短不一。这是因为我们在调用 line_without_moving 函数时，使用了不同的参数（第 9, 11, 13, 15 行）。<br><img src="/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程005/001.png" alt=""></p>
+<p>关于函数参数，瓦力博士要提醒大家的是，函数参数只能在本函数内部（即本函数体中）使用。函数之外，函数参数就无效了。例如，函数 line_without_moving 的参数 length 就只能在 line_without_moving 函数中使用，你不能在其他的地方使用它。</p>
+<p>还记得上个教程中，瓦力博士给大家留的那个画蜂巢的作业吗？聪明的你，是不是已经画出来了呢？</p>
+<p>下面是瓦力博士的代码，代大家参考。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line"></span><br><span class="line">def hexagon():</span><br><span class="line">  for i in range(6):</span><br><span class="line">      turtle.forward(50)</span><br><span class="line">      turtle.left(60)</span><br><span class="line"></span><br><span class="line">def honeycomb():</span><br><span class="line">    for i in range (6):</span><br><span class="line">        hexagon()</span><br><span class="line">        turtle.forward(50)</span><br><span class="line">        turtle.right(60)</span><br><span class="line"></span><br><span class="line">honeycomb()</span><br><span class="line"></span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+<p>现在，蜂巢的大小的固定的。使用这节课的知识，通过函数参数，我们可以很方便地控制蜂巢的大小。</p>
+<p>下面是瓦力博士改进后的代码。通过参数 size，我们可以自由地控制蜂巢的大小。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">import turtle</span><br><span class="line"></span><br><span class="line">def hexagon(size):</span><br><span class="line">  for i in range(6):</span><br><span class="line">      turtle.forward(size)</span><br><span class="line">      turtle.left(60)</span><br><span class="line"></span><br><span class="line">def honeycomb(size):</span><br><span class="line">    for i in range (6):</span><br><span class="line">        hexagon(size)</span><br><span class="line">        turtle.forward(size)</span><br><span class="line">        turtle.right(60)</span><br><span class="line"></span><br><span class="line">honeycomb(80)</span><br><span class="line"></span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+<p><img src="/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程005/002.png" alt=""></p>
+<p>参数的传递过程如下：</p>
+<p>第 14 行，我们在调用函数 honeycomb  时，将 80 传递给了 honeycomb 的参数 size<br>函数 honeycomb 接受了 80 这个参数值（第 8 行），因此函数 honeycomb 中，所有使用到参数 size 的地方（第 10, 11 行），都得到了 80 这个值<br>函数 honeycomb 中，又将 80 这个值传递给被调用的函数，第 10 传递给函数 hexagon, 第 11 行传递给函数 turtle.forward<br>函数 hexagon 接受了 80 个参数值（第 3 行），因此函数 hexagon 中，所有使用到参数 size 的地方（第 5 行），都得到了 80 这个值<br>……<br>这里，瓦力博士要提醒大家的是：函数 hexagon 和 honeycomb 中都有参数 size，这 2 个 size 虽然同名，而且在参数传递的过程中，都被赋予相同的值（80），但它们不是同一个参数！hexagon 中的参数 size，其作用域（即有效范围）是第 3-6 行；honeycomb 中的参数 size，其作用域是第 8-12 行。</p>
+<h3 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h3><p>尝试编写一个带参数的函数，实现任意正多边形的绘制<br><img src="/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程005/003.png" alt=""></p>
+<h3 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h3><p>设计一个名为 draw_polygon 的函数来绘制任意正多边形<br>draw_polygon 接受 2 个参数 sides 和 length（多个参数之间用英文逗号分隔）<br>sides 用于控制正多边形的边数（内角）<br>length 用于控制正多边的边长（大小）</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">def draw_polygon(sides, length):</span><br><span class="line">    pass</span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程004/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1394,7 +1549,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/滑板车机器人/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="王俊杰">
@@ -1414,7 +1569,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2018/12/18/瓦力工厂/滑板车机器人/" class="post-title-link" itemprop="http://yoursite.com/index.html">滑板车机器人</a>
+                <a href="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/" class="post-title-link" itemprop="http://yoursite.com/index.html">DPJ-026-双寻线机器人</a>
               
             
           </h1>
@@ -1456,7 +1611,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Updated at: 2018-11-03 10:17:46" itemprop="dateModified" datetime="2018-11-03T10:17:46+08:00">2018-11-03</time>
+                <time title="Updated at: 2018-12-02 13:32:20" itemprop="dateModified" datetime="2018-12-02T13:32:20+08:00">2018-12-02</time>
               
             
           </span>
@@ -1491,177 +1646,15 @@
       
         
           
-            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦力工程师接到一个新任务，就是为“最后一公里”设计机器人。“最后一公里”指的是人们在上下学或上下班的途中，乘坐公共交通工具到达公交站，地铁站后，还需要走最后一公里才能达到目的地。作为瓦力工程师的我们怎么设计滑板车机器人，来帮助人们更方便的完成最后一公里呢？<br><img src="/2018/12/18/瓦力工厂/滑板车机器人/002.jpg" alt=""><br><img src="/2018/12/18/瓦力工厂/滑板车机器人/003.jpg" alt=""></p>
-<h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有轮子（为什么呢？观察生活）<br>３．需要有前进、加速、减速、停止、转弯、后退？的控制方法<br>４．需要有声光指示、装饰</p>
-<h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>平衡车原理：当我们在驾驶平衡车的时候，平衡车的两个轮子就代替了双脚。与身体的平衡系统非常类似，当我们的重心前倾时，智能系统就会自动感应到，并精确地驱动轮子向前运动，以保持平衡;同样地，当我们身体的重心后倾时，轮子就会向后运动。<br>这套工作原理被称为“动态平衡”原理，这也是平衡车被叫做“平衡车”的原因，采用第二代运动补偿算法，利用其内部的陀螺仪和加速度传感器，来精确检测车体姿态的微小变化，并利用精密的伺服控制系统，灵敏地驱动电机，进行相应的调整，以保持整个车体的稳定和平衡。</p>
-<h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、轮子、CPU、触碰开光、LED灯、蜂鸣器<br><img src="/2018/12/18/瓦力工厂/滑板车机器人/004.png" alt=""></p>
-<h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.复习触碰开关的工作原理。<br>2.了解人们的代步工具。<br>3.熟练运用循环模块（While）进行输入、输出控制。</p>
-<h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_06.png" alt=""><br><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_07.png" alt=""><br><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_08.png" alt=""><br><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_09.png" alt=""><br><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_10.png" alt=""><br><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_11.png" alt=""><br><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_12.png" alt=""><br><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_13.png" alt=""><br><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_14.png" alt=""><br><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_15.png" alt=""><br><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_16.png" alt=""></p>
-<h3 id="程序设计："><a href="#程序设计：" class="headerlink" title="程序设计："></a>程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_17.png" alt=""></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/DPJ-021感应机器人/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/18/瓦力工厂/DPJ-021感应机器人/" class="post-title-link" itemprop="http://yoursite.com/index.html">DPJ-021感应机器人</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Veröffentlicht am</span>
-              
-
-              
-                
-              
-
-              <time title="Post created: 2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Updated at: 2018-11-17 16:51:03" itemprop="dateModified" datetime="2018-11-17T16:51:03+08:00">2018-11-17</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>小瓦力来到一处神秘的宫殿，瓦力打开宫殿大门，刚走出一步，突然感到脚下的石头像一个开关一样咯地响了一声，然后抬头一看，一块石头从正上方掉了下来，看来有机关，危险。迅速后退。不能灵活躲避落石的机器人永远无法通过最后的机关，瓦力心里想到。怎么办呢？有了，用螳螂机器人带我过去。</p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/001.jpeg" alt=""></p>
-<h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>螳螂是昆虫中体型偏大的，体长一般55到105毫米，非洲的螳螂是世界最<br>螳螂。大的，身体流线型，以绿色，褐色为主，也具有花斑的种类；标志性特征是有两把“大刀”，即前肢，上有一排坚硬的锯齿，大刀钩末端长有攀爬的吸盘。头部呈扇形，较小；复眼突出，大而透亮，以黄绿色为主，晚上在灯光下呈现黑色，单眼，在两眼之间有3个小点即单眼；触角细长；颈部可180度转动；咀嚼式口器，上颚强劲。前足腿节和胫节有利刺，胫节镰刀状，常向腿节折叠，形成可以捕捉猎物的前足；前翅轻柔，遮住身体全部为覆翅，后翅比前翅要薄，边缘透明色，中间成放射状的紫红色、伸展开呈现扇状，休息时收敛和前翅相合；腹部肥大。前足锋利发达善于捕捉，中、后足适于步行，但有时前足也会用来保持平衡，发育呈变态发育。</p>
-<p> 红外避障传感器基本原理：利用物体的反射性质。在一定范围内，如果没有障碍物，发射出去的红外线，因为传播距离越远而逐渐减弱，最后消失。如果有障碍物，红外线遇到障碍物，被反射到达传感器接收头。传感器检测到这一信号，就可以确认正前方有障碍物，并送给单片机，单片机进行一系列的处理分析，协调小车两轮工作，完成一个漂亮的躲避障碍物动作。</p>
-<h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有轮子（为什么呢？观察生活）<br>３．需要有前进、后退、转弯的控制方法（不能手动）</p>
+            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>双11刚刚过去，瓦力工厂就接到一个任务，那就是为明年的双11设计自动送快递的小车，因为双11实在是太火爆了，快递员夜以继日的送快递都不能把快递送完，有的快递员都累病了。这个任务就交到了我们伟大的瓦力工程师手里，对于这样的问题，我们瓦力工程师只能说NO Problem！</p>
+<p><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/001.jpeg" alt=""></p>
+<h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><h4 id="红外避障传感器基本原理："><a href="#红外避障传感器基本原理：" class="headerlink" title="红外避障传感器基本原理："></a>红外避障传感器基本原理：</h4><p> 利用物体的反射性质。在一定范围内，如果没有障碍物，发射出去的红外线，因为传播距离越远而逐渐减弱，最后消失。如果有障碍物，红外线遇到障碍物，被反射到达传感器接收头。传感器检测到这一信号，就可以确认正前方有障碍物，并送给单片机，单片机进行一系列的处理分析，协调小车两轮工作，完成一个漂亮的躲避障碍物动作。<br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/003.png" alt=""></p>
+<h4 id="巡线机器人的实现原理"><a href="#巡线机器人的实现原理" class="headerlink" title="巡线机器人的实现原理"></a>巡线机器人的实现原理</h4><p>  由于黑色具有较强的吸收能力，当循迹模块发射的红外线照射到黑线时，红外线将会被黑线吸收，导致循迹模块上光敏三极管处于关闭状态，此时模块上一个LED熄灭。在没有检测到黑线时，模块上两个LED常亮。</p>
+<h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有轮子（为什么呢？观察生活）<br>３．需要有前进、转弯、停止的控制方法（不能手动）</p>
 <h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、马达、轮子、CPU、红外避障传感器、附件</p>
-<h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>课程目标：<br>1.自然界的光线<br>2.红外传感器的原理<br>3．如果那么模块的使用</p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/002.jpeg" alt=""></p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/003.jpeg" alt=""></p>
-<h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/004.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/005.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/006.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/007.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/008.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/009.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/010.png" alt=""></p>
-<h3 id="接力赛机器人程序设计："><a href="#接力赛机器人程序设计：" class="headerlink" title="接力赛机器人程序设计："></a>接力赛机器人程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/011.png" alt=""><br>感应机器人已完成，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/瓦力.jpeg" alt=""></p>
+<h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>课程目标：<br>1.了解双巡线。<br>2.红外传感器搭建与调试。<br>3.双红外线巡线编程逻辑。<br>4.培养孩子发现问题，分析问题，解决问题，动手搭建能力。</p>
+<h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/004.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/005.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/006.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/007.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/008.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/009.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/010.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/011.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/012.png" alt=""></p>
+<h3 id="接力赛机器人程序设计："><a href="#接力赛机器人程序设计：" class="headerlink" title="接力赛机器人程序设计："></a>接力赛机器人程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/013.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/014.png" alt=""><br>双巡线机器人已完成，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/瓦力.jpeg" alt=""></p>
 
           
         
@@ -1914,7 +1907,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">51</span>
+                    <span class="site-state-item-count">52</span>
                     <span class="site-state-item-name">Artikel</span>
                   </a>
                 </div>
