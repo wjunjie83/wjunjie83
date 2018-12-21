@@ -108,19 +108,19 @@
 
 
 
-  <meta name="description" content="前面的教程中，我们已经可以让小海龟绘制出各种图形了。但是，所有绘图的代码都是预先编好的，程序一旦运行起来，运行结果（绘制的图形）就是固定不变的。这一节中，咪博士将教大家如何让海龟响应用户的输入。12345678910111213import turtledef move():    direction = turtle.textinput(&amp;apos;Input direction&amp;apos;,">
+  <meta name="description" content="前面的教程中，我们已经可以让小海龟绘制出各种图形了。但是，所有绘图的代码都是预先编好的，程序一旦运行起来，运行结果（绘制的图形）就是固定不变的。这一节中，瓦力博士将教大家如何让海龟响应用户的输入。12345678910111213import turtledef move():    direction = turtle.textinput(&amp;apos;Input direction&amp;apos;,">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Python零基础快速入门趣味教程006-条件">
 <meta property="og:url" content="http://yoursite.com/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程006/index.html">
 <meta property="og:site_name" content="瓦力工厂-编程训练营">
-<meta property="og:description" content="前面的教程中，我们已经可以让小海龟绘制出各种图形了。但是，所有绘图的代码都是预先编好的，程序一旦运行起来，运行结果（绘制的图形）就是固定不变的。这一节中，咪博士将教大家如何让海龟响应用户的输入。12345678910111213import turtledef move():    direction = turtle.textinput(&amp;apos;Input direction&amp;apos;,">
+<meta property="og:description" content="前面的教程中，我们已经可以让小海龟绘制出各种图形了。但是，所有绘图的代码都是预先编好的，程序一旦运行起来，运行结果（绘制的图形）就是固定不变的。这一节中，瓦力博士将教大家如何让海龟响应用户的输入。12345678910111213import turtledef move():    direction = turtle.textinput(&amp;apos;Input direction&amp;apos;,">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://yoursite.com/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程006/001.png">
 <meta property="og:image" content="http://yoursite.com/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程006/002.png">
-<meta property="og:updated_time" content="2018-12-21T07:10:08.929Z">
+<meta property="og:updated_time" content="2018-12-21T07:28:15.282Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Python零基础快速入门趣味教程006-条件">
-<meta name="twitter:description" content="前面的教程中，我们已经可以让小海龟绘制出各种图形了。但是，所有绘图的代码都是预先编好的，程序一旦运行起来，运行结果（绘制的图形）就是固定不变的。这一节中，咪博士将教大家如何让海龟响应用户的输入。12345678910111213import turtledef move():    direction = turtle.textinput(&amp;apos;Input direction&amp;apos;,">
+<meta name="twitter:description" content="前面的教程中，我们已经可以让小海龟绘制出各种图形了。但是，所有绘图的代码都是预先编好的，程序一旦运行起来，运行结果（绘制的图形）就是固定不变的。这一节中，瓦力博士将教大家如何让海龟响应用户的输入。12345678910111213import turtledef move():    direction = turtle.textinput(&amp;apos;Input direction&amp;apos;,">
 <meta name="twitter:image" content="http://yoursite.com/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程006/001.png">
 
 
@@ -351,7 +351,7 @@
                 
               
 
-              <time title="Post created: 2018-12-21 15:10:08" itemprop="dateCreated datePublished" datetime="2018-12-21T15:10:08+08:00">2018-12-21</time>
+              <time title="Post created: 2018-12-21 15:28:15" itemprop="dateCreated datePublished" datetime="2018-12-21T15:28:15+08:00">2018-12-21</time>
             
 
             
@@ -385,7 +385,7 @@
       
 
       
-        <p>前面的教程中，我们已经可以让小海龟绘制出各种图形了。但是，所有绘图的代码都是预先编好的，程序一旦运行起来，运行结果（绘制的图形）就是固定不变的。这一节中，咪博士将教大家如何让海龟响应用户的输入。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line"></span><br><span class="line">def move():</span><br><span class="line">    direction = turtle.textinput(&apos;Input direction&apos;, &apos;Go left or right?&apos;)</span><br><span class="line">    if direction == &apos;left&apos;:</span><br><span class="line">        turtle.left(60)</span><br><span class="line">        turtle.forward(100)</span><br><span class="line"></span><br><span class="line">    if direction == &apos;right&apos;:</span><br><span class="line">        turtle.right(60)</span><br><span class="line">        turtle.forward(100)</span><br><span class="line">move()</span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure></p>
+        <p>前面的教程中，我们已经可以让小海龟绘制出各种图形了。但是，所有绘图的代码都是预先编好的，程序一旦运行起来，运行结果（绘制的图形）就是固定不变的。这一节中，瓦力博士将教大家如何让海龟响应用户的输入。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line"></span><br><span class="line">def move():</span><br><span class="line">    direction = turtle.textinput(&apos;Input direction&apos;, &apos;Go left or right?&apos;)</span><br><span class="line">    if direction == &apos;left&apos;:</span><br><span class="line">        turtle.left(60)</span><br><span class="line">        turtle.forward(100)</span><br><span class="line"></span><br><span class="line">    if direction == &apos;right&apos;:</span><br><span class="line">        turtle.right(60)</span><br><span class="line">        turtle.forward(100)</span><br><span class="line">move()</span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure></p>
 <p>程序运行起来之后，会先弹出一个输入框，询问你海龟的运动方向。你可以输入 left 或者 right。<br><img src="/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程006/001.png" alt=""></p>
 <p>当你按下 ok 按钮之后，海龟就会根据你的输入（left 或 right），相应地向左或向右运动。</p>
 <p><img src="/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程006/002.png" alt=""></p>
@@ -396,9 +396,9 @@
 <p>翻译成大白话就像下面这样<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">如果变量 direction 等于 left，则执行下面的语句</span><br><span class="line">    turtle.left(60)</span><br><span class="line">    turtle.forward(100)</span><br></pre></td></tr></table></figure></p>
 <p>  所以，当用户输入 left，并点击 ok 按钮时，direction 接收到用户的输入 left，它的值等于 left，海龟就先向左转 60 度（执行第 8 行代码），再前进 100 个单位（执行第 9 行代码）。</p>
 <p>要注意的是 Python 中比较 2 个东西是否相等，要用 == （即 2 个连续的等号），因为单独的 = （等号）在 Python 中表达的是将某个值赋值给某个变量的意思，因此，比较是否相等就得用另外的符号（即 ==）了。</p>
-<p>另外，还要注意缩进，第 8, 9 行的代码要比 if 语句所在的行（第 7 行），向右缩进一些。这样 Python 才知道，当 if 语句为真时（即条件成立时），需要执行哪些代码。和咪博士在前面的教程中谈到的一样，我们一般用连续的 4 个空格符号来表示一级的缩进。</p>
+<p>另外，还要注意缩进，第 8, 9 行的代码要比 if 语句所在的行（第 7 行），向右缩进一些。这样 Python 才知道，当 if 语句为真时（即条件成立时），需要执行哪些代码。和瓦力博士在前面的教程中谈到的一样，我们一般用连续的 4 个空格符号来表示一级的缩进。</p>
 <p>第 11, 12, 13 行也是条件语句，它们和第 7, 8, 9 行代码类似，只不过条件成立的条件改成了变量 direction 的值等于 right。</p>
-<p>if 语句还有其他一些语法。下面，咪博士给大家展示的是 if … else 的语法。</p>
+<p>if 语句还有其他一些语法。下面，瓦力博士给大家展示的是 if … else 的语法。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line"></span><br><span class="line">def move():</span><br><span class="line">    direction = turtle.textinput(&apos;Input direction&apos;, &apos;Go left or right?&apos;)</span><br><span class="line"></span><br><span class="line">    if direction == &apos;left&apos;:</span><br><span class="line">        turtle.left(60)</span><br><span class="line">        turtle.forward(100)</span><br><span class="line">    else:</span><br><span class="line">        turtle.right(60)</span><br><span class="line">        turtle.forward(100)</span><br><span class="line"></span><br><span class="line">move()</span><br><span class="line"></span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
 <p> 将 7-12 行的代码翻译成大白话就像下面这样，<br> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"> 如果变量 direction 等于 left，则执行下面的语句</span><br><span class="line">    turtle.left(60)</span><br><span class="line">    turtle.forward(100)</span><br><span class="line">否则，执行下面的语句</span><br><span class="line">    turtle.right(60)</span><br><span class="line">    turtle.forward(100)</span><br></pre></td></tr></table></figure></p>
 <p> 注意体会前后 2 个版本细微的差别。考虑用户输入一个既不是 left 也不是 right 的字符串（或者直接点击 cancel 按钮）。</p>
@@ -437,8 +437,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程004/" rel="next" title="Python零基础快速入门趣味教程004-函数">
-                <i class="fa fa-chevron-left"></i> Python零基础快速入门趣味教程004-函数
+              <a href="/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程005/" rel="next" title="Python零基础快速入门趣味教程005-参数">
+                <i class="fa fa-chevron-left"></i> Python零基础快速入门趣味教程005-参数
               </a>
             
           </div>
