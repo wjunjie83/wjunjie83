@@ -306,7 +306,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/批量缩小图片/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/日积月累/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="王俊杰">
@@ -326,7 +326,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2018/12/18/瓦力工厂/批量缩小图片/" class="post-title-link" itemprop="http://yoursite.com/page/3/index.html">批量缩小图片</a>
+                <a href="/2018/12/18/瓦力工厂/日积月累/" class="post-title-link" itemprop="http://yoursite.com/page/3/index.html">日积月累</a>
               
             
           </h1>
@@ -368,7 +368,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Updated at: 2018-11-19 19:17:46" itemprop="dateModified" datetime="2018-11-19T19:17:46+08:00">2018-11-19</time>
+                <time title="Updated at: 2018-11-10 11:43:30" itemprop="dateModified" datetime="2018-11-10T11:43:30+08:00">2018-11-10</time>
               
             
           </span>
@@ -403,41 +403,173 @@
       
         
           
-            <h3 id="驱动需求"><a href="#驱动需求" class="headerlink" title="驱动需求:"></a>驱动需求:</h3><p>最近做了一段时间教程，发现做的网站打开非常慢，打开单张图片的属性一看，竟然每张都1-2M，网站打开不满才有问题呢？于是在网上找批量压缩图片的软件。</p>
-<p>功夫不负有心人，终于找到了 imagemagick</p>
-<p>先来看看 ImageMagick 能做些什么：<br>1、批量旋转、分割，并顺序编号<br>2、自动批量切除白边（auto-crop）<br>3、自动倾斜校正（deskew）<br>4、批量加标注<br>5、批量去标注<br>6、批量加水印<br>7、批量去水印<br>一、最基本的格式转换<br>下面，我将结合与扫书制书有关的图像操作，来说明 IM 的用法。</p>
-<p>前面已经说过，IM 由一组命令行工具组成，具体来说也就是 convert、mogrify、composite、montage、identify、compare、display、animate、stream、import 和 conjure，这 11 个命令。</p>
-<p>其中最常用的，是 convert 和 mogrify。</p>
-<p>1、将 a.gif 转为 png 格式<br>    convert a.gif a.png<br>请注意，convert 命令的基本格式为<br>    convert 源文件 [参数] 目标文件<br>在上面的命令中，源文件是 a.gif，目标文件是 a.png。由于这是最简单的格式转换，所以不需要中间的参数。<br>convert 常用于单个文件的转换。上面的命令是它最基本的用法。</p>
-<p>前面说过 IM 支持超过 100 种的文件格式。<br>下面的命令，可以列出 IM 所支持的所有格式：<br>    identify -list format</p>
-<p>2、批量文件的格式转换</p>
-<pre><code>mogrify -path newdir -format png  *.gif
-</code></pre><p>这个命令的作用，是将当前目录下的所有 gif 文件，转换为 png 格式，并将其存放在 newdir 目录下。</p>
-<p>mogrify 是用于批量处理文件的命令。它的基本格式是这样的：<br>    mogrify 参数 源文件<br>mogrify 支持基本的通配符，例如你可以用 a*.png 指代所有以 a 打头的 png 文件，诸如此类。</p>
-<p>再回到刚才的命令：</p>
-<pre><code>mogrify -path newdir -format png  *.gif
-</code></pre><p>这里的 -path 和 -format 是两个可选择的参数。<br>-format 指定输出的文件格式，而 -path 则指定输出的文件目录。</p>
-<p>我在这里先强调一下：如果不加 -path 参数的话，mogrify 有可能会覆盖你的源文件，因此强烈推荐在每个 mogrify 命令里都加上 -path 参数，并在执行之前，先检查整个命令正确性。</p>
-<p>二、图像的缩放：使用 -resize<br>IM 有好几种缩放图像的方法，在这里我只讲最基本的 resize 命令。</p>
-<p>将一个200x304大小的图像缩小为100x152（长宽各缩短一半）。</p>
-<pre><code>convert page200.png -resize 100x152 page100.png
-</code></pre><p>上面的 100x152，指定了目标文件的长和宽。</p>
-<p>你也可以只指定目标文件宽度，这样它的高度会等比例放大：</p>
-<pre><code>convert page200.png -resize 100 page100.png
-</code></pre><p>或者只指定高度：</p>
-<pre><code>convert page200.png -resize x152 page100.png
-</code></pre><p>以上三句命令，其结果都是一样的。</p>
-<p>你可以用 identify 命令来显示图像的尺寸以及其它一些信息：<br>    identify page100.png<br>其结果为：</p>
-<p>page100.png PNG 100x152 100x152+0+0 8-bit DirectClass 17.9kb</p>
-<p>最后，你还可以通过指定百分比来缩放图像：</p>
-<pre><code>convert page200.png -resize 50% page100.png
-convert page200.png -resize 150% page300.png
-</code></pre><p>批量缩放图像</p>
-<pre><code>mogrify -path newdir -resize 200% *.png
-</code></pre><p>这句命令的意思是将当前目录中所有的 png 文件都放大一倍，并存放到 newdir 目录中。</p>
-<h3 id="改进"><a href="#改进" class="headerlink" title="改进"></a>改进</h3><p> 就这样一行命令就实现了图片的压缩，试了一下，大概压缩到200K左右，清晰度还能满足要求。<br> 但是，这样的命令行只能进行当前文件夹的图片压缩。和linux -R 递归参数并不匹配。<br> 最后用 Bash程序解决<br> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"> #!/bin/bash</span><br><span class="line">echo &quot;resize image who is bigger than 200k&quot;;</span><br><span class="line">for i in `find . -size +200k`;</span><br><span class="line">do</span><br><span class="line">convert $i -resize 40% $i;</span><br><span class="line">echo &quot;resize image $i to 40%&quot;;</span><br><span class="line">done</span><br></pre></td></tr></table></figure></p>
-<p>只能说，编程让生活如此简单！</p>
-<p>有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/批量缩小图片/瓦力.jpeg" alt=""></p>
+            <h3 id="瓦力币的含义"><a href="#瓦力币的含义" class="headerlink" title="瓦力币的含义"></a>瓦力币的含义</h3><p>红色：比赛<br>绿色：团队<br>蓝色：动手<br>黄色：语言<br>紫色：全勤</p>
+<h3 id="遥控板连接"><a href="#遥控板连接" class="headerlink" title="遥控板连接"></a>遥控板连接</h3><p>6按键遥控接收板印有红框内标记的 ”瓦力工厂“ 字样！接收板连接到接收板的 “RXD” 引脚位置</p>
+<p><img src="/2018/12/18/瓦力工厂/日积月累/瓦力.jpeg" alt=""></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/每日点滴/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/18/瓦力工厂/每日点滴/" class="post-title-link" itemprop="http://yoursite.com/page/3/index.html">每日点滴</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Post created: 2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Updated at: 2018-11-10 09:58:00" itemprop="dateModified" datetime="2018-11-10T09:58:00+08:00">2018-11-10</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="在Markdown中插入代码块"><a href="#在Markdown中插入代码块" class="headerlink" title="在Markdown中插入代码块"></a>在Markdown中插入代码块</h3><figure class="highlight plain"><figcaption><span>[title] [] [url] [link text]</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">code snippet</span><br></pre></td></tr></table></figure>
+<h4 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(&apos;Hello World!&apos;);</span><br></pre></td></tr></table></figure>
+<h4 id="另一种常用"><a href="#另一种常用" class="headerlink" title="另一种常用"></a>另一种常用</h4><p>三个反引号</p>
+<h4 id="例子-1"><a href="#例子-1" class="headerlink" title="例子"></a>例子</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#/bin/python3</span><br><span class="line">print&#123;&quot;helloworld&quot;&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="在markdown-插入公式"><a href="#在markdown-插入公式" class="headerlink" title="在markdown 插入公式"></a>在markdown 插入公式</h3><p>Hexo 输入数学公式主要通过MathJax 渲染LaTeX 公式实现的，具体开启步骤以及简要语法介绍如下。</p>
+<h4 id="安装配置"><a href="#安装配置" class="headerlink" title="安装配置"></a>安装配置</h4><p>在next 主题配置文件_config.yaml 中找到 MathJax 选项，将enable 改成 true 即可：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">MathJax Support</span><br><span class="line">mathjax:</span><br><span class="line">    enable: true</span><br><span class="line">    per_page: false</span><br><span class="line">    cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML</span><br></pre></td></tr></table></figure></p>
+<h4 id="页面插入"><a href="#页面插入" class="headerlink" title="页面插入"></a>页面插入</h4><p>页面插入公式有两种形式，一是行内插入公式不居中显示：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$公式$</span><br></pre></td></tr></table></figure></p>
+<p>例如$E=mc^2$$</p>
+<p>第二种是行间插入公式，居中显示：<br>例如$$S=\pi*r^2$$</p>
+<h4 id="语法公式"><a href="#语法公式" class="headerlink" title="语法公式"></a>语法公式</h4><p>[公式]<a href="https://www.jianshu.com/p/e4d4433d418a%}" target="_blank" rel="noopener">https://www.jianshu.com/p/e4d4433d418a%}</a><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br></pre></td><td class="code"><pre><span class="line">语法公式</span><br><span class="line">关于公式的语法格式，主要有以下常用：</span><br><span class="line"></span><br><span class="line">上下标</span><br><span class="line">^ 表示上标，_ 表示下标。</span><br><span class="line"></span><br><span class="line">$$a_&#123;1&#125; x^&#123;2&#125; $$</span><br><span class="line">$$e^&#123;-\alpha t&#125; $$</span><br><span class="line">$$a^&#123;i&#125;_&#123;ij&#125;$$</span><br><span class="line">$$e^&#123;x^2&#125; \neq &#123;e^x&#125;^2$$</span><br><span class="line">$$a_&#123;1&#125;$$</span><br><span class="line"></span><br><span class="line">$$x^&#123;2&#125;$$</span><br><span class="line">$$e^&#123;-\alpha t&#125;$$</span><br><span class="line">$$a^&#123;i&#125;_&#123;ij&#125;$$</span><br><span class="line">$$e&#123;x2&#125; \neq &#123;ex&#125;2$$</span><br><span class="line"></span><br><span class="line">此外，如果左右两边都有上下标，则使用 \sideset 命令，效果如下：</span><br><span class="line"></span><br><span class="line">\sideset&#123;^xy&#125;&#123;^xy&#125;\bigotimes</span><br><span class="line">$$\sideset&#123;xy&#125;&#123;xy&#125;\bigotimes$$</span><br><span class="line"></span><br><span class="line">平方根</span><br><span class="line">平方根输入命令为 \sqrt，n次方根命令为 \sqrt[n]，其符号大小由LaTeX 自动给定：</span><br><span class="line"></span><br><span class="line">$$\sqrt&#123;x&#125;$$ $$\sqrt&#123;x^2+\sqrt&#123;y&#125;$$ $$\sqrt[3]&#123;2&#125;$$</span><br><span class="line">$$\sqrt&#123;x&#125;$$</span><br><span class="line"></span><br><span class="line">$$ \sqrt&#123;x^2+\sqrt&#123;y&#125;&#125;$$</span><br><span class="line"></span><br><span class="line">$$\sqrt[3]&#123;2&#125;$$</span><br><span class="line"></span><br><span class="line">水平线</span><br><span class="line">使用 \overline 和 \underline 分别在表达式上下方画出水平线：</span><br><span class="line"></span><br><span class="line">$$\overline&#123;m + n&#125;$$</span><br><span class="line">$$\underline&#123;m + n&#125;$$</span><br><span class="line">$$\overline&#123;m + n&#125;$$</span><br><span class="line">$$\underline&#123;m + n&#125;$$</span><br><span class="line"></span><br><span class="line">水平大括号</span><br><span class="line">命令 \overbrace 和 \underrace，效果如下：</span><br><span class="line"></span><br><span class="line">$$\underbrace&#123;a+b+\cdots+z&#125;$$</span><br><span class="line">$$\overbrace&#123;a+b+\cdots+z&#125;$$</span><br><span class="line">$$\overbrace&#123;a+b+\cdots+z&#125;$$</span><br><span class="line"></span><br><span class="line">$$\underbrace&#123;a+b+\cdots+z&#125;$$</span><br><span class="line"></span><br><span class="line">矢量</span><br><span class="line">矢量的命令是 \vec，用于单个字母的向量表示。\overrightarrow 和\overleftarrow 分别表示向右和向左的向量箭头：</span><br><span class="line"></span><br><span class="line">$$\vec&#123;a&#125;$$</span><br><span class="line">$$\overrightarrow&#123;AB&#125;$$</span><br><span class="line">$$\overleftarrow&#123;BA&#125;$$</span><br><span class="line">$$\vec&#123;a&#125;$$</span><br><span class="line">$$\overrightarrow&#123;AB&#125;$$</span><br><span class="line">$$\overleftarrow&#123;BA&#125;$$</span><br><span class="line"></span><br><span class="line">分数</span><br><span class="line">分数使用 \frac&#123;...&#125;&#123;...&#125; 进行排版：</span><br><span class="line"></span><br><span class="line">$$1\frac&#123;1&#125;&#123;2&#125;$$</span><br><span class="line">$$\frac&#123;x^2&#125;&#123;k+1&#125;$$</span><br><span class="line">$$x^&#123;1/2&#125;$$</span><br><span class="line">$$1\frac&#123;1&#125;&#123;2&#125;$$</span><br><span class="line">$$\frac&#123;x^2&#125;&#123;k+1&#125;$$</span><br><span class="line">$$x^&#123;1/2&#125;$$</span><br><span class="line"></span><br><span class="line">积分运算符</span><br><span class="line">积分运算符使用 \int 生成。求和运算符使用 \sum 生成。乘积运算符使用 \prod 生成。上下限使用^ 和_ 命令，类似 上下标：</span><br><span class="line"></span><br><span class="line">$$\sum_&#123;i=1&#125;^&#123;n&#125;$$</span><br><span class="line">$$\int_&#123;0&#125;^&#123;\frac&#123;\pi&#125;&#123;2&#125;&#125;$$</span><br><span class="line">$$\prod_\epsilon$$</span><br><span class="line">$$\sum_&#123;i=1&#125;^&#123;n&#125;$$</span><br><span class="line">$$\int_&#123;0&#125;^&#123;\frac&#123;\pi&#125;&#123;2&#125;&#125;$$</span><br><span class="line">$$\prod_\epsilon$$</span><br><span class="line"></span><br><span class="line">希腊字母</span><br><span class="line">$\alpha$ \alpha $\beta$ \beta $\gamma$ \gamma $\delta$ \delta $\epsilon$ \epsilon</span><br><span class="line"></span><br><span class="line">字体转换</span><br><span class="line">要对公式的某一部分字符进行字体转换，可以用&#123;\rm需转换的部分字符&#125;命令，其中\rm可以参照下表选择合适的字体。</span><br><span class="line">一般情况下，公式默认为意大利体。</span><br><span class="line"></span><br><span class="line">\rm 罗马体 \rm test \it 意大利体 \it test</span><br><span class="line"></span><br><span class="line">\bf 黑体 \bf test \cal 花体 \cal test</span><br><span class="line"></span><br><span class="line">\sl 倾斜体 \sl test \sf 等线体 \sf test</span><br><span class="line"></span><br><span class="line">\mit 数学斜体 \mit test \tt 打字机字体 \tt test</span><br><span class="line"></span><br><span class="line">\sc 小体大写字母 \sc test</span><br></pre></td></tr></table></figure></p>
+<p><img src="/2018/12/18/瓦力工厂/每日点滴/瓦力.jpeg" alt=""></p>
 
           
         
@@ -802,172 +934,6 @@ convert page200.png -resize 150% page300.png
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/第1课小猫学步/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/18/瓦力工厂/第1课小猫学步/" class="post-title-link" itemprop="http://yoursite.com/page/3/index.html">趣味编程第1课-小猫学步</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Veröffentlicht am</span>
-              
-
-              
-                
-              
-
-              <time title="Post created: 2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Updated at: 2018-11-03 09:14:28" itemprop="dateModified" datetime="2018-11-03T09:14:28+08:00">2018-11-03</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <hr>
-<p>当我们已经安装好了软件。此时是全英文的，我们可以点击这个小宇宙切换成简体中文。所以一定要小朋友要好好学英语，这样我们就可以不用切换啦！<br><img src="/2018/12/18/瓦力工厂/第1课小猫学步/001.png" alt=""><br>现在我们来介绍下Scratch软件每个区块的作用和名字，区块名字记不住没关系的，只要知道每个区块是做什么的就可以啦！<br><img src="/2018/12/18/瓦力工厂/第1课小猫学步/002.png" alt=""><br>菜单-是我们保存文件和打开文件的地方；</p>
-<p>控制按钮-小绿旗是开始，红色圆圈是停止；</p>
-<p>工具箱-可以放大和缩小我们的角色；</p>
-<p>舞台区-就是我们动画和游戏展示的地方；</p>
-<p>新建角色按钮-我们可以建立我们自己喜欢的角色；</p>
-<p>角色列表区-我们可以看到我们有哪些角色；</p>
-<p>程序区块-是我们最重要的地方了，我们需要后面慢慢学习；</p>
-<p>脚本区-是我们的做的程序。</p>
-<p>通过这些枯燥的解释以后，我们就要进入后面的有趣环节了。</p>
-<p>一只不会走路的小猫，要小朋友动脑筋来让它学会走路。</p>
-<p>我们一起来看看最终我们要做成的样子，一只小猫咪在我们的编程下学会了走路。</p>
-<p>是不是太棒啦！！！<br><img src="/2018/12/18/瓦力工厂/第1课小猫学步/003.png" alt=""><br>首先我们添加动作，开始我们编程的第一步，『移动10步』。<br>可是，要不断的点击移动1步，移动1步，小猫咪才会行走，感觉是被老师拖着走的，不是自己在走的，而且老师点击的也有点点累了。<br>老师想让小猫咪自己走起了，不用老师每次去点击一次它才走一步，那么我们就要用一个很关键的程序部分了，那就是重复（循环）。就像我们学习一样要不断的重复才能记住。<img src="/2018/12/18/瓦力工厂/第1课小猫学步/004.png" alt=""><br>小猫能一次走很远了，但是好像小猫的动作很不自然，下面我们就让小猫走的自然一点<br><img src="/2018/12/18/瓦力工厂/第1课小猫学步/005.png" alt=""><br>好的这样我们的第一课『小猫学步』就完成了。现在小朋友可以在回到最开始看看我们的做的程序是不是和老师最开始的视频一样的效果。<br>如果不是看看是不是哪里有什么小问题，还是你又改进什么和新发现。<br>可以给老师留言哟！我们一起学习和进步。<br><img src="/2018/12/18/瓦力工厂/第1课小猫学步/瓦力.jpeg" alt=""></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/Scratch 简介/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1139,7 +1105,7 @@ convert page200.png -resize 150% page300.png
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/第3课-新年到!下雪了/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/第1课小猫学步/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="王俊杰">
@@ -1159,7 +1125,7 @@ convert page200.png -resize 150% page300.png
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2018/12/18/瓦力工厂/第3课-新年到!下雪了/" class="post-title-link" itemprop="http://yoursite.com/page/3/index.html">趣味编程第3课-新年到!下雪了</a>
+                <a href="/2018/12/18/瓦力工厂/第1课小猫学步/" class="post-title-link" itemprop="http://yoursite.com/page/3/index.html">趣味编程第1课-小猫学步</a>
               
             
           </h1>
@@ -1201,7 +1167,7 @@ convert page200.png -resize 150% page300.png
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Updated at: 2018-11-03 09:14:22" itemprop="dateModified" datetime="2018-11-03T09:14:22+08:00">2018-11-03</time>
+                <time title="Updated at: 2018-11-03 09:14:28" itemprop="dateModified" datetime="2018-11-03T09:14:28+08:00">2018-11-03</time>
               
             
           </span>
@@ -1236,13 +1202,19 @@ convert page200.png -resize 150% page300.png
       
         
           
-            <h3 id="一、任务描述"><a href="#一、任务描述" class="headerlink" title="一、任务描述"></a>一、任务描述</h3><p>冬天来了,只见雪花纷纷扬扬地从空中飘下来。雪花落在小树上，小树好像穿上雪白的新衣。雪花落在屋顶上，屋顶好像戴上了雪白的帽子。雪花落在大地上，大地好像盖上了雪白的羊毛毯。要求用动画实现下雪的场景。<br><img src="/2018/12/18/瓦力工厂/第3课-新年到!下雪了/001.png" alt=""></p>
-<h3 id="二、任务目的"><a href="#二、任务目的" class="headerlink" title="二、任务目的"></a>二、任务目的</h3><p>　 1、让大家能够结合我们身边的事物来进行创作，巩固学习编程知识。</p>
-<p>　　2、scratch中克隆体个数是有限的，不能无限制的克隆</p>
-<p>　　3、学习私有变量的创建以及结合克隆体的使用。</p>
-<p>　　4、面对某些不好实现的效果我们需要通过转换思维的办法来解决问题。<br><img src="/2018/12/18/瓦力工厂/第3课-新年到!下雪了/002.png" alt=""></p>
-<h3 id="三、任务分析"><a href="#三、任务分析" class="headerlink" title="三、任务分析"></a>三、任务分析</h3><p>　　1、初级挑战：只需要会使用克隆与随机数即可。在scratch中“克隆”与“当作为克隆体启动时”经常是配合使用，我们通过重复执行，来不断的克隆雪花。在每个克隆体启动时我们设置一下克隆体的大小和位置，然后再通过重复执行，改变克隆体的y坐标就实现了雪花下落效果。<br>2、中级挑战：要求雪花能够落在屋顶、车、路面。这里只要在雪花下落的过程中增加一个侦测的判断条件，只要克隆体碰到车或房子或者路面（路面用颜色来判断），就停止克隆体移动。</p>
-<p>在scratch中克隆体的个数是有限的，你慢慢会发现，雪花会变得越来越少，为了不让雪停下来，我们使用“图章”把克隆的雪花留在舞台上，然后删除克隆体，这样就不会因为克隆体达到上限而停止了。<br><img src="/2018/12/18/瓦力工厂/第3课-新年到!下雪了/瓦力.jpeg" alt=""></p>
+            <hr>
+<p>当我们已经安装好了软件。此时是全英文的，我们可以点击这个小宇宙切换成简体中文。所以一定要小朋友要好好学英语，这样我们就可以不用切换啦！<br><img src="/2018/12/18/瓦力工厂/第1课小猫学步/001.png" alt=""><br>现在我们来介绍下Scratch软件每个区块的作用和名字，区块名字记不住没关系的，只要知道每个区块是做什么的就可以啦！<br><img src="/2018/12/18/瓦力工厂/第1课小猫学步/002.png" alt=""><br>菜单-是我们保存文件和打开文件的地方；</p>
+<p>控制按钮-小绿旗是开始，红色圆圈是停止；</p>
+<p>工具箱-可以放大和缩小我们的角色；</p>
+<p>舞台区-就是我们动画和游戏展示的地方；</p>
+<p>新建角色按钮-我们可以建立我们自己喜欢的角色；</p>
+<p>角色列表区-我们可以看到我们有哪些角色；</p>
+<p>程序区块-是我们最重要的地方了，我们需要后面慢慢学习；</p>
+<p>脚本区-是我们的做的程序。</p>
+<p>通过这些枯燥的解释以后，我们就要进入后面的有趣环节了。</p>
+<p>一只不会走路的小猫，要小朋友动脑筋来让它学会走路。</p>
+<p>我们一起来看看最终我们要做成的样子，一只小猫咪在我们的编程下学会了走路。</p>
+<p>是不是太棒啦！！！<br><img src="/2018/12/18/瓦力工厂/第1课小猫学步/003.png" alt=""><br>首先我们添加动作，开始我们编程的第一步，『移动10步』。<br>可是，要不断的点击移动1步，移动1步，小猫咪才会行走，感觉是被老师拖着走的，不是自己在走的，而且老师点击的也有点点累了。<br>老师想让小猫咪自己走起了，不用老师每次去点击一次它才走一步，那么我们就要用一个很关键的程序部分了，那就是重复（循环）。就像我们学习一样要不断的重复才能记住。<img src="/2018/12/18/瓦力工厂/第1课小猫学步/004.png" alt=""><br>小猫能一次走很远了，但是好像小猫的动作很不自然，下面我们就让小猫走的自然一点<br><img src="/2018/12/18/瓦力工厂/第1课小猫学步/005.png" alt=""><br>好的这样我们的第一课『小猫学步』就完成了。现在小朋友可以在回到最开始看看我们的做的程序是不是和老师最开始的视频一样的效果。<br>如果不是看看是不是哪里有什么小问题，还是你又改进什么和新发现。<br>可以给老师留言哟！我们一起学习和进步。<br><img src="/2018/12/18/瓦力工厂/第1课小猫学步/瓦力.jpeg" alt=""></p>
 
           
         
@@ -1397,6 +1369,166 @@ convert page200.png -resize 150% page300.png
         
           
             <p>新年到了,用Scratch制作一张贺卡,来表达自己的喜悦心情吧!<br><img src="/2018/12/18/瓦力工厂/趣味编程第4课-制作贺卡/001.png" alt=""><br>贺卡角色比较多,截图一个角色的程序<br><img src="/2018/12/18/瓦力工厂/趣味编程第4课-制作贺卡/002.png" alt=""><br>角色列表<br><img src="/2018/12/18/瓦力工厂/趣味编程第4课-制作贺卡/003.png" alt=""><br><img src="/2018/12/18/瓦力工厂/趣味编程第4课-制作贺卡/瓦力.jpeg" alt=""></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/第3课-新年到!下雪了/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/18/瓦力工厂/第3课-新年到!下雪了/" class="post-title-link" itemprop="http://yoursite.com/page/3/index.html">趣味编程第3课-新年到!下雪了</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Post created: 2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Updated at: 2018-11-03 09:14:22" itemprop="dateModified" datetime="2018-11-03T09:14:22+08:00">2018-11-03</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="一、任务描述"><a href="#一、任务描述" class="headerlink" title="一、任务描述"></a>一、任务描述</h3><p>冬天来了,只见雪花纷纷扬扬地从空中飘下来。雪花落在小树上，小树好像穿上雪白的新衣。雪花落在屋顶上，屋顶好像戴上了雪白的帽子。雪花落在大地上，大地好像盖上了雪白的羊毛毯。要求用动画实现下雪的场景。<br><img src="/2018/12/18/瓦力工厂/第3课-新年到!下雪了/001.png" alt=""></p>
+<h3 id="二、任务目的"><a href="#二、任务目的" class="headerlink" title="二、任务目的"></a>二、任务目的</h3><p>　 1、让大家能够结合我们身边的事物来进行创作，巩固学习编程知识。</p>
+<p>　　2、scratch中克隆体个数是有限的，不能无限制的克隆</p>
+<p>　　3、学习私有变量的创建以及结合克隆体的使用。</p>
+<p>　　4、面对某些不好实现的效果我们需要通过转换思维的办法来解决问题。<br><img src="/2018/12/18/瓦力工厂/第3课-新年到!下雪了/002.png" alt=""></p>
+<h3 id="三、任务分析"><a href="#三、任务分析" class="headerlink" title="三、任务分析"></a>三、任务分析</h3><p>　　1、初级挑战：只需要会使用克隆与随机数即可。在scratch中“克隆”与“当作为克隆体启动时”经常是配合使用，我们通过重复执行，来不断的克隆雪花。在每个克隆体启动时我们设置一下克隆体的大小和位置，然后再通过重复执行，改变克隆体的y坐标就实现了雪花下落效果。<br>2、中级挑战：要求雪花能够落在屋顶、车、路面。这里只要在雪花下落的过程中增加一个侦测的判断条件，只要克隆体碰到车或房子或者路面（路面用颜色来判断），就停止克隆体移动。</p>
+<p>在scratch中克隆体的个数是有限的，你慢慢会发现，雪花会变得越来越少，为了不让雪停下来，我们使用“图章”把克隆的雪花留在舞台上，然后删除克隆体，这样就不会因为克隆体达到上限而停止了。<br><img src="/2018/12/18/瓦力工厂/第3课-新年到!下雪了/瓦力.jpeg" alt=""></p>
 
           
         
@@ -1746,160 +1878,6 @@ convert page200.png -resize 150% page300.png
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/第5课-成语猜猜看/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/18/瓦力工厂/第5课-成语猜猜看/" class="post-title-link" itemprop="http://yoursite.com/page/3/index.html">趣味编程第5课-成语猜猜看</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Veröffentlicht am</span>
-              
-
-              
-                
-              
-
-              <time title="Post created: 2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Updated at: 2018-11-03 09:14:14" itemprop="dateModified" datetime="2018-11-03T09:14:14+08:00">2018-11-03</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>通过第四课的学习，相信小朋友们对 <em>运动</em>、<em>外观</em> 、<em>事件</em> 、<em>侦测</em> 等积木模块有了更深一步的了解。下面通过一款微信上流行的小程序继续向大家介绍 <em>侦测</em> <em>数据</em> <em>运算</em> <em>声音</em> 等积木模块。<br><img src="/2018/12/18/瓦力工厂/第5课-成语猜猜看/001.png" alt=""><br>成语是我国汉字语言词汇中一部分定型的词组和短语。成语有固定的结构形式和固定的说法。表示一定的意义在语句中是作为一个整体来应用的。成语有很大一部分是从古代。形成沿用下来的再用词语方面往往不同与现代汉语。它代表了一个故事和典故。成语又是一种现成的话，跟习用语言语向近也略有区别。<br><img src="/2018/12/18/瓦力工厂/第5课-成语猜猜看/002.png" alt=""><br>主要程序代码如图所示，巧妙地利用角色的造型进行程序图片之间的切换，用链表把成语的图片与意义相关联。答对的话有音乐提示与金币奖励。切换到下一个成语，并且所过的关卡加一。用变量 <em>关名</em> 存储并显示所过的关数，用变量 <em>金钱</em> 来存储并显示所获得的金币数。<br><img src="/2018/12/18/瓦力工厂/第5课-成语猜猜看/003.png" alt=""><br>小朋友，你会做吧，记得加老师微信并与老师互动讨论哟，你还想加入什么你的功能呢？和老师一起进步吧！<br><img src="/2018/12/18/瓦力工厂/第5课-成语猜猜看/瓦力.jpeg" alt=""></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -1947,7 +1925,7 @@ convert page200.png -resize 150% page300.png
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">54</span>
+                    <span class="site-state-item-count">55</span>
                     <span class="site-state-item-name">Artikel</span>
                   </a>
                 </div>
