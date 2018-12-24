@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-CN">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=6.5.0" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.5.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.5.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.5.0">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=6.5.0" color="#222">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '6.5.0',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="条件循环能够让程序在条件成立时（即为真时）重复执行循环体中的语句。如果条件一直成立（即永远不会为假），则循环会一直进行下去，不会停止。如果初始时，条件不成立，则循环 1 次也不会执行。Python 中条件循环使用 while 关键字来实现。 看下面这段示例代码， 123456789101112import turtleturtle.shape(&amp;quot;turtle&amp;quot;)turtle.s">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Python零基础快速入门趣味教程007-条件循环">
+<meta property="og:url" content="http://yoursite.com/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程007/index.html">
+<meta property="og:site_name" content="瓦力工厂-编程训练营">
+<meta property="og:description" content="条件循环能够让程序在条件成立时（即为真时）重复执行循环体中的语句。如果条件一直成立（即永远不会为假），则循环会一直进行下去，不会停止。如果初始时，条件不成立，则循环 1 次也不会执行。Python 中条件循环使用 while 关键字来实现。 看下面这段示例代码， 123456789101112import turtleturtle.shape(&amp;quot;turtle&amp;quot;)turtle.s">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="http://yoursite.com/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程007/001.png">
+<meta property="og:image" content="http://yoursite.com/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程007/002.png">
+<meta property="og:image" content="http://yoursite.com/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程007/003.png">
+<meta property="og:updated_time" content="2018-12-21T07:29:35.622Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Python零基础快速入门趣味教程007-条件循环">
+<meta name="twitter:description" content="条件循环能够让程序在条件成立时（即为真时）重复执行循环体中的语句。如果条件一直成立（即永远不会为假），则循环会一直进行下去，不会停止。如果初始时，条件不成立，则循环 1 次也不会执行。Python 中条件循环使用 while 关键字来实现。 看下面这段示例代码， 123456789101112import turtleturtle.shape(&amp;quot;turtle&amp;quot;)turtle.s">
+<meta name="twitter:image" content="http://yoursite.com/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程007/001.png">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="瓦力工厂-编程训练营" type="application/atom+xml" />
+
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程007/"/>
+
+
+
+<script type="text/javascript" id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>Python零基础快速入门趣味教程007-条件循环 | 瓦力工厂-编程训练营</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">瓦力工厂-编程训练营</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+      
+        <p class="site-subtitle">Scratch编程 Ardunio机器人搭建 Python自动化</p>
+      
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-about">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br />关于</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br />分类</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
+
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+    
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程007/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">Python零基础快速入门趣味教程007-条件循环
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-12-21 15:29:35" itemprop="dateCreated datePublished" datetime="2018-12-21T15:29:35+08:00">2018-12-21</time>
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>条件循环能够让程序在条件成立时（即为真时）重复执行循环体中的语句。如果条件一直成立（即永远不会为假），则循环会一直进行下去，不会停止。如果初始时，条件不成立，则循环 1 次也不会执行。Python 中条件循环使用 while 关键字来实现。</p>
+<p>看下面这段示例代码，</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line"></span><br><span class="line">turtle.shape(&quot;turtle&quot;)</span><br><span class="line">turtle.speed(0)</span><br><span class="line">def forward(max_distance):</span><br><span class="line">    distance = 0</span><br><span class="line">    step = 1</span><br><span class="line">    while distance &lt; max_distance:</span><br><span class="line">        turtle.forward(step)</span><br><span class="line">        distance += step</span><br><span class="line">forward(100)</span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+<p>函数 forward 实现的功能和原版的 turtle.forward 是一样的，但这里我们是借助条件循环来实现的。</p>
+<p><img src="/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程007/001.png" alt=""></p>
+<p>第 5 行 turtle.speed(0) 设置海龟爬行的速度。速度的取值为 [0, 10]。当取值在 [1, 10] 之间时，数值越大，绘图的速度就越快。当取值为 0 时，海龟将以最快的速度绘图。这里，我们让海龟以最快的速度爬行。因为，在我们自定义的 forward 函数中（第 8-13 行），我们要让海龟移动很多步，但每次只移动 1 个很小的距离，为了尽快看到最终绘图的效果，我们得让海龟爬得快一些。</p>
+<p>第 8 行 def forward(max_distance): 声明 forward 函数，它有 1 个参数 max_distance。这个函数要实现的功能是，让海龟一直爬行，直到海龟总的爬行距离达到（或超过） max_distance 时才停止爬行。</p>
+<p>第 9 行 distance = 0 变量 distance 用于记录当前海龟已经累计爬行了多远的距离。初始时，海龟还没有开始爬行，因此 distance 的初始值为 0。</p>
+<p>第 10 行 step = 1 设置海龟爬行的步长，即每 1 步要爬多远的距离。</p>
+<p>第 11-13 行是用 while 语句实现的条件循环，其中第 11 行， while distance &lt; max_distance: 指明了循环条件为  distance &lt; max_distance 即，当海龟累计爬行距离 (distance) 小于规定的最大爬行距离 (max_distance) 时，执行循环体中的语句（第 12, 13 行）。</p>
+<p>第 12, 13 行是循环体，其中第 12 行 turtle.forward(step) 让海龟以指定步长 step 前进一小段距离。第 13 行 distance += step 这是一种简写的形式，它等价于 distance = distance + step ，即将海龟刚才（第 12 行）爬行的那一小段距离累加到 distance 变量中。类似 for 循环，while 循环的循环体（第 12, 13 行）也要比 while  语句所在的行（第 11 行），向右缩进一些，通常我们用连续的 4 个空格来表示一级的缩进。</p>
+<p>不过，现在的 forward 跟原版的 turtle.forward 效果是一样的，没啥意思，瓦力博士把代码改进一下，让它变得好玩一些。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">import turtle</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">turtle.shape(&quot;turtle&quot;)</span><br><span class="line">turtle.speed(0)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def forward(max_distance, max_radius):</span><br><span class="line">    distance = 0</span><br><span class="line">    step = 1</span><br><span class="line">    while distance &lt; max_distance:</span><br><span class="line">        if turtle.distance(0,0) &gt;= max_radius:</span><br><span class="line">            angle = turtle.towards(0,0)</span><br><span class="line">            turtle.setheading(angle)</span><br><span class="line">        turtle.forward(step)</span><br><span class="line">        distance += step</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">forward(550, 100)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+<p>再次运行程序，你会看到海龟在一条直线上折返爬行。</p>
+<p><img src="/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程007/002.png" alt=""></p>
+<p>第 8 行 def forward(max_distance, max_radius): 我们为 forward 函数引入了一个新的参数 max_radius。后面，我们要实现的功能是当海龟离开原点的距离达到（或超过） max_radius 时，就调头往回爬，即往复爬行。</p>
+<p>实现往复爬行对应的代码在第 12-14 行。</p>
+<p>第 12 行 if turtle.distance(0,0) &gt;= max_radius: ，其中 turtle.distance(0,0) 返回的是海龟与原点 (0, 0) 的距离。因此，当海龟与原点的距离达到或超过 max_radius 时，if 条件成立，程序将执行相应的语句（第 13, 14 行）。</p>
+<p>第 13 行 angle = turtle.towards(0,0) ，其中  turtle.towards(0,0) 返回的是海龟朝向原点 (0, 0) 的角度。计算角度时，水平向右为 0 度，逆时针方向为角度增大的方向。</p>
+<p>第 14 行 turtle.setheading(angle) 直接设定海龟的朝向，由于前面（第 13 行），将 angle 的值设置为海龟朝向原点的角度，所以这里经过 setheading 设置之后，海龟将朝向原点的方向。因此，后面再调用 turtle.forward  （第 15 行），海龟就会往原点的方向移动，即往回爬行。</p>
+<p>现在，海龟能够在一条直线上往复爬行，虽然比之前改进了一些，但还是显得比较单调。接下来，瓦力博士再进一步改进代码，让它变得更生动一些。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">import turtle</span><br><span class="line">import random</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">turtle.shape(&quot;turtle&quot;)</span><br><span class="line">turtle.speed(0)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def forward(max_distance, max_radius):</span><br><span class="line">    distance = 0</span><br><span class="line">    step = 1</span><br><span class="line">    while distance &lt; max_distance:</span><br><span class="line">        if turtle.distance(0,0) &gt;= max_radius:</span><br><span class="line">            angle = turtle.towards(0,0) + random.randint(-45, 45)</span><br><span class="line">            turtle.setheading(angle)</span><br><span class="line">        turtle.forward(step)</span><br><span class="line">        distance += step</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">forward(10000, 100)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+<p>运行上面的代码，你会看到海龟随机地往返爬行。刚开始，你看不出什么规律，但等它爬行一段时间之后，你会发现海龟实际上是被限制在一个圆圈当中运动。</p>
+<p><img src="/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程007/003.png" alt=""></p>
+<p>第 2 行 import random 导入 random 模块，用于生成随机数。</p>
+<p>第 14  行 angle = turtle.towards(0,0) + random.randint(-45, 45) 其中的  random.randint(-45, 45) 用于产生 [-45, 45] 之间的随机整数，将这个随机整数加到朝向原点的角度上，这样海龟就不再精确地朝向原点，而是有一个随机波动的角度。因此，海龟就不再精确地按原路返回，从而摆脱直线的束缚。</p>
+<p>但是，原来的 2 个约束依然存在：</p>
+<p>海龟离开原点的距离不能超过 max_radius（第 13 行），所以它被限制在一个圆圈中运动<br>海龟总的运动距离不能超过 max_distance （第 12 行），所以它最终会停止运动</p>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程006/" rel="next" title="Python零基础快速入门趣味教程006-条件">
+                <i class="fa fa-chevron-left"></i> Python零基础快速入门趣味教程006-条件
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/12/21/瓦力工厂/Python零基础快速入门趣味教程003/" rel="prev" title="Python零基础快速入门趣味教程003-循环">
+                Python零基础快速入门趣味教程003-循环 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+  </div>
+
+
+          </div>
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">王俊杰</p>
+              <p class="site-description motion-element" itemprop="description">点点滴滴在编程</p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">55</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  <a href="/categories/index.html">
+                    
+                    
+                      
+                    
+                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
+
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+
+          
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-block">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                Links
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://example.com" title="http://example.com" rel="noopener" target="_blank">Title</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://music.163.com/#/user/home?id=86590096" title="https://music.163.com/#/user/home?id=86590096" rel="noopener" target="_blank">网易云音乐</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://coldplay.com/" title="http://coldplay.com/" rel="noopener" target="_blank">Coldplay Official Website</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://elonmusknews.org/" title="https://elonmusknews.org/" rel="noopener" target="_blank">获取 Elon Musk 的新闻</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://www.bilibili.com/video/av6211226/" title="http://www.bilibili.com/video/av6211226/" rel="noopener" target="_blank">尼古拉·特斯拉：发明了现代世界的人</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://reuixiy.github.io/about/" title="https://reuixiy.github.io/about/" rel="noopener" target="_blank">关于此博客</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+
+          
+            
+          
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">王俊杰</span>
+
+  
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.4.4</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v6.5.0</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+	
+    
+
+    
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=6.5.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=6.5.0"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.5.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.5.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.5.0"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
