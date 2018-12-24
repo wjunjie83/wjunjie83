@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-CN">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=6.5.0" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.5.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.5.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.5.0">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=6.5.0" color="#222">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '6.5.0',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="考试安排如下，详询瓦力工厂工作人员！ 结构体在很久很久以前，当人们想要过河的时候，会在河的两岸搭一根树干。不过树干搭建的乔并不一定结实，如果树干不够粗的话，很容易在中间断开当人们需要躲避风雨的时候会躲进山洞里，但山洞也不一定安全，里面通常住着凶猛的怪兽。所以就在生活中有目的地搭建一些结构，这种为了实现某种功能而建造的物体叫做结构体，结构体通常是多个物品的连接。 钉子钉子是我们生活中最常见的连接零件">
+<meta property="og:type" content="article">
+<meta property="og:title" content="全国青少年机器人技术等级考试---基本结构">
+<meta property="og:url" content="http://yoursite.com/2018/12/18/技术等级考试/第一章基本结构/index.html">
+<meta property="og:site_name" content="瓦力工厂-编程训练营">
+<meta property="og:description" content="考试安排如下，详询瓦力工厂工作人员！ 结构体在很久很久以前，当人们想要过河的时候，会在河的两岸搭一根树干。不过树干搭建的乔并不一定结实，如果树干不够粗的话，很容易在中间断开当人们需要躲避风雨的时候会躲进山洞里，但山洞也不一定安全，里面通常住着凶猛的怪兽。所以就在生活中有目的地搭建一些结构，这种为了实现某种功能而建造的物体叫做结构体，结构体通常是多个物品的连接。 钉子钉子是我们生活中最常见的连接零件">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="http://yoursite.com/2018/12/18/技术等级考试/第一章基本结构/19年考级时间安排.png">
+<meta property="og:image" content="http://yoursite.com/2018/12/18/技术等级考试/第一章基本结构/001.jpeg">
+<meta property="og:image" content="http://yoursite.com/2018/12/18/技术等级考试/第一章基本结构/002.jpg">
+<meta property="og:image" content="http://yoursite.com/2018/12/18/技术等级考试/第一章基本结构/003.jpg">
+<meta property="og:image" content="http://yoursite.com/2018/12/18/技术等级考试/第一章基本结构/004.jpeg">
+<meta property="og:image" content="http://yoursite.com/2018/12/18/技术等级考试/第一章基本结构/005.jpeg">
+<meta property="og:image" content="http://yoursite.com/2018/12/18/技术等级考试/第一章基本结构/006.jpg">
+<meta property="og:image" content="http://yoursite.com/2018/12/18/技术等级考试/第一章基本结构/007.jpg">
+<meta property="og:image" content="http://yoursite.com/2018/12/18/技术等级考试/第一章基本结构/008.jpeg">
+<meta property="og:image" content="http://yoursite.com/2018/12/18/技术等级考试/第一章基本结构/009.jpeg">
+<meta property="og:image" content="http://yoursite.com/2018/12/18/技术等级考试/第一章基本结构/瓦力二维码.jpeg">
+<meta property="og:updated_time" content="2018-11-07T04:00:14.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="全国青少年机器人技术等级考试---基本结构">
+<meta name="twitter:description" content="考试安排如下，详询瓦力工厂工作人员！ 结构体在很久很久以前，当人们想要过河的时候，会在河的两岸搭一根树干。不过树干搭建的乔并不一定结实，如果树干不够粗的话，很容易在中间断开当人们需要躲避风雨的时候会躲进山洞里，但山洞也不一定安全，里面通常住着凶猛的怪兽。所以就在生活中有目的地搭建一些结构，这种为了实现某种功能而建造的物体叫做结构体，结构体通常是多个物品的连接。 钉子钉子是我们生活中最常见的连接零件">
+<meta name="twitter:image" content="http://yoursite.com/2018/12/18/技术等级考试/第一章基本结构/19年考级时间安排.png">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="瓦力工厂-编程训练营" type="application/atom+xml" />
+
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2018/12/18/技术等级考试/第一章基本结构/"/>
+
+
+
+<script type="text/javascript" id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>全国青少年机器人技术等级考试---基本结构 | 瓦力工厂-编程训练营</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">瓦力工厂-编程训练营</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+      
+        <p class="site-subtitle">Scratch编程 Ardunio机器人搭建 Python自动化</p>
+      
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-about">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br />关于</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br />分类</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
+
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+    
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/技术等级考试/第一章基本结构/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">全国青少年机器人技术等级考试---基本结构
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-12-18 21:10:42" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:42+08:00">2018-12-18</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-11-07 12:00:14" itemprop="dateModified" datetime="2018-11-07T12:00:14+08:00">2018-11-07</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>考试安排如下，详询瓦力工厂工作人员！<br><img src="/2018/12/18/技术等级考试/第一章基本结构/19年考级时间安排.png" alt=""></p>
+<h3 id="结构体"><a href="#结构体" class="headerlink" title="结构体"></a>结构体</h3><p>在很久很久以前，当人们想要过河的时候，会在河的两岸搭一根树干。不过树干搭建的乔并不一定结实，如果树干不够粗的话，很容易在中间断开<br><img src="/2018/12/18/技术等级考试/第一章基本结构/001.jpeg" alt=""><br>当人们需要躲避风雨的时候会躲进山洞里，但山洞也不一定安全，里面通常住着凶猛的怪兽。<br><img src="/2018/12/18/技术等级考试/第一章基本结构/002.jpg" alt=""><br>所以就在生活中有目的地搭建一些结构，<strong>这种为了实现某种功能而建造的物体叫做结构体</strong>，结构体通常是多个物品的连接。<br><img src="/2018/12/18/技术等级考试/第一章基本结构/003.jpg" alt=""></p>
+<h3 id="钉子"><a href="#钉子" class="headerlink" title="钉子"></a>钉子</h3><p>钉子是我们生活中最常见的连接零件，外观如下：<br><img src="/2018/12/18/技术等级考试/第一章基本结构/004.jpeg" alt=""><br>钉子指的是尖头状的圆形硬金属(通常是钢)，通常作为固定木头等物用。</p>
+<h3 id="螺丝"><a href="#螺丝" class="headerlink" title="螺丝"></a>螺丝</h3><p>目前在生活中连接时使用最多的是螺丝。<br><img src="/2018/12/18/技术等级考试/第一章基本结构/005.jpeg" alt=""><br>螺丝是利用其身上的斜面旋转纹路，通过旋转的形式，循序渐进地进入被固定件中的。在国定物体时，能够在省力的前提下有效的提高安全性，另外如果我们反方向旋转螺丝的话，还能够完好的将螺丝拆下来，并再次将其使用到其他地方。<br>螺丝是一种通称，可大体的分为螺丝钉与螺丝杆，螺丝钉一般叫做木螺丝，他和钉子有点像，只是螺丝的杆身上有螺旋状的纹路，一般用于紧固木板与塑料件。<br>相对于螺丝钉的另一种螺丝是螺丝杆，螺丝杆也叫机螺丝，螺丝杆前端是平头的，通常用来紧固金属机械部件。<br><img src="/2018/12/18/技术等级考试/第一章基本结构/006.jpg" alt=""><br>除了螺丝，图中还有一个六边形的零件叫做螺母，螺丝杆与螺母是配套使用的，螺母的内部有螺旋状的纹路，能够通过旋转固定在螺丝上。</p>
+<h3 id="楔和螺旋"><a href="#楔和螺旋" class="headerlink" title="楔和螺旋"></a>楔和螺旋</h3><p><strong>钉子和螺丝上其实包含了两种最基本的结构–楔和螺旋。</strong><br>楔形是斜面的应用，原指上厚下薄的小木橛，在结构上表示一头尖，一头稍粗的物品。钉子相当于圆柱形的楔形。最早的记录出现在15世纪，当时的木匠们使用木钉或金属钉子把家具和木结构的建筑物连接起来。16世纪时，欧洲最早出现了金属螺母和螺丝。制钉工人开始生产带纹路线的钉子，这些钉子能够更牢固地连接东西。那是从钉子到螺丝钉所跨出的一小步。</p>
+<p>钉子上的这种纹路叫螺旋，第一个描述螺旋的人是希腊科学家阿基米德。阿基米德螺旋是一个装在木制圆筒里的巨大螺旋物。它用来把水从一个水平提升到另一个水平，对田地进行灌溉。<br><img src="/2018/12/18/技术等级考试/第一章基本结构/007.jpg" alt=""><br>阿基米德螺旋的发明者并非阿基米德本人，他只是描述了这种已经存在的东西。阿基米德螺旋可能是由古代埃及的能工巧匠们设计并在尼罗河两岸灌溉中使用的。<br><img src="/2018/12/18/技术等级考试/第一章基本结构/008.jpeg" alt=""></p>
+<h3 id="螺丝刀与扳手"><a href="#螺丝刀与扳手" class="headerlink" title="螺丝刀与扳手"></a>螺丝刀与扳手</h3><p>在尝试拧螺丝的时候，大家可能发现虽然拧螺丝非常省力，不过，将螺丝和螺母拧紧也不太容易。要想将螺丝和螺母固定紧并需要依靠工具。钉钉子时需要使用的工具是锤子，而拧螺丝需要的工具叫螺丝刀。螺丝刀在1870年前后出现于伦敦。当时工匠们发现，用螺丝刀旋紧螺丝比用锤子敲击，能把东西固定的更好，尤其使用细纹螺丝时。<br><img src="/2018/12/18/技术等级考试/第一章基本结构/009.jpeg" alt=""><br>最开始使用的螺丝刀都是一字螺丝刀，1936年，亨利.M.飞利浦为十字头钉槽头螺丝申请了专利，同时制造了十字螺丝刀。与传统一字槽钉头螺丝不同，十字头钉头螺丝在使用螺丝刀时会自动居中，不易滑落，因此深受欢迎。<br>而固定<br><img src="/2018/12/18/技术等级考试/第一章基本结构/瓦力二维码.jpeg" alt=""></p>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/" rel="next" title="全国青少年机器人技术等级考试---一级模拟试题">
+                <i class="fa fa-chevron-left"></i> 全国青少年机器人技术等级考试---一级模拟试题
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/12/18/技术等级考试/第二章秋千/" rel="prev" title="全国青少年机器人技术等级考试---秋千">
+                全国青少年机器人技术等级考试---秋千 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+  </div>
+
+
+          </div>
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">王俊杰</p>
+              <p class="site-description motion-element" itemprop="description">点点滴滴在编程</p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">55</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  <a href="/categories/index.html">
+                    
+                    
+                      
+                    
+                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
+
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#结构体"><span class="nav-number">1.</span> <span class="nav-text">结构体</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#钉子"><span class="nav-number">2.</span> <span class="nav-text">钉子</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#螺丝"><span class="nav-number">3.</span> <span class="nav-text">螺丝</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#楔和螺旋"><span class="nav-number">4.</span> <span class="nav-text">楔和螺旋</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#螺丝刀与扳手"><span class="nav-number">5.</span> <span class="nav-text">螺丝刀与扳手</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">王俊杰</span>
+
+  
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.4.4</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v6.5.0</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+	
+    
+
+    
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=6.5.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=6.5.0"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.5.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.5.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.5.0"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
