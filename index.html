@@ -306,6 +306,180 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程001/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程001/" class="post-title-link" itemprop="http://yoursite.com/index.html">Python零基础快速入门趣味教程001-神秘朋友</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Post created: 2018-12-24 15:40:03" itemprop="dateCreated datePublished" datetime="2018-12-24T15:40:03+08:00">2018-12-24</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">in</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Python/" itemprop="url" rel="index"><span itemprop="name">Python</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>Python  自带了一个非常有趣的 海龟绘图程序 (turtle)，它是本系列课程的主角。</p>
+<p>在 终端中输入中，新建一个项目，然后在代码编辑器中输入anaconda-navigator，启动anaconda平台，在平台上点击jupyter打开jupyter-notebooks。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line">turtle.shape(&quot;turtle&quot;)</span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+<p>点击 Shift+Enter 运行这段代码，便可以召唤出这位可爱的小精灵,上面的代码中 import turtle  用于导入模块，导入之后就可以应用模块的各种功能了turtle.shape(“turtle”) 调用 turtle 的 shape 方法，用于改变海龟的显示方式（默认显示的是一个三角形的小箭头）。执行这句代码之后，turtle 显示为一只形象的小海龟。turtle.exitonclick() 最后这句是告诉海龟保持住，直到遇到鼠标点击的时候才退出 (exit on click)。不然程序执行得太快，我们还来不及看到海龟，它就已经执行完毕并退出了。</p>
+<p><img src="/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程001/001.png" alt=""></p>
+<h3 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h3><p>请不要直接复制、粘贴代码，而是要对照着代码，自己在代码编辑器中一点一点地输入<br>Python 是大小写敏感的编程语言，输入代码时，请务必细心，注意字母大小写<br>Python 相比其他高级编程语言的一个特别之处，在于强制使用缩进，请不要在每行代码的开头随意添加空白字符（空格、Tab 键等）</p>
+<p>现在小海龟位于窗体的正中央，龟头指向右边的方向。</p>
+<p>接下来，我们尝试让海龟走两步。</p>
+<p>关闭窗口（或点击窗体任何位置自动退出），将编辑器中的代码，更改为下面的样子</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line">turtle.shape(&quot;turtle&quot;)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+<p>我们看到小海龟从屏幕中心出发，沿着龟头的方向（右边），爬行（前进）了一段距离。</p>
+<p>这次的代码，跟最开始的代码并没有太多的不同，只增加了 1 条语句 turtle.forward(200) 它的意思就是让海龟沿着当前龟头的指向，前进 200 个单位的距离。<br><img src="/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程001/002.png" alt=""><br>刚才我们已经学会了如何让海龟爬行，接着我们再来看如何让海龟转身。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line">turtle.shape(&quot;turtle&quot;)</span><br><span class="line">turtle.left(45)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+<p>这一次，在海龟出发之前（位于窗体正中央，龟头向右），我们先通过 turtle.left(45) 让海龟向左（逆时针）旋转 45 度。此时，海龟仍然位于窗体正中央，但龟头指向屏幕右上方。接着，再让海龟沿着更改后的龟头方向爬行，turtle.forward(200) ，于是就就画出了指向屏幕右上方的一条线段。</p>
+<p><img src="/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程001/003.png" alt=""></p>
+<h3 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h3><p><img src="/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程001/004.png" alt=""></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line">turtle.shape(&quot;turtle&quot;)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+<p><img src="/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程001/005.png" alt=""></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line">turtle.shape(&quot;turtle&quot;)</span><br><span class="line">turtle.left(15)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(105)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(120)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/22/瓦力工厂/DPJ-051-扫地机器人/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1693,166 +1867,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/装甲车机器人/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/18/瓦力工厂/装甲车机器人/" class="post-title-link" itemprop="http://yoursite.com/index.html">装甲车机器人</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Veröffentlicht am</span>
-              
-
-              
-                
-              
-
-              <time title="Post created: 2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Updated at: 2018-11-04 16:40:23" itemprop="dateModified" datetime="2018-11-04T16:40:23+08:00">2018-11-04</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦力工程师接到一个新任务，就是为“国防部”设计装甲车。来满足国防和维稳中用装甲车反坦克、扫雷、通讯和反恐的需要。现在要求制作发射导弹的装甲车，导弹发射时的角度可以自由调整。<br><img src="/2018/12/18/瓦力工厂/装甲车机器人/001.jpg" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/002.jpg" alt=""></p>
-<h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有轮子（为什么呢？观察生活）<br>３．需要有前进、加速、减速、停止、转弯、后退的控制方法<br>４．需要有装甲车的形状、特点。<br>5.调整发射角度，利用马达导杆，控制发射角度。</p>
-<h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>装甲车是具有装甲防护的各种履带或轮式军用车辆，是装有装甲的军用或警用车辆的统称。坦克也是装甲车履带式装甲车辆的一种，但是在习惯上通常因作战用途另外独立分类，而装甲车辆多半是指防护力与火力较坦克弱的车种。<br>装甲车的特性为具有高度的越野机动性能，有一定的防护和火力作用，分为履带式和轮式两种，一般装备一至两门中小口径火炮及数挺机枪，一些还装有反坦克导弹，结构以装甲车体、武器系统、动力装置等组成。</p>
-<h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、轮子、CPU、触碰开光、LED灯、蜂鸣器，伺服马达，导杆系统<br><img src="/2018/12/18/瓦力工厂/装甲车机器人/003.jpg" alt=""></p>
-<h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.三个马达的控制方法<br>2.了解装甲车的基础知识。<br>3.了解导杆系统在控制系统角度方面的应用。</p>
-<h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_07.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_08.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_09.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_10.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_11.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_12.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_13.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_14.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_15.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_16.jpg" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_17.jpg" alt=""></p>
-<h3 id="装甲车机器人程序设计："><a href="#装甲车机器人程序设计：" class="headerlink" title="装甲车机器人程序设计："></a>装甲车机器人程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_18.jpg" alt=""><br>装甲车机器人，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/装甲车机器人/瓦力.jpeg" alt=""></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -1900,12 +1914,25 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">54</span>
+                    <span class="site-state-item-count">55</span>
                     <span class="site-state-item-name">Artikel</span>
                   </a>
                 </div>
               
 
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  
+                    
+                    
+                      
+                    
+                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-name">Kategorien</span>
+                  
+                </div>
               
 
               

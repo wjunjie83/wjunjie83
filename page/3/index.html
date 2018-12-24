@@ -306,7 +306,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/批量缩小图片/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/Go语言实用函数点滴/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="王俊杰">
@@ -326,7 +326,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2018/12/18/瓦力工厂/批量缩小图片/" class="post-title-link" itemprop="http://yoursite.com/page/3/index.html">批量缩小图片</a>
+                <a href="/2018/12/18/瓦力工厂/Go语言实用函数点滴/" class="post-title-link" itemprop="http://yoursite.com/page/3/index.html">Go语言实用函数点滴</a>
               
             
           </h1>
@@ -368,7 +368,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Updated at: 2018-11-19 19:17:46" itemprop="dateModified" datetime="2018-11-19T19:17:46+08:00">2018-11-19</time>
+                <time title="Updated at: 2018-11-21 11:00:29" itemprop="dateModified" datetime="2018-11-21T11:00:29+08:00">2018-11-21</time>
               
             
           </span>
@@ -403,41 +403,169 @@
       
         
           
-            <h3 id="驱动需求"><a href="#驱动需求" class="headerlink" title="驱动需求:"></a>驱动需求:</h3><p>最近做了一段时间教程，发现做的网站打开非常慢，打开单张图片的属性一看，竟然每张都1-2M，网站打开不满才有问题呢？于是在网上找批量压缩图片的软件。</p>
-<p>功夫不负有心人，终于找到了 imagemagick</p>
-<p>先来看看 ImageMagick 能做些什么：<br>1、批量旋转、分割，并顺序编号<br>2、自动批量切除白边（auto-crop）<br>3、自动倾斜校正（deskew）<br>4、批量加标注<br>5、批量去标注<br>6、批量加水印<br>7、批量去水印<br>一、最基本的格式转换<br>下面，我将结合与扫书制书有关的图像操作，来说明 IM 的用法。</p>
-<p>前面已经说过，IM 由一组命令行工具组成，具体来说也就是 convert、mogrify、composite、montage、identify、compare、display、animate、stream、import 和 conjure，这 11 个命令。</p>
-<p>其中最常用的，是 convert 和 mogrify。</p>
-<p>1、将 a.gif 转为 png 格式<br>    convert a.gif a.png<br>请注意，convert 命令的基本格式为<br>    convert 源文件 [参数] 目标文件<br>在上面的命令中，源文件是 a.gif，目标文件是 a.png。由于这是最简单的格式转换，所以不需要中间的参数。<br>convert 常用于单个文件的转换。上面的命令是它最基本的用法。</p>
-<p>前面说过 IM 支持超过 100 种的文件格式。<br>下面的命令，可以列出 IM 所支持的所有格式：<br>    identify -list format</p>
-<p>2、批量文件的格式转换</p>
-<pre><code>mogrify -path newdir -format png  *.gif
-</code></pre><p>这个命令的作用，是将当前目录下的所有 gif 文件，转换为 png 格式，并将其存放在 newdir 目录下。</p>
-<p>mogrify 是用于批量处理文件的命令。它的基本格式是这样的：<br>    mogrify 参数 源文件<br>mogrify 支持基本的通配符，例如你可以用 a*.png 指代所有以 a 打头的 png 文件，诸如此类。</p>
-<p>再回到刚才的命令：</p>
-<pre><code>mogrify -path newdir -format png  *.gif
-</code></pre><p>这里的 -path 和 -format 是两个可选择的参数。<br>-format 指定输出的文件格式，而 -path 则指定输出的文件目录。</p>
-<p>我在这里先强调一下：如果不加 -path 参数的话，mogrify 有可能会覆盖你的源文件，因此强烈推荐在每个 mogrify 命令里都加上 -path 参数，并在执行之前，先检查整个命令正确性。</p>
-<p>二、图像的缩放：使用 -resize<br>IM 有好几种缩放图像的方法，在这里我只讲最基本的 resize 命令。</p>
-<p>将一个200x304大小的图像缩小为100x152（长宽各缩短一半）。</p>
-<pre><code>convert page200.png -resize 100x152 page100.png
-</code></pre><p>上面的 100x152，指定了目标文件的长和宽。</p>
-<p>你也可以只指定目标文件宽度，这样它的高度会等比例放大：</p>
-<pre><code>convert page200.png -resize 100 page100.png
-</code></pre><p>或者只指定高度：</p>
-<pre><code>convert page200.png -resize x152 page100.png
-</code></pre><p>以上三句命令，其结果都是一样的。</p>
-<p>你可以用 identify 命令来显示图像的尺寸以及其它一些信息：<br>    identify page100.png<br>其结果为：</p>
-<p>page100.png PNG 100x152 100x152+0+0 8-bit DirectClass 17.9kb</p>
-<p>最后，你还可以通过指定百分比来缩放图像：</p>
-<pre><code>convert page200.png -resize 50% page100.png
-convert page200.png -resize 150% page300.png
-</code></pre><p>批量缩放图像</p>
-<pre><code>mogrify -path newdir -resize 200% *.png
-</code></pre><p>这句命令的意思是将当前目录中所有的 png 文件都放大一倍，并存放到 newdir 目录中。</p>
-<h3 id="改进"><a href="#改进" class="headerlink" title="改进"></a>改进</h3><p> 就这样一行命令就实现了图片的压缩，试了一下，大概压缩到200K左右，清晰度还能满足要求。<br> 但是，这样的命令行只能进行当前文件夹的图片压缩。和linux -R 递归参数并不匹配。<br> 最后用 Bash程序解决<br> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"> #!/bin/bash</span><br><span class="line">echo &quot;resize image who is bigger than 200k&quot;;</span><br><span class="line">for i in `find . -size +200k`;</span><br><span class="line">do</span><br><span class="line">convert $i -resize 40% $i;</span><br><span class="line">echo &quot;resize image $i to 40%&quot;;</span><br><span class="line">done</span><br></pre></td></tr></table></figure></p>
-<p>只能说，编程让生活如此简单！</p>
-<p>有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/批量缩小图片/瓦力.jpeg" alt=""></p>
+            <h3 id="创建文件、文件夹"><a href="#创建文件、文件夹" class="headerlink" title="创建文件、文件夹"></a>创建文件、文件夹</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">package main</span><br><span class="line"></span><br><span class="line">import (</span><br><span class="line">	&quot;fmt&quot;</span><br><span class="line">	&quot;os&quot;</span><br><span class="line">	&quot;path&quot;</span><br><span class="line">	&quot;github.com/Unknwon/com&quot;  </span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">const (</span><br><span class="line">	wjunjie = &quot;/home/wjunjie/Study/读读写写/liebiao.txt&quot;</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">func mkdir() &#123;</span><br><span class="line">	// 检查文件夹</span><br><span class="line">	if !com.IsExist(wjunjie) &#123;</span><br><span class="line">		os.MkdirAll(path.Dir(wjunjie), os.ModePerm)</span><br><span class="line">		os.Create(wjunjie)</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line">func main() &#123;</span><br><span class="line">	fmt.Println(&quot;创建文件夹&quot;)</span><br><span class="line">	mkdir()</span><br><span class="line">&#125;</span><br><span class="line">// 检查文件夹，若不存在，则新建</span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/" class="post-title-link" itemprop="http://yoursite.com/page/3/index.html">DPJ-026-双寻线机器人</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Post created: 2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Updated at: 2018-12-02 13:32:20" itemprop="dateModified" datetime="2018-12-02T13:32:20+08:00">2018-12-02</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>双11刚刚过去，瓦力工厂就接到一个任务，那就是为明年的双11设计自动送快递的小车，因为双11实在是太火爆了，快递员夜以继日的送快递都不能把快递送完，有的快递员都累病了。这个任务就交到了我们伟大的瓦力工程师手里，对于这样的问题，我们瓦力工程师只能说NO Problem！</p>
+<p><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/001.jpeg" alt=""></p>
+<h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><h4 id="红外避障传感器基本原理："><a href="#红外避障传感器基本原理：" class="headerlink" title="红外避障传感器基本原理："></a>红外避障传感器基本原理：</h4><p> 利用物体的反射性质。在一定范围内，如果没有障碍物，发射出去的红外线，因为传播距离越远而逐渐减弱，最后消失。如果有障碍物，红外线遇到障碍物，被反射到达传感器接收头。传感器检测到这一信号，就可以确认正前方有障碍物，并送给单片机，单片机进行一系列的处理分析，协调小车两轮工作，完成一个漂亮的躲避障碍物动作。<br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/003.png" alt=""></p>
+<h4 id="巡线机器人的实现原理"><a href="#巡线机器人的实现原理" class="headerlink" title="巡线机器人的实现原理"></a>巡线机器人的实现原理</h4><p>  由于黑色具有较强的吸收能力，当循迹模块发射的红外线照射到黑线时，红外线将会被黑线吸收，导致循迹模块上光敏三极管处于关闭状态，此时模块上一个LED熄灭。在没有检测到黑线时，模块上两个LED常亮。</p>
+<h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有轮子（为什么呢？观察生活）<br>３．需要有前进、转弯、停止的控制方法（不能手动）</p>
+<h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、马达、轮子、CPU、红外避障传感器、附件</p>
+<h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>课程目标：<br>1.了解双巡线。<br>2.红外传感器搭建与调试。<br>3.双红外线巡线编程逻辑。<br>4.培养孩子发现问题，分析问题，解决问题，动手搭建能力。</p>
+<h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/004.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/005.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/006.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/007.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/008.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/009.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/010.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/011.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/012.png" alt=""></p>
+<h3 id="接力赛机器人程序设计："><a href="#接力赛机器人程序设计：" class="headerlink" title="接力赛机器人程序设计："></a>接力赛机器人程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/013.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/014.png" alt=""><br>双巡线机器人已完成，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/瓦力.jpeg" alt=""></p>
 
           
         
@@ -1139,6 +1267,160 @@ convert page200.png -resize 150% page300.png
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/趣味编程第4课-制作贺卡/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/18/瓦力工厂/趣味编程第4课-制作贺卡/" class="post-title-link" itemprop="http://yoursite.com/page/3/index.html">趣味编程第4课-制作贺卡</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Post created: 2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Updated at: 2018-11-03 09:14:08" itemprop="dateModified" datetime="2018-11-03T09:14:08+08:00">2018-11-03</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>新年到了,用Scratch制作一张贺卡,来表达自己的喜悦心情吧!<br><img src="/2018/12/18/瓦力工厂/趣味编程第4课-制作贺卡/001.png" alt=""><br>贺卡角色比较多,截图一个角色的程序<br><img src="/2018/12/18/瓦力工厂/趣味编程第4课-制作贺卡/002.png" alt=""><br>角色列表<br><img src="/2018/12/18/瓦力工厂/趣味编程第4课-制作贺卡/003.png" alt=""><br><img src="/2018/12/18/瓦力工厂/趣味编程第4课-制作贺卡/瓦力.jpeg" alt=""></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/第3课-新年到!下雪了/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1243,160 +1525,6 @@ convert page200.png -resize 150% page300.png
 <p>　　4、面对某些不好实现的效果我们需要通过转换思维的办法来解决问题。<br><img src="/2018/12/18/瓦力工厂/第3课-新年到!下雪了/002.png" alt=""></p>
 <h3 id="三、任务分析"><a href="#三、任务分析" class="headerlink" title="三、任务分析"></a>三、任务分析</h3><p>　　1、初级挑战：只需要会使用克隆与随机数即可。在scratch中“克隆”与“当作为克隆体启动时”经常是配合使用，我们通过重复执行，来不断的克隆雪花。在每个克隆体启动时我们设置一下克隆体的大小和位置，然后再通过重复执行，改变克隆体的y坐标就实现了雪花下落效果。<br>2、中级挑战：要求雪花能够落在屋顶、车、路面。这里只要在雪花下落的过程中增加一个侦测的判断条件，只要克隆体碰到车或房子或者路面（路面用颜色来判断），就停止克隆体移动。</p>
 <p>在scratch中克隆体的个数是有限的，你慢慢会发现，雪花会变得越来越少，为了不让雪停下来，我们使用“图章”把克隆的雪花留在舞台上，然后删除克隆体，这样就不会因为克隆体达到上限而停止了。<br><img src="/2018/12/18/瓦力工厂/第3课-新年到!下雪了/瓦力.jpeg" alt=""></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/趣味编程第4课-制作贺卡/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/18/瓦力工厂/趣味编程第4课-制作贺卡/" class="post-title-link" itemprop="http://yoursite.com/page/3/index.html">趣味编程第4课-制作贺卡</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Veröffentlicht am</span>
-              
-
-              
-                
-              
-
-              <time title="Post created: 2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Updated at: 2018-11-03 09:14:08" itemprop="dateModified" datetime="2018-11-03T09:14:08+08:00">2018-11-03</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>新年到了,用Scratch制作一张贺卡,来表达自己的喜悦心情吧!<br><img src="/2018/12/18/瓦力工厂/趣味编程第4课-制作贺卡/001.png" alt=""><br>贺卡角色比较多,截图一个角色的程序<br><img src="/2018/12/18/瓦力工厂/趣味编程第4课-制作贺卡/002.png" alt=""><br>角色列表<br><img src="/2018/12/18/瓦力工厂/趣味编程第4课-制作贺卡/003.png" alt=""><br><img src="/2018/12/18/瓦力工厂/趣味编程第4课-制作贺卡/瓦力.jpeg" alt=""></p>
 
           
         
@@ -1746,160 +1874,6 @@ convert page200.png -resize 150% page300.png
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/第5课-成语猜猜看/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/18/瓦力工厂/第5课-成语猜猜看/" class="post-title-link" itemprop="http://yoursite.com/page/3/index.html">趣味编程第5课-成语猜猜看</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Veröffentlicht am</span>
-              
-
-              
-                
-              
-
-              <time title="Post created: 2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Updated at: 2018-11-03 09:14:14" itemprop="dateModified" datetime="2018-11-03T09:14:14+08:00">2018-11-03</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>通过第四课的学习，相信小朋友们对 <em>运动</em>、<em>外观</em> 、<em>事件</em> 、<em>侦测</em> 等积木模块有了更深一步的了解。下面通过一款微信上流行的小程序继续向大家介绍 <em>侦测</em> <em>数据</em> <em>运算</em> <em>声音</em> 等积木模块。<br><img src="/2018/12/18/瓦力工厂/第5课-成语猜猜看/001.png" alt=""><br>成语是我国汉字语言词汇中一部分定型的词组和短语。成语有固定的结构形式和固定的说法。表示一定的意义在语句中是作为一个整体来应用的。成语有很大一部分是从古代。形成沿用下来的再用词语方面往往不同与现代汉语。它代表了一个故事和典故。成语又是一种现成的话，跟习用语言语向近也略有区别。<br><img src="/2018/12/18/瓦力工厂/第5课-成语猜猜看/002.png" alt=""><br>主要程序代码如图所示，巧妙地利用角色的造型进行程序图片之间的切换，用链表把成语的图片与意义相关联。答对的话有音乐提示与金币奖励。切换到下一个成语，并且所过的关卡加一。用变量 <em>关名</em> 存储并显示所过的关数，用变量 <em>金钱</em> 来存储并显示所获得的金币数。<br><img src="/2018/12/18/瓦力工厂/第5课-成语猜猜看/003.png" alt=""><br>小朋友，你会做吧，记得加老师微信并与老师互动讨论哟，你还想加入什么你的功能呢？和老师一起进步吧！<br><img src="/2018/12/18/瓦力工厂/第5课-成语猜猜看/瓦力.jpeg" alt=""></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -1947,12 +1921,25 @@ convert page200.png -resize 150% page300.png
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">54</span>
+                    <span class="site-state-item-count">55</span>
                     <span class="site-state-item-name">Artikel</span>
                   </a>
                 </div>
               
 
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  
+                    
+                    
+                      
+                    
+                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-name">Kategorien</span>
+                  
+                </div>
               
 
               
