@@ -176,6 +176,8 @@
   </style>
 </noscript>
 
+<link rel="stylesheet" href="/assets/css/APlayer.min.css" class="aplayer-style-marker">
+<script src="/assets/js/APlayer.min.js" class="aplayer-script-marker"></script>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
@@ -402,7 +404,7 @@
                 
               
 
-              <time title="创建时间：2018-12-24 19:17:45" itemprop="dateCreated datePublished" datetime="2018-12-24T19:17:45+08:00">2018-12-24</time>
+              <time title="创建时间：2018-12-24 19:33:03" itemprop="dateCreated datePublished" datetime="2018-12-24T19:33:03+08:00">2018-12-24</time>
             
 
             
@@ -478,6 +480,26 @@
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=5273867&auto=1&height=66"></iframe>
 
 
+        <div id="aplayer-NQwOWzGn" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-NQwOWzGn"),
+            narrow: false,
+            autoplay: false,
+            showlrc: 3,
+            music: {
+              title: "歌曲名",
+              author: "歌手名",
+              url: "//music.163.com/outchain/player?type=2&id=5273867&auto=1&height=66",
+              pic: "https://封面图.jpg",
+              lrc: "https://歌词.lrc"
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script>
 <iframe height="498" width="510" src="http://player.youku.com/embed/XMzk3OTYzMjkwOA==" frameborder="0" 'allowfullscreen'=""></iframe>
 
           
