@@ -1037,166 +1037,6 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/Scratch3.0本地部署遇到的坑与井/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/18/瓦力工厂/Scratch3.0本地部署遇到的坑与井/" class="post-title-link" itemprop="http://yoursite.com/page/5/index.html">Scratch3.0本地部署遇到的坑与井</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-12-04 23:56:45" itemprop="dateModified" datetime="2018-12-04T23:56:45+08:00">2018-12-04</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="Scratch-clone"><a href="#Scratch-clone" class="headerlink" title="Scratch clone"></a>Scratch clone</h3><p>Scratch3.0 已经大致完工，界面漂亮，但是要访问其官网则需要科学上网，其速度也非常慢。想要和学生一起随着3.0成长则不免要本地部署。<br>Scratch3.0 在github上的位<br><a href="https://github.com/LLK" target="_blank" rel="noopener">https://github.com/LLK</a><br>我们只需要scratch-gui，于是一行如下代码<br>git clone git@github.com:LLK/scratch-gui.git<br>10k/s,多久没有这么慢的速度了，工作的时候电脑下载了，下载了2天没有下载完成。各种断开重来。<br>于是在网上查资料，得到曲线救国的方案。<br>git clone –depth=1 git@github.com:LLK/scratch-gui.git<br>只下载最新一层的更新，然后在项目目录下：<br>git fetch –unshallow #转换为一个完整的仓库<br>git 完成后，运行命令：<br>nmp install<br>nmp start<br>本地Scratch3.0已经可以运行，心中美美的。接着在局域网另一台电脑上输入本机IP地址，悲剧了，连不上。<br>接着找资料，各种论坛狂逛，有一篇说是安装Scratch-www的可以访问，于是Scratch-www、Scratch-wm、等等一并下载安装。满怀期待这样就能解决局域网连接问题，然而，确是伴随着一系列的解决问题时的失望。<br>接着就和webpack较上了劲。webpack-dev-server的使用一阵狂查，网上各种帖说webpack-dev-server<br>有默认本机访问，局域网访问需要指定本机IP地址。按帖子的方法一个个实验，都是无功而返。一不做二不休，问题还是要解决的，于是我上webpack-dev-server的官网，英文说明书一阵狂看，有点费劲，继而找到中文最新官方文档，从头看到尾，终于找到解决方案。<br><a href="https://github.com/webpack/webpack/releases" target="_blank" rel="noopener">https://github.com/webpack/webpack/releases</a><br><a href="https://webpack.docschina.org/concepts/" target="_blank" rel="noopener">https://webpack.docschina.org/concepts/</a><br><a href="https://webpack.docschina.org/configuration/dev-server" target="_blank" rel="noopener">https://webpack.docschina.org/configuration/dev-server</a></p>
-<p>devServer.host<br>string</p>
-<p>指定使用一个 host。默认是 localhost。如果你希望服务器外部可访问，指定如下：</p>
-<p>module.exports = {<br>  //…<br>  devServer: {<br>    host: ‘0.0.0.0’<br>  }<br>};<br>通过 CLI 使用</p>
-<p>webpack-dev-server –host 0.0.0.0</p>
-<p>按照官方最新文档进行配置，然而…<br>突然想起在安装Scratch需要在root权限下，于是切换到root  npm start  …<br>算了，用nginx 架站来处理吧。<br>于是看到 …<br>2.调整防火墙，以免出现各种问题<br>$ sudo ufw app list<br>对，ufw，于是查询ufw文档<br><a href="http://wiki.ubuntu.org.cn/Ufw%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97" target="_blank" rel="noopener">http://wiki.ubuntu.org.cn/Ufw%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97</a><br>于是简单粗暴<br>ufw disable<br>在局域网另一台电脑上登录，一下子天朗气清，所有问题都解决了。<br>突然想起前几天配置ftp服务器失败，一定和 ufw有关，因为ftp服务器不只搭建一次了。<br>看来要好好熟悉一下ufw了</p>
-<p>什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/Scratch3.0本地部署遇到的坑与井/瓦力.jpeg" alt=""></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1311,6 +1151,166 @@
 <p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/011.png" alt=""></p>
 <p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/012.png" alt=""></p>
 <p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/001.png" alt="">/瓦力.jpeg)</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/Scratch3.0本地部署遇到的坑与井/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/18/瓦力工厂/Scratch3.0本地部署遇到的坑与井/" class="post-title-link" itemprop="http://yoursite.com/page/5/index.html">Scratch3.0本地部署遇到的坑与井</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-12-04 23:56:45" itemprop="dateModified" datetime="2018-12-04T23:56:45+08:00">2018-12-04</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="Scratch-clone"><a href="#Scratch-clone" class="headerlink" title="Scratch clone"></a>Scratch clone</h3><p>Scratch3.0 已经大致完工，界面漂亮，但是要访问其官网则需要科学上网，其速度也非常慢。想要和学生一起随着3.0成长则不免要本地部署。<br>Scratch3.0 在github上的位<br><a href="https://github.com/LLK" target="_blank" rel="noopener">https://github.com/LLK</a><br>我们只需要scratch-gui，于是一行如下代码<br>git clone git@github.com:LLK/scratch-gui.git<br>10k/s,多久没有这么慢的速度了，工作的时候电脑下载了，下载了2天没有下载完成。各种断开重来。<br>于是在网上查资料，得到曲线救国的方案。<br>git clone –depth=1 git@github.com:LLK/scratch-gui.git<br>只下载最新一层的更新，然后在项目目录下：<br>git fetch –unshallow #转换为一个完整的仓库<br>git 完成后，运行命令：<br>nmp install<br>nmp start<br>本地Scratch3.0已经可以运行，心中美美的。接着在局域网另一台电脑上输入本机IP地址，悲剧了，连不上。<br>接着找资料，各种论坛狂逛，有一篇说是安装Scratch-www的可以访问，于是Scratch-www、Scratch-wm、等等一并下载安装。满怀期待这样就能解决局域网连接问题，然而，确是伴随着一系列的解决问题时的失望。<br>接着就和webpack较上了劲。webpack-dev-server的使用一阵狂查，网上各种帖说webpack-dev-server<br>有默认本机访问，局域网访问需要指定本机IP地址。按帖子的方法一个个实验，都是无功而返。一不做二不休，问题还是要解决的，于是我上webpack-dev-server的官网，英文说明书一阵狂看，有点费劲，继而找到中文最新官方文档，从头看到尾，终于找到解决方案。<br><a href="https://github.com/webpack/webpack/releases" target="_blank" rel="noopener">https://github.com/webpack/webpack/releases</a><br><a href="https://webpack.docschina.org/concepts/" target="_blank" rel="noopener">https://webpack.docschina.org/concepts/</a><br><a href="https://webpack.docschina.org/configuration/dev-server" target="_blank" rel="noopener">https://webpack.docschina.org/configuration/dev-server</a></p>
+<p>devServer.host<br>string</p>
+<p>指定使用一个 host。默认是 localhost。如果你希望服务器外部可访问，指定如下：</p>
+<p>module.exports = {<br>  //…<br>  devServer: {<br>    host: ‘0.0.0.0’<br>  }<br>};<br>通过 CLI 使用</p>
+<p>webpack-dev-server –host 0.0.0.0</p>
+<p>按照官方最新文档进行配置，然而…<br>突然想起在安装Scratch需要在root权限下，于是切换到root  npm start  …<br>算了，用nginx 架站来处理吧。<br>于是看到 …<br>2.调整防火墙，以免出现各种问题<br>$ sudo ufw app list<br>对，ufw，于是查询ufw文档<br><a href="http://wiki.ubuntu.org.cn/Ufw%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97" target="_blank" rel="noopener">http://wiki.ubuntu.org.cn/Ufw%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97</a><br>于是简单粗暴<br>ufw disable<br>在局域网另一台电脑上登录，一下子天朗气清，所有问题都解决了。<br>突然想起前几天配置ftp服务器失败，一定和 ufw有关，因为ftp服务器不只搭建一次了。<br>看来要好好熟悉一下ufw了</p>
+<p>什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/Scratch3.0本地部署遇到的坑与井/瓦力.jpeg" alt=""></p>
 
           
         
@@ -2119,26 +2119,6 @@
                 
                   <li class="links-of-blogroll-item">
                     <a href="http://example.com" title="http://example.com" rel="noopener" target="_blank">Title</a>
-                  </li>
-                
-                  <li class="links-of-blogroll-item">
-                    <a href="https://music.163.com/#/user/home?id=86590096" title="https://music.163.com/#/user/home?id=86590096" rel="noopener" target="_blank">网易云音乐</a>
-                  </li>
-                
-                  <li class="links-of-blogroll-item">
-                    <a href="http://coldplay.com/" title="http://coldplay.com/" rel="noopener" target="_blank">Coldplay Official Website</a>
-                  </li>
-                
-                  <li class="links-of-blogroll-item">
-                    <a href="https://elonmusknews.org/" title="https://elonmusknews.org/" rel="noopener" target="_blank">获取 Elon Musk 的新闻</a>
-                  </li>
-                
-                  <li class="links-of-blogroll-item">
-                    <a href="http://www.bilibili.com/video/av6211226/" title="http://www.bilibili.com/video/av6211226/" rel="noopener" target="_blank">尼古拉·特斯拉：发明了现代世界的人</a>
-                  </li>
-                
-                  <li class="links-of-blogroll-item">
-                    <a href="https://reuixiy.github.io/about/" title="https://reuixiy.github.io/about/" rel="noopener" target="_blank">关于此博客</a>
                   </li>
                 
               </ul>
