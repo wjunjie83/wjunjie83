@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-24T15:46:10.924Z</updated>
+  <updated>2018-12-24T15:46:44.560Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,98 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>趣味编程第6课-蜘蛛织网</title>
+    <link href="http://yoursite.com/2018/12/24/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E7%AC%AC6%E8%AF%BE-%E8%9C%98%E8%9B%9B%E7%BB%87%E7%BD%91/"/>
+    <id>http://yoursite.com/2018/12/24/瓦力工厂/第6课-蜘蛛织网/</id>
+    <published>2018-12-24T15:46:44.560Z</published>
+    <updated>2018-12-24T15:46:44.560Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>通过第五课的学习，大家通过一款微信上流行的小程序对 <em>侦测</em> <em>数据</em> <em>运算</em> <em>声音</em> 等积木模块，有了初步的了解，小朋友们是不是更加喜欢编程了呢？<br>下面是蟑螂画彩圆的效果图。<br><img src="/2018/12/24/瓦力工厂/第6课-蜘蛛织网/001.png" alt=""><br>下面这幅图，蜘蛛织网，图形很复杂，但是只是非常简单的积木模块。<br><img src="/2018/12/24/瓦力工厂/第6课-蜘蛛织网/002.png" alt=""><br>直接上积木模块图，用Scratch画笔功能，可以画各种复杂的图形哟。<br><img src="/2018/12/24/瓦力工厂/第6课-蜘蛛织网/003.png" alt=""><br>小朋友，你会做吧，记得加老师微信并与老师互动讨论哟，你还想加入什么你的功能呢？和老师一起进步吧！<br><img src="/2018/12/24/瓦力工厂/第6课-蜘蛛织网/瓦力.jpeg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="Scratch 入门" scheme="http://yoursite.com/categories/Scratch-%E5%85%A5%E9%97%A8/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>趣味编程第5课-成语猜猜看</title>
+    <link href="http://yoursite.com/2018/12/24/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E7%AC%AC5%E8%AF%BE-%E6%88%90%E8%AF%AD%E7%8C%9C%E7%8C%9C%E7%9C%8B/"/>
+    <id>http://yoursite.com/2018/12/24/瓦力工厂/第5课-成语猜猜看/</id>
+    <published>2018-12-24T15:46:42.420Z</published>
+    <updated>2018-12-24T15:46:42.420Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>通过第四课的学习，相信小朋友们对 <em>运动</em>、<em>外观</em> 、<em>事件</em> 、<em>侦测</em> 等积木模块有了更深一步的了解。下面通过一款微信上流行的小程序继续向大家介绍 <em>侦测</em> <em>数据</em> <em>运算</em> <em>声音</em> 等积木模块。<br><img src="/2018/12/24/瓦力工厂/第5课-成语猜猜看/001.png" alt=""><br>成语是我国汉字语言词汇中一部分定型的词组和短语。成语有固定的结构形式和固定的说法。表示一定的意义在语句中是作为一个整体来应用的。成语有很大一部分是从古代。形成沿用下来的再用词语方面往往不同与现代汉语。它代表了一个故事和典故。成语又是一种现成的话，跟习用语言语向近也略有区别。<br><img src="/2018/12/24/瓦力工厂/第5课-成语猜猜看/002.png" alt=""><br>主要程序代码如图所示，巧妙地利用角色的造型进行程序图片之间的切换，用链表把成语的图片与意义相关联。答对的话有音乐提示与金币奖励。切换到下一个成语，并且所过的关卡加一。用变量 <em>关名</em> 存储并显示所过的关数，用变量 <em>金钱</em> 来存储并显示所获得的金币数。<br><img src="/2018/12/24/瓦力工厂/第5课-成语猜猜看/003.png" alt=""><br>小朋友，你会做吧，记得加老师微信并与老师互动讨论哟，你还想加入什么你的功能呢？和老师一起进步吧！<br><img src="/2018/12/24/瓦力工厂/第5课-成语猜猜看/瓦力.jpeg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="Scratch 入门" scheme="http://yoursite.com/categories/Scratch-%E5%85%A5%E9%97%A8/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>趣味编程第4课-蹦床运动</title>
+    <link href="http://yoursite.com/2018/12/24/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E7%AC%AC4%E8%AF%BE-%E8%B9%A6%E5%BA%8A%E8%BF%90%E5%8A%A8/"/>
+    <id>http://yoursite.com/2018/12/24/瓦力工厂/第4课-蹦床运动/</id>
+    <published>2018-12-24T15:46:40.004Z</published>
+    <updated>2018-12-24T15:46:40.004Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>当我们学习了第三课小猫猜生肖，对对控制、侦测、运算、事件模块有了初步的了解，今天通过蹦床运动介绍 <em>运动</em> 模块的 <em>滑行</em> 、<em>面向</em> 、<em>左右转</em> 和 <em>外观</em> 模块 的 <em>下一个造型</em>、<em>鱼眼特效</em> 等等…<br><img src="/2018/12/24/瓦力工厂/第4课-蹦床运动/001.png" alt=""><br>今天的程序非常简单，当绿旗被点击时，重复执行<br><img src="/2018/12/24/瓦力工厂/第4课-蹦床运动/002.png" alt=""><br>并通过 <em>空格键</em> 和 <em>左移键</em> 和 <em>右移键</em> 进行程序的交互，变换出不同的蹦极效果。<br><img src="/2018/12/24/瓦力工厂/第4课-蹦床运动/003.png" alt=""><br>蹦床的代码为<br><img src="/2018/12/24/瓦力工厂/第4课-蹦床运动/003.png" alt=""><br>蹦床用到了一个鱼眼特效，变幻出来了动态的效果！<br>想要知道蹦床运动的全部脚本或者有不明白的地方，可以联系老师哟！<br><img src="/2018/12/24/瓦力工厂/第4课-蹦床运动/瓦力.jpeg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="Scratch 入门" scheme="http://yoursite.com/categories/Scratch-%E5%85%A5%E9%97%A8/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>趣味编程第3课-小猫猜生肖</title>
+    <link href="http://yoursite.com/2018/12/24/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E7%AC%AC3%E8%AF%BE%E5%B0%8F%E7%8C%AB%E7%8C%9C%E7%94%9F%E8%82%96/"/>
+    <id>http://yoursite.com/2018/12/24/瓦力工厂/第3课小猫猜生肖/</id>
+    <published>2018-12-24T15:46:36.944Z</published>
+    <updated>2018-12-24T15:46:36.944Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>当我们学习了第二课小猫跳舞后，对角色的添加与删除，背景的添加与删除。有了初步的了解，下面我们演示小猫猜生肖案例，对控制、侦测、运算、事件模块进行介绍！<br><img src="/2018/12/24/瓦力工厂/第3课小猫猜生肖/001.png" alt=""><br>这就是小猫猜生肖的基本界面设计，先添加一个背景，然后依次添加角色小猫、老鼠、小狗、猴子…<br>首先,为生肖大师小猫设计脚本：<br><img src="/2018/12/24/瓦力工厂/第3课小猫猜生肖/002.png" alt=""><br>1.用<em>事件</em>中积木<img src="/2018/12/24/瓦力工厂/第3课小猫猜生肖/003.png" alt="">开始整个程序。<br>2.用<em>控制</em>中积木<img src="/2018/12/24/瓦力工厂/第3课小猫猜生肖/004.png" alt="">开始一个循环。<br>3.用<em>侦测</em>中积木<img src="/2018/12/24/瓦力工厂/第3课小猫猜生肖/005.png" alt="">开始一个对话框。并把对话提示语改为“请问你的出生年份是多少？”<br>下面详细的介绍一下小猫是如何知道小朋友的生肖的：<br>大家都知道2018年是狗年，2018除以12的余数是2，那么可以推算出来，能被12整除的年份是猴年，余一的是鸡年、余二的是狗年、依次类推。为什么呢？三年级的小朋友都背过 子鼠、丑牛、寅虎、卯兔的生肖顺口溜吧。就根据咱们已经学到的知识。<br><img src="/2018/12/24/瓦力工厂/第3课小猫猜生肖/006.png" alt=""><br>上图就是咱们经常用到的<em>控制</em>积木中的积木块，是咱们设计的程序的大脑。<br>看这条语句<img src="/2018/12/24/瓦力工厂/第3课小猫猜生肖/007.png" alt="">判断你的输入符不符合实际情况。小朋友可能注意到了，<em>否则</em> 后面有两条语句，棕色的广播语句和紫色的说语句。广播语句是用于程序内部通信的，下面给大家展示一下小猴子角色的脚本。<br><img src="/2018/12/24/瓦力工厂/第3课小猫猜生肖/008.png" alt=""><br>是不是和广播的消息遥相呼应。好啦，小猫猜生肖用到的全部知识就介绍完了，想要知道小猫猜生肖的全部脚本或者有不明白的地方，可以联系老师哟！<br><img src="/2018/12/24/瓦力工厂/第3课小猫猜生肖/瓦力.jpeg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="Scratch 入门" scheme="http://yoursite.com/categories/Scratch-%E5%85%A5%E9%97%A8/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>趣味编程第7课-因数与完美数</title>
@@ -363,90 +455,6 @@
     <updated>2018-11-04T08:40:23.000Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦力工程师接到一个新任务，就是为“国防部”设计装甲车。来满足国防和维稳中用装甲车反坦克、扫雷、通讯和反恐的需要。现在要求制作发射导弹的装甲车，导弹发射时的角度可以自由调整。<br><img src="/2018/12/18/瓦力工厂/装甲车机器人/001.jpg" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/002.jpg" alt=""></p><h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有轮子（为什么呢？观察生活）<br>３．需要有前进、加速、减速、停止、转弯、后退的控制方法<br>４．需要有装甲车的形状、特点。<br>5.调整发射角度，利用马达导杆，控制发射角度。</p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>装甲车是具有装甲防护的各种履带或轮式军用车辆，是装有装甲的军用或警用车辆的统称。坦克也是装甲车履带式装甲车辆的一种，但是在习惯上通常因作战用途另外独立分类，而装甲车辆多半是指防护力与火力较坦克弱的车种。<br>装甲车的特性为具有高度的越野机动性能，有一定的防护和火力作用，分为履带式和轮式两种，一般装备一至两门中小口径火炮及数挺机枪，一些还装有反坦克导弹，结构以装甲车体、武器系统、动力装置等组成。</p><h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、轮子、CPU、触碰开光、LED灯、蜂鸣器，伺服马达，导杆系统<br><img src="/2018/12/18/瓦力工厂/装甲车机器人/003.jpg" alt=""></p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.三个马达的控制方法<br>2.了解装甲车的基础知识。<br>3.了解导杆系统在控制系统角度方面的应用。</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_07.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_08.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_09.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_10.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_11.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_12.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_13.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_14.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_15.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_16.jpg" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_17.jpg" alt=""></p><h3 id="装甲车机器人程序设计："><a href="#装甲车机器人程序设计：" class="headerlink" title="装甲车机器人程序设计："></a>装甲车机器人程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_18.jpg" alt=""><br>装甲车机器人，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/装甲车机器人/瓦力.jpeg" alt=""></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>DPJ-046-鳐鱼机器人</title>
-    <link href="http://yoursite.com/2018/12/18/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/DPJ-046-%E9%B3%90%E9%B1%BC%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
-    <id>http://yoursite.com/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/</id>
-    <published>2018-12-18T13:10:43.265Z</published>
-    <updated>2018-11-18T03:53:06.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>武器装备部要求瓦力工厂制造一种仿生鱼，用于侦测水下敌方的潜艇，瓦力工厂把这个光荣的任务交给我们瓦力工程师，为了保家卫国，维护世界的和平，我们瓦力工程师流点汗，加点班也没什么。技术在手，什么都有，NO Problem！</p><p><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/002.jpg" alt=""></p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>鱼身体呈流线型中间大两头小，身体表面覆盖鳞片，保护身体；鳞片表面有一层粘液，游泳时减小水的阻力；身体两侧有一行侧线，侧线和神经相连，主要是测定方向和感知水流的作用；鱼的身体长有胸鳍、背鳍、腹鳍和尾鳍是鱼在水中的运动器官；体内有鳔，主要作用是调节身体的比重，鳔在鳍的协同下，可以使鱼停留在不同的水层里。<br>鱼鳍的作用：背鳍和臀鳍主要在行动时起稳定作用和平衡作用。尾鳍和体侧肌肉配合，起推动鱼体和掌握方向的作用。胸鳍和腹鳍的主要作用是保持鱼体平衡，配合鱼体转向，调整鱼体升降。但胸鳍比腹鳍用途更广，可以像船桨一样，一下一下地划动，使鱼体徐徐前进。</p><p><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/001.jpg" alt=""></p><p>鳐鱼，属于软骨鱼纲鳐形目 Rajiformes和鲼形鱼目，是多种扁体软骨鱼的统称。分布于全世界大部分水区，从包括2亚目，共8科约49属315种。中国产6科8属28种。我国各地俗称不一，舟山渔民称黄貂鳐叫黄虎，称蝠鲼叫燕子花鱼、黑虎、双头花鱼，称何氏鳐叫猫猫花鱼，而胶东渔民则叫劳子鱼、老板鱼。鳐鱼体型大小各异，小鳐成体仅50厘米，大鳐可长达8米。鳐鱼无害，底栖，常常部分埋于水底沙中。</p><h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有伺服马达控制鱼尾游动。<br>３．需要控制伺服马达的指令。</p><h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、马达、伺服马达、CPU、触碰开关、附件</p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.伺服马达的认识与应用.<br>2.伺服马达的多功能用途.<br>3.遥控器控制双马达分开编程。</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/004.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/005.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/006.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/007.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/008.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/009.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/010.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/011.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/012.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/013.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/014.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/015.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/016.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/017.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/018.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/019.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/020.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/021.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/022.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/023.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/024.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/025.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/026.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/027.png" alt=""></p><h3 id="接力赛机器人程序设计："><a href="#接力赛机器人程序设计：" class="headerlink" title="接力赛机器人程序设计："></a>接力赛机器人程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/017.png" alt=""><br>道闸机器人已完成，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/瓦力.jpeg" alt=""></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>滑板车机器人</title>
-    <link href="http://yoursite.com/2018/12/18/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E6%BB%91%E6%9D%BF%E8%BD%A6%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
-    <id>http://yoursite.com/2018/12/18/瓦力工厂/滑板车机器人/</id>
-    <published>2018-12-18T13:10:43.265Z</published>
-    <updated>2018-11-03T02:17:46.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦力工程师接到一个新任务，就是为“最后一公里”设计机器人。“最后一公里”指的是人们在上下学或上下班的途中，乘坐公共交通工具到达公交站，地铁站后，还需要走最后一公里才能达到目的地。作为瓦力工程师的我们怎么设计滑板车机器人，来帮助人们更方便的完成最后一公里呢？<br><img src="/2018/12/18/瓦力工厂/滑板车机器人/002.jpg" alt=""><br><img src="/2018/12/18/瓦力工厂/滑板车机器人/003.jpg" alt=""></p><h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有轮子（为什么呢？观察生活）<br>３．需要有前进、加速、减速、停止、转弯、后退？的控制方法<br>４．需要有声光指示、装饰</p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>平衡车原理：当我们在驾驶平衡车的时候，平衡车的两个轮子就代替了双脚。与身体的平衡系统非常类似，当我们的重心前倾时，智能系统就会自动感应到，并精确地驱动轮子向前运动，以保持平衡;同样地，当我们身体的重心后倾时，轮子就会向后运动。<br>这套工作原理被称为“动态平衡”原理，这也是平衡车被叫做“平衡车”的原因，采用第二代运动补偿算法，利用其内部的陀螺仪和加速度传感器，来精确检测车体姿态的微小变化，并利用精密的伺服控制系统，灵敏地驱动电机，进行相应的调整，以保持整个车体的稳定和平衡。</p><h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、轮子、CPU、触碰开光、LED灯、蜂鸣器<br><img src="/2018/12/18/瓦力工厂/滑板车机器人/004.png" alt=""></p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.复习触碰开关的工作原理。<br>2.了解人们的代步工具。<br>3.熟练运用循环模块（While）进行输入、输出控制。</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_06.png" alt=""><br><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_07.png" alt=""><br><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_08.png" alt=""><br><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_09.png" alt=""><br><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_10.png" alt=""><br><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_11.png" alt=""><br><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_12.png" alt=""><br><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_13.png" alt=""><br><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_14.png" alt=""><br><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_15.png" alt=""><br><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_16.png" alt=""></p><h3 id="程序设计："><a href="#程序设计：" class="headerlink" title="程序设计："></a>程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_17.png" alt=""></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>DPJ-021感应机器人</title>
-    <link href="http://yoursite.com/2018/12/18/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/DPJ-021%E6%84%9F%E5%BA%94%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
-    <id>http://yoursite.com/2018/12/18/瓦力工厂/DPJ-021感应机器人/</id>
-    <published>2018-12-18T13:10:43.265Z</published>
-    <updated>2018-11-17T08:51:03.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>小瓦力来到一处神秘的宫殿，瓦力打开宫殿大门，刚走出一步，突然感到脚下的石头像一个开关一样咯地响了一声，然后抬头一看，一块石头从正上方掉了下来，看来有机关，危险。迅速后退。不能灵活躲避落石的机器人永远无法通过最后的机关，瓦力心里想到。怎么办呢？有了，用螳螂机器人带我过去。</p><p><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/001.jpeg" alt=""></p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>螳螂是昆虫中体型偏大的，体长一般55到105毫米，非洲的螳螂是世界最<br>螳螂。大的，身体流线型，以绿色，褐色为主，也具有花斑的种类；标志性特征是有两把“大刀”，即前肢，上有一排坚硬的锯齿，大刀钩末端长有攀爬的吸盘。头部呈扇形，较小；复眼突出，大而透亮，以黄绿色为主，晚上在灯光下呈现黑色，单眼，在两眼之间有3个小点即单眼；触角细长；颈部可180度转动；咀嚼式口器，上颚强劲。前足腿节和胫节有利刺，胫节镰刀状，常向腿节折叠，形成可以捕捉猎物的前足；前翅轻柔，遮住身体全部为覆翅，后翅比前翅要薄，边缘透明色，中间成放射状的紫红色、伸展开呈现扇状，休息时收敛和前翅相合；腹部肥大。前足锋利发达善于捕捉，中、后足适于步行，但有时前足也会用来保持平衡，发育呈变态发育。</p><p> 红外避障传感器基本原理：利用物体的反射性质。在一定范围内，如果没有障碍物，发射出去的红外线，因为传播距离越远而逐渐减弱，最后消失。如果有障碍物，红外线遇到障碍物，被反射到达传感器接收头。传感器检测到这一信号，就可以确认正前方有障碍物，并送给单片机，单片机进行一系列的处理分析，协调小车两轮工作，完成一个漂亮的躲避障碍物动作。</p><h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有轮子（为什么呢？观察生活）<br>３．需要有前进、后退、转弯的控制方法（不能手动）</p><h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、马达、轮子、CPU、红外避障传感器、附件</p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>课程目标：<br>1.自然界的光线<br>2.红外传感器的原理<br>3．如果那么模块的使用</p><p><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/002.jpeg" alt=""></p><p><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/003.jpeg" alt=""></p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/004.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/005.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/006.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/007.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/008.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/009.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/010.png" alt=""></p><h3 id="接力赛机器人程序设计："><a href="#接力赛机器人程序设计：" class="headerlink" title="接力赛机器人程序设计："></a>接力赛机器人程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/011.png" alt=""><br>感应机器人已完成，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/瓦力.jpeg" alt=""></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>线控机器人</title>
-    <link href="http://yoursite.com/2018/12/18/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E7%BA%BF%E6%8E%A7%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
-    <id>http://yoursite.com/2018/12/18/瓦力工厂/线控机器人/</id>
-    <published>2018-12-18T13:10:43.265Z</published>
-    <updated>2018-11-10T10:32:34.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦力工程师接到一个新任务，新年快要到了，瓦力工厂要求瓦力工程师为新年增加气氛。为新年联欢会设计线控机器人。<br><img src="/2018/12/18/瓦力工厂/线控机器人/001.jpg" alt=""></p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>皮影戏，旧称“影子戏”或“灯影戏”，是一种用蜡烛或燃烧的酒精等光源照射兽皮或纸板做成的人物剪影以表演故事的民间戏剧。表演时，艺人们在白色幕布后面，一边操纵戏曲人物，一边用当地流行的曲调唱述故事（有时用方言），同时配以打击乐器和弦乐，有浓厚的乡土气息。在河南、山西、陕西、甘肃天水等地农村，这种拙朴的汉族民间艺术形式很受人们的欢迎。<br>“皮影”是对皮影戏和皮影戏人物（包括场面道具景物）制品的通用称谓。皮影戏是让观众通过白色幕布，观看一种平面人偶表演的灯影来达到艺术效果的戏剧形式；而皮影戏中的平面人偶以及场面景物，通常是民间艺人用手工，刀雕彩绘而成的皮制品，故称之为皮影。在过去还没有电影、电视的年代，皮影戏曾是十分受欢迎的民间娱乐活动之一。</p><h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有轮子（为什么呢？观察生活）<br>３．需要有前进、停止、的控制方法（不能手动）</p><h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、轮子、CPU、触碰开光、附件</p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>课程目标：<br>1.了解输入和输出的概念<br>2.分清输入设备和输出设备<br>3.自己设计并且完成线控机器人<br>的制作</p><p><img src="/2018/12/18/瓦力工厂/线控机器人/002.jpg" alt=""></p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/线控机器人/003.png" alt=""><br><img src="/2018/12/18/瓦力工厂/线控机器人/004.png" alt=""><br><img src="/2018/12/18/瓦力工厂/线控机器人/005.png" alt=""><br><img src="/2018/12/18/瓦力工厂/线控机器人/006.png" alt=""><br><img src="/2018/12/18/瓦力工厂/线控机器人/007.png" alt=""><br><img src="/2018/12/18/瓦力工厂/线控机器人/008.png" alt=""><br><img src="/2018/12/18/瓦力工厂/线控机器人/009.png" alt=""><br><img src="/2018/12/18/瓦力工厂/线控机器人/010.png" alt=""><br><img src="/2018/12/18/瓦力工厂/线控机器人/011.png" alt=""></p><h3 id="接力赛机器人程序设计："><a href="#接力赛机器人程序设计：" class="headerlink" title="接力赛机器人程序设计："></a>接力赛机器人程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/线控机器人/012.png" alt=""><br>线控机器人已完成，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/线控机器人/瓦力.jpeg" alt=""></p>]]></content>
     
     <summary type="html">
     
