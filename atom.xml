@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-25T03:37:07.134Z</updated>
+  <updated>2018-12-25T16:36:01.687Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python零基础快速入门趣味教程008-蟒蛇绘制</title>
+    <link href="http://yoursite.com/2018/12/26/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/Python%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%E8%B6%A3%E5%91%B3%E6%95%99%E7%A8%8B008/"/>
+    <id>http://yoursite.com/2018/12/26/瓦力工厂/Python零基础快速入门趣味教程008/</id>
+    <published>2018-12-25T16:36:01.687Z</published>
+    <updated>2018-12-25T16:36:01.687Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><a href="https://imgchr.com/i/FgNfEQ" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/25/FgNfEQ.png" alt="FgNfEQ.png"></a></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line">turtle.penup()</span><br><span class="line">turtle.fd(-250)</span><br><span class="line">turtle.pendown()</span><br><span class="line">turtle.pensize(25)</span><br><span class="line">turtle.pencolor(&quot;purple&quot;)</span><br><span class="line">turtle.seth(-40)</span><br><span class="line">for i in range (4):</span><br><span class="line">    turtle.circle(40,80)</span><br><span class="line">    turtle.circle(-40,80)</span><br><span class="line">turtle.circle(40,80/2)</span><br><span class="line">turtle.fd(40)</span><br><span class="line">turtle.circle(16,180)</span><br><span class="line">turtle.fd(40*2/3)</span><br><span class="line">turtle.done()</span><br></pre></td></tr></table></figure><h3 id="Python-语法元素理解"><a href="#Python-语法元素理解" class="headerlink" title="Python 语法元素理解"></a>Python 语法元素理解</h3><ul><li>Python 蟒蛇绘制共17行代码，但很多行类似</li><li>清楚理解这17行代码能够掌握Python基本绘图方法。</li><li>参考框架结构，逐行分析，逐词理解。</li><li>Python 蟒蛇的颜色：黑色、绿色、七彩色…</li><li>Python 蟒蛇的长度：1节、3节、10节…</li><li>Python 蟒蛇的方向：向左走、斜着走…</li></ul><p><img src="https://wjunjie83.github.io//18-12-26/24084404.jpg" alt=""></p><p><a href="https://imgchr.com/i/Fcubs1" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/25/Fcubs1.jpg" alt="Fcubs1.jpg"></a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="Python 入门" scheme="http://yoursite.com/categories/Python-%E5%85%A5%E9%97%A8/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Anaconda更改Python版本</title>
@@ -438,27 +461,6 @@
     <updated>2018-12-22T10:10:21.391Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>有一天瓦力放学回家，看妈妈在打扫卫生，特别辛苦，瓦理想，何不做一个扫地机器人帮妈妈分担家务呢？</p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>学习目标：<br>1.同时使用2个伺服马达2个伺服马达将线分别插在OUT1 OUT2，在编程时务必选择相对应端口。调好适当的角度。<br>2.利用前面学到的遥控器组合键完成清扫任务。<br>3.连杆结构完成任务。</p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力</p><p>２．需要有轮子。</p><p>３．需要有抬起放下手臂的执行原件。</p><h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、CPU、轮子、马达、伺服马达、遥控器。</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/22/瓦力工厂/DPJ-051-扫地机器人/002.png" alt=""></p><p><img src="/2018/12/22/瓦力工厂/DPJ-051-扫地机器人/003.png" alt=""></p><p><img src="/2018/12/22/瓦力工厂/DPJ-051-扫地机器人/004.png" alt=""></p><p><img src="/2018/12/22/瓦力工厂/DPJ-051-扫地机器人/005.png" alt=""></p><p><img src="/2018/12/22/瓦力工厂/DPJ-051-扫地机器人/006.png" alt=""></p><p><img src="/2018/12/22/瓦力工厂/DPJ-051-扫地机器人/007.png" alt=""></p><h3 id="扫地机器人程序设计："><a href="#扫地机器人程序设计：" class="headerlink" title="扫地机器人程序设计："></a>扫地机器人程序设计：</h3><p><img src="/2018/12/22/瓦力工厂/DPJ-051-扫地机器人/008.png" alt=""></p><p>扫地机器人完成了，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/22/瓦力工厂/DPJ-051-扫地机器人/瓦力.jpeg" alt=""></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>XKL-044-手弩</title>
-    <link href="http://yoursite.com/2018/12/20/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/XKL-044-%E6%89%8B%E5%BC%A9/"/>
-    <id>http://yoursite.com/2018/12/20/瓦力工厂/XKL-044-手弩/</id>
-    <published>2018-12-20T03:19:50.020Z</published>
-    <updated>2018-12-20T03:19:50.020Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>《诸葛亮传》：“亮性长于巧思，损益连弩，木牛流马，皆出其意。推演兵法，作八阵图，咸得其要。”注引《魏氏春秋》曰：亮作八务、七戒、六恐、五惧，皆有条章，以训厉臣子。又损益连弩，谓之元戎，以铁为矢，矢长八寸，一弩十矢俱发。”皆出其意，即指诸葛亮的创意、构思、设计，而由他人具体制作。</p><p><img src="/2018/12/20/瓦力工厂/XKL-044-手弩/001.png" alt=""></p><h3 id="学习目标-："><a href="#学习目标-：" class="headerlink" title="学习目标 ："></a>学习目标 ：</h3><p>1.了解弹力，作用力与反作用力。<br>2.了解棘轮、棘爪结构。</p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>作用力与反作用力：在经典力学里，牛顿第三定律（Newton’s third law）表明，当两个物体互相作用时，彼此施加于对方的力，其大小相等、方向相反。力必会成双结对地出现：其中一道力称为“作用力”；而另一道力则称为“反作用力”，又称“抗力”；两道力的大小相等、方向相反。它们之间的分辨，是纯然任意的；任何一道力都可以被认为是作用力，而其对应的力自然地成为伴随的反作用力。这成对的作用力与反作用力称为“配对力”。</p><p><img src="/2018/12/20/瓦力工厂/XKL-044-手弩/000.png" alt=""></p><p>棘轮机构：（ratchet and pawl），由棘轮和棘爪组成的一种单向间歇运动机构。棘轮机构常用在各种机床和自动机中间歇进给或回转工作台的转位上，也常用在千斤顶上。在自行车中棘轮机构用于单向驱动，在手动绞车中棘轮机构常用以防止逆转。棘轮机构工作时常伴有噪声和振动，因此它的工作频率不能过高。</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/20/瓦力工厂/XKL-044-手弩/002.png" alt=""></p><p><img src="/2018/12/20/瓦力工厂/XKL-044-手弩/003.png" alt=""></p><p><img src="/2018/12/20/瓦力工厂/XKL-044-手弩/004.png" alt=""></p><p><img src="/2018/12/20/瓦力工厂/XKL-044-手弩/005.png" alt=""></p><p><img src="/2018/12/20/瓦力工厂/XKL-044-手弩/006.png" alt=""></p><p><img src="/2018/12/20/瓦力工厂/XKL-044-手弩/007.png" alt=""></p><p><img src="/2018/12/20/瓦力工厂/XKL-044-手弩/008.png" alt=""></p><p><img src="/2018/12/20/瓦力工厂/XKL-044-手弩/009.png" alt=""></p><p>手弩已完成，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/20/瓦力工厂/XKL-044-手弩/瓦力.jpeg" alt=""></p>]]></content>
     
     <summary type="html">
     
