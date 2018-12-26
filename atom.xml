@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-26T08:43:33.799Z</updated>
+  <updated>2018-12-26T08:50:53.028Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用Anaconda安装TensorFlow</title>
+    <link href="http://yoursite.com/2018/12/26/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82-%E4%BD%BF%E7%94%A8Anaconda%E5%AE%89%E8%A3%85TensorFlow/"/>
+    <id>http://yoursite.com/2018/12/26/瓦力工厂-使用Anaconda安装TensorFlow/</id>
+    <published>2018-12-26T08:50:53.028Z</published>
+    <updated>2018-12-26T08:50:53.028Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Take the following steps to install TensorFlow in an Anaconda environment:<br>Follow the instructions on the Anaconda download site to download and install Anaconda.（成功安装了Anaconda之后，在命令行窗口顺序输入一下代码，记得以管理员身份运行）<br>Create a conda environment named tensorflow by invoking the following command:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda create -n tensorflow pip python=3.6</span><br></pre></td></tr></table></figure><p><a href="https://imgchr.com/i/FgX7z4" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/26/FgX7z4.md.png" alt="FgX7z4.md.png"></a></p><p>Activate the conda environment by useing the following command:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">activate tensorflow</span><br></pre></td></tr></table></figure><p> Issue the appropriate command to install TensorFlow inside your conda environment. To install the CPU-only version of TensorFlow, enter the following command:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install --ignore-installed --upgrade tensorflow</span><br></pre></td></tr></table></figure><p> To install the GPU version of TensorFlow, enter the following command (on a single line):</p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install --ignore-installed --upgrade tensorflow-gpu</span><br></pre></td></tr></table></figure><p> 验证是否安装成功：<br>在命令行输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python</span><br></pre></td></tr></table></figure><p>启动Python<br>接着输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; import tensorflow as tf</span><br><span class="line">&gt;&gt;&gt; hello = tf.constant(&apos;Hello, TensorFlow!&apos;)</span><br><span class="line">&gt;&gt;&gt; sess = tf.Session()</span><br><span class="line">&gt;&gt;&gt; print(sess.run(hello))</span><br></pre></td></tr></table></figure><p>如果输出：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hello, TensorFlow!</span><br></pre></td></tr></table></figure><p>那么安装成功！</p><p><a href="https://imgchr.com/i/Fcubs1" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/25/Fcubs1.jpg" alt="Fcubs1.jpg"></a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="Python 进阶" scheme="http://yoursite.com/categories/Python-%E8%BF%9B%E9%98%B6/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Ubuntu将应用程序添加桌面到启动器</title>
@@ -35,29 +58,6 @@
     </summary>
     
       <category term="Ubuntu" scheme="http://yoursite.com/categories/Ubuntu/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Ubuntu 下提高conda install的速度</title>
-    <link href="http://yoursite.com/2018/12/26/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82-%E4%BD%BF%E7%94%A8Anaconda%E5%AE%89%E8%A3%85TensorFlow/"/>
-    <id>http://yoursite.com/2018/12/26/瓦力工厂-使用Anaconda安装TensorFlow/</id>
-    <published>2018-12-26T07:19:04.177Z</published>
-    <updated>2018-12-26T07:19:04.177Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Take the following steps to install TensorFlow in an Anaconda environment:<br>Follow the instructions on the Anaconda download site to download and install Anaconda.（成功安装了Anaconda之后，在命令行窗口顺序输入一下代码，记得以管理员身份运行）<br>Create a conda environment named tensorflow by invoking the following command:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda create -n tensorflow pip python=3.6</span><br></pre></td></tr></table></figure><p><a href="https://imgchr.com/i/FgX7z4" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/26/FgX7z4.md.png" alt="FgX7z4.md.png"></a></p><p>Activate the conda environment by useing the following command:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">activate tensorflow</span><br></pre></td></tr></table></figure><p> Issue the appropriate command to install TensorFlow inside your conda environment. To install the CPU-only version of TensorFlow, enter the following command:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install --ignore-installed --upgrade tensorflow</span><br></pre></td></tr></table></figure><p> To install the GPU version of TensorFlow, enter the following command (on a single line):</p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install --ignore-installed --upgrade tensorflow-gpu</span><br></pre></td></tr></table></figure><p> 验证是否安装成功：<br>在命令行输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python</span><br></pre></td></tr></table></figure><p>启动Python<br>接着输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; import tensorflow as tf</span><br><span class="line">&gt;&gt;&gt; hello = tf.constant(&apos;Hello, TensorFlow!&apos;)</span><br><span class="line">&gt;&gt;&gt; sess = tf.Session()</span><br><span class="line">&gt;&gt;&gt; print(sess.run(hello))</span><br></pre></td></tr></table></figure><p>如果输出：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hello, TensorFlow!</span><br></pre></td></tr></table></figure><p>那么安装成功！</p><p><a href="https://imgchr.com/i/Fcubs1" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/25/Fcubs1.jpg" alt="Fcubs1.jpg"></a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="Python 进阶" scheme="http://yoursite.com/categories/Python-%E8%BF%9B%E9%98%B6/"/>
     
     
   </entry>
