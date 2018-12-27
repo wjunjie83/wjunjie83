@@ -357,6 +357,343 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程003/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程003/" class="post-title-link" itemprop="http://yoursite.com/page/3/index.html">Python零基础快速入门趣味教程003-循环</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-12-24 23:42:49" itemprop="dateCreated datePublished" datetime="2018-12-24T23:42:49+08:00">2018-12-24</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Python-入门/" itemprop="url" rel="index"><span itemprop="name">Python 入门</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>在前面的教程中，瓦力博士留了一道练习题给大家—-画正方形，相信聪明的你应该已经画出来了。</p>
+<p><img src="/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程003/001.png" alt=""><br>下面是瓦力博士实现的代码。 是不是跟你的代码很像呢？</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">import turtle</span><br><span class="line"></span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+<p>虽然这段代码可以成功绘制出一个正方形，但它还有些不足的地方。仔细观察，我们发现，有许多代码是重复的：第 3, 4 行的代码重复了 4 次。在编程的时候，我们要尽量避免重复的代码。遇到需要重复执行的语句，我们应当使用循环来实现。</p>
+<p>下面是瓦力博士用循环重新实现的画正方形的功能。怎么样，代码是不是简洁许多了呢？但是好像看不太懂了？</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line"></span><br><span class="line">for i in range(4):</span><br><span class="line">    turtle.forward(200)</span><br><span class="line">    turtle.left(90)</span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+<p>第 3, 4, 5 行就是一个循环，用于执行重复的语句。</p>
+<p>其中，第 4, 5 行的代码和原来的版本”几乎”是一样的，它们是需要重复执行的语句，我们称之为循环体。不过，一定要注意的是，同原来的版本相比，第 4, 5 行的代码不是顶格写的，而是向右缩进了一些（所以是“几乎”一样，而不是完全相同），Python 正是根据缩进来推断哪些语句属于循环体。通常我们使用连续的 4 个空格符来表示一级的缩进。</p>
+<p>第 3 行的代码是一个 for 循环。它的作用是重复执行循环体中的语句。可是要重复执行多少次呢？答案是 4 次。为什么？我们先来看 range 函数，range(n) 相当于产生一个从 0 到 n-1 的等差数列， 即 0, 1, 2…, n-1，总共 n 个数字。所以，这里的 range(4) 相当于数列 0, 1, 2, 3，总共是 4 个数字。 for i in range(4):  的意思就是每次循环从数列中取出 1 个数字，赋值给变量 i，直至取完数列中所有的数字，即</p>
+<p>第 1 次循环的时候，i = 0<br>第 2 次循环的时候，i = 1<br>第 3 次循环的时候，i = 2<br>第 4 次循环的时候，i = 3<br>然后呢？然后循环就结束了，因为 range(4) 对应的数列只有 0, 1, 2, 3 这 4 个数字。这 4 个数字通过 4 次循环已经全部取完了。没数字可取了，所以循环也就结束了。因此，第 3 行的代码  for i in range(4):  将执行 4 次循环体（第 4， 5 行的代码）</p>
+<p>最后，瓦力博士给大家展示一个更高级一点的例子—-嵌套循环，即循环体里面还有循环！</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line">for i in range(16):</span><br><span class="line">    turtle.left(22.5)</span><br><span class="line">    for j in range(4):</span><br><span class="line">        turtle.forward(200)</span><br><span class="line">        turtle.left(90)</span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+<h3 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h3><p>先不要运行代码，尝试分析一下，上面这段代码会绘制出什么样的图案？<br>让代码跑起来，看看你的分析是否正确。</p>
+<p><img src="/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程003/002.png" alt=""></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程002/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程002/" class="post-title-link" itemprop="http://yoursite.com/page/3/index.html">Python零基础快速入门趣味教程002-变量</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-12-24 23:42:44" itemprop="dateCreated datePublished" datetime="2018-12-24T23:42:44+08:00">2018-12-24</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Python-入门/" itemprop="url" rel="index"><span itemprop="name">Python 入门</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>大家在中学就已经学过变量的概念了。例如：我们令 x = 100，则可以推出 x*2 = 200</p>
+<p>试试下面这段 Python 代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line">turtle.shape(&quot;turtle&quot;)</span><br><span class="line">x = 100</span><br><span class="line">turtle.forward(x)</span><br><span class="line">turtle.left(45)</span><br><span class="line">turtle.forward(2*x)</span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure></p>
+<p>运行上面的代码，小海龟将画出下面的图案:</p>
+<p><img src="/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程002/001.png" alt=""></p>
+<p>x = 100 声明了变量 x，并将它赋值为 100，用大家熟悉的中学数学语言来说，就是“令 x 等于 100”</p>
+<p>接下来的代码中 turtle.forward(x) 就是让海龟前进 x 个单位的距离，由于前面已经将 x 赋值为 100，所以实际上就是让海龟前进 100 个单位的距离（图像中那条较短的水平线）</p>
+<p>类似地 turtle.forward(2*x) 就是让海龟前进 2 倍的 x 个单位的距离，即前进 2 倍的 100 个单位的距离，最终海龟会向前爬行 2 x 100 = 200 个单位的距离 （图像中指向右上方的那条较长的斜线）</p>
+<h3 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h3><p>Python (以及大多数编程语言) 中用 * 表示数学的乘法运算，以免和字母 x 相混淆<br>与中学数学不同的是，Python 中的变量不仅可以用来表示数字，还可以用来表示各种非数字的东西。例如，通过  wali= turtle  你可以将咪博士变身为一只海龟，然后你就可以用wali 这个变量控制海龟画图啦。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">import turtle</span><br><span class="line"></span><br><span class="line">wali = turtle</span><br><span class="line">wali.shape(&quot;turtle&quot;)</span><br><span class="line">x = 100</span><br><span class="line">wali.forward(x)</span><br><span class="line">wali.left(45)</span><br><span class="line">wali.forward(2*x)</span><br><span class="line">wali.exitonclick()</span><br></pre></td></tr></table></figure>
+<h3 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h3><p>尝试画个房子（使用变量来完成，尝试调整变量的值，绘制出不同大小的房子）</p>
+<h3 id="提示-1"><a href="#提示-1" class="headerlink" title="提示"></a>提示</h3><p>你可能会需要用到开根号的运算，引入 math 模块，然后使用 math 模块的 sqrt 方法可以进行开根号的运算。<br>例如，下面的代码，计算 5 的平方根，并将计算结果赋值给变量 x</p>
+<p><img src="/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程002/002.png" alt=""><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">import math</span><br><span class="line">x = math.sqrt(5)</span><br></pre></td></tr></table></figure></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line">import math</span><br><span class="line">turtle.shape(&quot;turtle&quot;)</span><br><span class="line">line=150</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(line)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(line)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(line)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(line)</span><br><span class="line">turtle.left(135)</span><br><span class="line">turtle.forward(math.sqrt(2)*line)</span><br><span class="line">turtle.right(90)</span><br><span class="line">turtle.forward(math.sqrt(2)*line/2)</span><br><span class="line">turtle.right(90)</span><br><span class="line">turtle.forward(math.sqrt(2)*line/2)</span><br><span class="line">turtle.right(90)</span><br><span class="line">turtle.forward(math.sqrt(2)*line)</span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程001/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -998,7 +1335,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/装甲车机器人/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/滑板车机器人/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="王俊杰">
@@ -1018,7 +1355,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2018/12/18/瓦力工厂/装甲车机器人/" class="post-title-link" itemprop="http://yoursite.com/page/3/index.html">装甲车机器人</a>
+                <a href="/2018/12/18/瓦力工厂/滑板车机器人/" class="post-title-link" itemprop="http://yoursite.com/page/3/index.html">滑板车机器人</a>
               
             
           </h1>
@@ -1060,7 +1397,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2018-11-04 16:40:23" itemprop="dateModified" datetime="2018-11-04T16:40:23+08:00">2018-11-04</time>
+                <time title="修改时间：2018-11-03 10:17:46" itemprop="dateModified" datetime="2018-11-03T10:17:46+08:00">2018-11-03</time>
               
             
           </span>
@@ -1095,331 +1432,13 @@
       
         
           
-            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦力工程师接到一个新任务，就是为“国防部”设计装甲车。来满足国防和维稳中用装甲车反坦克、扫雷、通讯和反恐的需要。现在要求制作发射导弹的装甲车，导弹发射时的角度可以自由调整。<br><img src="/2018/12/18/瓦力工厂/装甲车机器人/001.jpg" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/002.jpg" alt=""></p>
-<h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有轮子（为什么呢？观察生活）<br>３．需要有前进、加速、减速、停止、转弯、后退的控制方法<br>４．需要有装甲车的形状、特点。<br>5.调整发射角度，利用马达导杆，控制发射角度。</p>
-<h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>装甲车是具有装甲防护的各种履带或轮式军用车辆，是装有装甲的军用或警用车辆的统称。坦克也是装甲车履带式装甲车辆的一种，但是在习惯上通常因作战用途另外独立分类，而装甲车辆多半是指防护力与火力较坦克弱的车种。<br>装甲车的特性为具有高度的越野机动性能，有一定的防护和火力作用，分为履带式和轮式两种，一般装备一至两门中小口径火炮及数挺机枪，一些还装有反坦克导弹，结构以装甲车体、武器系统、动力装置等组成。</p>
-<h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、轮子、CPU、触碰开光、LED灯、蜂鸣器，伺服马达，导杆系统<br><img src="/2018/12/18/瓦力工厂/装甲车机器人/003.jpg" alt=""></p>
-<h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.三个马达的控制方法<br>2.了解装甲车的基础知识。<br>3.了解导杆系统在控制系统角度方面的应用。</p>
-<h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_07.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_08.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_09.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_10.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_11.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_12.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_13.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_14.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_15.png" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_16.jpg" alt=""><br><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_17.jpg" alt=""></p>
-<h3 id="装甲车机器人程序设计："><a href="#装甲车机器人程序设计：" class="headerlink" title="装甲车机器人程序设计："></a>装甲车机器人程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/装甲车机器人/装甲车机器人_18.jpg" alt=""><br>装甲车机器人，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/装甲车机器人/瓦力.jpeg" alt=""></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/每日点滴/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/18/瓦力工厂/每日点滴/" class="post-title-link" itemprop="http://yoursite.com/page/3/index.html">每日点滴</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-11-10 09:58:00" itemprop="dateModified" datetime="2018-11-10T09:58:00+08:00">2018-11-10</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="在Markdown中插入代码块"><a href="#在Markdown中插入代码块" class="headerlink" title="在Markdown中插入代码块"></a>在Markdown中插入代码块</h3><figure class="highlight plain"><figcaption><span>[title] [] [url] [link text]</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">code snippet</span><br></pre></td></tr></table></figure>
-<h4 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(&apos;Hello World!&apos;);</span><br></pre></td></tr></table></figure>
-<h4 id="另一种常用"><a href="#另一种常用" class="headerlink" title="另一种常用"></a>另一种常用</h4><p>三个反引号</p>
-<h4 id="例子-1"><a href="#例子-1" class="headerlink" title="例子"></a>例子</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#/bin/python3</span><br><span class="line">print&#123;&quot;helloworld&quot;&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="在markdown-插入公式"><a href="#在markdown-插入公式" class="headerlink" title="在markdown 插入公式"></a>在markdown 插入公式</h3><p>Hexo 输入数学公式主要通过MathJax 渲染LaTeX 公式实现的，具体开启步骤以及简要语法介绍如下。</p>
-<h4 id="安装配置"><a href="#安装配置" class="headerlink" title="安装配置"></a>安装配置</h4><p>在next 主题配置文件_config.yaml 中找到 MathJax 选项，将enable 改成 true 即可：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">MathJax Support</span><br><span class="line">mathjax:</span><br><span class="line">    enable: true</span><br><span class="line">    per_page: false</span><br><span class="line">    cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML</span><br></pre></td></tr></table></figure></p>
-<h4 id="页面插入"><a href="#页面插入" class="headerlink" title="页面插入"></a>页面插入</h4><p>页面插入公式有两种形式，一是行内插入公式不居中显示：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$公式$</span><br></pre></td></tr></table></figure></p>
-<p>例如$E=mc^2$$</p>
-<p>第二种是行间插入公式，居中显示：<br>例如$$S=\pi*r^2$$</p>
-<h4 id="语法公式"><a href="#语法公式" class="headerlink" title="语法公式"></a>语法公式</h4><p>[公式]<a href="https://www.jianshu.com/p/e4d4433d418a%}" target="_blank" rel="noopener">https://www.jianshu.com/p/e4d4433d418a%}</a><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br></pre></td><td class="code"><pre><span class="line">语法公式</span><br><span class="line">关于公式的语法格式，主要有以下常用：</span><br><span class="line"></span><br><span class="line">上下标</span><br><span class="line">^ 表示上标，_ 表示下标。</span><br><span class="line"></span><br><span class="line">$$a_&#123;1&#125; x^&#123;2&#125; $$</span><br><span class="line">$$e^&#123;-\alpha t&#125; $$</span><br><span class="line">$$a^&#123;i&#125;_&#123;ij&#125;$$</span><br><span class="line">$$e^&#123;x^2&#125; \neq &#123;e^x&#125;^2$$</span><br><span class="line">$$a_&#123;1&#125;$$</span><br><span class="line"></span><br><span class="line">$$x^&#123;2&#125;$$</span><br><span class="line">$$e^&#123;-\alpha t&#125;$$</span><br><span class="line">$$a^&#123;i&#125;_&#123;ij&#125;$$</span><br><span class="line">$$e&#123;x2&#125; \neq &#123;ex&#125;2$$</span><br><span class="line"></span><br><span class="line">此外，如果左右两边都有上下标，则使用 \sideset 命令，效果如下：</span><br><span class="line"></span><br><span class="line">\sideset&#123;^xy&#125;&#123;^xy&#125;\bigotimes</span><br><span class="line">$$\sideset&#123;xy&#125;&#123;xy&#125;\bigotimes$$</span><br><span class="line"></span><br><span class="line">平方根</span><br><span class="line">平方根输入命令为 \sqrt，n次方根命令为 \sqrt[n]，其符号大小由LaTeX 自动给定：</span><br><span class="line"></span><br><span class="line">$$\sqrt&#123;x&#125;$$ $$\sqrt&#123;x^2+\sqrt&#123;y&#125;$$ $$\sqrt[3]&#123;2&#125;$$</span><br><span class="line">$$\sqrt&#123;x&#125;$$</span><br><span class="line"></span><br><span class="line">$$ \sqrt&#123;x^2+\sqrt&#123;y&#125;&#125;$$</span><br><span class="line"></span><br><span class="line">$$\sqrt[3]&#123;2&#125;$$</span><br><span class="line"></span><br><span class="line">水平线</span><br><span class="line">使用 \overline 和 \underline 分别在表达式上下方画出水平线：</span><br><span class="line"></span><br><span class="line">$$\overline&#123;m + n&#125;$$</span><br><span class="line">$$\underline&#123;m + n&#125;$$</span><br><span class="line">$$\overline&#123;m + n&#125;$$</span><br><span class="line">$$\underline&#123;m + n&#125;$$</span><br><span class="line"></span><br><span class="line">水平大括号</span><br><span class="line">命令 \overbrace 和 \underrace，效果如下：</span><br><span class="line"></span><br><span class="line">$$\underbrace&#123;a+b+\cdots+z&#125;$$</span><br><span class="line">$$\overbrace&#123;a+b+\cdots+z&#125;$$</span><br><span class="line">$$\overbrace&#123;a+b+\cdots+z&#125;$$</span><br><span class="line"></span><br><span class="line">$$\underbrace&#123;a+b+\cdots+z&#125;$$</span><br><span class="line"></span><br><span class="line">矢量</span><br><span class="line">矢量的命令是 \vec，用于单个字母的向量表示。\overrightarrow 和\overleftarrow 分别表示向右和向左的向量箭头：</span><br><span class="line"></span><br><span class="line">$$\vec&#123;a&#125;$$</span><br><span class="line">$$\overrightarrow&#123;AB&#125;$$</span><br><span class="line">$$\overleftarrow&#123;BA&#125;$$</span><br><span class="line">$$\vec&#123;a&#125;$$</span><br><span class="line">$$\overrightarrow&#123;AB&#125;$$</span><br><span class="line">$$\overleftarrow&#123;BA&#125;$$</span><br><span class="line"></span><br><span class="line">分数</span><br><span class="line">分数使用 \frac&#123;...&#125;&#123;...&#125; 进行排版：</span><br><span class="line"></span><br><span class="line">$$1\frac&#123;1&#125;&#123;2&#125;$$</span><br><span class="line">$$\frac&#123;x^2&#125;&#123;k+1&#125;$$</span><br><span class="line">$$x^&#123;1/2&#125;$$</span><br><span class="line">$$1\frac&#123;1&#125;&#123;2&#125;$$</span><br><span class="line">$$\frac&#123;x^2&#125;&#123;k+1&#125;$$</span><br><span class="line">$$x^&#123;1/2&#125;$$</span><br><span class="line"></span><br><span class="line">积分运算符</span><br><span class="line">积分运算符使用 \int 生成。求和运算符使用 \sum 生成。乘积运算符使用 \prod 生成。上下限使用^ 和_ 命令，类似 上下标：</span><br><span class="line"></span><br><span class="line">$$\sum_&#123;i=1&#125;^&#123;n&#125;$$</span><br><span class="line">$$\int_&#123;0&#125;^&#123;\frac&#123;\pi&#125;&#123;2&#125;&#125;$$</span><br><span class="line">$$\prod_\epsilon$$</span><br><span class="line">$$\sum_&#123;i=1&#125;^&#123;n&#125;$$</span><br><span class="line">$$\int_&#123;0&#125;^&#123;\frac&#123;\pi&#125;&#123;2&#125;&#125;$$</span><br><span class="line">$$\prod_\epsilon$$</span><br><span class="line"></span><br><span class="line">希腊字母</span><br><span class="line">$\alpha$ \alpha $\beta$ \beta $\gamma$ \gamma $\delta$ \delta $\epsilon$ \epsilon</span><br><span class="line"></span><br><span class="line">字体转换</span><br><span class="line">要对公式的某一部分字符进行字体转换，可以用&#123;\rm需转换的部分字符&#125;命令，其中\rm可以参照下表选择合适的字体。</span><br><span class="line">一般情况下，公式默认为意大利体。</span><br><span class="line"></span><br><span class="line">\rm 罗马体 \rm test \it 意大利体 \it test</span><br><span class="line"></span><br><span class="line">\bf 黑体 \bf test \cal 花体 \cal test</span><br><span class="line"></span><br><span class="line">\sl 倾斜体 \sl test \sf 等线体 \sf test</span><br><span class="line"></span><br><span class="line">\mit 数学斜体 \mit test \tt 打字机字体 \tt test</span><br><span class="line"></span><br><span class="line">\sc 小体大写字母 \sc test</span><br></pre></td></tr></table></figure></p>
-<p><img src="/2018/12/18/瓦力工厂/每日点滴/瓦力.jpeg" alt=""></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/Go语言实用函数点滴/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/18/瓦力工厂/Go语言实用函数点滴/" class="post-title-link" itemprop="http://yoursite.com/page/3/index.html">Go语言实用函数点滴</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-11-21 11:00:29" itemprop="dateModified" datetime="2018-11-21T11:00:29+08:00">2018-11-21</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="创建文件、文件夹"><a href="#创建文件、文件夹" class="headerlink" title="创建文件、文件夹"></a>创建文件、文件夹</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">package main</span><br><span class="line"></span><br><span class="line">import (</span><br><span class="line">	&quot;fmt&quot;</span><br><span class="line">	&quot;os&quot;</span><br><span class="line">	&quot;path&quot;</span><br><span class="line">	&quot;github.com/Unknwon/com&quot;  </span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">const (</span><br><span class="line">	wjunjie = &quot;/home/wjunjie/Study/读读写写/liebiao.txt&quot;</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">func mkdir() &#123;</span><br><span class="line">	// 检查文件夹</span><br><span class="line">	if !com.IsExist(wjunjie) &#123;</span><br><span class="line">		os.MkdirAll(path.Dir(wjunjie), os.ModePerm)</span><br><span class="line">		os.Create(wjunjie)</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line">func main() &#123;</span><br><span class="line">	fmt.Println(&quot;创建文件夹&quot;)</span><br><span class="line">	mkdir()</span><br><span class="line">&#125;</span><br><span class="line">// 检查文件夹，若不存在，则新建</span><br></pre></td></tr></table></figure>
+            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦力工程师接到一个新任务，就是为“最后一公里”设计机器人。“最后一公里”指的是人们在上下学或上下班的途中，乘坐公共交通工具到达公交站，地铁站后，还需要走最后一公里才能达到目的地。作为瓦力工程师的我们怎么设计滑板车机器人，来帮助人们更方便的完成最后一公里呢？<br><img src="/2018/12/18/瓦力工厂/滑板车机器人/002.jpg" alt=""><br><img src="/2018/12/18/瓦力工厂/滑板车机器人/003.jpg" alt=""></p>
+<h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有轮子（为什么呢？观察生活）<br>３．需要有前进、加速、减速、停止、转弯、后退？的控制方法<br>４．需要有声光指示、装饰</p>
+<h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>平衡车原理：当我们在驾驶平衡车的时候，平衡车的两个轮子就代替了双脚。与身体的平衡系统非常类似，当我们的重心前倾时，智能系统就会自动感应到，并精确地驱动轮子向前运动，以保持平衡;同样地，当我们身体的重心后倾时，轮子就会向后运动。<br>这套工作原理被称为“动态平衡”原理，这也是平衡车被叫做“平衡车”的原因，采用第二代运动补偿算法，利用其内部的陀螺仪和加速度传感器，来精确检测车体姿态的微小变化，并利用精密的伺服控制系统，灵敏地驱动电机，进行相应的调整，以保持整个车体的稳定和平衡。</p>
+<h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、轮子、CPU、触碰开光、LED灯、蜂鸣器<br><img src="/2018/12/18/瓦力工厂/滑板车机器人/004.png" alt=""></p>
+<h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.复习触碰开关的工作原理。<br>2.了解人们的代步工具。<br>3.熟练运用循环模块（While）进行输入、输出控制。</p>
+<h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_06.png" alt=""><br><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_07.png" alt=""><br><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_08.png" alt=""><br><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_09.png" alt=""><br><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_10.png" alt=""><br><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_11.png" alt=""><br><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_12.png" alt=""><br><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_13.png" alt=""><br><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_14.png" alt=""><br><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_15.png" alt=""><br><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_16.png" alt=""></p>
+<h3 id="程序设计："><a href="#程序设计：" class="headerlink" title="程序设计："></a>程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/滑板车机器人/滑板车机器人_17.png" alt=""></p>
 
           
         
@@ -2033,7 +2052,9 @@ convert page200.png -resize 150% page300.png
                     
                       
                     
-                    <span class="site-state-item-count">4</span>
+                      
+                    
+                    <span class="site-state-item-count">5</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
