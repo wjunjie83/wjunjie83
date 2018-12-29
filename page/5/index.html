@@ -357,7 +357,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/日积月累/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/Go语言实用函数点滴/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="王俊杰">
@@ -377,7 +377,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2018/12/18/瓦力工厂/日积月累/" class="post-title-link" itemprop="http://yoursite.com/page/5/index.html">日积月累</a>
+                <a href="/2018/12/18/瓦力工厂/Go语言实用函数点滴/" class="post-title-link" itemprop="http://yoursite.com/page/5/index.html">Go语言实用函数点滴</a>
               
             
           </h1>
@@ -419,7 +419,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2018-11-10 11:43:30" itemprop="dateModified" datetime="2018-11-10T11:43:30+08:00">2018-11-10</time>
+                <time title="修改时间：2018-11-21 11:00:29" itemprop="dateModified" datetime="2018-11-21T11:00:29+08:00">2018-11-21</time>
               
             
           </span>
@@ -454,9 +454,195 @@
       
         
           
-            <h3 id="瓦力币的含义"><a href="#瓦力币的含义" class="headerlink" title="瓦力币的含义"></a>瓦力币的含义</h3><p>红色：比赛<br>绿色：团队<br>蓝色：动手<br>黄色：语言<br>紫色：全勤</p>
-<h3 id="遥控板连接"><a href="#遥控板连接" class="headerlink" title="遥控板连接"></a>遥控板连接</h3><p>6按键遥控接收板印有红框内标记的 ”瓦力工厂“ 字样！接收板连接到接收板的 “RXD” 引脚位置</p>
-<p><img src="/2018/12/18/瓦力工厂/日积月累/瓦力.jpeg" alt=""></p>
+            <h3 id="创建文件、文件夹"><a href="#创建文件、文件夹" class="headerlink" title="创建文件、文件夹"></a>创建文件、文件夹</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">package main</span><br><span class="line"></span><br><span class="line">import (</span><br><span class="line">	&quot;fmt&quot;</span><br><span class="line">	&quot;os&quot;</span><br><span class="line">	&quot;path&quot;</span><br><span class="line">	&quot;github.com/Unknwon/com&quot;  </span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">const (</span><br><span class="line">	wjunjie = &quot;/home/wjunjie/Study/读读写写/liebiao.txt&quot;</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">func mkdir() &#123;</span><br><span class="line">	// 检查文件夹</span><br><span class="line">	if !com.IsExist(wjunjie) &#123;</span><br><span class="line">		os.MkdirAll(path.Dir(wjunjie), os.ModePerm)</span><br><span class="line">		os.Create(wjunjie)</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line">func main() &#123;</span><br><span class="line">	fmt.Println(&quot;创建文件夹&quot;)</span><br><span class="line">	mkdir()</span><br><span class="line">&#125;</span><br><span class="line">// 检查文件夹，若不存在，则新建</span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/批量缩小图片/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/18/瓦力工厂/批量缩小图片/" class="post-title-link" itemprop="http://yoursite.com/page/5/index.html">批量缩小图片</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-11-19 19:17:46" itemprop="dateModified" datetime="2018-11-19T19:17:46+08:00">2018-11-19</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="驱动需求"><a href="#驱动需求" class="headerlink" title="驱动需求:"></a>驱动需求:</h3><p>最近做了一段时间教程，发现做的网站打开非常慢，打开单张图片的属性一看，竟然每张都1-2M，网站打开不满才有问题呢？于是在网上找批量压缩图片的软件。</p>
+<p>功夫不负有心人，终于找到了 imagemagick</p>
+<p>先来看看 ImageMagick 能做些什么：<br>1、批量旋转、分割，并顺序编号<br>2、自动批量切除白边（auto-crop）<br>3、自动倾斜校正（deskew）<br>4、批量加标注<br>5、批量去标注<br>6、批量加水印<br>7、批量去水印<br>一、最基本的格式转换<br>下面，我将结合与扫书制书有关的图像操作，来说明 IM 的用法。</p>
+<p>前面已经说过，IM 由一组命令行工具组成，具体来说也就是 convert、mogrify、composite、montage、identify、compare、display、animate、stream、import 和 conjure，这 11 个命令。</p>
+<p>其中最常用的，是 convert 和 mogrify。</p>
+<p>1、将 a.gif 转为 png 格式<br>    convert a.gif a.png<br>请注意，convert 命令的基本格式为<br>    convert 源文件 [参数] 目标文件<br>在上面的命令中，源文件是 a.gif，目标文件是 a.png。由于这是最简单的格式转换，所以不需要中间的参数。<br>convert 常用于单个文件的转换。上面的命令是它最基本的用法。</p>
+<p>前面说过 IM 支持超过 100 种的文件格式。<br>下面的命令，可以列出 IM 所支持的所有格式：<br>    identify -list format</p>
+<p>2、批量文件的格式转换</p>
+<pre><code>mogrify -path newdir -format png  *.gif
+</code></pre><p>这个命令的作用，是将当前目录下的所有 gif 文件，转换为 png 格式，并将其存放在 newdir 目录下。</p>
+<p>mogrify 是用于批量处理文件的命令。它的基本格式是这样的：<br>    mogrify 参数 源文件<br>mogrify 支持基本的通配符，例如你可以用 a*.png 指代所有以 a 打头的 png 文件，诸如此类。</p>
+<p>再回到刚才的命令：</p>
+<pre><code>mogrify -path newdir -format png  *.gif
+</code></pre><p>这里的 -path 和 -format 是两个可选择的参数。<br>-format 指定输出的文件格式，而 -path 则指定输出的文件目录。</p>
+<p>我在这里先强调一下：如果不加 -path 参数的话，mogrify 有可能会覆盖你的源文件，因此强烈推荐在每个 mogrify 命令里都加上 -path 参数，并在执行之前，先检查整个命令正确性。</p>
+<p>二、图像的缩放：使用 -resize<br>IM 有好几种缩放图像的方法，在这里我只讲最基本的 resize 命令。</p>
+<p>将一个200x304大小的图像缩小为100x152（长宽各缩短一半）。</p>
+<pre><code>convert page200.png -resize 100x152 page100.png
+</code></pre><p>上面的 100x152，指定了目标文件的长和宽。</p>
+<p>你也可以只指定目标文件宽度，这样它的高度会等比例放大：</p>
+<pre><code>convert page200.png -resize 100 page100.png
+</code></pre><p>或者只指定高度：</p>
+<pre><code>convert page200.png -resize x152 page100.png
+</code></pre><p>以上三句命令，其结果都是一样的。</p>
+<p>你可以用 identify 命令来显示图像的尺寸以及其它一些信息：<br>    identify page100.png<br>其结果为：</p>
+<p>page100.png PNG 100x152 100x152+0+0 8-bit DirectClass 17.9kb</p>
+<p>最后，你还可以通过指定百分比来缩放图像：</p>
+<pre><code>convert page200.png -resize 50% page100.png
+convert page200.png -resize 150% page300.png
+</code></pre><p>批量缩放图像</p>
+<pre><code>mogrify -path newdir -resize 200% *.png
+</code></pre><p>这句命令的意思是将当前目录中所有的 png 文件都放大一倍，并存放到 newdir 目录中。</p>
+<h3 id="改进"><a href="#改进" class="headerlink" title="改进"></a>改进</h3><p> 就这样一行命令就实现了图片的压缩，试了一下，大概压缩到200K左右，清晰度还能满足要求。<br> 但是，这样的命令行只能进行当前文件夹的图片压缩。和linux -R 递归参数并不匹配。<br> 最后用 Bash程序解决<br> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"> #!/bin/bash</span><br><span class="line">echo &quot;resize image who is bigger than 200k&quot;;</span><br><span class="line">for i in `find . -size +200k`;</span><br><span class="line">do</span><br><span class="line">convert $i -resize 40% $i;</span><br><span class="line">echo &quot;resize image $i to 40%&quot;;</span><br><span class="line">done</span><br></pre></td></tr></table></figure></p>
+<p>只能说，编程让生活如此简单！</p>
+<p>有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/批量缩小图片/瓦力.jpeg" alt=""></p>
 
           
         
@@ -667,7 +853,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/DPJ-024-安检门机器人/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/DPJ-022-宠物狗/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="王俊杰">
@@ -687,7 +873,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2018/12/18/瓦力工厂/DPJ-024-安检门机器人/" class="post-title-link" itemprop="http://yoursite.com/page/5/index.html">DPJ-024-安检门机器人</a>
+                <a href="/2018/12/18/瓦力工厂/DPJ-022-宠物狗/" class="post-title-link" itemprop="http://yoursite.com/page/5/index.html">DPJ-022-宠物狗</a>
               
             
           </h1>
@@ -729,7 +915,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2018-12-06 10:35:06" itemprop="dateModified" datetime="2018-12-06T10:35:06+08:00">2018-12-06</time>
+                <time title="修改时间：2018-11-24 09:52:34" itemprop="dateModified" datetime="2018-11-24T09:52:34+08:00">2018-11-24</time>
               
             
           </span>
@@ -764,190 +950,16 @@
       
         
           
-            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦力工厂要举办一场机器人大赛，门票卖出去了几千张，预计比赛当天会人山人海，瓦力工厂要求我们瓦力工程师为机器人大赛设计安检门系统，这种问题在我们瓦力工程师看来，当然是小菜一碟。</p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-024-安检门机器人/001.png" alt=""></p>
-<h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.了解地铁安检及作用。</p>
-<p>2.搭建安检门。</p>
-<p>3.红外传感器的编程逻辑。</p>
-<h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>当我们上地铁的时候也要通过安检。然后刷卡通过闸机乘坐地铁。今天我们来制作一个既可以安检，又可以当做闸机的机器人。<br>闸机是一种通道阻挡装置。用于管理人流，并规范行人出入，主要应用于地铁闸机系统，收费检票。闸机系统起最基本，最核心的功能是实现一次只能通过一人，可以用于各种收费门禁场合的入口通道。</p>
-<h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力</p>
-<p>２．需要有通行检测系统</p>
-<p>３．需要有开门、关门的控制方法</p>
-<p>4 ．需要有通行提醒装置</p>
-<h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、CPU、蜂鸣器、LED灯、红外传感器。</p>
-<h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-024-安检门机器人/002.png" alt=""></p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-024-安检门机器人/003.png" alt=""></p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-024-安检门机器人/004.png" alt=""></p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-024-安检门机器人/005.png" alt=""></p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-024-安检门机器人/006.png" alt=""></p>
-<h3 id="安检门机器人程序设计："><a href="#安检门机器人程序设计：" class="headerlink" title="安检门机器人程序设计："></a>安检门机器人程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-024-安检门机器人/007.png" alt=""></p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-024-安检门机器人/008.png" alt=""></p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-024-安检门机器人/009.png" alt=""></p>
-<p>安检门机器人完成了，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/DPJ-024-安检门机器人/瓦力.jpeg" alt=""></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/感应机器人/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/18/瓦力工厂/感应机器人/" class="post-title-link" itemprop="http://yoursite.com/page/5/index.html">感应机器人</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-11-16 19:07:23" itemprop="dateModified" datetime="2018-11-16T19:07:23+08:00">2018-11-16</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>小瓦力来到一处神秘的宫殿，瓦力打开宫殿大门，刚走出一步，突然感到脚下的石头像一个开关一样咯地响了一声，然后抬头一看，一块石头从正上方掉了下来，看来有机关，危险。迅速后退。不能灵活躲避落石的机器人永远无法通过最后的机关，瓦力心里想到。怎么办呢？有了，用螳螂机器人带我过去。</p>
-<p><img src="/2018/12/18/瓦力工厂/感应机器人/001.jpeg" alt=""></p>
-<h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>螳螂是昆虫中体型偏大的，体长一般55到105毫米，非洲的螳螂是世界最<br>螳螂<br>螳螂(13张)<br> 大的，身体流线型，以绿色，褐色为主，也具有花斑的种类；标志性特征是有两把“大刀”，即前肢，上有一排坚硬的锯齿，大刀钩末端长有攀爬的吸盘。头部呈扇形，较小；复眼突出，大而透亮，以黄绿色为主，晚上在灯光下呈现黑色，单眼，在两眼之间有3个小点即单眼；触角细长；颈部可180度转动；咀嚼式口器，上颚强劲。前足腿节和胫节有利刺，胫节镰刀状，常向腿节折叠，形成可以捕捉猎物的前足；前翅轻柔，遮住身体全部为覆翅，后翅比前翅要薄，边缘透明色，中间成放射状的紫红色、伸展开呈现扇状，休息时收敛和前翅相合；腹部肥大。前足锋利发达善于捕捉，中、后足适于步行，但有时前足也会用来保持平衡，发育呈变态发育。</p>
-<p> 红外避障传感器基本原理：利用物体的反射性质。在一定范围内，如果没有障碍物，发射出去的红外线，因为传播距离越远而逐渐减弱，最后消失。如果有障碍物，红外线遇到障碍物，被反射到达传感器接收头。传感器检测到这一信号，就可以确认正前方有障碍物，并送给单片机，单片机进行一系列的处理分析，协调小车两轮工作，完成一个漂亮的躲避障碍物动作。<br>超声波其实就是声波的一种，因为频率高于20kHz，所以人耳听不见，并且指向性更强。</p>
-<h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有轮子（为什么呢？观察生活）<br>３．需要有前进、后退、转弯的控制方法（不能手动）</p>
-<h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、马达、轮子、CPU、红外避障传感器、附件</p>
-<h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>课程目标：<br>1.自然界的光线<br>2.红外传感器的原理<br>3．如果那么模块的使用</p>
-<p><img src="/2018/12/18/瓦力工厂/感应机器人/002.jpeg" alt=""></p>
-<p><img src="/2018/12/18/瓦力工厂/感应机器人/003.jpeg" alt=""></p>
-<h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/感应机器人/004.png" alt=""><br><img src="/2018/12/18/瓦力工厂/感应机器人/005.png" alt=""><br><img src="/2018/12/18/瓦力工厂/感应机器人/006.png" alt=""><br><img src="/2018/12/18/瓦力工厂/感应机器人/007.png" alt=""><br><img src="/2018/12/18/瓦力工厂/感应机器人/008.png" alt=""><br><img src="/2018/12/18/瓦力工厂/感应机器人/009.png" alt=""><br><img src="/2018/12/18/瓦力工厂/感应机器人/010.png" alt=""></p>
-<h3 id="接力赛机器人程序设计："><a href="#接力赛机器人程序设计：" class="headerlink" title="接力赛机器人程序设计："></a>接力赛机器人程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/感应机器人/011.png" alt=""><br>感应机器人已完成，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/感应机器人/瓦力.jpeg" alt=""></p>
+            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>小瓦力认识一位老爷爷，老爷爷的子女出国工作去了，因此自己一个人在家里很寂寞，想让小瓦力送他一个宠物。小瓦力制作了一只可爱的宠物机器狗送给这位爷爷，陪伴他，让他不再那么寂寞。</p>
+<p><img src="/2018/12/18/瓦力工厂/DPJ-022-宠物狗/001.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/DPJ-022-宠物狗/002.jpg" alt=""></p>
+<h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>科学家认为狗是由早期人类从灰狼驯化而来，驯养时间在4万年前~1.5万年前，发展至今日。被称为“人类最忠实的朋友”，现如今是饲养率最高的宠物。其寿命约十多年。</p>
+<p>红外避障传感器基本原理：利用物体的反射性质。在一定范围内，如果没有障碍物，发射出去的红外线，因为传播距离越远而逐渐减弱，最后消失。如果有障碍物，红外线遇到障碍物，被反射到达传感器接收头。传感器检测到这一信号，就可以确认正前方有障碍物，并送给单片机，单片机进行一系列的处理分析，协调小车两轮工作，完成一个漂亮的躲避障碍物动作。</p>
+<h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有轮子（为什么呢？观察生活）<br>３．需要有前进、停止、转弯、后退的控制方法<br>5.需要有避障系统。</p>
+<h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、轮子、CPU、蜂鸣器、LED灯、红外避障传感器。</p>
+<h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.了解人类最忠实的朋友狗。<br>2.复习红外避障传感器的工作原理<br>3.搭建宠物狗造型避障小车。</p>
+<h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-022-宠物狗/003.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-022-宠物狗/004png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-022-宠物狗/005.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-022-宠物狗/006.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-022-宠物狗/007.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-022-宠物狗/008.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-022-宠物狗/009.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-022-宠物狗/010png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-022-宠物狗/011.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-022-宠物狗/012.png" alt=""></p>
+<h3 id="避障机器人程序设计："><a href="#避障机器人程序设计：" class="headerlink" title="避障机器人程序设计："></a>避障机器人程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-022-宠物狗/013.png" alt=""><br>宠物狗完成了，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/DPJ-022-宠物狗/瓦力.jpeg" alt=""></p>
 
           
         
@@ -1164,7 +1176,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/DPJ-022-宠物狗/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="王俊杰">
@@ -1184,7 +1196,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2018/12/18/瓦力工厂/DPJ-022-宠物狗/" class="post-title-link" itemprop="http://yoursite.com/page/5/index.html">DPJ-022-宠物狗</a>
+                <a href="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/" class="post-title-link" itemprop="http://yoursite.com/page/5/index.html">Scratch3.0-打地鼠</a>
               
             
           </h1>
@@ -1226,7 +1238,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2018-11-24 09:52:34" itemprop="dateModified" datetime="2018-11-24T09:52:34+08:00">2018-11-24</time>
+                <time title="修改时间：2018-12-05 14:31:03" itemprop="dateModified" datetime="2018-12-05T14:31:03+08:00">2018-12-05</time>
               
             
           </span>
@@ -1261,16 +1273,346 @@
       
         
           
-            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>小瓦力认识一位老爷爷，老爷爷的子女出国工作去了，因此自己一个人在家里很寂寞，想让小瓦力送他一个宠物。小瓦力制作了一只可爱的宠物机器狗送给这位爷爷，陪伴他，让他不再那么寂寞。</p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-022-宠物狗/001.png" alt=""></p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-022-宠物狗/002.jpg" alt=""></p>
-<h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>科学家认为狗是由早期人类从灰狼驯化而来，驯养时间在4万年前~1.5万年前，发展至今日。被称为“人类最忠实的朋友”，现如今是饲养率最高的宠物。其寿命约十多年。</p>
-<p>红外避障传感器基本原理：利用物体的反射性质。在一定范围内，如果没有障碍物，发射出去的红外线，因为传播距离越远而逐渐减弱，最后消失。如果有障碍物，红外线遇到障碍物，被反射到达传感器接收头。传感器检测到这一信号，就可以确认正前方有障碍物，并送给单片机，单片机进行一系列的处理分析，协调小车两轮工作，完成一个漂亮的躲避障碍物动作。</p>
+            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>输入IP地址 <a href="http://192.168.0.103:8061/" target="_blank" rel="noopener">http://192.168.0.103:8061/</a> 打开Scratch3.0 客户端</p>
+<p>从ftp 服务器上下载所需的素材文件夹</p>
+<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/001.png" alt=""></p>
+<p>点击上传背景图，上传desert.jpg</p>
+<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/002.png" alt=""></p>
+<p>删除默认的角色</p>
+<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/003.png" alt=""><br>点击上传角色，依次上传角色洞、地鼠、火花、锤子。</p>
+<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/004.png" alt=""><br>添加程序所需的变量：地鼠个数、总分、时间。</p>
+<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/005.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/006.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/007.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/008.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/009.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/010.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/011.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/012.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/001.png" alt="">/瓦力.jpeg)</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/" class="post-title-link" itemprop="http://yoursite.com/page/5/index.html">DPJ-047-鳄鱼机器人</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-11-25 11:40:39" itemprop="dateModified" datetime="2018-11-25T11:40:39+08:00">2018-11-25</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>一条鳄鱼患了蛀牙，去看牙医，鳄鱼在心里对着自己不停滴说：“我真的不想看到他，但是我非看不可。而诊所里的牙医也在想：”我真的不想看到他，但是我非看不可“。<br>鳄鱼看到牙医吓得叫出了声：啊！牙医看到鳄鱼吓得叫出了声：啊！鳄鱼看着椅子：我一定得去吗？牙医看着鳄鱼：我一定得去吗？鳄鱼坐到了椅子上：我好害怕。牙医拿起了牙钻：我好害怕。鳄鱼对自己说：我一定要勇敢。牙医对自己说：我一定要勇敢。鳄鱼张大了嘴巴：我做好最坏的打算了。牙医把手伸进了鳄鱼的嘴巴：我做好最坏的打算了。鳄鱼被牙钻钻痛了：哎哟！牙医的手被鳄鱼的嘴咬痛了：哎哟！鳄鱼捂着嘴巴：这是一件多么可怕的事。牙医捂着手腕：这是一件多么可怕的事。鳄鱼又张大了嘴巴：不用太久……牙医又把手伸进了鳄鱼的嘴巴：不用太久……<br>鳄鱼给牙医行了个礼：多谢您啦！明年再见。牙医给鳄鱼还了个礼：多谢您啦！明年再见。 可走出诊所的鳄鱼却在想：我明年真的不想再见到他……牙医在窗口看着鳄鱼也在想：我明年真的不想再见到他……<br>鳄鱼说：所以我一定不要忘记刷牙。牙医说：所以你一定不要忘记刷牙。</p>
+<p><img src="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/001.png" alt=""></p>
+<h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>概率学随机概念为各时间发生的概率相同，统计随机概念为一个件的结果不受事件的影响或影响较小。<br><img src="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/002.png" alt=""></p>
+<h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要触碰开关感受到信号。<br>３．需要通过触碰开关信号，控制车轮运动。</p>
+<h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、马达、CPU、LED灯、触碰开关、附件</p>
+<h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.学习触碰开关工作原理.<br>2.学习保险杠机器人的工作原理。<br>3.熟练应用 while、break和触碰开关模块编程。</p>
+<h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/003.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/004.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/005.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/006.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/007.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/008.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/009.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/010.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/011.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/012.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/013.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/014.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/015.png" alt=""></p>
+<h3 id="鳄鱼机器人程序设计："><a href="#鳄鱼机器人程序设计：" class="headerlink" title="鳄鱼机器人程序设计："></a>鳄鱼机器人程序设计：</h3><p>鳄鱼机器人已完成，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/瓦力.jpeg" alt=""></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/DPJ-029-避障机器人/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/18/瓦力工厂/DPJ-029-避障机器人/" class="post-title-link" itemprop="http://yoursite.com/page/5/index.html">DPJ-029-避障机器人</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-11-15 10:04:51" itemprop="dateModified" datetime="2018-11-15T10:04:51+08:00">2018-11-15</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦力工程师接到一个新任务，就是设计出一套智能避障装置，然后研发出智能避障机器人，来装备到一家大型的综合餐厅，能给每位顾客送饭。<br><img src="/2018/12/18/瓦力工厂/DPJ-029-避障机器人/002.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/DPJ-029-避障机器人/002.jpeg" alt=""></p>
+<h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>红外避障传感器基本原理：利用物体的反射性质。在一定范围内，如果没有障碍物，发射出去的红外线，因为传播距离越远而逐渐减弱，最后消失。如果有障碍物，红外线遇到障碍物，被反射到达传感器接收头。传感器检测到这一信号，就可以确认正前方有障碍物，并送给单片机，单片机进行一系列的处理分析，协调小车两轮工作，完成一个漂亮的躲避障碍物动作。<br>超声波其实就是声波的一种，因为频率高于20kHz，所以人耳听不见，并且指向性更强。</p>
+<p>超声波测距的原理比红外线更加简单，因为声波遇到障碍物会反射，而声波的速度已知，所以只需要知道发射到接收的时间差，就能轻松计算出测量距离，再结合发射器和接收器的距离，就能算出障碍物的实际距离，如下图所示。<br><img src="/2018/12/18/瓦力工厂/DPJ-029-避障机器人/004.jpg" alt=""><br>超声波测距相比红外测距，价格更加便宜，相应的感应速度和精度也逊色一些。同样，由于需要主动发射声波，所以对于太远的障碍物，精度也会随着声波的衰减而降低，此外，对于海绵等吸收声波的物体或者在大风干扰的情况下，超声波将无法工作。<br><img src="/2018/12/18/瓦力工厂/DPJ-029-避障机器人/006.jpeg" alt=""></p>
 <h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有轮子（为什么呢？观察生活）<br>３．需要有前进、停止、转弯、后退的控制方法<br>5.需要有避障系统。</p>
-<h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、轮子、CPU、蜂鸣器、LED灯、红外避障传感器。</p>
-<h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.了解人类最忠实的朋友狗。<br>2.复习红外避障传感器的工作原理<br>3.搭建宠物狗造型避障小车。</p>
-<h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-022-宠物狗/003.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-022-宠物狗/004png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-022-宠物狗/005.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-022-宠物狗/006.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-022-宠物狗/007.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-022-宠物狗/008.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-022-宠物狗/009.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-022-宠物狗/010png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-022-宠物狗/011.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-022-宠物狗/012.png" alt=""></p>
-<h3 id="避障机器人程序设计："><a href="#避障机器人程序设计：" class="headerlink" title="避障机器人程序设计："></a>避障机器人程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-022-宠物狗/013.png" alt=""><br>宠物狗完成了，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/DPJ-022-宠物狗/瓦力.jpeg" alt=""></p>
+<h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、轮子、CPU、触碰开光、LED灯、红外避障传感器。</p>
+<h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.了解避障机器人工作原理<br>2.了解红外避障传感器的工作原理<br>3.搭建标准避障小车。</p>
+<h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-029-避障机器人/007.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-029-避障机器人/008.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-029-避障机器人/009.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-029-避障机器人/010.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-029-避障机器人/011.png" alt=""></p>
+<h3 id="避障机器人程序设计："><a href="#避障机器人程序设计：" class="headerlink" title="避障机器人程序设计："></a>避障机器人程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-029-避障机器人/012.png" alt=""><br>避障机器人完成了，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/DPJ-029-避障机器人/瓦力.jpeg" alt=""></p>
 
           
         
@@ -1668,336 +2010,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/" class="post-title-link" itemprop="http://yoursite.com/page/5/index.html">DPJ-047-鳄鱼机器人</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-11-25 11:40:39" itemprop="dateModified" datetime="2018-11-25T11:40:39+08:00">2018-11-25</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>一条鳄鱼患了蛀牙，去看牙医，鳄鱼在心里对着自己不停滴说：“我真的不想看到他，但是我非看不可。而诊所里的牙医也在想：”我真的不想看到他，但是我非看不可“。<br>鳄鱼看到牙医吓得叫出了声：啊！牙医看到鳄鱼吓得叫出了声：啊！鳄鱼看着椅子：我一定得去吗？牙医看着鳄鱼：我一定得去吗？鳄鱼坐到了椅子上：我好害怕。牙医拿起了牙钻：我好害怕。鳄鱼对自己说：我一定要勇敢。牙医对自己说：我一定要勇敢。鳄鱼张大了嘴巴：我做好最坏的打算了。牙医把手伸进了鳄鱼的嘴巴：我做好最坏的打算了。鳄鱼被牙钻钻痛了：哎哟！牙医的手被鳄鱼的嘴咬痛了：哎哟！鳄鱼捂着嘴巴：这是一件多么可怕的事。牙医捂着手腕：这是一件多么可怕的事。鳄鱼又张大了嘴巴：不用太久……牙医又把手伸进了鳄鱼的嘴巴：不用太久……<br>鳄鱼给牙医行了个礼：多谢您啦！明年再见。牙医给鳄鱼还了个礼：多谢您啦！明年再见。 可走出诊所的鳄鱼却在想：我明年真的不想再见到他……牙医在窗口看着鳄鱼也在想：我明年真的不想再见到他……<br>鳄鱼说：所以我一定不要忘记刷牙。牙医说：所以你一定不要忘记刷牙。</p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/001.png" alt=""></p>
-<h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>概率学随机概念为各时间发生的概率相同，统计随机概念为一个件的结果不受事件的影响或影响较小。<br><img src="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/002.png" alt=""></p>
-<h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要触碰开关感受到信号。<br>３．需要通过触碰开关信号，控制车轮运动。</p>
-<h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、马达、CPU、LED灯、触碰开关、附件</p>
-<h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.学习触碰开关工作原理.<br>2.学习保险杠机器人的工作原理。<br>3.熟练应用 while、break和触碰开关模块编程。</p>
-<h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/003.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/004.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/005.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/006.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/007.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/008.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/009.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/010.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/011.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/012.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/013.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/014.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/015.png" alt=""></p>
-<h3 id="鳄鱼机器人程序设计："><a href="#鳄鱼机器人程序设计：" class="headerlink" title="鳄鱼机器人程序设计："></a>鳄鱼机器人程序设计：</h3><p>鳄鱼机器人已完成，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/DPJ-047-鳄鱼机器人/瓦力.jpeg" alt=""></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/" class="post-title-link" itemprop="http://yoursite.com/page/5/index.html">DPJ-048-六足昆虫机器人</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-12-02 22:03:39" itemprop="dateModified" datetime="2018-12-02T22:03:39+08:00">2018-12-02</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦力在打扫卫生的时候钥匙掉到了桌子底下，怎么办，瓦力想，做一个昆虫机器人帮我捡回来，技术在手，什么都有，NO Problem！</p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/001.png" alt=""></p>
-<h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/002.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/004.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/005.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/006.png" alt=""></p>
-<h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有伺服马达控制鱼尾游动。<br>３．需要控制伺服马达的指令。</p>
-<h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、马达、伺服马达、CPU、触碰开关、聲音傳感器、附件</p>
-<h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.认识昆虫、认识声音传感器.<br>2.仿生搭建昆虫，认识连杆机构.<br>3.声音传感器的使用方法。</p>
-<h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/007.png" alt=""></p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/008.png" alt=""></p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/009.png" alt=""></p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/010.png" alt=""></p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/011.png" alt=""></p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/012.png" alt=""></p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/013.png" alt=""></p>
-<h3 id="六足昆虫机器人程序设计："><a href="#六足昆虫机器人程序设计：" class="headerlink" title="六足昆虫机器人程序设计："></a>六足昆虫机器人程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/014.png" alt=""></p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/015.png" alt=""></p>
-<p>六足昆虫机器人已完成，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/瓦力.jpeg" alt=""></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -2045,7 +2057,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">62</span>
+                    <span class="site-state-item-count">63</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -2070,7 +2082,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">6</span>
+                      
+                    
+                    <span class="site-state-item-count">7</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
