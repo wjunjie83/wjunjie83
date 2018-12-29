@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-28T07:00:39.754Z</updated>
+  <updated>2018-12-29T03:18:10.426Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,13 +17,82 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>莫尔斯码机器人</title>
+    <link href="http://yoursite.com/2018/12/29/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E8%8E%AB%E5%B0%94%E6%96%AF%E7%A0%81%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
+    <id>http://yoursite.com/2018/12/29/瓦力工厂/莫尔斯码机器人/</id>
+    <published>2018-12-29T03:18:10.426Z</published>
+    <updated>2018-12-29T03:18:10.426Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦力工程师接到一个新任务，就是为国际救援组织设计摩尔斯码求救机器人，那就是遇到危险的时候，按一下求救按钮，不断的发出SOS 求救信号。</p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>　摩尔斯电码（Morse alphabet）（又译为摩斯电码）是一种时通时断的信号代码，这种信号代码通过不同的排列顺序来表达不同的英文字母、数字和标点符号等。它由美国人艾尔菲德·维尔发明，当时（1835年）他正在协助萨缪尔·摩尔斯进行摩尔斯电报机的发明。 摩尔斯电码是一种早期的数字化通信形式，但是它不同于现代只使用零和一两种状态的二进制代码，它的代码包括五种： 点（.） 划（-） 点和划之间的停顿 每个字符间短的停顿（在点和划之间） 每个词之间中等的停顿 以及句子之间长的停顿。</p><p>程序块：程序块是在编写程序中的一个功能模块，为了编写程序的方便，需要把程序中的功能分解成一个个功能模块，每个模块分别编程以后，在主程序中用到该功能时，只需要调用该程序模块即可。</p><h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、轮子、CPU、触碰开光、LED灯、蜂鸣器<br><img src="/2018/12/29/瓦力工厂/莫尔斯码机器人/003.jpg" alt=""></p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.三个马达的控制方法<br>2.了解装甲车的基础知识。<br>3.了解导杆系统在控制系统角度方面的应用。</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><a href="https://imgchr.com/i/FWbxX9" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FWbxX9.png" alt="FWbxX9.png"></a></p><p><a href="https://imgchr.com/i/FWqp01" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FWqp01.png" alt="FWqp01.png"></a></p><p><a href="https://imgchr.com/i/FWqSmR" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FWqSmR.png" alt="FWqSmR.png"></a></p><p><a href="https://imgchr.com/i/FWq9Tx" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FWq9Tx.png" alt="FWq9Tx.png"></a></p><p><a href="https://imgchr.com/i/FWbv6J" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FWbv6J.png" alt="FWbv6J.png"></a></p><p><a href="https://imgchr.com/i/FWqFfO" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FWqFfO.png" alt="FWqFfO.png"></a></p><p><a href="https://imgchr.com/i/FWqPk6" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FWqPk6.png" alt="FWqPk6.png"></a></p><p><a href="https://imgchr.com/i/FWqitK" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FWqitK.png" alt="FWqitK.png"></a></p><p><a href="https://imgchr.com/i/FWqE1e" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FWqE1e.png" alt="FWqE1e.png"></a></p><p><a href="https://imgchr.com/i/FWqV6H" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FWqV6H.png" alt="FWqV6H.png"></a></p><p><a href="https://imgchr.com/i/FWqApD" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FWqApD.png" alt="FWqApD.png"></a></p><h3 id="莫尔斯码机器人程序设计："><a href="#莫尔斯码机器人程序设计：" class="headerlink" title="莫尔斯码机器人程序设计："></a>莫尔斯码机器人程序设计：</h3><p><img src="https://s1.ax1x.com/2018/12/29/FWOksH.png" alt="FWOksH.png"></p><p>装甲车机器人，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="单片机第一年" scheme="http://yoursite.com/categories/%E5%8D%95%E7%89%87%E6%9C%BA%E7%AC%AC%E4%B8%80%E5%B9%B4/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>高尔夫</title>
+    <link href="http://yoursite.com/2018/12/29/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/XKL-043-%E9%AB%98%E5%B0%94%E5%A4%AB/"/>
+    <id>http://yoursite.com/2018/12/29/瓦力工厂/XKL-043-高尔夫/</id>
+    <published>2018-12-29T02:51:10.483Z</published>
+    <updated>2018-12-29T02:51:10.483Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.了解高尔夫玩法</p><p>2.了解力的传递</p><p>3.了解物体碰撞规律</p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>高尔夫”是GOLF的音译，由四个英文词汇的首字母缩写构成。它们分别是：<br>Green, Oxygen, Light, Friendship。意思是”绿色，氧气，阳光，友谊”，它是一种<br>把享受大自然乐趣、体育锻炼和游戏集于一身的运动。高尔夫球运动是一种以<br>棒击球入穴的球类运动。如今，现代高尔夫球运动已经成为贵族运动的代名词，<br>是中国古代一种名为“捶丸”的球戏演变而来的。<br><img src="/2018/12/29/瓦力工厂/XKL-043-高尔夫/001.png" alt=""></p><p><img src="/2018/12/29/瓦力工厂/XKL-043-高尔夫/002.png" alt=""></p><p><img src="/2018/12/29/瓦力工厂/XKL-043-高尔夫/003.png" alt=""></p><p><img src="/2018/12/29/瓦力工厂/XKL-043-高尔夫/004.png" alt=""></p><p><img src="/2018/12/29/瓦力工厂/XKL-043-高尔夫/005.png" alt=""></p><p><img src="/2018/12/29/瓦力工厂/XKL-043-高尔夫/006.png" alt=""></p><p><img src="/2018/12/29/瓦力工厂/XKL-043-高尔夫/007.png" alt=""></p><p>物体之间的相互作用称为“力”。当物体受其他物体的作用后，能使物体获得加速度（速度或动量发生变化）或者发生形变的都称为“力”。它是物理学中重要的基本概念。在力学的范围内，所谓形变是指物体的形状和体积的变化。所谓运动状态的变化指的是物体的速度变化，包括速度大小或方向的变化，即产生加速度。力是物体（或物质）之间的相互作用。</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/29/瓦力工厂/XKL-043-高尔夫/008.png" alt=""></p><p><img src="/2018/12/29/瓦力工厂/XKL-043-高尔夫/009.png" alt=""></p><p><img src="/2018/12/29/瓦力工厂/XKL-043-高尔夫/010.png" alt=""></p><p><img src="/2018/12/29/瓦力工厂/XKL-043-高尔夫/011.png" alt=""></p><p><img src="/2018/12/29/瓦力工厂/XKL-043-高尔夫/012.png" alt=""></p><p><img src="/2018/12/29/瓦力工厂/XKL-043-高尔夫/013.png" alt=""></p><h3 id="高尔夫程序设计："><a href="#高尔夫程序设计：" class="headerlink" title="高尔夫程序设计："></a>高尔夫程序设计：</h3><p><img src="/2018/12/29/瓦力工厂/XKL-043-高尔夫/014.png" alt=""></p><p>高尔夫模型完成了，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/29/瓦力工厂/XKL-043-高尔夫/瓦力.jpeg" alt=""></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="刷卡编程二" scheme="http://yoursite.com/categories/%E5%88%B7%E5%8D%A1%E7%BC%96%E7%A8%8B%E4%BA%8C/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>XKL-044-手弩</title>
+    <link href="http://yoursite.com/2018/12/29/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/XKL-044-%E6%89%8B%E5%BC%A9/"/>
+    <id>http://yoursite.com/2018/12/29/瓦力工厂/XKL-044-手弩/</id>
+    <published>2018-12-29T02:51:07.907Z</published>
+    <updated>2018-12-29T02:51:07.907Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>《诸葛亮传》：“亮性长于巧思，损益连弩，木牛流马，皆出其意。推演兵法，作八阵图，咸得其要。”注引《魏氏春秋》曰：亮作八务、七戒、六恐、五惧，皆有条章，以训厉臣子。又损益连弩，谓之元戎，以铁为矢，矢长八寸，一弩十矢俱发。”皆出其意，即指诸葛亮的创意、构思、设计，而由他人具体制作。</p><p><img src="/2018/12/29/瓦力工厂/XKL-044-手弩/001.png" alt=""></p><h3 id="学习目标-："><a href="#学习目标-：" class="headerlink" title="学习目标 ："></a>学习目标 ：</h3><p>1.了解弹力，作用力与反作用力。<br>2.了解棘轮、棘爪结构。</p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>作用力与反作用力：在经典力学里，牛顿第三定律（Newton’s third law）表明，当两个物体互相作用时，彼此施加于对方的力，其大小相等、方向相反。力必会成双结对地出现：其中一道力称为“作用力”；而另一道力则称为“反作用力”，又称“抗力”；两道力的大小相等、方向相反。它们之间的分辨，是纯然任意的；任何一道力都可以被认为是作用力，而其对应的力自然地成为伴随的反作用力。这成对的作用力与反作用力称为“配对力”。</p><p><img src="/2018/12/29/瓦力工厂/XKL-044-手弩/000.png" alt=""></p><p>棘轮机构：（ratchet and pawl），由棘轮和棘爪组成的一种单向间歇运动机构。棘轮机构常用在各种机床和自动机中间歇进给或回转工作台的转位上，也常用在千斤顶上。在自行车中棘轮机构用于单向驱动，在手动绞车中棘轮机构常用以防止逆转。棘轮机构工作时常伴有噪声和振动，因此它的工作频率不能过高。</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/29/瓦力工厂/XKL-044-手弩/002.png" alt=""></p><p><img src="/2018/12/29/瓦力工厂/XKL-044-手弩/003.png" alt=""></p><p><img src="/2018/12/29/瓦力工厂/XKL-044-手弩/004.png" alt=""></p><p><img src="/2018/12/29/瓦力工厂/XKL-044-手弩/005.png" alt=""></p><p><img src="/2018/12/29/瓦力工厂/XKL-044-手弩/006.png" alt=""></p><p><img src="/2018/12/29/瓦力工厂/XKL-044-手弩/007.png" alt=""></p><p><img src="/2018/12/29/瓦力工厂/XKL-044-手弩/008.png" alt=""></p><p><img src="/2018/12/29/瓦力工厂/XKL-044-手弩/009.png" alt=""></p><p>手弩已完成，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/29/瓦力工厂/XKL-044-手弩/瓦力.jpeg" alt=""></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="刷卡编程二" scheme="http://yoursite.com/categories/%E5%88%B7%E5%8D%A1%E7%BC%96%E7%A8%8B%E4%BA%8C/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>XKL-045-自行车</title>
     <link href="http://yoursite.com/2018/12/28/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/XKL-045-%E8%87%AA%E8%A1%8C%E8%BD%A6/"/>
     <id>http://yoursite.com/2018/12/28/瓦力工厂/XKL-045-自行车/</id>
-    <published>2018-12-28T07:00:39.754Z</published>
-    <updated>2018-12-28T07:00:39.754Z</updated>
+    <published>2018-12-28T07:08:23.575Z</published>
+    <updated>2018-12-28T07:08:23.575Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>自行车锻炼的好处是不限时间、不限速度。骑自行车不但可以减肥，而且还可使身材匀称。由于自行车运动是需要大量氧气的运动，所以还可以强化心脏功能。同时还能防止高血压，有时比药物更有效。踩自行车压缩血管，使得血液循环加速，大脑摄入更多的氧气，再加上吸入大量新鲜空气，会觉得脑筋更清楚。骑在车上，你会感觉十分自由且畅快无比。它不再只是一种代步工具，更是愉悦心灵的方式。<br><a href="https://imgchr.com/i/FWmQTP" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWmQTP.png" alt="FWmQTP.png"></a></p><h3 id="学习目标-："><a href="#学习目标-：" class="headerlink" title="学习目标 ："></a>学习目标 ：</h3><p>1.了解自行车的定义以及骑自行车的好处。<br>2.了解汽车变速箱的原理。<br>3.掌握齿轮变速的原理。<br>4.掌握计算一根轴上的两个齿轮的传动比计算。<br>5.掌握动感单车的人形结构、自行车结构、变速器结构、齿轮系结构和连杆结构的搭建。<br>6.掌握动感单车的编程。</p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>自行车是什么：自行车，又称脚踏车或单车，通常是   二轮的小型陆上车辆。人骑上车后，以脚踩踏板为动力，是绿色环保的交通工具。英文bicycle。其中bi意指二，而cycle意指轮，即两轮车。在中国内地、台湾、新加坡，通常称其为“自行车”或“脚踏车”；在港澳则通常称其为“单车”（其实粤语通常都这么称呼）；而在日本称为“自転（转）车”。自行车种类很多，有单人自行车，双人自行车还有多人自行车。自行车本身是一项体育竞技运动，有公路自行车赛、山地自行车赛、场地自行车赛、特技自行车比赛等。为什么骑自行车：自行车依靠人自身脚踩踏板为动力，而不是使用石油等燃料，所以节能环保；同时在骑自行车的过程中能够锻炼人的各处肌肉，因此是非常健康的运动方式<br>汽车变速器原理：变速器能够固定或分档改变输入轴和输出轴的传动比，一般由变速传动机构和操纵机构组成，大多使用普通齿轮传动。变速器有很多功能，它能改变传动比，实现倒车行驶，中断动力传递，实现空挡。<br><a href="https://imgchr.com/i/FWm1Ff" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWm1Ff.png" alt="FWm1Ff.png"></a><br><img src="/2018/12/28/瓦力工厂/XKL-045-自行车/001.png" alt=""><br>齿轮变速：我们知道大齿轮带动小齿轮能够加速，而小齿轮带动大齿轮能够减速，这涉及到了两个齿轮的传动比。那么为了变速，我们可以改变齿轮连接的方式，这里可以使用两根轴，在每根轴上分别固定大小两个齿轮，固定其中一根轴，移动另外一根轴，改变啮合的齿轮，从而达到变速的效果。另外，我们还需要使用一根梁来作为控制档位的杆，并将其卡在固定的槽中。这是因为当齿轮高速旋转的时候会脱离啮合位置。</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><a href="https://imgchr.com/i/FWm4k6" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWm4k6.png" alt="FWm4k6.png"></a></p><p><a href="https://imgchr.com/i/FWmW01" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWmW01.png" alt="FWmW01.png"></a></p><p><a href="https://imgchr.com/i/FWmfTx" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWmfTx.png" alt="FWmfTx.png"></a></p><p><a href="https://imgchr.com/i/FWmRmR" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWmRmR.png" alt="FWmRmR.png"></a></p><p><a href="https://imgchr.com/i/FWm5tK" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWm5tK.png" alt="FWm5tK.png"></a></p><p><a href="https://imgchr.com/i/FWmIfO" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWmIfO.png" alt="FWmIfO.png"></a></p><p><a href="https://imgchr.com/i/FWmbXd" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWmbXd.png" alt="FWmbXd.png"></a></p><p><a href="https://imgchr.com/i/FWm71e" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWm71e.png" alt="FWm71e.png"></a></p><p><a href="https://imgchr.com/i/FWmTpD" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWmTpD.png" alt="FWmTpD.png"></a></p><p><a href="https://imgchr.com/i/FWmH6H" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWmH6H.png" alt="FWmH6H.png"></a></p><p><a href="https://imgchr.com/i/FWmO0I" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWmO0I.png" alt="FWmO0I.png"></a></p><p><a href="https://imgchr.com/i/FWmLnA" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWmLnA.png" alt="FWmLnA.png"></a></p><p><a href="https://imgchr.com/i/FWmX7t" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWmX7t.png" alt="FWmX7t.png"></a></p><p><a href="https://imgchr.com/i/FWmvAP" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWmvAP.png" alt="FWmvAP.png"></a></p><p><a href="https://imgchr.com/i/FWmxtf" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWmxtf.png" alt="FWmxtf.png"></a></p><p><a href="https://imgchr.com/i/FWmzh8" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWmzh8.png" alt="FWmzh8.png"></a></p><p><a href="https://imgchr.com/i/FWnp9S" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWnp9S.png" alt="FWnp9S.png"></a></p><p><a href="https://imgchr.com/i/FWnCcQ" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWnCcQ.png" alt="FWnCcQ.png"></a></p><p><a href="https://imgchr.com/i/FWn91g" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWn91g.png" alt="FWn91g.png"></a></p><p>自行车模型已完成，有什么疑问，加老师微信进行咨询吧！</p><p><a href="https://imgchr.com/i/FWnGAx" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></a></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>自行车锻炼的好处是不限时间、不限速度。骑自行车不但可以减肥，而且还可使身材匀称。由于自行车运动是需要大量氧气的运动，所以还可以强化心脏功能。同时还能防止高血压，有时比药物更有效。踩自行车压缩血管，使得血液循环加速，大脑摄入更多的氧气，再加上吸入大量新鲜空气，会觉得脑筋更清楚。骑在车上，你会感觉十分自由且畅快无比。它不再只是一种代步工具，更是愉悦心灵的方式。<br><a href="https://imgchr.com/i/FWmQTP" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWmQTP.png" alt="FWmQTP.png"></a></p><h3 id="学习目标-："><a href="#学习目标-：" class="headerlink" title="学习目标 ："></a>学习目标 ：</h3><p>1.了解自行车的定义以及骑自行车的好处。<br>2.了解汽车变速箱的原理。<br>3.掌握齿轮变速的原理。<br>4.掌握计算一根轴上的两个齿轮的传动比计算。<br>5.掌握动感单车的人形结构、自行车结构、变速器结构、齿轮系结构和连杆结构的搭建。<br>6.掌握动感单车的编程。</p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>自行车是什么：自行车，又称脚踏车或单车，通常是   二轮的小型陆上车辆。人骑上车后，以脚踩踏板为动力，是绿色环保的交通工具。英文bicycle。其中bi意指二，而cycle意指轮，即两轮车。在中国内地、台湾、新加坡，通常称其为“自行车”或“脚踏车”；在港澳则通常称其为“单车”（其实粤语通常都这么称呼）；而在日本称为“自転（转）车”。自行车种类很多，有单人自行车，双人自行车还有多人自行车。自行车本身是一项体育竞技运动，有公路自行车赛、山地自行车赛、场地自行车赛、特技自行车比赛等。为什么骑自行车：自行车依靠人自身脚踩踏板为动力，而不是使用石油等燃料，所以节能环保；同时在骑自行车的过程中能够锻炼人的各处肌肉，因此是非常健康的运动方式<br>汽车变速器原理：变速器能够固定或分档改变输入轴和输出轴的传动比，一般由变速传动机构和操纵机构组成，大多使用普通齿轮传动。变速器有很多功能，它能改变传动比，实现倒车行驶，中断动力传递，实现空挡。<br><a href="https://imgchr.com/i/FWm1Ff" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWm1Ff.png" alt="FWm1Ff.png"></a></p><p>齿轮变速：我们知道大齿轮带动小齿轮能够加速，而小齿轮带动大齿轮能够减速，这涉及到了两个齿轮的传动比。那么为了变速，我们可以改变齿轮连接的方式，这里可以使用两根轴，在每根轴上分别固定大小两个齿轮，固定其中一根轴，移动另外一根轴，改变啮合的齿轮，从而达到变速的效果。另外，我们还需要使用一根梁来作为控制档位的杆，并将其卡在固定的槽中。这是因为当齿轮高速旋转的时候会脱离啮合位置。</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><a href="https://imgchr.com/i/FWm4k6" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWm4k6.png" alt="FWm4k6.png"></a></p><p><a href="https://imgchr.com/i/FWmW01" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWmW01.png" alt="FWmW01.png"></a></p><p><a href="https://imgchr.com/i/FWmfTx" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWmfTx.png" alt="FWmfTx.png"></a></p><p><a href="https://imgchr.com/i/FWmRmR" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWmRmR.png" alt="FWmRmR.png"></a></p><p><a href="https://imgchr.com/i/FWm5tK" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWm5tK.png" alt="FWm5tK.png"></a></p><p><a href="https://imgchr.com/i/FWmIfO" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWmIfO.png" alt="FWmIfO.png"></a></p><p><a href="https://imgchr.com/i/FWmbXd" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWmbXd.png" alt="FWmbXd.png"></a></p><p><a href="https://imgchr.com/i/FWm71e" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWm71e.png" alt="FWm71e.png"></a></p><p><a href="https://imgchr.com/i/FWmTpD" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWmTpD.png" alt="FWmTpD.png"></a></p><p><a href="https://imgchr.com/i/FWmH6H" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWmH6H.png" alt="FWmH6H.png"></a></p><p><a href="https://imgchr.com/i/FWmO0I" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWmO0I.png" alt="FWmO0I.png"></a></p><p><a href="https://imgchr.com/i/FWmLnA" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWmLnA.png" alt="FWmLnA.png"></a></p><p><a href="https://imgchr.com/i/FWmX7t" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWmX7t.png" alt="FWmX7t.png"></a></p><p><a href="https://imgchr.com/i/FWmvAP" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWmvAP.png" alt="FWmvAP.png"></a></p><p><a href="https://imgchr.com/i/FWmxtf" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWmxtf.png" alt="FWmxtf.png"></a></p><p><a href="https://imgchr.com/i/FWmzh8" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWmzh8.png" alt="FWmzh8.png"></a></p><p><a href="https://imgchr.com/i/FWnp9S" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWnp9S.png" alt="FWnp9S.png"></a></p><p><a href="https://imgchr.com/i/FWnCcQ" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWnCcQ.png" alt="FWnCcQ.png"></a></p><p><a href="https://imgchr.com/i/FWn91g" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWn91g.png" alt="FWn91g.png"></a></p><p>自行车模型已完成，有什么疑问，加老师微信进行咨询吧！</p><p><a href="https://imgchr.com/i/FWnGAx" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></a></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
     
     <summary type="html">
     
@@ -47,52 +116,6 @@
     <updated>2018-12-28T06:57:01.577Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="/2018/12/28/瓦力工厂/XKL-042-赛艇/001.png" alt=""></p><p><img src="/2018/12/28/瓦力工厂/XKL-042-赛艇/002.png" alt=""></p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.了解赛艇比赛常识</p><p>2.熟练运用凸轮结构</p><p>3.熟练运用涡轮箱</p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>赛艇是奥运会传统比赛项目之一。赛艇是由一名或多名桨手坐在舟艇上，背向<br>舟艇前进的方向，运用其肌肉力量，通过桨和桨架简单杠杆作用进行划水，使<br>舟艇前进的一项水上运动。舟艇上可以有舵手，也可以无舵手。赛艇运动多在<br>江河湖泊等大自然水域中进行，空气清新，阳光充足，受到大自然的沐浴，能<br>有效地提高人体的心血管和呼吸系统功能，增强全身肌肉力量，调节神经系统<br>平衡，有利于提高人体的健康水平。赛艇运动员的肺活量在各项体育项目中占<br>第一位，可达7000毫升，有人把赛艇运动称为肺部体操。</p><p>蜗杆传动常用于两轴交错、传动比较大、传递功率不太大或间歇工作的场合。<br>1.用于改变传动方向2.用作减速机构。<br><img src="/2018/12/28/瓦力工厂/XKL-042-赛艇/004.png" alt=""></p><p><img src="/2018/12/28/瓦力工厂/XKL-042-赛艇/006.gif" alt=""></p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/28/瓦力工厂/XKL-042-赛艇/007.png" alt=""></p><p><img src="/2018/12/28/瓦力工厂/XKL-042-赛艇/008.png" alt=""></p><p><img src="/2018/12/28/瓦力工厂/XKL-042-赛艇/009.png" alt=""></p><p><img src="/2018/12/28/瓦力工厂/XKL-042-赛艇/010.png" alt=""></p><p><img src="/2018/12/28/瓦力工厂/XKL-042-赛艇/011.png" alt=""></p><p><img src="/2018/12/28/瓦力工厂/XKL-042-赛艇/012.png" alt=""></p><h3 id="赛艇程序设计："><a href="#赛艇程序设计：" class="headerlink" title="赛艇程序设计："></a>赛艇程序设计：</h3><p><img src="/2018/12/28/瓦力工厂/XKL-042-赛艇/013.png" alt=""></p><p>赛艇完成了，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/28/瓦力工厂/XKL-042-赛艇/瓦力.jpeg" alt=""></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="刷卡编程二" scheme="http://yoursite.com/categories/%E5%88%B7%E5%8D%A1%E7%BC%96%E7%A8%8B%E4%BA%8C/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>XKL-044-手弩</title>
-    <link href="http://yoursite.com/2018/12/28/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/XKL-044-%E6%89%8B%E5%BC%A9/"/>
-    <id>http://yoursite.com/2018/12/28/瓦力工厂/XKL-044-手弩/</id>
-    <published>2018-12-28T06:18:57.345Z</published>
-    <updated>2018-12-28T06:18:57.345Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>《诸葛亮传》：“亮性长于巧思，损益连弩，木牛流马，皆出其意。推演兵法，作八阵图，咸得其要。”注引《魏氏春秋》曰：亮作八务、七戒、六恐、五惧，皆有条章，以训厉臣子。又损益连弩，谓之元戎，以铁为矢，矢长八寸，一弩十矢俱发。”皆出其意，即指诸葛亮的创意、构思、设计，而由他人具体制作。</p><p><img src="/2018/12/28/瓦力工厂/XKL-044-手弩/001.png" alt=""></p><h3 id="学习目标-："><a href="#学习目标-：" class="headerlink" title="学习目标 ："></a>学习目标 ：</h3><p>1.了解弹力，作用力与反作用力。<br>2.了解棘轮、棘爪结构。</p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>作用力与反作用力：在经典力学里，牛顿第三定律（Newton’s third law）表明，当两个物体互相作用时，彼此施加于对方的力，其大小相等、方向相反。力必会成双结对地出现：其中一道力称为“作用力”；而另一道力则称为“反作用力”，又称“抗力”；两道力的大小相等、方向相反。它们之间的分辨，是纯然任意的；任何一道力都可以被认为是作用力，而其对应的力自然地成为伴随的反作用力。这成对的作用力与反作用力称为“配对力”。</p><p><img src="/2018/12/28/瓦力工厂/XKL-044-手弩/000.png" alt=""></p><p>棘轮机构：（ratchet and pawl），由棘轮和棘爪组成的一种单向间歇运动机构。棘轮机构常用在各种机床和自动机中间歇进给或回转工作台的转位上，也常用在千斤顶上。在自行车中棘轮机构用于单向驱动，在手动绞车中棘轮机构常用以防止逆转。棘轮机构工作时常伴有噪声和振动，因此它的工作频率不能过高。</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/28/瓦力工厂/XKL-044-手弩/002.png" alt=""></p><p><img src="/2018/12/28/瓦力工厂/XKL-044-手弩/003.png" alt=""></p><p><img src="/2018/12/28/瓦力工厂/XKL-044-手弩/004.png" alt=""></p><p><img src="/2018/12/28/瓦力工厂/XKL-044-手弩/005.png" alt=""></p><p><img src="/2018/12/28/瓦力工厂/XKL-044-手弩/006.png" alt=""></p><p><img src="/2018/12/28/瓦力工厂/XKL-044-手弩/007.png" alt=""></p><p><img src="/2018/12/28/瓦力工厂/XKL-044-手弩/008.png" alt=""></p><p><img src="/2018/12/28/瓦力工厂/XKL-044-手弩/009.png" alt=""></p><p>手弩已完成，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/28/瓦力工厂/XKL-044-手弩/瓦力.jpeg" alt=""></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="刷卡编程二" scheme="http://yoursite.com/categories/%E5%88%B7%E5%8D%A1%E7%BC%96%E7%A8%8B%E4%BA%8C/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>高尔夫</title>
-    <link href="http://yoursite.com/2018/12/28/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/XKL-043-%E9%AB%98%E5%B0%94%E5%A4%AB/"/>
-    <id>http://yoursite.com/2018/12/28/瓦力工厂/XKL-043-高尔夫/</id>
-    <published>2018-12-28T06:18:56.261Z</published>
-    <updated>2018-12-28T06:18:56.261Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.了解高尔夫玩法</p><p>2.了解力的传递</p><p>3.了解物体碰撞规律</p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>高尔夫”是GOLF的音译，由四个英文词汇的首字母缩写构成。它们分别是：<br>Green, Oxygen, Light, Friendship。意思是”绿色，氧气，阳光，友谊”，它是一种<br>把享受大自然乐趣、体育锻炼和游戏集于一身的运动。高尔夫球运动是一种以<br>棒击球入穴的球类运动。如今，现代高尔夫球运动已经成为贵族运动的代名词，<br>是中国古代一种名为“捶丸”的球戏演变而来的。<br><img src="/2018/12/28/瓦力工厂/XKL-043-高尔夫/001.png" alt=""></p><p><img src="/2018/12/28/瓦力工厂/XKL-043-高尔夫/002.png" alt=""></p><p><img src="/2018/12/28/瓦力工厂/XKL-043-高尔夫/003.png" alt=""></p><p><img src="/2018/12/28/瓦力工厂/XKL-043-高尔夫/004.png" alt=""></p><p><img src="/2018/12/28/瓦力工厂/XKL-043-高尔夫/005.png" alt=""></p><p><img src="/2018/12/28/瓦力工厂/XKL-043-高尔夫/006.png" alt=""></p><p><img src="/2018/12/28/瓦力工厂/XKL-043-高尔夫/007.png" alt=""></p><p>物体之间的相互作用称为“力”。当物体受其他物体的作用后，能使物体获得加速度（速度或动量发生变化）或者发生形变的都称为“力”。它是物理学中重要的基本概念。在力学的范围内，所谓形变是指物体的形状和体积的变化。所谓运动状态的变化指的是物体的速度变化，包括速度大小或方向的变化，即产生加速度。力是物体（或物质）之间的相互作用。</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/28/瓦力工厂/XKL-043-高尔夫/008.png" alt=""></p><p><img src="/2018/12/28/瓦力工厂/XKL-043-高尔夫/009.png" alt=""></p><p><img src="/2018/12/28/瓦力工厂/XKL-043-高尔夫/010.png" alt=""></p><p><img src="/2018/12/28/瓦力工厂/XKL-043-高尔夫/011.png" alt=""></p><p><img src="/2018/12/28/瓦力工厂/XKL-043-高尔夫/012.png" alt=""></p><p><img src="/2018/12/28/瓦力工厂/XKL-043-高尔夫/013.png" alt=""></p><h3 id="高尔夫程序设计："><a href="#高尔夫程序设计：" class="headerlink" title="高尔夫程序设计："></a>高尔夫程序设计：</h3><p><img src="/2018/12/28/瓦力工厂/XKL-043-高尔夫/014.png" alt=""></p><p>高尔夫模型完成了，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/28/瓦力工厂/XKL-043-高尔夫/瓦力.jpeg" alt=""></p>]]></content>
     
     <summary type="html">
     
@@ -438,29 +461,6 @@
     <updated>2018-12-24T15:44:50.649Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr><p>当我们已经安装好了软件。此时是全英文的，我们可以点击这个小宇宙切换成简体中文。所以一定要小朋友要好好学英语，这样我们就可以不用切换啦！<br><img src="/2018/12/24/瓦力工厂/第1课小猫学步/001.png" alt=""><br>现在我们来介绍下Scratch软件每个区块的作用和名字，区块名字记不住没关系的，只要知道每个区块是做什么的就可以啦！<br><img src="/2018/12/24/瓦力工厂/第1课小猫学步/002.png" alt=""><br>菜单-是我们保存文件和打开文件的地方；</p><p>控制按钮-小绿旗是开始，红色圆圈是停止；</p><p>工具箱-可以放大和缩小我们的角色；</p><p>舞台区-就是我们动画和游戏展示的地方；</p><p>新建角色按钮-我们可以建立我们自己喜欢的角色；</p><p>角色列表区-我们可以看到我们有哪些角色；</p><p>程序区块-是我们最重要的地方了，我们需要后面慢慢学习；</p><p>脚本区-是我们的做的程序。</p><p>通过这些枯燥的解释以后，我们就要进入后面的有趣环节了。</p><p>一只不会走路的小猫，要小朋友动脑筋来让它学会走路。</p><p>我们一起来看看最终我们要做成的样子，一只小猫咪在我们的编程下学会了走路。</p><p>是不是太棒啦！！！<br><img src="/2018/12/24/瓦力工厂/第1课小猫学步/003.png" alt=""><br>首先我们添加动作，开始我们编程的第一步，『移动10步』。<br>可是，要不断的点击移动1步，移动1步，小猫咪才会行走，感觉是被老师拖着走的，不是自己在走的，而且老师点击的也有点点累了。<br>老师想让小猫咪自己走起了，不用老师每次去点击一次它才走一步，那么我们就要用一个很关键的程序部分了，那就是重复（循环）。就像我们学习一样要不断的重复才能记住。<img src="/2018/12/24/瓦力工厂/第1课小猫学步/004.png" alt=""><br>小猫能一次走很远了，但是好像小猫的动作很不自然，下面我们就让小猫走的自然一点<br><img src="/2018/12/24/瓦力工厂/第1课小猫学步/005.png" alt=""><br>好的这样我们的第一课『小猫学步』就完成了。现在小朋友可以在回到最开始看看我们的做的程序是不是和老师最开始的视频一样的效果。<br>如果不是看看是不是哪里有什么小问题，还是你又改进什么和新发现。<br>可以给老师留言哟！我们一起学习和进步。<br><img src="/2018/12/24/瓦力工厂/第1课小猫学步/瓦力.jpeg" alt=""></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="Scratch 入门" scheme="http://yoursite.com/categories/Scratch-%E5%85%A5%E9%97%A8/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>儿童编程Scratch 赢在起跑线</title>
-    <link href="http://yoursite.com/2018/12/24/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/Scratch%20%E7%AE%80%E4%BB%8B/"/>
-    <id>http://yoursite.com/2018/12/24/瓦力工厂/Scratch 简介/</id>
-    <published>2018-12-24T15:44:19.350Z</published>
-    <updated>2018-12-24T15:44:19.350Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="/2018/12/24/瓦力工厂/Scratch 简介/001.png" alt="植物大战僵尸"><br>Scratch是一种全新的程序设计语言，你可以用它很容易地创造交互式故事情节、动画、游戏，然后还可以把你的作品分享给所有人。开发者表示，这种电脑编程语言的目的，是帮助年轻人发展学习技能，学习创造性思维，以及学习集体合作。MIT（麻省理工学院）媒体实验室的博士生凯伦.布雷南，是Scratch项目的负责人，他说，“我们的目的不是要创办电脑程序编写大军，而是帮助电脑使用者表达自己。”</p><p><em>与其让孩子玩游戏；</em><br><em>不如让孩子做编程。</em></p><h2 id=""><a href="#" class="headerlink" title=""></a><img src="/2018/12/24/瓦力工厂/Scratch 简介/002.png" alt="植物大战僵尸"></h2><p>Scratch不是游戏，是一款可以制作游戏、动画的编程工具。一旦掌握了这个工具，孩子们就能自由自在地挥洒它们无限的创意，享受创造的乐趣。Scratch由麻省理工学院媒体实验室开发出来至今，全美有超过100万的孩子在学习Scratch。而在台湾，中小学生的信息化课就是以Scratch为主来上的，也有许多Scratch教学的网站。台湾教育部门每年都会举行程序设计比赛。台湾中小学的教育，通过Scratch，扩展了语文，数学，外语，音乐，体育，科学的教学深度。</p><p>科技使人类的生活发生巨大的变化。就当下的教育而言，孩子科技能力的重要性绝不亚于其他才艺和知识。</p><p>根据孩子上课的情况和效果，我们总结了Scratch三大好处。</p><h2 id="-1"><a href="#-1" class="headerlink" title=""></a><img src="/2018/12/24/瓦力工厂/Scratch 简介/003.png" alt="植物大战僵尸"></h2><p>1、学习Scratch可以培养逻辑思维能力。<br>在大年龄段孩子学习Scratch编程时，会涉及许多数学知识，孩子需要结合学校内学到的数学知识，来解决编程问题。因此，在不断探索的过程中，孩子们的数学知识也会越累越丰富，创作能力也越来越强。</p><p>2、学习Scratch可以提高学习的主动性。<br>在Scratch课堂上，我们鼓励孩子自己创作作品。在创作的过程中不仅习得了Science（科学），Technology（技术），Engineering（工程），Arts（艺术），Maths（数学）等多个领域的知识，而且也获得了成就感和满足感。定期校区举办Scratch分享会，让孩子们彼此体验他们自己编程的游戏，互相提出改进方法方式，这个过程大大激励了孩子的成就感和学习欲望。</p><p>3、学习Scratch可以激发创造力。<br>Scratch软件的优势是易学且功能强大，有助于孩子们发挥自己的想象力，而在动手创作过程中，他们的学习积极性、想象力和创造力会得到极大的锻炼。孩子们可以用Scratch中已有的素材，发挥自己的想象力制作游戏、动画，还可以自己设计素材。孩子只要敢想，在我们的指导下，就能完成他们心目中的游戏。</p><h2 id="-2"><a href="#-2" class="headerlink" title=""></a><img src="/2018/12/24/瓦力工厂/Scratch 简介/004.png" alt="植物大战僵尸"></h2><p>儿童编程和程序员的编程有什么区别？</p><p>归于一句话“孩子编程看兴趣，大人编程看薪水。”</p><p>儿童编程使用简易的编程软件进行编程思想和思维方式的锻炼，核心的理念是在把计算机编程融合孩子兴趣的同时，加强孩子思维能力的锻炼，在中国的大多数的儿童编程学习中，均将学科知识与编程知识相融合的方式进行授课教学。这在中国是有一定原因的：传统的中国式教育是以升学为目的的，只有将学科知识融入到编程学习中，家长才会乐于让孩子去接触。而成人的程序编程主要学的是程序语法的应用和实践，他主要偏向的是计算机编程的项目开发。</p><p>相对于在学校信息课上所学的知识来说，用于初学者教学，Scratch有以下这些优点：</p><p>1、入门简单，无关原有编程基础，适合中小学学生初次学习编程语言时使用；</p><p>2、内容丰富，针对有兴趣、喜爱绘画的学生，提供角色绘制设计功能；</p><p>3、通过使用Scratch，让学生在动画、游戏设计过程中逐渐形成逻辑分析、独立思考创新的思维方式，学会提出问题，解决问题；</p><p>4、相比其他编程软件，Scratch更加直观，学生能比较容易地看到自己的劳动成果。</p><p>学习编程最基本的是编程概念的掌握，Scratch以积木的形式进行编程，8个编程部件涵盖了常见的编程概念。学习编程最重要的是编程思想的培养，在程序学习中培养学生利用编程解决问题的能力。</p><p>学生在学会了编程的基本原理和方法后，会有兴趣也有能力将动画和游戏编写得更逼真，更好玩。在修改动画游戏脚本的过程中，学生不断提出问题，解决问题，根据自己的需求进行分析，设定合适的角色和相应的脚本，最终实现程序。<br><img src="/2018/12/24/瓦力工厂/Scratch 简介/瓦力.jpeg" alt=""></p>]]></content>
     
     <summary type="html">
     
