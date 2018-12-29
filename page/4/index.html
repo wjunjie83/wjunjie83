@@ -1356,168 +1356,6 @@ convert page200.png -resize 150% page300.png
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/" class="post-title-link" itemprop="http://yoursite.com/page/4/index.html">DPJ-026-双寻线机器人</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-12-02 13:32:20" itemprop="dateModified" datetime="2018-12-02T13:32:20+08:00">2018-12-02</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>双11刚刚过去，瓦力工厂就接到一个任务，那就是为明年的双11设计自动送快递的小车，因为双11实在是太火爆了，快递员夜以继日的送快递都不能把快递送完，有的快递员都累病了。这个任务就交到了我们伟大的瓦力工程师手里，对于这样的问题，我们瓦力工程师只能说NO Problem！</p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/001.jpeg" alt=""></p>
-<h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><h4 id="红外避障传感器基本原理："><a href="#红外避障传感器基本原理：" class="headerlink" title="红外避障传感器基本原理："></a>红外避障传感器基本原理：</h4><p> 利用物体的反射性质。在一定范围内，如果没有障碍物，发射出去的红外线，因为传播距离越远而逐渐减弱，最后消失。如果有障碍物，红外线遇到障碍物，被反射到达传感器接收头。传感器检测到这一信号，就可以确认正前方有障碍物，并送给单片机，单片机进行一系列的处理分析，协调小车两轮工作，完成一个漂亮的躲避障碍物动作。<br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/003.png" alt=""></p>
-<h4 id="巡线机器人的实现原理"><a href="#巡线机器人的实现原理" class="headerlink" title="巡线机器人的实现原理"></a>巡线机器人的实现原理</h4><p>  由于黑色具有较强的吸收能力，当循迹模块发射的红外线照射到黑线时，红外线将会被黑线吸收，导致循迹模块上光敏三极管处于关闭状态，此时模块上一个LED熄灭。在没有检测到黑线时，模块上两个LED常亮。</p>
-<h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有轮子（为什么呢？观察生活）<br>３．需要有前进、转弯、停止的控制方法（不能手动）</p>
-<h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、马达、轮子、CPU、红外避障传感器、附件</p>
-<h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>课程目标：<br>1.了解双巡线。<br>2.红外传感器搭建与调试。<br>3.双红外线巡线编程逻辑。<br>4.培养孩子发现问题，分析问题，解决问题，动手搭建能力。</p>
-<h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/004.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/005.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/006.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/007.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/008.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/009.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/010.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/011.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/012.png" alt=""></p>
-<h3 id="接力赛机器人程序设计："><a href="#接力赛机器人程序设计：" class="headerlink" title="接力赛机器人程序设计："></a>接力赛机器人程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/013.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/014.png" alt=""><br>双巡线机器人已完成，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/瓦力.jpeg" alt=""></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1625,6 +1463,168 @@ convert page200.png -resize 150% page300.png
 <h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.了解道闸结构.<br>2.了解不停车电子收费系统.<br>3.自己设计并切完成道闸机器人的制作。</p>
 <h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/003.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/004.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/005.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/006.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/007.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/008.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/009.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/010.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/011.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/012.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/013.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/014.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/015.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/016.png" alt=""></p>
 <h3 id="接力赛机器人程序设计："><a href="#接力赛机器人程序设计：" class="headerlink" title="接力赛机器人程序设计："></a>接力赛机器人程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/017.png" alt=""><br>道闸机器人已完成，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/瓦力.jpeg" alt=""></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/" class="post-title-link" itemprop="http://yoursite.com/page/4/index.html">DPJ-026-双寻线机器人</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-12-02 13:32:20" itemprop="dateModified" datetime="2018-12-02T13:32:20+08:00">2018-12-02</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>双11刚刚过去，瓦力工厂就接到一个任务，那就是为明年的双11设计自动送快递的小车，因为双11实在是太火爆了，快递员夜以继日的送快递都不能把快递送完，有的快递员都累病了。这个任务就交到了我们伟大的瓦力工程师手里，对于这样的问题，我们瓦力工程师只能说NO Problem！</p>
+<p><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/001.jpeg" alt=""></p>
+<h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><h4 id="红外避障传感器基本原理："><a href="#红外避障传感器基本原理：" class="headerlink" title="红外避障传感器基本原理："></a>红外避障传感器基本原理：</h4><p> 利用物体的反射性质。在一定范围内，如果没有障碍物，发射出去的红外线，因为传播距离越远而逐渐减弱，最后消失。如果有障碍物，红外线遇到障碍物，被反射到达传感器接收头。传感器检测到这一信号，就可以确认正前方有障碍物，并送给单片机，单片机进行一系列的处理分析，协调小车两轮工作，完成一个漂亮的躲避障碍物动作。<br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/003.png" alt=""></p>
+<h4 id="巡线机器人的实现原理"><a href="#巡线机器人的实现原理" class="headerlink" title="巡线机器人的实现原理"></a>巡线机器人的实现原理</h4><p>  由于黑色具有较强的吸收能力，当循迹模块发射的红外线照射到黑线时，红外线将会被黑线吸收，导致循迹模块上光敏三极管处于关闭状态，此时模块上一个LED熄灭。在没有检测到黑线时，模块上两个LED常亮。</p>
+<h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有轮子（为什么呢？观察生活）<br>３．需要有前进、转弯、停止的控制方法（不能手动）</p>
+<h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、马达、轮子、CPU、红外避障传感器、附件</p>
+<h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>课程目标：<br>1.了解双巡线。<br>2.红外传感器搭建与调试。<br>3.双红外线巡线编程逻辑。<br>4.培养孩子发现问题，分析问题，解决问题，动手搭建能力。</p>
+<h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/004.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/005.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/006.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/007.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/008.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/009.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/010.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/011.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/012.png" alt=""></p>
+<h3 id="接力赛机器人程序设计："><a href="#接力赛机器人程序设计：" class="headerlink" title="接力赛机器人程序设计："></a>接力赛机器人程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/013.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/014.png" alt=""><br>双巡线机器人已完成，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/瓦力.jpeg" alt=""></p>
 
           
         
