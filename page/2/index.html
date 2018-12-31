@@ -357,6 +357,210 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/26/瓦力工厂/Python零基础快速入门趣味教程008/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/26/瓦力工厂/Python零基础快速入门趣味教程008/" class="post-title-link" itemprop="http://yoursite.com/page/2/index.html">Python零基础快速入门趣味教程008-蟒蛇绘制</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-12-26 18:33:05" itemprop="dateCreated datePublished" datetime="2018-12-26T18:33:05+08:00">2018-12-26</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Python-入门/" itemprop="url" rel="index"><span itemprop="name">Python 入门</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><a href="https://imgchr.com/i/FgNfEQ" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/25/FgNfEQ.png" alt="FgNfEQ.png"></a></p>
+<h3 id="Python-语法元素理解"><a href="#Python-语法元素理解" class="headerlink" title="Python 语法元素理解"></a>Python 语法元素理解</h3><ul>
+<li>Python 蟒蛇绘制共17行代码，但很多行类似</li>
+<li>清楚理解这17行代码能够掌握Python基本绘图方法。</li>
+<li>参考框架结构，逐行分析，逐词理解。</li>
+<li>Python 蟒蛇的颜色：黑色、绿色、七彩色…</li>
+<li>Python 蟒蛇的长度：1节、3节、10节…</li>
+<li>Python 蟒蛇的方向：向左走、斜着走…<br>计算问题的扩展。</li>
+<li>Python蟒蛇绘制问题是各类图像绘制问题的代表。</li>
+<li>圆形绘制、五角星绘制、国旗绘制、 机器猫绘制。</li>
+<li>掌握绘制一条线的方法，就可以绘制整个世界</li>
+</ul>
+<p>下面我们系统的对turtle进行学习一下</p>
+<ul>
+<li>turtle基本介绍</li>
+<li>turtle绘图窗体布局</li>
+<li>turtle空间坐标体</li>
+<li>turtle角度坐标体系</li>
+<li>turtle RGB 色彩体系</li>
+</ul>
+<h3 id="turtle库概述"><a href="#turtle库概述" class="headerlink" title="turtle库概述"></a>turtle库概述</h3><p>turtle(海龟)库是turtle绘图体系的Python实现</p>
+<ul>
+<li>turtle绘图体系：1969年诞生，主要用于程序设计入门</li>
+<li>Python语言的标准库之一</li>
+<li>入门级的图形绘制函数库<h4 id="标准库"><a href="#标准库" class="headerlink" title="标准库"></a>标准库</h4>Python计算生态 = 标准库 + 第三方库</li>
+<li>标准库：随解释器直接安装到操作系统中的功能模块</li>
+<li>第三方库：需要经过安装才能使用的功能模块</li>
+<li>库Library、包Package、模块Module，统称模块</li>
+</ul>
+<h3 id="turtle的原（wan）理（fa）"><a href="#turtle的原（wan）理（fa）" class="headerlink" title="turtle的原（wan）理（fa）"></a>turtle的原（wan）理（fa）</h3><p>turtle(海龟)是一种真实的存在</p>
+<ul>
+<li>有一只海龟，其实在窗体正中心，在画布上游走</li>
+<li>走过的轨迹形成了绘制的图形</li>
+<li>海龟由程序控制，可以变换颜色、改变宽度等<h3 id="turtle的绘图窗体"><a href="#turtle的绘图窗体" class="headerlink" title="turtle的绘图窗体"></a>turtle的绘图窗体</h3><img src="https://s1.ax1x.com/2018/12/26/F2kusf.png" alt="F2kusf.png"></li>
+</ul>
+<p><img src="https://s1.ax1x.com/2018/12/26/F2k8ij.png" alt="F2k8ij.png"></p>
+<p><img src="https://s1.ax1x.com/2018/12/26/F2kJWn.png" alt="F2kJWn.png"></p>
+<p><img src="https://s1.ax1x.com/2018/12/26/F2k0wF.png" alt="F2k0wF.png"></p>
+<h3 id="turtle空间坐标体系"><a href="#turtle空间坐标体系" class="headerlink" title="turtle空间坐标体系"></a>turtle空间坐标体系</h3><p><img src="https://s1.ax1x.com/2018/12/26/F2kcS1.png" alt="F2kcS1.png"></p>
+<p><img src="https://s1.ax1x.com/2018/12/26/F2kgQx.png" alt="F2kgQx.png"></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line">turtle.goto( 100, 100)</span><br><span class="line">turtle.goto( 100,-100)</span><br><span class="line">turtle.goto(-100,-100)</span><br><span class="line">turtle.goto(-100, 100)</span><br><span class="line">turtle.goto(0,0)</span><br></pre></td></tr></table></figure>
+<p><img src="https://s1.ax1x.com/2018/12/26/F2kHSI.png" alt="F2kHSI.png"></p>
+<p><img src="https://s1.ax1x.com/2018/12/26/F2kblt.png" alt="F2kblt.png"></p>
+<h3 id="turtle角度坐标体系"><a href="#turtle角度坐标体系" class="headerlink" title="turtle角度坐标体系"></a>turtle角度坐标体系</h3><p><img src="https://s1.ax1x.com/2018/12/26/F2kXm8.png" alt="F2kXm8.png"></p>
+<p><img src="https://s1.ax1x.com/2018/12/26/F2kj0S.png" alt="F2kj0S.png"></p>
+<p><img src="https://s1.ax1x.com/2018/12/26/F2ASYj.png" alt="F2ASYj.png"></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line">turtle.left(45)</span><br><span class="line">turtle.fd(150)</span><br><span class="line">turtle.right(135)</span><br><span class="line">turtle.fd(300)</span><br><span class="line">turtle.left(135)</span><br><span class="line">turtle.fd(150)</span><br></pre></td></tr></table></figure>
+<p><img src="https://wjunjie83.github.io//18-12-26/24084404.jpg" alt=""></p>
+<p><a href="https://imgchr.com/i/Fcubs1" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/25/Fcubs1.jpg" alt="Fcubs1.jpg"></a></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/26/瓦力工厂-使用Anaconda安装TensorFlow/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1834,168 +2038,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/24/瓦力工厂/第3课-新年到!下雪了/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/24/瓦力工厂/第3课-新年到!下雪了/" class="post-title-link" itemprop="http://yoursite.com/page/2/index.html">趣味编程第3课-新年到!下雪了</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2018-12-24 23:45:06" itemprop="dateCreated datePublished" datetime="2018-12-24T23:45:06+08:00">2018-12-24</time>
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Scratch-入门/" itemprop="url" rel="index"><span itemprop="name">Scratch 入门</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="一、任务描述"><a href="#一、任务描述" class="headerlink" title="一、任务描述"></a>一、任务描述</h3><p>冬天来了,只见雪花纷纷扬扬地从空中飘下来。雪花落在小树上，小树好像穿上雪白的新衣。雪花落在屋顶上，屋顶好像戴上了雪白的帽子。雪花落在大地上，大地好像盖上了雪白的羊毛毯。要求用动画实现下雪的场景。<br><img src="/2018/12/24/瓦力工厂/第3课-新年到!下雪了/001.png" alt=""></p>
-<h3 id="二、任务目的"><a href="#二、任务目的" class="headerlink" title="二、任务目的"></a>二、任务目的</h3><p>　 1、让大家能够结合我们身边的事物来进行创作，巩固学习编程知识。</p>
-<p>　　2、scratch中克隆体个数是有限的，不能无限制的克隆</p>
-<p>　　3、学习私有变量的创建以及结合克隆体的使用。</p>
-<p>　　4、面对某些不好实现的效果我们需要通过转换思维的办法来解决问题。<br><img src="/2018/12/24/瓦力工厂/第3课-新年到!下雪了/002.png" alt=""></p>
-<h3 id="三、任务分析"><a href="#三、任务分析" class="headerlink" title="三、任务分析"></a>三、任务分析</h3><p>　　1、初级挑战：只需要会使用克隆与随机数即可。在scratch中“克隆”与“当作为克隆体启动时”经常是配合使用，我们通过重复执行，来不断的克隆雪花。在每个克隆体启动时我们设置一下克隆体的大小和位置，然后再通过重复执行，改变克隆体的y坐标就实现了雪花下落效果。<br>2、中级挑战：要求雪花能够落在屋顶、车、路面。这里只要在雪花下落的过程中增加一个侦测的判断条件，只要克隆体碰到车或房子或者路面（路面用颜色来判断），就停止克隆体移动。</p>
-<p>在scratch中克隆体的个数是有限的，你慢慢会发现，雪花会变得越来越少，为了不让雪停下来，我们使用“图章”把克隆的雪花留在舞台上，然后删除克隆体，这样就不会因为克隆体达到上限而停止了。<br><img src="/2018/12/24/瓦力工厂/第3课-新年到!下雪了/瓦力.jpeg" alt=""></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -2043,7 +2085,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">64</span>
+                    <span class="site-state-item-count">65</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -2070,7 +2112,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">7</span>
+                      
+                    
+                    <span class="site-state-item-count">8</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
