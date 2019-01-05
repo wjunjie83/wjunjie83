@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-31T03:24:36.985Z</updated>
+  <updated>2019-01-05T01:25:22.942Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>神奇的海龟</title>
+    <link href="http://yoursite.com/2019/01/05/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E7%A5%9E%E5%A5%87%E7%9A%84%E6%B5%B7%E9%BE%9F/"/>
+    <id>http://yoursite.com/2019/01/05/瓦力工厂/神奇的海龟/</id>
+    <published>2019-01-05T01:25:22.942Z</published>
+    <updated>2019-01-05T01:25:22.942Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>星期天学校组织看了一场电影《海龟:奇妙之旅 神奇小海龟奇妙漂游记》小瓦力决定自己做一个爱爬行的小海龟。</p><p><img src="https://s2.ax1x.com/2019/01/05/FTxmYF.png" alt="FTxmYF.png"></p><iframe height="498" width="510" src="http://player.youku.com/embed/XNTQ5MDg2Nzgw" frameborder="0" 'allowfullscreen'=""></iframe><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>　海龟这一世界上最古老的动物， 亿年以上海龟在地球海洋中生存了。海龟为重要的角色, 帮助坚持海洋的环境和平。</p><p>Python 语言中的海龟库：<br>Turtle绘图体系诞生于1969年，主要用于程序设计的诞生，是python的标准库之一，也是入门级的图形绘制函数库。<br>Python 的“turtle”库，是Turtle绘图体系的Python 语言的实现，并莫认为标准库。</p><pre><code>调用出海龟，并且出一条直线。</code></pre><p><img src="https://s2.ax1x.com/2019/01/05/FTx8w6.png" alt="FTx8w6.png"></p><p><a href="https://imgchr.com/i/FTxbhF" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/05/FTxbhF.png" alt="FTxbhF.png"></a></p><p><a href="https://imgchr.com/i/FTxO1J" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/05/FTxO1J.png" alt="FTxO1J.png"></a></p><p><a href="https://imgchr.com/i/FTxLp4" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/05/FTxLp4.png" alt="FTxLp4.png"></a></p><p>下面是漂亮的麻点点Python 代码：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">import turtle as t</span><br><span class="line">screen = t.Screen()</span><br><span class="line">t.getscreen()</span><br><span class="line">t.tracer(100)</span><br><span class="line">screen.setup(600,600)</span><br><span class="line">t.hideturtle()</span><br><span class="line">colors = [&quot;red&quot;,&quot;green&quot;,&quot;yellow&quot;,&quot;blue4&quot;,&quot;blue&quot;,&quot;pink&quot;]</span><br><span class="line">for i in range(36):</span><br><span class="line">    a=10*i</span><br><span class="line">    for d in range(26):</span><br><span class="line">        t.pu()</span><br><span class="line">        t.home()</span><br><span class="line">        t.seth(a)</span><br><span class="line">        t.pd()</span><br><span class="line">        b=3+d/18</span><br><span class="line">        t.right(b*(d+1))</span><br><span class="line">        t.pu()</span><br><span class="line">        t.fd((10+d**2/29)*3.14*(b*(d+1)/180+2))</span><br><span class="line">        t.pd()</span><br><span class="line">        t.pencolor(colors[i%3*2+d%2])</span><br><span class="line">        t.begin_fill()</span><br><span class="line">        t.fillcolor(colors[i%3*2+d%2])</span><br><span class="line">        t.circle(d/3)</span><br><span class="line">        t.end_fill()    </span><br><span class="line">t.pu()</span><br><span class="line">t.home()</span><br></pre></td></tr></table></figure><h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、轮子、CPU、马达。</p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.了解海龟。<br>2.了解Python海龟库。<br>3.学习循环递增与 循环递减编程。<br>4.学会条件判断。</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><a href="https://imgchr.com/i/FTxr0P" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/05/FTxr0P.png" alt="FTxr0P.png"></a></p><p><a href="https://imgchr.com/i/FTxsTf" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/05/FTxsTf.png" alt="FTxsTf.png"></a></p><p><a href="https://imgchr.com/i/FTxgfg" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/05/FTxgfg.png" alt="FTxgfg.png"></a></p><p><a href="https://imgchr.com/i/FTxDmt" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/05/FTxDmt.png" alt="FTxDmt.png"></a></p><p><a href="https://imgchr.com/i/FTx0OI" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/05/FTx0OI.png" alt="FTx0OI.png"></a></p><p><a href="https://imgchr.com/i/FTx6k8" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/05/FTx6k8.png" alt="FTx6k8.png"></a></p><p><a href="https://imgchr.com/i/FTxctS" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/05/FTxctS.png" alt="FTxctS.png"></a></p><h3 id="程序设计："><a href="#程序设计：" class="headerlink" title="程序设计："></a>程序设计：</h3><p>神奇的海龟已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="单片机第一年" scheme="http://yoursite.com/categories/%E5%8D%95%E7%89%87%E6%9C%BA%E7%AC%AC%E4%B8%80%E5%B9%B4/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>全国青少年机器人等级考试一二级内容概述</title>
@@ -438,29 +461,6 @@
     <updated>2018-12-24T15:46:36.944Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>当我们学习了第二课小猫跳舞后，对角色的添加与删除，背景的添加与删除。有了初步的了解，下面我们演示小猫猜生肖案例，对控制、侦测、运算、事件模块进行介绍！<br><img src="/2018/12/24/瓦力工厂/第3课小猫猜生肖/001.png" alt=""><br>这就是小猫猜生肖的基本界面设计，先添加一个背景，然后依次添加角色小猫、老鼠、小狗、猴子…<br>首先,为生肖大师小猫设计脚本：<br><img src="/2018/12/24/瓦力工厂/第3课小猫猜生肖/002.png" alt=""><br>1.用<em>事件</em>中积木<img src="/2018/12/24/瓦力工厂/第3课小猫猜生肖/003.png" alt="">开始整个程序。<br>2.用<em>控制</em>中积木<img src="/2018/12/24/瓦力工厂/第3课小猫猜生肖/004.png" alt="">开始一个循环。<br>3.用<em>侦测</em>中积木<img src="/2018/12/24/瓦力工厂/第3课小猫猜生肖/005.png" alt="">开始一个对话框。并把对话提示语改为“请问你的出生年份是多少？”<br>下面详细的介绍一下小猫是如何知道小朋友的生肖的：<br>大家都知道2018年是狗年，2018除以12的余数是2，那么可以推算出来，能被12整除的年份是猴年，余一的是鸡年、余二的是狗年、依次类推。为什么呢？三年级的小朋友都背过 子鼠、丑牛、寅虎、卯兔的生肖顺口溜吧。就根据咱们已经学到的知识。<br><img src="/2018/12/24/瓦力工厂/第3课小猫猜生肖/006.png" alt=""><br>上图就是咱们经常用到的<em>控制</em>积木中的积木块，是咱们设计的程序的大脑。<br>看这条语句<img src="/2018/12/24/瓦力工厂/第3课小猫猜生肖/007.png" alt="">判断你的输入符不符合实际情况。小朋友可能注意到了，<em>否则</em> 后面有两条语句，棕色的广播语句和紫色的说语句。广播语句是用于程序内部通信的，下面给大家展示一下小猴子角色的脚本。<br><img src="/2018/12/24/瓦力工厂/第3课小猫猜生肖/008.png" alt=""><br>是不是和广播的消息遥相呼应。好啦，小猫猜生肖用到的全部知识就介绍完了，想要知道小猫猜生肖的全部脚本或者有不明白的地方，可以联系老师哟！<br><img src="/2018/12/24/瓦力工厂/第3课小猫猜生肖/瓦力.jpeg" alt=""></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="Scratch 入门" scheme="http://yoursite.com/categories/Scratch-%E5%85%A5%E9%97%A8/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>趣味编程第7课-因数与完美数</title>
-    <link href="http://yoursite.com/2018/12/24/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E7%AC%AC7%E8%AF%BE-%E5%9B%A0%E6%95%B0%E4%B8%8E%E5%AE%8C%E7%BE%8E%E6%95%B0/"/>
-    <id>http://yoursite.com/2018/12/24/瓦力工厂/第7课-因数与完美数/</id>
-    <published>2018-12-24T15:46:10.924Z</published>
-    <updated>2018-12-24T15:46:10.924Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
     
     <summary type="html">
     
