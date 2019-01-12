@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-05T02:43:22.039Z</updated>
+  <updated>2019-01-12T03:25:47.419Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>围棋高手</title>
+    <link href="http://yoursite.com/2019/01/12/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E5%9B%B4%E6%A3%8B%E9%AB%98%E6%89%8B/"/>
+    <id>http://yoursite.com/2019/01/12/瓦力工厂/围棋高手/</id>
+    <published>2019-01-12T03:25:47.419Z</published>
+    <updated>2019-01-12T03:25:47.419Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦力工程师接到一个新任务，就是制造一个机器人为围棋班分开经常混在一起的黑白棋子，来减轻老师和学生分棋子的工作量。这件事对我们瓦力工程师来说，就是小菜一碟。</p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>　围棋：围棋，是一种策略性两人棋类游戏，中国古时称“弈”，西方名称“Go”。流行于东亚国家（中、日、韩、朝），属琴棋书画四艺之一。围棋起源于中国，传为帝尧所作，春秋战国时期即有记载。隋唐时经朝鲜传入日本，流传到欧美各国。围棋蕴含着中华文化的丰富内涵，它是中国文化与文明的体现。</p><p>围棋使用方形格状棋盘及黑白二色圆形棋子进行对弈，棋盘上有纵横各19条线段将棋盘分成361个交叉点，棋子走在交叉点上，双方交替行棋，落子后不能移动，以围地多者为胜。因为黑方先走占了便宜，所以人为规定黑方局终时要给白方贴子。中国古代围棋是黑白双方在对角星位处各摆放两子（对角星布局），为座子制，由白方先行。现代围棋由日本发展而来，取消了座子规则，黑先白后，使围棋的变化更加复杂多变。围棋也被认为是世界上最复杂的棋盘游戏。</p><p><a href="https://imgchr.com/i/FjmAJK" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/12/FjmAJK.jpg" alt="FjmAJK.jpg"></a></p><p>分拣机器人（Sorting robot）:分拣机器人（Sorting robot），是一种具备了传感器、物镜和电子光学系统的机器人，可以快速进行货物分拣。</p><iframe height="498" width="510" src="https://player.youku.com/embed/XMzE0ODU5Nzk3Mg==" frameborder="0" 'allowfullscreen'=""></iframe><p>分拣围棋黑白子</p><iframe frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=n0545fnryrq" allowfullscreen="true"></iframe><h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、马达、CPU、红外传感器、附件</p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.了解围棋<br>2.了解分拣机器人。<br>3.会用红外传感器进行简单分拣系统的设计<br>4.复习如果那么否则模块</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><a href="https://imgchr.com/i/FjmVzD" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/12/FjmVzD.png" alt="FjmVzD.png"></a></p><p><a href="https://imgchr.com/i/FjmKeA" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/12/FjmKeA.png" alt="FjmKeA.png"></a></p><p><a href="https://imgchr.com/i/FjmERO" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/12/FjmERO.png" alt="FjmERO.png"></a></p><p><a href="https://imgchr.com/i/FjmmsH" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/12/FjmmsH.png" alt="FjmmsH.png"></a></p><p><a href="https://imgchr.com/i/FjmeQe" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/12/FjmeQe.png" alt="FjmeQe.png"></a></p><p><a href="https://imgchr.com/i/FjmnLd" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/12/FjmnLd.png" alt="FjmnLd.png"></a></p><p><a href="https://imgchr.com/i/FjmQot" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/12/FjmQot.png" alt="FjmQot.png"></a></p><p><a href="https://imgchr.com/i/FjmMdI" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/12/FjmMdI.png" alt="FjmMdI.png"></a></p><p><a href="https://imgchr.com/i/Fjm1FP" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/12/Fjm1FP.png" alt="Fjm1FP.png"></a></p><p><a href="https://imgchr.com/i/Fjm3Jf" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/12/Fjm3Jf.png" alt="Fjm3Jf.png"></a></p><p><a href="https://imgchr.com/i/Fjm8W8" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/12/Fjm8W8.png" alt="Fjm8W8.png"></a></p><h3 id="围棋高手机器人程序设计："><a href="#围棋高手机器人程序设计：" class="headerlink" title="围棋高手机器人程序设计："></a>围棋高手机器人程序设计：</h3><p><img src="https://s2.ax1x.com/2019/01/12/Fjnu1U.png" alt="Fjnu1U.png"></p><p>围棋高手机器人已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="单片机第一年" scheme="http://yoursite.com/categories/%E5%8D%95%E7%89%87%E6%9C%BA%E7%AC%AC%E4%B8%80%E5%B9%B4/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>神奇的海龟</title>
@@ -438,29 +461,6 @@
     <updated>2018-12-24T15:46:40.004Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>当我们学习了第三课小猫猜生肖，对对控制、侦测、运算、事件模块有了初步的了解，今天通过蹦床运动介绍 <em>运动</em> 模块的 <em>滑行</em> 、<em>面向</em> 、<em>左右转</em> 和 <em>外观</em> 模块 的 <em>下一个造型</em>、<em>鱼眼特效</em> 等等…<br><img src="/2018/12/24/瓦力工厂/第4课-蹦床运动/001.png" alt=""><br>今天的程序非常简单，当绿旗被点击时，重复执行<br><img src="/2018/12/24/瓦力工厂/第4课-蹦床运动/002.png" alt=""><br>并通过 <em>空格键</em> 和 <em>左移键</em> 和 <em>右移键</em> 进行程序的交互，变换出不同的蹦极效果。<br><img src="/2018/12/24/瓦力工厂/第4课-蹦床运动/003.png" alt=""><br>蹦床的代码为<br><img src="/2018/12/24/瓦力工厂/第4课-蹦床运动/003.png" alt=""><br>蹦床用到了一个鱼眼特效，变幻出来了动态的效果！<br>想要知道蹦床运动的全部脚本或者有不明白的地方，可以联系老师哟！<br><img src="/2018/12/24/瓦力工厂/第4课-蹦床运动/瓦力.jpeg" alt=""></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="Scratch 入门" scheme="http://yoursite.com/categories/Scratch-%E5%85%A5%E9%97%A8/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>趣味编程第3课-小猫猜生肖</title>
-    <link href="http://yoursite.com/2018/12/24/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E7%AC%AC3%E8%AF%BE%E5%B0%8F%E7%8C%AB%E7%8C%9C%E7%94%9F%E8%82%96/"/>
-    <id>http://yoursite.com/2018/12/24/瓦力工厂/第3课小猫猜生肖/</id>
-    <published>2018-12-24T15:46:36.944Z</published>
-    <updated>2018-12-24T15:46:36.944Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>当我们学习了第二课小猫跳舞后，对角色的添加与删除，背景的添加与删除。有了初步的了解，下面我们演示小猫猜生肖案例，对控制、侦测、运算、事件模块进行介绍！<br><img src="/2018/12/24/瓦力工厂/第3课小猫猜生肖/001.png" alt=""><br>这就是小猫猜生肖的基本界面设计，先添加一个背景，然后依次添加角色小猫、老鼠、小狗、猴子…<br>首先,为生肖大师小猫设计脚本：<br><img src="/2018/12/24/瓦力工厂/第3课小猫猜生肖/002.png" alt=""><br>1.用<em>事件</em>中积木<img src="/2018/12/24/瓦力工厂/第3课小猫猜生肖/003.png" alt="">开始整个程序。<br>2.用<em>控制</em>中积木<img src="/2018/12/24/瓦力工厂/第3课小猫猜生肖/004.png" alt="">开始一个循环。<br>3.用<em>侦测</em>中积木<img src="/2018/12/24/瓦力工厂/第3课小猫猜生肖/005.png" alt="">开始一个对话框。并把对话提示语改为“请问你的出生年份是多少？”<br>下面详细的介绍一下小猫是如何知道小朋友的生肖的：<br>大家都知道2018年是狗年，2018除以12的余数是2，那么可以推算出来，能被12整除的年份是猴年，余一的是鸡年、余二的是狗年、依次类推。为什么呢？三年级的小朋友都背过 子鼠、丑牛、寅虎、卯兔的生肖顺口溜吧。就根据咱们已经学到的知识。<br><img src="/2018/12/24/瓦力工厂/第3课小猫猜生肖/006.png" alt=""><br>上图就是咱们经常用到的<em>控制</em>积木中的积木块，是咱们设计的程序的大脑。<br>看这条语句<img src="/2018/12/24/瓦力工厂/第3课小猫猜生肖/007.png" alt="">判断你的输入符不符合实际情况。小朋友可能注意到了，<em>否则</em> 后面有两条语句，棕色的广播语句和紫色的说语句。广播语句是用于程序内部通信的，下面给大家展示一下小猴子角色的脚本。<br><img src="/2018/12/24/瓦力工厂/第3课小猫猜生肖/008.png" alt=""><br>是不是和广播的消息遥相呼应。好啦，小猫猜生肖用到的全部知识就介绍完了，想要知道小猫猜生肖的全部脚本或者有不明白的地方，可以联系老师哟！<br><img src="/2018/12/24/瓦力工厂/第3课小猫猜生肖/瓦力.jpeg" alt=""></p>]]></content>
     
     <summary type="html">
     
