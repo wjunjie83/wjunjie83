@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-12T03:46:50.073Z</updated>
+  <updated>2019-01-19T02:27:06.760Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>幸运大转盘</title>
+    <link href="http://yoursite.com/2019/01/19/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E5%B9%B8%E8%BF%90%E5%A4%A7%E8%BD%AC%E7%9B%98/"/>
+    <id>http://yoursite.com/2019/01/19/瓦力工厂/幸运大转盘/</id>
+    <published>2019-01-19T02:27:06.760Z</published>
+    <updated>2019-01-19T02:27:06.760Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>新年就要到了，瓦力工程师接到一个新任务，就是要为大卖场设计一个幸运大转盘。让顾客来到商场，除了购物外，还能有一天的好运气！</p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>随机：即将发生的事情是可能出现情况中的任何一种，无法预先确定。<br>如掷色子（无任何作弊情况下），下一次会出现的数字就是随机。</p><p>随机试验是一个 概率论的基本概念。 概况的讲，在概率论中把符合下面三个特点的试验叫做随机试验：(random experiment)</p><p>1.每次试验的可能结果不止一个，并且能事先明确试验的所有可能结果。</p><p>2.进行一次试验之前无法确定哪一个结果会出现。</p><p>3.可以在同一条件下重复进行试验。</p><h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、马达、CPU、触碰开关、附件</p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.了解随机<br>2.了解程序中随机指令。<br>3.会设计递减程序。<br>4.认识 For循环。</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><a href="https://imgchr.com/i/k9HhGR" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9HhGR.jpg" alt="k9HhGR.jpg"></a></p><p><a href="https://imgchr.com/i/k9Hfi9" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9Hfi9.jpg" alt="k9Hfi9.jpg"></a></p><p><a href="https://imgchr.com/i/k9HRIJ" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9HRIJ.jpg" alt="k9HRIJ.jpg"></a></p><p><a href="https://imgchr.com/i/k9H5xx" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9H5xx.jpg" alt="k9H5xx.jpg"></a></p><p><a href="https://imgchr.com/i/k9H2a4" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9H2a4.jpg" alt="k9H2a4.jpg"></a></p><p><a href="https://imgchr.com/i/k9H4R1" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9H4R1.jpg" alt="k9H4R1.jpg"></a></p><p><a href="https://imgchr.com/i/k9HoM6" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9HoM6.jpg" alt="k9HoM6.jpg"></a></p><p><a href="https://imgchr.com/i/k9HTsK" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9HTsK.jpg" alt="k9HTsK.jpg"></a></p><p><a href="https://imgchr.com/i/k9H7qO" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9H7qO.jpg" alt="k9H7qO.jpg"></a></p><h3 id="幸运大转盘机器人程序设计："><a href="#幸运大转盘机器人程序设计：" class="headerlink" title="幸运大转盘机器人程序设计："></a>幸运大转盘机器人程序设计：</h3><p><a href="https://imgchr.com/i/k9bPeS" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9bPeS.jpg" alt="k9bPeS.jpg"></a></p><p><a href="https://imgchr.com/i/k9bidg" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9bidg.jpg" alt="k9bidg.jpg"></a></p><p><a href="https://imgchr.com/i/k9b9L8" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9b9L8.jpg" alt="k9b9L8.jpg"></a></p><p>幸运大转盘机器人已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="单片机第一年" scheme="http://yoursite.com/categories/%E5%8D%95%E7%89%87%E6%9C%BA%E7%AC%AC%E4%B8%80%E5%B9%B4/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>围棋高手</title>
@@ -438,29 +461,6 @@
     <updated>2018-12-24T15:46:42.420Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>通过第四课的学习，相信小朋友们对 <em>运动</em>、<em>外观</em> 、<em>事件</em> 、<em>侦测</em> 等积木模块有了更深一步的了解。下面通过一款微信上流行的小程序继续向大家介绍 <em>侦测</em> <em>数据</em> <em>运算</em> <em>声音</em> 等积木模块。<br><img src="/2018/12/24/瓦力工厂/第5课-成语猜猜看/001.png" alt=""><br>成语是我国汉字语言词汇中一部分定型的词组和短语。成语有固定的结构形式和固定的说法。表示一定的意义在语句中是作为一个整体来应用的。成语有很大一部分是从古代。形成沿用下来的再用词语方面往往不同与现代汉语。它代表了一个故事和典故。成语又是一种现成的话，跟习用语言语向近也略有区别。<br><img src="/2018/12/24/瓦力工厂/第5课-成语猜猜看/002.png" alt=""><br>主要程序代码如图所示，巧妙地利用角色的造型进行程序图片之间的切换，用链表把成语的图片与意义相关联。答对的话有音乐提示与金币奖励。切换到下一个成语，并且所过的关卡加一。用变量 <em>关名</em> 存储并显示所过的关数，用变量 <em>金钱</em> 来存储并显示所获得的金币数。<br><img src="/2018/12/24/瓦力工厂/第5课-成语猜猜看/003.png" alt=""><br>小朋友，你会做吧，记得加老师微信并与老师互动讨论哟，你还想加入什么你的功能呢？和老师一起进步吧！<br><img src="/2018/12/24/瓦力工厂/第5课-成语猜猜看/瓦力.jpeg" alt=""></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="Scratch 入门" scheme="http://yoursite.com/categories/Scratch-%E5%85%A5%E9%97%A8/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>趣味编程第4课-蹦床运动</title>
-    <link href="http://yoursite.com/2018/12/24/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E7%AC%AC4%E8%AF%BE-%E8%B9%A6%E5%BA%8A%E8%BF%90%E5%8A%A8/"/>
-    <id>http://yoursite.com/2018/12/24/瓦力工厂/第4课-蹦床运动/</id>
-    <published>2018-12-24T15:46:40.004Z</published>
-    <updated>2018-12-24T15:46:40.004Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>当我们学习了第三课小猫猜生肖，对对控制、侦测、运算、事件模块有了初步的了解，今天通过蹦床运动介绍 <em>运动</em> 模块的 <em>滑行</em> 、<em>面向</em> 、<em>左右转</em> 和 <em>外观</em> 模块 的 <em>下一个造型</em>、<em>鱼眼特效</em> 等等…<br><img src="/2018/12/24/瓦力工厂/第4课-蹦床运动/001.png" alt=""><br>今天的程序非常简单，当绿旗被点击时，重复执行<br><img src="/2018/12/24/瓦力工厂/第4课-蹦床运动/002.png" alt=""><br>并通过 <em>空格键</em> 和 <em>左移键</em> 和 <em>右移键</em> 进行程序的交互，变换出不同的蹦极效果。<br><img src="/2018/12/24/瓦力工厂/第4课-蹦床运动/003.png" alt=""><br>蹦床的代码为<br><img src="/2018/12/24/瓦力工厂/第4课-蹦床运动/003.png" alt=""><br>蹦床用到了一个鱼眼特效，变幻出来了动态的效果！<br>想要知道蹦床运动的全部脚本或者有不明白的地方，可以联系老师哟！<br><img src="/2018/12/24/瓦力工厂/第4课-蹦床运动/瓦力.jpeg" alt=""></p>]]></content>
     
     <summary type="html">
     
