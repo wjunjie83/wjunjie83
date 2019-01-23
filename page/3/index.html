@@ -357,6 +357,336 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/25/瓦力工厂/Anaconda更改Python版本/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/25/瓦力工厂/Anaconda更改Python版本/" class="post-title-link" itemprop="http://yoursite.com/page/3/index.html">Anaconda更改Python版本</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-12-25 11:37:07" itemprop="dateCreated datePublished" datetime="2018-12-25T11:37:07+08:00">2018-12-25</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Python-进阶/" itemprop="url" rel="index"><span itemprop="name">Python 进阶</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>写在前面：今天安装  kivy  不支持Python3.7版本，所以想在电脑（Ubuntu）中保留3.5版本。</p>
+<ol>
+<li>改变anaconda默认python版本：</li>
+</ol>
+<p>首先创建一个名为python36的环境，指定的Python版本是3.5<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda create --name python36 python=3.5</span><br></pre></td></tr></table></figure></p>
+<p><img src="https://s1.ax1x.com/2018/12/25/Fc81m9.png" alt="Fc81m9.png"></p>
+<p>安装好后，使用activate激活某个环境<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">To activate this environment, use</span><br><span class="line">#</span><br><span class="line">#     $ conda activate python36</span><br><span class="line">#</span><br><span class="line"># To deactivate an active environment, use</span><br><span class="line">#</span><br><span class="line">#     $ conda deactivate</span><br></pre></td></tr></table></figure></p>
+<p>输入这个命令之后会发现，terminal命令行前面多了python36的字样，实际上，此时系统做的事情就是把默认3.7环境从PATH中去除，再把3.5对应的命令加入PATH<br>安装 kivy<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda install kivy -c conda-forge</span><br></pre></td></tr></table></figure></p>
+<p><img src="https://s1.ax1x.com/2018/12/25/Fc8QOJ.png" alt="Fc8QOJ.png"><br>通过命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python --version</span><br></pre></td></tr></table></figure></p>
+<p>可以看到，系统已经切换到了3.5的环境。<br><img src="https://s1.ax1x.com/2018/12/25/Fc8My4.png" alt="Fc8My4.png"></p>
+<p>如果想返回默认的python 3.7环境，运行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda deactivate</span><br></pre></td></tr></table></figure></p>
+<p> 即可。最后，如果想要删除一个已有的环境：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda remove --name python36 --all</span><br></pre></td></tr></table></figure>
+<p><a href="https://imgchr.com/i/Fcubs1" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/25/Fcubs1.jpg" alt="Fcubs1.jpg"></a></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/25/瓦力工厂/提高conda install的速度/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/25/瓦力工厂/提高conda install的速度/" class="post-title-link" itemprop="http://yoursite.com/page/3/index.html">Ubuntu 下提高conda install的速度</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-12-25 08:51:27" itemprop="dateCreated datePublished" datetime="2018-12-25T08:51:27+08:00">2018-12-25</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Python-进阶/" itemprop="url" rel="index"><span itemprop="name">Python 进阶</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="添加清华源"><a href="#添加清华源" class="headerlink" title="添加清华源"></a>添加清华源</h3><p>conda config –add channels <a href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/" target="_blank" rel="noopener">https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/</a><br>conda config –add channels <a href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge" target="_blank" rel="noopener">https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge</a><br>conda config –add channels <a href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/" target="_blank" rel="noopener">https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/</a></p>
+<h3 id="（想要删除清华源把add改成remove就行。）"><a href="#（想要删除清华源把add改成remove就行。）" class="headerlink" title="（想要删除清华源把add改成remove就行。）"></a>（想要删除清华源把add改成remove就行。）</h3><h3 id="显示URL"><a href="#显示URL" class="headerlink" title="显示URL"></a>显示URL</h3><p>conda config –set show_channel_urls yes</p>
+<h3 id="除了清华源，也可以使用别的答案里的科大源，华东-华中地区可能会更快一些。"><a href="#除了清华源，也可以使用别的答案里的科大源，华东-华中地区可能会更快一些。" class="headerlink" title="除了清华源，也可以使用别的答案里的科大源，华东/华中地区可能会更快一些。"></a>除了清华源，也可以使用别的答案里的科大源，华东/华中地区可能会更快一些。</h3><p>conda config –add channels <a href="https://mirrors.ustc.edu.cn/anaconda/pkgs/main/" target="_blank" rel="noopener">https://mirrors.ustc.edu.cn/anaconda/pkgs/main/</a><br>conda config –add channels <a href="https://mirrors.ustc.edu.cn/anaconda/pkgs/free/" target="_blank" rel="noopener">https://mirrors.ustc.edu.cn/anaconda/pkgs/free/</a><br>conda config –add channels <a href="https://mirrors.ustc.edu.cn/anaconda/cloud/conda-forge/" target="_blank" rel="noopener">https://mirrors.ustc.edu.cn/anaconda/cloud/conda-forge/</a><br>conda config –add channels <a href="https://mirrors.ustc.edu.cn/anaconda/cloud/msys2/" target="_blank" rel="noopener">https://mirrors.ustc.edu.cn/anaconda/cloud/msys2/</a><br>conda config –add channels <a href="https://mirrors.ustc.edu.cn/anaconda/cloud/bioconda/" target="_blank" rel="noopener">https://mirrors.ustc.edu.cn/anaconda/cloud/bioconda/</a><br>conda config –add channels <a href="https://mirrors.ustc.edu.cn/anaconda/cloud/menpo/" target="_blank" rel="noopener">https://mirrors.ustc.edu.cn/anaconda/cloud/menpo/</a></p>
+<h3 id="Conda包管理"><a href="#Conda包管理" class="headerlink" title="Conda包管理"></a>Conda包管理</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">#安装包</span><br><span class="line">conda install xxxx</span><br><span class="line"></span><br><span class="line"># 查看当前环境下已安装的包</span><br><span class="line">conda list</span><br><span class="line"></span><br><span class="line"># 查看某个指定环境的已安装包</span><br><span class="line">conda list -n python34</span><br><span class="line"></span><br><span class="line"># 查找package信息</span><br><span class="line">conda search numpy</span><br><span class="line"></span><br><span class="line"># 安装package</span><br><span class="line">conda install -n python34 numpy # 如果不用-n指定环境名称，则被安装在当前活跃环境 也可以通过-c指定通过某个channel安装</span><br></pre></td></tr></table></figure>
+<h3 id="Conda更新"><a href="#Conda更新" class="headerlink" title="Conda更新"></a>Conda更新</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"># 更新package</span><br><span class="line">conda update -n python34 numpy</span><br><span class="line"></span><br><span class="line"># 删除package</span><br><span class="line">conda remove -n python34 numpy</span><br><span class="line"></span><br><span class="line"># 更新conda，保持conda最新</span><br><span class="line">conda update conda</span><br><span class="line"></span><br><span class="line"># 更新anaconda</span><br><span class="line">conda update anaconda</span><br><span class="line"></span><br><span class="line"># 更新python</span><br><span class="line">conda update python</span><br></pre></td></tr></table></figure>
+<p><a href="https://imgchr.com/i/Fcubs1" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/25/Fcubs1.jpg" alt="Fcubs1.jpg"></a></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/24/瓦力工厂/第6课-蜘蛛织网/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1607,362 +1937,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/24/瓦力工厂/Scratch 简介/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/24/瓦力工厂/Scratch 简介/" class="post-title-link" itemprop="http://yoursite.com/page/3/index.html">儿童编程Scratch 赢在起跑线</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2018-12-24 23:44:19" itemprop="dateCreated datePublished" datetime="2018-12-24T23:44:19+08:00">2018-12-24</time>
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Scratch-入门/" itemprop="url" rel="index"><span itemprop="name">Scratch 入门</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p><img src="/2018/12/24/瓦力工厂/Scratch 简介/001.png" alt="植物大战僵尸"><br>Scratch是一种全新的程序设计语言，你可以用它很容易地创造交互式故事情节、动画、游戏，然后还可以把你的作品分享给所有人。开发者表示，这种电脑编程语言的目的，是帮助年轻人发展学习技能，学习创造性思维，以及学习集体合作。MIT（麻省理工学院）媒体实验室的博士生凯伦.布雷南，是Scratch项目的负责人，他说，“我们的目的不是要创办电脑程序编写大军，而是帮助电脑使用者表达自己。”</p>
-<p><em>与其让孩子玩游戏；</em><br><em>不如让孩子做编程。</em></p>
-<h2 id=""><a href="#" class="headerlink" title=""></a><img src="/2018/12/24/瓦力工厂/Scratch 简介/002.png" alt="植物大战僵尸"></h2><p>Scratch不是游戏，是一款可以制作游戏、动画的编程工具。一旦掌握了这个工具，孩子们就能自由自在地挥洒它们无限的创意，享受创造的乐趣。Scratch由麻省理工学院媒体实验室开发出来至今，全美有超过100万的孩子在学习Scratch。而在台湾，中小学生的信息化课就是以Scratch为主来上的，也有许多Scratch教学的网站。台湾教育部门每年都会举行程序设计比赛。台湾中小学的教育，通过Scratch，扩展了语文，数学，外语，音乐，体育，科学的教学深度。</p>
-<p>科技使人类的生活发生巨大的变化。就当下的教育而言，孩子科技能力的重要性绝不亚于其他才艺和知识。</p>
-<p>根据孩子上课的情况和效果，我们总结了Scratch三大好处。</p>
-<h2 id="-1"><a href="#-1" class="headerlink" title=""></a><img src="/2018/12/24/瓦力工厂/Scratch 简介/003.png" alt="植物大战僵尸"></h2><p>1、学习Scratch可以培养逻辑思维能力。<br>在大年龄段孩子学习Scratch编程时，会涉及许多数学知识，孩子需要结合学校内学到的数学知识，来解决编程问题。因此，在不断探索的过程中，孩子们的数学知识也会越累越丰富，创作能力也越来越强。</p>
-<p>2、学习Scratch可以提高学习的主动性。<br>在Scratch课堂上，我们鼓励孩子自己创作作品。在创作的过程中不仅习得了Science（科学），Technology（技术），Engineering（工程），Arts（艺术），Maths（数学）等多个领域的知识，而且也获得了成就感和满足感。定期校区举办Scratch分享会，让孩子们彼此体验他们自己编程的游戏，互相提出改进方法方式，这个过程大大激励了孩子的成就感和学习欲望。</p>
-<p>3、学习Scratch可以激发创造力。<br>Scratch软件的优势是易学且功能强大，有助于孩子们发挥自己的想象力，而在动手创作过程中，他们的学习积极性、想象力和创造力会得到极大的锻炼。孩子们可以用Scratch中已有的素材，发挥自己的想象力制作游戏、动画，还可以自己设计素材。孩子只要敢想，在我们的指导下，就能完成他们心目中的游戏。</p>
-<h2 id="-2"><a href="#-2" class="headerlink" title=""></a><img src="/2018/12/24/瓦力工厂/Scratch 简介/004.png" alt="植物大战僵尸"></h2><p>儿童编程和程序员的编程有什么区别？</p>
-<p>归于一句话“孩子编程看兴趣，大人编程看薪水。”</p>
-<p>儿童编程使用简易的编程软件进行编程思想和思维方式的锻炼，核心的理念是在把计算机编程融合孩子兴趣的同时，加强孩子思维能力的锻炼，在中国的大多数的儿童编程学习中，均将学科知识与编程知识相融合的方式进行授课教学。这在中国是有一定原因的：传统的中国式教育是以升学为目的的，只有将学科知识融入到编程学习中，家长才会乐于让孩子去接触。而成人的程序编程主要学的是程序语法的应用和实践，他主要偏向的是计算机编程的项目开发。</p>
-<p>相对于在学校信息课上所学的知识来说，用于初学者教学，Scratch有以下这些优点：</p>
-<p>1、入门简单，无关原有编程基础，适合中小学学生初次学习编程语言时使用；</p>
-<p>2、内容丰富，针对有兴趣、喜爱绘画的学生，提供角色绘制设计功能；</p>
-<p>3、通过使用Scratch，让学生在动画、游戏设计过程中逐渐形成逻辑分析、独立思考创新的思维方式，学会提出问题，解决问题；</p>
-<p>4、相比其他编程软件，Scratch更加直观，学生能比较容易地看到自己的劳动成果。</p>
-<p>学习编程最基本的是编程概念的掌握，Scratch以积木的形式进行编程，8个编程部件涵盖了常见的编程概念。学习编程最重要的是编程思想的培养，在程序学习中培养学生利用编程解决问题的能力。</p>
-<p>学生在学会了编程的基本原理和方法后，会有兴趣也有能力将动画和游戏编写得更逼真，更好玩。在修改动画游戏脚本的过程中，学生不断提出问题，解决问题，根据自己的需求进行分析，设定合适的角色和相应的脚本，最终实现程序。<br><img src="/2018/12/24/瓦力工厂/Scratch 简介/瓦力.jpeg" alt=""></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程007/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程007/" class="post-title-link" itemprop="http://yoursite.com/page/3/index.html">Python零基础快速入门趣味教程007-条件循环</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2018-12-24 23:43:08" itemprop="dateCreated datePublished" datetime="2018-12-24T23:43:08+08:00">2018-12-24</time>
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Python-入门/" itemprop="url" rel="index"><span itemprop="name">Python 入门</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>条件循环能够让程序在条件成立时（即为真时）重复执行循环体中的语句。如果条件一直成立（即永远不会为假），则循环会一直进行下去，不会停止。如果初始时，条件不成立，则循环 1 次也不会执行。Python 中条件循环使用 while 关键字来实现。</p>
-<p>看下面这段示例代码，</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line"></span><br><span class="line">turtle.shape(&quot;turtle&quot;)</span><br><span class="line">turtle.speed(0)</span><br><span class="line">def forward(max_distance):</span><br><span class="line">    distance = 0</span><br><span class="line">    step = 1</span><br><span class="line">    while distance &lt; max_distance:</span><br><span class="line">        turtle.forward(step)</span><br><span class="line">        distance += step</span><br><span class="line">forward(100)</span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
-<p>函数 forward 实现的功能和原版的 turtle.forward 是一样的，但这里我们是借助条件循环来实现的。</p>
-<p><img src="/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程007/001.png" alt=""></p>
-<p>第 5 行 turtle.speed(0) 设置海龟爬行的速度。速度的取值为 [0, 10]。当取值在 [1, 10] 之间时，数值越大，绘图的速度就越快。当取值为 0 时，海龟将以最快的速度绘图。这里，我们让海龟以最快的速度爬行。因为，在我们自定义的 forward 函数中（第 8-13 行），我们要让海龟移动很多步，但每次只移动 1 个很小的距离，为了尽快看到最终绘图的效果，我们得让海龟爬得快一些。</p>
-<p>第 8 行 def forward(max_distance): 声明 forward 函数，它有 1 个参数 max_distance。这个函数要实现的功能是，让海龟一直爬行，直到海龟总的爬行距离达到（或超过） max_distance 时才停止爬行。</p>
-<p>第 9 行 distance = 0 变量 distance 用于记录当前海龟已经累计爬行了多远的距离。初始时，海龟还没有开始爬行，因此 distance 的初始值为 0。</p>
-<p>第 10 行 step = 1 设置海龟爬行的步长，即每 1 步要爬多远的距离。</p>
-<p>第 11-13 行是用 while 语句实现的条件循环，其中第 11 行， while distance &lt; max_distance: 指明了循环条件为  distance &lt; max_distance 即，当海龟累计爬行距离 (distance) 小于规定的最大爬行距离 (max_distance) 时，执行循环体中的语句（第 12, 13 行）。</p>
-<p>第 12, 13 行是循环体，其中第 12 行 turtle.forward(step) 让海龟以指定步长 step 前进一小段距离。第 13 行 distance += step 这是一种简写的形式，它等价于 distance = distance + step ，即将海龟刚才（第 12 行）爬行的那一小段距离累加到 distance 变量中。类似 for 循环，while 循环的循环体（第 12, 13 行）也要比 while  语句所在的行（第 11 行），向右缩进一些，通常我们用连续的 4 个空格来表示一级的缩进。</p>
-<p>不过，现在的 forward 跟原版的 turtle.forward 效果是一样的，没啥意思，瓦力博士把代码改进一下，让它变得好玩一些。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">import turtle</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">turtle.shape(&quot;turtle&quot;)</span><br><span class="line">turtle.speed(0)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def forward(max_distance, max_radius):</span><br><span class="line">    distance = 0</span><br><span class="line">    step = 1</span><br><span class="line">    while distance &lt; max_distance:</span><br><span class="line">        if turtle.distance(0,0) &gt;= max_radius:</span><br><span class="line">            angle = turtle.towards(0,0)</span><br><span class="line">            turtle.setheading(angle)</span><br><span class="line">        turtle.forward(step)</span><br><span class="line">        distance += step</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">forward(550, 100)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
-<p>再次运行程序，你会看到海龟在一条直线上折返爬行。</p>
-<p><img src="/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程007/002.png" alt=""></p>
-<p>第 8 行 def forward(max_distance, max_radius): 我们为 forward 函数引入了一个新的参数 max_radius。后面，我们要实现的功能是当海龟离开原点的距离达到（或超过） max_radius 时，就调头往回爬，即往复爬行。</p>
-<p>实现往复爬行对应的代码在第 12-14 行。</p>
-<p>第 12 行 if turtle.distance(0,0) &gt;= max_radius: ，其中 turtle.distance(0,0) 返回的是海龟与原点 (0, 0) 的距离。因此，当海龟与原点的距离达到或超过 max_radius 时，if 条件成立，程序将执行相应的语句（第 13, 14 行）。</p>
-<p>第 13 行 angle = turtle.towards(0,0) ，其中  turtle.towards(0,0) 返回的是海龟朝向原点 (0, 0) 的角度。计算角度时，水平向右为 0 度，逆时针方向为角度增大的方向。</p>
-<p>第 14 行 turtle.setheading(angle) 直接设定海龟的朝向，由于前面（第 13 行），将 angle 的值设置为海龟朝向原点的角度，所以这里经过 setheading 设置之后，海龟将朝向原点的方向。因此，后面再调用 turtle.forward  （第 15 行），海龟就会往原点的方向移动，即往回爬行。</p>
-<p>现在，海龟能够在一条直线上往复爬行，虽然比之前改进了一些，但还是显得比较单调。接下来，瓦力博士再进一步改进代码，让它变得更生动一些。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">import turtle</span><br><span class="line">import random</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">turtle.shape(&quot;turtle&quot;)</span><br><span class="line">turtle.speed(0)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def forward(max_distance, max_radius):</span><br><span class="line">    distance = 0</span><br><span class="line">    step = 1</span><br><span class="line">    while distance &lt; max_distance:</span><br><span class="line">        if turtle.distance(0,0) &gt;= max_radius:</span><br><span class="line">            angle = turtle.towards(0,0) + random.randint(-45, 45)</span><br><span class="line">            turtle.setheading(angle)</span><br><span class="line">        turtle.forward(step)</span><br><span class="line">        distance += step</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">forward(10000, 100)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
-<p>运行上面的代码，你会看到海龟随机地往返爬行。刚开始，你看不出什么规律，但等它爬行一段时间之后，你会发现海龟实际上是被限制在一个圆圈当中运动。</p>
-<p><img src="/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程007/003.png" alt=""></p>
-<p>第 2 行 import random 导入 random 模块，用于生成随机数。</p>
-<p>第 14  行 angle = turtle.towards(0,0) + random.randint(-45, 45) 其中的  random.randint(-45, 45) 用于产生 [-45, 45] 之间的随机整数，将这个随机整数加到朝向原点的角度上，这样海龟就不再精确地朝向原点，而是有一个随机波动的角度。因此，海龟就不再精确地按原路返回，从而摆脱直线的束缚。</p>
-<p>但是，原来的 2 个约束依然存在：</p>
-<p>海龟离开原点的距离不能超过 max_radius（第 13 行），所以它被限制在一个圆圈中运动<br>海龟总的运动距离不能超过 max_distance （第 12 行），所以它最终会停止运动</p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -2041,7 +2015,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">9</span>
+                      
+                    
+                    <span class="site-state-item-count">10</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
