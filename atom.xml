@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-23T02:21:00.304Z</updated>
+  <updated>2019-01-23T09:22:44.058Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,75 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>幸运大转盘</title>
+    <link href="http://yoursite.com/2019/01/23/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E5%B9%B8%E8%BF%90%E5%A4%A7%E8%BD%AC%E7%9B%98-%E7%A5%9E%E7%AE%97%E6%89%8B/"/>
+    <id>http://yoursite.com/2019/01/23/瓦力工厂/幸运大转盘-神算手/</id>
+    <published>2019-01-23T09:22:44.058Z</published>
+    <updated>2019-01-23T09:22:44.058Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>打开 <a href="https://ide.makeblock.com" target="_blank" rel="noopener">https://ide.makeblock.com</a><br><img src="https://s2.ax1x.com/2019/01/23/kAjsoR.png" alt="kAjsoR.png"><br>切换到角色选项卡并删除Panda这个角色，切换到背景选项卡，现在来制作幸运大转盘的盘面。<br>点击背景选项卡下加号，弹出背景选择对话框。<br><img src="https://s2.ax1x.com/2019/01/23/kAvB1f.png" alt="kAvB1f.png"><br>点击绘制背景。<br><img src="https://s2.ax1x.com/2019/01/23/kAvUAA.png" alt="kAvUAA.png"><br>点击圆圈图标，并按住Shift键，能画出一个正圆，并调整填充与线条。<br><img src="https://s2.ax1x.com/2019/01/23/kAz0OS.png" alt="kAz0OS.png"><br>点击直线图标，用直线命令把圆六/八等分，完成幸运大转盘盘面绘制。<br><img src="https://s2.ax1x.com/2019/01/23/kAzjOO.png" alt="kAzjOO.png"><br>回到角色选项卡，点击添加角色，弹出角色库，在食物角色库选取六/八种食物，一种食物占位一格。<br><img src="https://s2.ax1x.com/2019/01/23/kEkriF.png" alt="kEkriF.png"><br>添加指针（也可以自己绘制），点击添加角色音乐里选“Note”，并设置填充、轮廓、和其端点（旋转中心），并在舞台种调整其大小。</p><p><img src="https://s2.ax1x.com/2019/01/23/kEEuAf.png" alt="kEEuAf.png"></p><p>点击关闭角色编辑按钮，进入编程界面，下面我们来编写第一段程序。</p><p><img src="https://s2.ax1x.com/2019/01/23/kEe6Ds.png" alt="kEe6Ds.png"></p><p>可以看到，幸运大转盘指针开始转动起来，但是指针是匀速转动的（不符合实际种大转盘越转越慢最后停下的实际），幸运大转盘指针每次转动的圈数都是一样的，这也不符合因为转动幸运大转盘人的力气不同，实际每次转动的圈数不一样的实际情况。</p><p><img src="https://s2.ax1x.com/2019/01/23/kEnw6g.png" alt="kEnw6g.png"><br>可以看到，这一版程序能够让幸运大转盘指针转动的速度越来越慢，直到停止。<br>那么，怎么才能实现幸运大转盘每次转的圈数不一样呢？这里，我们引入随机数的概念。<br><img src="https://s2.ax1x.com/2019/01/23/kEKaLQ.png" alt="kEKaLQ.png"></p><p>可以看出，这一次程序每一次转动的圈数都不一样，基本实现了咱们的要求 。但是，仔细观察可以看出，幸运大转盘指针减慢的速度不流畅。咱们总不能30°到0°之间每一个数都加入循环吧！理论上讲，当然可以，但是方法上显得太过笨拙。请看下面程序。<br><img src="https://s2.ax1x.com/2019/01/23/kElhwQ.png" alt="kElhwQ.png"></p><p>幸运大转盘与神算手已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="2019寒假班" scheme="http://yoursite.com/categories/2019%E5%AF%92%E5%81%87%E7%8F%AD/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>全国青少年机器人技术等级考试---搅拌器</title>
+    <link href="http://yoursite.com/2019/01/23/%E6%8A%80%E6%9C%AF%E7%AD%89%E7%BA%A7%E8%80%83%E8%AF%95/%E7%AC%AC%E5%9B%9B%E7%AB%A0%E6%90%85%E6%8B%8C%E5%99%A8/"/>
+    <id>http://yoursite.com/2019/01/23/技术等级考试/第四章搅拌器/</id>
+    <published>2019-01-23T06:42:38.120Z</published>
+    <updated>2019-01-23T06:42:38.120Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>考试安排如下，详询瓦力工厂工作人员！<br><img src="/2019/01/23/技术等级考试/第四章搅拌器/19年考级时间安排.png" alt=""></p><h3 id="探索"><a href="#探索" class="headerlink" title="探索"></a>探索</h3><p>在制作糕点时，需要将蛋黄蛋清分开，并把蛋清搅拌至奶油状，这是一项浩大的工程，为此人们发明了打蛋器。图示为个手动打蛋器。<br><img src="/2019/01/23/技术等级考试/第四章搅拌器/001.png" alt=""><br>使用手动打蛋器时，需要人们一直往同一方向快速搅拌蛋液直到将蛋清搅拌至奶油状，相对于其他工具，手动搅拌器确实省了很大的力气，但搅拌需要快速长时间的操作手部依旧会感到很酸痛。<br>为了解决这个问题，人们想到可以加入加速齿轮组，这样手腕转动速度就可以减慢以减轻手部负担最终设计人员还加上了把手，将手动打蛋器升级成为了手摇式打蛋器。<br><img src="/2019/01/23/技术等级考试/第四章搅拌器/002.png" alt=""><br>在手摇式打蛋器中，我们加入了齿轮组，由大齿轮作为主动啮合小齿轮当我们转动大齿轮一周，小齿轮却能转动好几周。从而搅拌叶转动几周，这样就不需要我们迅速的转动手腕也能将蛋清搅拌至奶油状。</p><h3 id="制作"><a href="#制作" class="headerlink" title="制作"></a>制作</h3><p>下面我们来制作打蛋器。<br>1.首先需要制作一个可以用来支撑轴齿轮组的框架。<br><img src="/2019/01/23/技术等级考试/第四章搅拌器/003.png" alt=""><br>在框架上横着穿一根轴再竖着穿一根轴。横轴的中间安装一个大齿轮，而竖轴靠近横轴的一端装一个小齿轮，这个小齿轮要和横轴上的大齿轮咬合在一起，在竖轴的另一端再安装一个齿轮。另外，在横轴的一端装一个小把手，安装效果如图所示：<br><img src="/2019/01/23/技术等级考试/第四章搅拌器/004.png" alt=""><br>制作搅拌叶搅拌叶比较简单，找两个U型的或四个L型的叶片状零件即可。完成效果如图所示：<br><img src="/2019/01/23/技术等级考试/第四章搅拌器/005.png" alt=""><br>将做好的搅拌叶固定在一个轴的一端，同时在这个轴上再增加一个小齿轮，我们要在框架的这一端再制作一个加速的齿轮组。将安装了搅拌叶的轴插入框架当中，这里要注意要让两个齿轮啮合在一起，安装效果如图：<br> <img src="/2019/01/23/技术等级考试/第四章搅拌器/006.png" alt=""><br>￼用我们的器材制作的搅拌器如下：<br><img src="/2019/01/23/技术等级考试/第四章搅拌器/007.png" alt=""></p><h3 id="齿轮"><a href="#齿轮" class="headerlink" title="齿轮"></a>齿轮</h3><p>￼齿轮是一种轮缘上有齿且能连续啮合传递运动和动力的机械零件。齿轮上每一个用于啮合的凸部分称为轮齿，一般叫作齿，这些凸起部分一般呈辐射状排列，配对齿轮上的轮齿互相接触可使齿轮持续啮合传动。<br>在齿轮的整个圆周上轮齿的总数称为齿数。</p><p>齿轮三要素：齿数、模数、压力角。<br>能够相互啮合的轮齿，必须是模数一样的，所以相互啮合的轮齿中直径大的齿数就会多一些直径小的齿数就会少一些，但齿轮在转动中转过的齿数是一样的，直径大的齿轮转动一周，直径小的齿轮就会转动好几周。所以直径大的齿轮带动直径小的齿轮转速会变快，被称为加速齿轮装置。</p><p>齿轮啮合时可以平行啮合也可以垂直啮合。图示齿轮组a是平行啮合对应是搅拌机中框架靠近叶片一端的两个齿轮，而齿轮组b是垂直啮合对应的是框架中横轴和竖轴交叉处的两个齿轮。</p><p>注意</p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">注意平行啮合时齿轮转动的方向在同一平面上转动方向相反。垂直啮合时齿轮转动的方向，在垂直的两个平面上转动方向改变了而力的方向也改变了。</span><br></pre></td></tr></table></figure><h3 id="轮轴"><a href="#轮轴" class="headerlink" title="轮轴"></a>轮轴</h3><p>在搅拌机中，还有一个轮轴的结构那就是横轴上的把手。这种能绕共同轴线，旋转的机械都叫轮轴。在轮轴中外环叫轮，内环叫轴，轮轴两个环是同心圆。<br>轮轴的实质实际是一个能够连续旋转的杠杆，这个杠杆的支点就在轴线上，轮轴在转动时轮轴有相同的转速，动力点就是轮的外圆。<br>动力臂就是把手到轴中心的距离而阻力点就是轴的外圆阻力臂就是轴的半径。所以当动力作用在轮上,轮轴为省力杠杆。轮和轴的半径相差越大，则越省力，但越费距离，动力作用在轴上则轮轴为费力杠杆，轮和轴的半径相差越大，则越费力，但越省距离。</p><h3 id="齿轮种类"><a href="#齿轮种类" class="headerlink" title="齿轮种类"></a>齿轮种类</h3><p>齿轮的种类多种多样按照外形分一般分为平齿轮、冠齿轮、和涡轮。<br>之前我们用到的都独属于平齿轮。下图所示的齿轮称为冠齿轮，冠齿轮的齿分布在端面，而不是在抡元上一般用在机械的变数。换向离合器上在玩具上也有广泛的应用。<br>而涡轮上的齿，看起来好像有点扁，并不是垂直于整个轮面的这是因为，涡轮，的用法，和平齿轮的用法不太一样，涡轮通常适合杆一起使用的，蜗轮蜗杆机构常用来传递两交错轴之间的运动和动力，涡杆上有螺丝上，相似的螺旋，螺丝上的螺旋转动的时候，会让罗斯进入，被固定件，而涡轮上的螺旋转动时会带动涡轮转动，涡轮。与我感在一起中间平面内有点像齿轮与齿条。<br>蜗轮蜗杆有一个其他齿轮组和布局贝的特点，我敢可以轻易转动涡轮单波轮无法转动，蜗杆这是因为蜗杆上的突脚很浅，当沃伦尝试旋转蜗杆时涡轮与蜗杆之间的摩擦力，让蜗杆保持原位。以实现运动的机械自锁。</p><p>有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="一级考试" scheme="http://yoursite.com/categories/%E4%B8%80%E7%BA%A7%E8%80%83%E8%AF%95/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>全国青少年机器人技术等级考试---跷跷板</title>
+    <link href="http://yoursite.com/2019/01/23/%E6%8A%80%E6%9C%AF%E7%AD%89%E7%BA%A7%E8%80%83%E8%AF%95/%E7%AC%AC%E4%B8%89%E7%AB%A0%E8%B7%B7%E8%B7%B7%E6%9D%BF/"/>
+    <id>http://yoursite.com/2019/01/23/技术等级考试/第三章跷跷板/</id>
+    <published>2019-01-23T02:28:09.836Z</published>
+    <updated>2019-01-23T02:28:09.836Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>考试安排如下，详询瓦力工厂工作人员！<br><img src="/2019/01/23/技术等级考试/第三章跷跷板/19年考级时间安排.png" alt=""><br>跷跷板是我国一种民间游戏，所用器材是由一块中间有横轴的条形厚木板架在支柱上。两个小朋友对坐两端轮流用脚蹬地是一端翘起。另一端下落，如此反复。</p><h3 id="探索"><a href="#探索" class="headerlink" title="探索"></a>探索</h3><p>在玩跷跷板时，我们会发现，越是重量大的小朋友越容易压下来，而体重轻的小朋友就不容易压下来把对方翘起来，重量轻的小朋友。可能会发现一个现象。当他努力往后坐的时候就能够把比自己重的小朋友翘起来。<br><img src="/2019/01/23/技术等级考试/第三章跷跷板/001.jpg" alt=""></p><h3 id="制作"><a href="#制作" class="headerlink" title="制作"></a>制作</h3><p>下面我们先来制作一个跷跷板吧，跷跷板通常有翘板和支架两个部分组成，我们也按照照样的组成来制作跷跷板。</p><p>制作有座椅的翘板<br>￼<img src="/2019/01/23/技术等级考试/第三章跷跷板/002.png" alt=""><br>制作一个支架<br><img src="/2019/01/23/技术等级考试/第三章跷跷板/003.png" alt=""><br>将支架和壳板通过一个短轴连在一起<br>￼<img src="/2019/01/23/技术等级考试/第三章跷跷板/004.png" alt=""></p><h3 id="杠杆原理"><a href="#杠杆原理" class="headerlink" title="杠杆原理"></a>杠杆原理</h3><p>￼在前面的内容当中，我们说过扳手利用的时杠杆原理，而跷跷板就是最基本的杠杆结构。<br>￼<br>杠杆是能绕某一固定点转动的杆，对于翘翘板来说，翘板这个杆能够绕支架上的点旋转儿扳手，这个杆能够绕螺丝的中心轴旋转，在-杆结果中那个固定的点称为支点，支点两边的力的关系是:</p><p>一边的重量X物体到指定的距离=另一边的重量X另一边物体到支点的距离<br><img src="/2019/01/23/技术等级考试/第三章跷跷板/005.png" alt=""></p><p>杠杆原理的公式是:</p><p><img src="/2019/01/23/技术等级考试/第三章跷跷板/006.png" alt=""></p><p>在跷跷板中，当一边小朋友的重量乘以它到支点的距离等于另一边小朋友的重量乘以它到支点的距离时，跷跷板是平衡的，否则就是那边乘积大哪边会往下沉。<br>小朋友坐的位置离中心支点的距离一样时，跷跷板为一种等臂杠杆，此时哪边小朋友重量大，哪边就会沉下来。<br>而如果重量轻的小朋友尽量的向后排座，此时它到支点的距离变大了，重量和距离的乘积也变大了，这样重量轻的小朋友就可能把比自己重的小朋友翘起来了。</p><h3 id="杠杆的起源"><a href="#杠杆的起源" class="headerlink" title="杠杆的起源"></a>杠杆的起源</h3><p>古希腊科学家阿基米德有一句流传很久的名言，给我一个支点，我就能撬起整个地球。这句话说的便是杠杆原理。推动地球的说法是他在亚力山大留学时候的事。<br>￼当时他从埃及农民提水用的吊杆和奴隶们撬石头用的撬棍受到启发，发现可以借助一种杠杆来达到省力的目的，同时还发现手握的地方到支点的这一段距离越长，就越省力气。<br>由此他提出了这样一个定理，力臂和力的关系成反比，这就是杠杆原理用现代的表达是表述就是动力X动力臂=阻力X阻力臂。<br>为此，他曾给当时的国王亥尼洛写信，说我不会吹飞之力就可以随便移动任何重量的东西，只要给我一个支点，给我一根足够长的-杆，我连地球都可以推动。<br>阿基米德在论《平面图形的平衡》一书中，最早提出了杠杆原理。他首先把杠杆实际应用中的一些经验知识当作不证自明的公理。<br>然后从这些公理出发，运用几何学通过严密的逻辑论证，得出了杠杆原理。<br>杠杆原理的五要素是：<br>动力点：是杠杆转动的力叫做动力使力的点叫做动力作用点。<br>动力臂：从支点到动力作用线的垂直距离叫做动力臂。<br>支点：杠杆绕着转动的固定点叫做支点。<br>阻力点：阻碍杠杆转动的力叫做阻力。使力的点叫阻力作用点。<br>阻力臂：从支点到阻力作用线的垂直距离叫做阻力臂。</p><h3 id="杠杆的分类"><a href="#杠杆的分类" class="headerlink" title="杠杆的分类"></a>杠杆的分类</h3><p> 生活中的杠杆按照施加动力的大小，分为省力杠杆，费力杠杆和等臂杠杆。<br> <img src="/2019/01/23/技术等级考试/第三章跷跷板/007.png" alt=""></p><h3 id="杠杆的应用"><a href="#杠杆的应用" class="headerlink" title="杠杆的应用"></a>杠杆的应用</h3><p>我们在生活中应用杠杆原理的时候，并不是都要使用省力杠杆，而是要看具体的情况，有些情况下，为了省力，有些情况下是为了节省距离，为了省力，就应该用动力臂比阻力臂长的杠杆。为了省距离，就应该用动力臂比阻力臂短的杠杆。</p><p>在杠结构中，要想省力，就必须多移动距离要想少移动距离，就必须多费些力。要想又省力而又少移动距离，是不可能实现的。<br>￼下面我们就来列举一些生活中常见的-杆结构，大家可以分析一下其中包含的-杆五要素。<br>费力杠杆：镊子，钓鱼竿，筷子。费力杠杆的应用主要是为了省距离。<br> <img src="/2019/01/23/技术等级考试/第三章跷跷板/008.png" alt=""><br>省力杠杆：榨汁机，胡桃夹，门把手，扳手，铁钳、指甲刀等省力杠杆的应用是为了省力。<br><img src="/2019/01/23/技术等级考试/第三章跷跷板/009.png" alt=""><br>等臂杠杆：天平主要用来测量两测物体质量。<br><img src="/2019/01/23/技术等级考试/第三章跷跷板/010.png" alt=""><br>￼<br><img src="/2019/01/23/技术等级考试/第三章跷跷板/瓦力二维码.jpeg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="一级考试" scheme="http://yoursite.com/categories/%E4%B8%80%E7%BA%A7%E8%80%83%E8%AF%95/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>全国青少年机器人技术等级考试---秋千</title>
@@ -403,75 +472,6 @@
     </summary>
     
       <category term="单片机第一年" scheme="http://yoursite.com/categories/%E5%8D%95%E7%89%87%E6%9C%BA%E7%AC%AC%E4%B8%80%E5%B9%B4/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Python零基础快速入门趣味教程008-蟒蛇绘制</title>
-    <link href="http://yoursite.com/2018/12/26/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/Python%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%E8%B6%A3%E5%91%B3%E6%95%99%E7%A8%8B008/"/>
-    <id>http://yoursite.com/2018/12/26/瓦力工厂/Python零基础快速入门趣味教程008/</id>
-    <published>2018-12-26T10:33:05.416Z</published>
-    <updated>2018-12-26T10:33:05.416Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><a href="https://imgchr.com/i/FgNfEQ" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/25/FgNfEQ.png" alt="FgNfEQ.png"></a></p><h3 id="Python-语法元素理解"><a href="#Python-语法元素理解" class="headerlink" title="Python 语法元素理解"></a>Python 语法元素理解</h3><ul><li>Python 蟒蛇绘制共17行代码，但很多行类似</li><li>清楚理解这17行代码能够掌握Python基本绘图方法。</li><li>参考框架结构，逐行分析，逐词理解。</li><li>Python 蟒蛇的颜色：黑色、绿色、七彩色…</li><li>Python 蟒蛇的长度：1节、3节、10节…</li><li>Python 蟒蛇的方向：向左走、斜着走…<br>计算问题的扩展。</li><li>Python蟒蛇绘制问题是各类图像绘制问题的代表。</li><li>圆形绘制、五角星绘制、国旗绘制、 机器猫绘制。</li><li>掌握绘制一条线的方法，就可以绘制整个世界</li></ul><p>下面我们系统的对turtle进行学习一下</p><ul><li>turtle基本介绍</li><li>turtle绘图窗体布局</li><li>turtle空间坐标体</li><li>turtle角度坐标体系</li><li>turtle RGB 色彩体系</li></ul><h3 id="turtle库概述"><a href="#turtle库概述" class="headerlink" title="turtle库概述"></a>turtle库概述</h3><p>turtle(海龟)库是turtle绘图体系的Python实现</p><ul><li>turtle绘图体系：1969年诞生，主要用于程序设计入门</li><li>Python语言的标准库之一</li><li>入门级的图形绘制函数库<h4 id="标准库"><a href="#标准库" class="headerlink" title="标准库"></a>标准库</h4>Python计算生态 = 标准库 + 第三方库</li><li>标准库：随解释器直接安装到操作系统中的功能模块</li><li>第三方库：需要经过安装才能使用的功能模块</li><li>库Library、包Package、模块Module，统称模块</li></ul><h3 id="turtle的原（wan）理（fa）"><a href="#turtle的原（wan）理（fa）" class="headerlink" title="turtle的原（wan）理（fa）"></a>turtle的原（wan）理（fa）</h3><p>turtle(海龟)是一种真实的存在</p><ul><li>有一只海龟，其实在窗体正中心，在画布上游走</li><li>走过的轨迹形成了绘制的图形</li><li>海龟由程序控制，可以变换颜色、改变宽度等<h3 id="turtle的绘图窗体"><a href="#turtle的绘图窗体" class="headerlink" title="turtle的绘图窗体"></a>turtle的绘图窗体</h3><img src="https://s1.ax1x.com/2018/12/26/F2kusf.png" alt="F2kusf.png"></li></ul><p><img src="https://s1.ax1x.com/2018/12/26/F2k8ij.png" alt="F2k8ij.png"></p><p><img src="https://s1.ax1x.com/2018/12/26/F2kJWn.png" alt="F2kJWn.png"></p><p><img src="https://s1.ax1x.com/2018/12/26/F2k0wF.png" alt="F2k0wF.png"></p><h3 id="turtle空间坐标体系"><a href="#turtle空间坐标体系" class="headerlink" title="turtle空间坐标体系"></a>turtle空间坐标体系</h3><p><img src="https://s1.ax1x.com/2018/12/26/F2kcS1.png" alt="F2kcS1.png"></p><p><img src="https://s1.ax1x.com/2018/12/26/F2kgQx.png" alt="F2kgQx.png"></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line">turtle.goto( 100, 100)</span><br><span class="line">turtle.goto( 100,-100)</span><br><span class="line">turtle.goto(-100,-100)</span><br><span class="line">turtle.goto(-100, 100)</span><br><span class="line">turtle.goto(0,0)</span><br></pre></td></tr></table></figure><p><img src="https://s1.ax1x.com/2018/12/26/F2kHSI.png" alt="F2kHSI.png"></p><p><img src="https://s1.ax1x.com/2018/12/26/F2kblt.png" alt="F2kblt.png"></p><h3 id="turtle角度坐标体系"><a href="#turtle角度坐标体系" class="headerlink" title="turtle角度坐标体系"></a>turtle角度坐标体系</h3><p><img src="https://s1.ax1x.com/2018/12/26/F2kXm8.png" alt="F2kXm8.png"></p><p><img src="https://s1.ax1x.com/2018/12/26/F2kj0S.png" alt="F2kj0S.png"></p><p><img src="https://s1.ax1x.com/2018/12/26/F2ASYj.png" alt="F2ASYj.png"></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line">turtle.left(45)</span><br><span class="line">turtle.fd(150)</span><br><span class="line">turtle.right(135)</span><br><span class="line">turtle.fd(300)</span><br><span class="line">turtle.left(135)</span><br><span class="line">turtle.fd(150)</span><br></pre></td></tr></table></figure><p><img src="https://wjunjie83.github.io//18-12-26/24084404.jpg" alt=""></p><p><a href="https://imgchr.com/i/Fcubs1" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/25/Fcubs1.jpg" alt="Fcubs1.jpg"></a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="Python 入门" scheme="http://yoursite.com/categories/Python-%E5%85%A5%E9%97%A8/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>使用Anaconda安装TensorFlow</title>
-    <link href="http://yoursite.com/2018/12/26/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82-%E4%BD%BF%E7%94%A8Anaconda%E5%AE%89%E8%A3%85TensorFlow/"/>
-    <id>http://yoursite.com/2018/12/26/瓦力工厂-使用Anaconda安装TensorFlow/</id>
-    <published>2018-12-26T08:50:53.028Z</published>
-    <updated>2018-12-26T08:50:53.028Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Take the following steps to install TensorFlow in an Anaconda environment:<br>Follow the instructions on the Anaconda download site to download and install Anaconda.（成功安装了Anaconda之后，在命令行窗口顺序输入一下代码，记得以管理员身份运行）<br>Create a conda environment named tensorflow by invoking the following command:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda create -n tensorflow pip python=3.6</span><br></pre></td></tr></table></figure><p><a href="https://imgchr.com/i/FgX7z4" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/26/FgX7z4.md.png" alt="FgX7z4.md.png"></a></p><p>Activate the conda environment by useing the following command:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">activate tensorflow</span><br></pre></td></tr></table></figure><p> Issue the appropriate command to install TensorFlow inside your conda environment. To install the CPU-only version of TensorFlow, enter the following command:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install --ignore-installed --upgrade tensorflow</span><br></pre></td></tr></table></figure><p> To install the GPU version of TensorFlow, enter the following command (on a single line):</p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install --ignore-installed --upgrade tensorflow-gpu</span><br></pre></td></tr></table></figure><p> 验证是否安装成功：<br>在命令行输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python</span><br></pre></td></tr></table></figure><p>启动Python<br>接着输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; import tensorflow as tf</span><br><span class="line">&gt;&gt;&gt; hello = tf.constant(&apos;Hello, TensorFlow!&apos;)</span><br><span class="line">&gt;&gt;&gt; sess = tf.Session()</span><br><span class="line">&gt;&gt;&gt; print(sess.run(hello))</span><br></pre></td></tr></table></figure><p>如果输出：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hello, TensorFlow!</span><br></pre></td></tr></table></figure><p>那么安装成功！</p><p><a href="https://imgchr.com/i/Fcubs1" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/25/Fcubs1.jpg" alt="Fcubs1.jpg"></a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="Python 进阶" scheme="http://yoursite.com/categories/Python-%E8%BF%9B%E9%98%B6/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Ubuntu将应用程序添加桌面到启动器</title>
-    <link href="http://yoursite.com/2018/12/26/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/Ubuntu%E5%B0%86%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E6%B7%BB%E5%8A%A0%E5%88%B0%E5%90%AF%E5%8A%A8%E5%99%A8/"/>
-    <id>http://yoursite.com/2018/12/26/瓦力工厂/Ubuntu将应用程序添加到启动器/</id>
-    <published>2018-12-26T08:43:33.799Z</published>
-    <updated>2018-12-26T08:43:33.799Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>有些软件提供的启动方式为 .sh 文件，每次启动都需要在终端运行命令。不是很方便，通过查找资料了解到可以创建一个启动器来解决问题。<br>在linux中，一切皆文件。启动器就是一个后缀为 .desktop 文件。<br>我创建的“ 微信” 的启动器，文件内容如下</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">[Desktop Entry]</span><br><span class="line">Encoding=UTF-8</span><br><span class="line">Name=wechat</span><br><span class="line">GenericName=微信</span><br><span class="line">Comment=Ubuntu 微信</span><br><span class="line">Exec=/home/wjunjie/wechat/electronic-wechat %f</span><br><span class="line">Icon=/home/wjunjie/wechat/assets/icon.png</span><br><span class="line">Terminal=false</span><br><span class="line">Type=Application</span><br><span class="line">Categories=Application;Programme;</span><br><span class="line">GenericName[zh_CN]=wechat</span><br><span class="line">Name[zh_CN]=微信</span><br></pre></td></tr></table></figure><h3 id="语法解释："><a href="#语法解释：" class="headerlink" title="语法解释："></a>语法解释：</h3><table><thead><tr><th>关键词</th><th>意义</th></tr></thead><tbody><tr><td>[Desktop Entry]</td><td>文件头</td></tr><tr><td>Encoding</td><td>编码</td></tr><tr><td>Name</td><td>应用名称</td></tr><tr><td>Name[xx]</td><td>不同语言的应用名称</td></tr><tr><td>GenericName</td><td>描述</td></tr><tr><td>Comment</td><td>注释</td></tr><tr><td>Exec</td><td>执行的命令</td></tr><tr><td>Icon</td><td>图标路径</td></tr><tr><td>Terminal</td><td>是否使用终端</td></tr><tr><td>Categories</td><td>应用的类型（内容相关）</td></tr></tbody></table><hr><h3 id="使用流程："><a href="#使用流程：" class="headerlink" title="使用流程："></a>使用流程：</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">创建文件，以.desktop为后缀。</span><br><span class="line">编写内容，修改权限</span><br><span class="line">双击启动程序，添加信任</span><br><span class="line">移动到/usr/share/applications/目录下，这样就可以在左上角应用程序中显示</span><br></pre></td></tr></table></figure><h3 id="说明："><a href="#说明：" class="headerlink" title="说明："></a>说明：</h3><p>其中 Exec 常用的参数有：%f %F %u %U<br>%f：单个文件名，即使选择了多个文件。如果已选择的文件不在本地文件系统中（比如说在HTTP或者FTP上），这个文件将被作为一个临时文件复制到本地，％f将指向本地临时文件；<br>%F：文件列表。用于程序可以同时打开多个本地文件。每个文件以分割段的方式传递给执行程序。<br>%u：单个URL。本地文件以文件URL或文件路径的方式传递。<br>%U：URL列表。每个URL以分割段的方式传递给执行程序。本地文件以文件URL或文件路径的方式传递。</p><p><a href="https://imgchr.com/i/Fcubs1" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/25/Fcubs1.jpg" alt="Fcubs1.jpg"></a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="Ubuntu" scheme="http://yoursite.com/categories/Ubuntu/"/>
     
     
   </entry>

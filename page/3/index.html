@@ -357,6 +357,593 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/26/瓦力工厂/Python零基础快速入门趣味教程008/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/26/瓦力工厂/Python零基础快速入门趣味教程008/" class="post-title-link" itemprop="http://yoursite.com/page/3/index.html">Python零基础快速入门趣味教程008-蟒蛇绘制</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-12-26 18:33:05" itemprop="dateCreated datePublished" datetime="2018-12-26T18:33:05+08:00">2018-12-26</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Python-入门/" itemprop="url" rel="index"><span itemprop="name">Python 入门</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><a href="https://imgchr.com/i/FgNfEQ" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/25/FgNfEQ.png" alt="FgNfEQ.png"></a></p>
+<h3 id="Python-语法元素理解"><a href="#Python-语法元素理解" class="headerlink" title="Python 语法元素理解"></a>Python 语法元素理解</h3><ul>
+<li>Python 蟒蛇绘制共17行代码，但很多行类似</li>
+<li>清楚理解这17行代码能够掌握Python基本绘图方法。</li>
+<li>参考框架结构，逐行分析，逐词理解。</li>
+<li>Python 蟒蛇的颜色：黑色、绿色、七彩色…</li>
+<li>Python 蟒蛇的长度：1节、3节、10节…</li>
+<li>Python 蟒蛇的方向：向左走、斜着走…<br>计算问题的扩展。</li>
+<li>Python蟒蛇绘制问题是各类图像绘制问题的代表。</li>
+<li>圆形绘制、五角星绘制、国旗绘制、 机器猫绘制。</li>
+<li>掌握绘制一条线的方法，就可以绘制整个世界</li>
+</ul>
+<p>下面我们系统的对turtle进行学习一下</p>
+<ul>
+<li>turtle基本介绍</li>
+<li>turtle绘图窗体布局</li>
+<li>turtle空间坐标体</li>
+<li>turtle角度坐标体系</li>
+<li>turtle RGB 色彩体系</li>
+</ul>
+<h3 id="turtle库概述"><a href="#turtle库概述" class="headerlink" title="turtle库概述"></a>turtle库概述</h3><p>turtle(海龟)库是turtle绘图体系的Python实现</p>
+<ul>
+<li>turtle绘图体系：1969年诞生，主要用于程序设计入门</li>
+<li>Python语言的标准库之一</li>
+<li>入门级的图形绘制函数库<h4 id="标准库"><a href="#标准库" class="headerlink" title="标准库"></a>标准库</h4>Python计算生态 = 标准库 + 第三方库</li>
+<li>标准库：随解释器直接安装到操作系统中的功能模块</li>
+<li>第三方库：需要经过安装才能使用的功能模块</li>
+<li>库Library、包Package、模块Module，统称模块</li>
+</ul>
+<h3 id="turtle的原（wan）理（fa）"><a href="#turtle的原（wan）理（fa）" class="headerlink" title="turtle的原（wan）理（fa）"></a>turtle的原（wan）理（fa）</h3><p>turtle(海龟)是一种真实的存在</p>
+<ul>
+<li>有一只海龟，其实在窗体正中心，在画布上游走</li>
+<li>走过的轨迹形成了绘制的图形</li>
+<li>海龟由程序控制，可以变换颜色、改变宽度等<h3 id="turtle的绘图窗体"><a href="#turtle的绘图窗体" class="headerlink" title="turtle的绘图窗体"></a>turtle的绘图窗体</h3><img src="https://s1.ax1x.com/2018/12/26/F2kusf.png" alt="F2kusf.png"></li>
+</ul>
+<p><img src="https://s1.ax1x.com/2018/12/26/F2k8ij.png" alt="F2k8ij.png"></p>
+<p><img src="https://s1.ax1x.com/2018/12/26/F2kJWn.png" alt="F2kJWn.png"></p>
+<p><img src="https://s1.ax1x.com/2018/12/26/F2k0wF.png" alt="F2k0wF.png"></p>
+<h3 id="turtle空间坐标体系"><a href="#turtle空间坐标体系" class="headerlink" title="turtle空间坐标体系"></a>turtle空间坐标体系</h3><p><img src="https://s1.ax1x.com/2018/12/26/F2kcS1.png" alt="F2kcS1.png"></p>
+<p><img src="https://s1.ax1x.com/2018/12/26/F2kgQx.png" alt="F2kgQx.png"></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line">turtle.goto( 100, 100)</span><br><span class="line">turtle.goto( 100,-100)</span><br><span class="line">turtle.goto(-100,-100)</span><br><span class="line">turtle.goto(-100, 100)</span><br><span class="line">turtle.goto(0,0)</span><br></pre></td></tr></table></figure>
+<p><img src="https://s1.ax1x.com/2018/12/26/F2kHSI.png" alt="F2kHSI.png"></p>
+<p><img src="https://s1.ax1x.com/2018/12/26/F2kblt.png" alt="F2kblt.png"></p>
+<h3 id="turtle角度坐标体系"><a href="#turtle角度坐标体系" class="headerlink" title="turtle角度坐标体系"></a>turtle角度坐标体系</h3><p><img src="https://s1.ax1x.com/2018/12/26/F2kXm8.png" alt="F2kXm8.png"></p>
+<p><img src="https://s1.ax1x.com/2018/12/26/F2kj0S.png" alt="F2kj0S.png"></p>
+<p><img src="https://s1.ax1x.com/2018/12/26/F2ASYj.png" alt="F2ASYj.png"></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line">turtle.left(45)</span><br><span class="line">turtle.fd(150)</span><br><span class="line">turtle.right(135)</span><br><span class="line">turtle.fd(300)</span><br><span class="line">turtle.left(135)</span><br><span class="line">turtle.fd(150)</span><br></pre></td></tr></table></figure>
+<p><img src="https://wjunjie83.github.io//18-12-26/24084404.jpg" alt=""></p>
+<p><a href="https://imgchr.com/i/Fcubs1" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/25/Fcubs1.jpg" alt="Fcubs1.jpg"></a></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/26/瓦力工厂-使用Anaconda安装TensorFlow/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/26/瓦力工厂-使用Anaconda安装TensorFlow/" class="post-title-link" itemprop="http://yoursite.com/page/3/index.html">使用Anaconda安装TensorFlow</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-12-26 16:50:53" itemprop="dateCreated datePublished" datetime="2018-12-26T16:50:53+08:00">2018-12-26</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Python-进阶/" itemprop="url" rel="index"><span itemprop="name">Python 进阶</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>Take the following steps to install TensorFlow in an Anaconda environment:<br>Follow the instructions on the Anaconda download site to download and install Anaconda.（成功安装了Anaconda之后，在命令行窗口顺序输入一下代码，记得以管理员身份运行）<br>Create a conda environment named tensorflow by invoking the following command:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda create -n tensorflow pip python=3.6</span><br></pre></td></tr></table></figure>
+<p><a href="https://imgchr.com/i/FgX7z4" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/26/FgX7z4.md.png" alt="FgX7z4.md.png"></a></p>
+<p>Activate the conda environment by useing the following command:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">activate tensorflow</span><br></pre></td></tr></table></figure>
+<p> Issue the appropriate command to install TensorFlow inside your conda environment. To install the CPU-only version of TensorFlow, enter the following command:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install --ignore-installed --upgrade tensorflow</span><br></pre></td></tr></table></figure>
+<p> To install the GPU version of TensorFlow, enter the following command (on a single line):</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install --ignore-installed --upgrade tensorflow-gpu</span><br></pre></td></tr></table></figure>
+<p> 验证是否安装成功：<br>在命令行输入</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python</span><br></pre></td></tr></table></figure>
+<p>启动Python<br>接着输入</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; import tensorflow as tf</span><br><span class="line">&gt;&gt;&gt; hello = tf.constant(&apos;Hello, TensorFlow!&apos;)</span><br><span class="line">&gt;&gt;&gt; sess = tf.Session()</span><br><span class="line">&gt;&gt;&gt; print(sess.run(hello))</span><br></pre></td></tr></table></figure>
+<p>如果输出：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hello, TensorFlow!</span><br></pre></td></tr></table></figure>
+<p>那么安装成功！</p>
+<p><a href="https://imgchr.com/i/Fcubs1" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/25/Fcubs1.jpg" alt="Fcubs1.jpg"></a></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/26/瓦力工厂/Ubuntu将应用程序添加到启动器/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/26/瓦力工厂/Ubuntu将应用程序添加到启动器/" class="post-title-link" itemprop="http://yoursite.com/page/3/index.html">Ubuntu将应用程序添加桌面到启动器</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-12-26 16:43:33" itemprop="dateCreated datePublished" datetime="2018-12-26T16:43:33+08:00">2018-12-26</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Ubuntu/" itemprop="url" rel="index"><span itemprop="name">Ubuntu</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>有些软件提供的启动方式为 .sh 文件，每次启动都需要在终端运行命令。不是很方便，通过查找资料了解到可以创建一个启动器来解决问题。<br>在linux中，一切皆文件。启动器就是一个后缀为 .desktop 文件。<br>我创建的“ 微信” 的启动器，文件内容如下</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">[Desktop Entry]</span><br><span class="line">Encoding=UTF-8</span><br><span class="line">Name=wechat</span><br><span class="line">GenericName=微信</span><br><span class="line">Comment=Ubuntu 微信</span><br><span class="line">Exec=/home/wjunjie/wechat/electronic-wechat %f</span><br><span class="line">Icon=/home/wjunjie/wechat/assets/icon.png</span><br><span class="line">Terminal=false</span><br><span class="line">Type=Application</span><br><span class="line">Categories=Application;Programme;</span><br><span class="line">GenericName[zh_CN]=wechat</span><br><span class="line">Name[zh_CN]=微信</span><br></pre></td></tr></table></figure>
+<h3 id="语法解释："><a href="#语法解释：" class="headerlink" title="语法解释："></a>语法解释：</h3><table>
+<thead>
+<tr>
+<th>关键词</th>
+<th>意义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[Desktop Entry]</td>
+<td>文件头</td>
+</tr>
+<tr>
+<td>Encoding</td>
+<td>编码</td>
+</tr>
+<tr>
+<td>Name</td>
+<td>应用名称</td>
+</tr>
+<tr>
+<td>Name[xx]</td>
+<td>不同语言的应用名称</td>
+</tr>
+<tr>
+<td>GenericName</td>
+<td>描述</td>
+</tr>
+<tr>
+<td>Comment</td>
+<td>注释</td>
+</tr>
+<tr>
+<td>Exec</td>
+<td>执行的命令</td>
+</tr>
+<tr>
+<td>Icon</td>
+<td>图标路径</td>
+</tr>
+<tr>
+<td>Terminal</td>
+<td>是否使用终端</td>
+</tr>
+<tr>
+<td>Categories</td>
+<td>应用的类型（内容相关）</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="使用流程："><a href="#使用流程：" class="headerlink" title="使用流程："></a>使用流程：</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">创建文件，以.desktop为后缀。</span><br><span class="line">编写内容，修改权限</span><br><span class="line">双击启动程序，添加信任</span><br><span class="line">移动到/usr/share/applications/目录下，这样就可以在左上角应用程序中显示</span><br></pre></td></tr></table></figure>
+<h3 id="说明："><a href="#说明：" class="headerlink" title="说明："></a>说明：</h3><p>其中 Exec 常用的参数有：%f %F %u %U<br>%f：单个文件名，即使选择了多个文件。如果已选择的文件不在本地文件系统中（比如说在HTTP或者FTP上），这个文件将被作为一个临时文件复制到本地，％f将指向本地临时文件；<br>%F：文件列表。用于程序可以同时打开多个本地文件。每个文件以分割段的方式传递给执行程序。<br>%u：单个URL。本地文件以文件URL或文件路径的方式传递。<br>%U：URL列表。每个URL以分割段的方式传递给执行程序。本地文件以文件URL或文件路径的方式传递。</p>
+<p><a href="https://imgchr.com/i/Fcubs1" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/25/Fcubs1.jpg" alt="Fcubs1.jpg"></a></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/25/瓦力工厂/Anaconda更改Python版本/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1451,497 +2038,11 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/24/瓦力工厂/第3课-新年到!下雪了/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/24/瓦力工厂/第3课-新年到!下雪了/" class="post-title-link" itemprop="http://yoursite.com/page/3/index.html">趣味编程第3课-新年到!下雪了</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2018-12-24 23:45:06" itemprop="dateCreated datePublished" datetime="2018-12-24T23:45:06+08:00">2018-12-24</time>
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Scratch-入门/" itemprop="url" rel="index"><span itemprop="name">Scratch 入门</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="一、任务描述"><a href="#一、任务描述" class="headerlink" title="一、任务描述"></a>一、任务描述</h3><p>冬天来了,只见雪花纷纷扬扬地从空中飘下来。雪花落在小树上，小树好像穿上雪白的新衣。雪花落在屋顶上，屋顶好像戴上了雪白的帽子。雪花落在大地上，大地好像盖上了雪白的羊毛毯。要求用动画实现下雪的场景。<br><img src="/2018/12/24/瓦力工厂/第3课-新年到!下雪了/001.png" alt=""></p>
-<h3 id="二、任务目的"><a href="#二、任务目的" class="headerlink" title="二、任务目的"></a>二、任务目的</h3><p>　 1、让大家能够结合我们身边的事物来进行创作，巩固学习编程知识。</p>
-<p>　　2、scratch中克隆体个数是有限的，不能无限制的克隆</p>
-<p>　　3、学习私有变量的创建以及结合克隆体的使用。</p>
-<p>　　4、面对某些不好实现的效果我们需要通过转换思维的办法来解决问题。<br><img src="/2018/12/24/瓦力工厂/第3课-新年到!下雪了/002.png" alt=""></p>
-<h3 id="三、任务分析"><a href="#三、任务分析" class="headerlink" title="三、任务分析"></a>三、任务分析</h3><p>　　1、初级挑战：只需要会使用克隆与随机数即可。在scratch中“克隆”与“当作为克隆体启动时”经常是配合使用，我们通过重复执行，来不断的克隆雪花。在每个克隆体启动时我们设置一下克隆体的大小和位置，然后再通过重复执行，改变克隆体的y坐标就实现了雪花下落效果。<br>2、中级挑战：要求雪花能够落在屋顶、车、路面。这里只要在雪花下落的过程中增加一个侦测的判断条件，只要克隆体碰到车或房子或者路面（路面用颜色来判断），就停止克隆体移动。</p>
-<p>在scratch中克隆体的个数是有限的，你慢慢会发现，雪花会变得越来越少，为了不让雪停下来，我们使用“图章”把克隆的雪花留在舞台上，然后删除克隆体，这样就不会因为克隆体达到上限而停止了。<br><img src="/2018/12/24/瓦力工厂/第3课-新年到!下雪了/瓦力.jpeg" alt=""></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/24/瓦力工厂/第2课小猫跳舞/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/24/瓦力工厂/第2课小猫跳舞/" class="post-title-link" itemprop="http://yoursite.com/page/3/index.html">趣味编程第2课-小猫跳舞</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2018-12-24 23:44:56" itemprop="dateCreated datePublished" datetime="2018-12-24T23:44:56+08:00">2018-12-24</time>
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Scratch-入门/" itemprop="url" rel="index"><span itemprop="name">Scratch 入门</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>当我们学习了第一课，小猫学步后，对Scratch有了初步的了解，本节课通过小猫跳舞程序的编制，给大家讲解Scratch中，角色的添加与删除，背景的添加与删除。不同角色拥有不同的脚本、背景、声音。<br>下面介紹一下Scratch的各个功能区块。<br><img src="/2018/12/24/瓦力工厂/第2课小猫跳舞/001.png" alt=""><br>下面添加小猫跳舞的舞台，给小猫一个充分展示才艺的空间<br><img src="/2018/12/24/瓦力工厂/第2课小猫跳舞/002.png" alt=""><br>小猫有舞台了，下面给小猫添加才艺，把命令积木中的才艺赋给小猫，跳舞、唱歌、弹奏乐器，甚至变脸等等才艺！<br><img src="/2018/12/24/瓦力工厂/第2课小猫跳舞/003.png" alt=""><br>给小猫添加一个领跳，在美女小姐姐的指挥下，让小猫尽情的跳舞吧！<br>当然，也要给美女小姐姐赋予各种各样的才艺。<br><img src="/2018/12/24/瓦力工厂/第2课小猫跳舞/004.png" alt=""><br>小猫跳舞就完成了，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/24/瓦力工厂/第2课小猫跳舞/瓦力.jpeg" alt=""></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/24/瓦力工厂/第1课小猫学步/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/24/瓦力工厂/第1课小猫学步/" class="post-title-link" itemprop="http://yoursite.com/page/3/index.html">趣味编程第1课-小猫学步</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2018-12-24 23:44:50" itemprop="dateCreated datePublished" datetime="2018-12-24T23:44:50+08:00">2018-12-24</time>
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Scratch-入门/" itemprop="url" rel="index"><span itemprop="name">Scratch 入门</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <hr>
-<p>当我们已经安装好了软件。此时是全英文的，我们可以点击这个小宇宙切换成简体中文。所以一定要小朋友要好好学英语，这样我们就可以不用切换啦！<br><img src="/2018/12/24/瓦力工厂/第1课小猫学步/001.png" alt=""><br>现在我们来介绍下Scratch软件每个区块的作用和名字，区块名字记不住没关系的，只要知道每个区块是做什么的就可以啦！<br><img src="/2018/12/24/瓦力工厂/第1课小猫学步/002.png" alt=""><br>菜单-是我们保存文件和打开文件的地方；</p>
-<p>控制按钮-小绿旗是开始，红色圆圈是停止；</p>
-<p>工具箱-可以放大和缩小我们的角色；</p>
-<p>舞台区-就是我们动画和游戏展示的地方；</p>
-<p>新建角色按钮-我们可以建立我们自己喜欢的角色；</p>
-<p>角色列表区-我们可以看到我们有哪些角色；</p>
-<p>程序区块-是我们最重要的地方了，我们需要后面慢慢学习；</p>
-<p>脚本区-是我们的做的程序。</p>
-<p>通过这些枯燥的解释以后，我们就要进入后面的有趣环节了。</p>
-<p>一只不会走路的小猫，要小朋友动脑筋来让它学会走路。</p>
-<p>我们一起来看看最终我们要做成的样子，一只小猫咪在我们的编程下学会了走路。</p>
-<p>是不是太棒啦！！！<br><img src="/2018/12/24/瓦力工厂/第1课小猫学步/003.png" alt=""><br>首先我们添加动作，开始我们编程的第一步，『移动10步』。<br>可是，要不断的点击移动1步，移动1步，小猫咪才会行走，感觉是被老师拖着走的，不是自己在走的，而且老师点击的也有点点累了。<br>老师想让小猫咪自己走起了，不用老师每次去点击一次它才走一步，那么我们就要用一个很关键的程序部分了，那就是重复（循环）。就像我们学习一样要不断的重复才能记住。<img src="/2018/12/24/瓦力工厂/第1课小猫学步/004.png" alt=""><br>小猫能一次走很远了，但是好像小猫的动作很不自然，下面我们就让小猫走的自然一点<br><img src="/2018/12/24/瓦力工厂/第1课小猫学步/005.png" alt=""><br>好的这样我们的第一课『小猫学步』就完成了。现在小朋友可以在回到最开始看看我们的做的程序是不是和老师最开始的视频一样的效果。<br>如果不是看看是不是哪里有什么小问题，还是你又改进什么和新发现。<br>可以给老师留言哟！我们一起学习和进步。<br><img src="/2018/12/24/瓦力工厂/第1课小猫学步/瓦力.jpeg" alt=""></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/2/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><span class="space">&hellip;</span><a class="page-number" href="/page/7/">7</a><a class="extend next" rel="next" href="/page/4/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
+    <a class="extend prev" rel="prev" href="/page/2/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><span class="space">&hellip;</span><a class="page-number" href="/page/8/">8</a><a class="extend next" rel="next" href="/page/4/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
   </nav>
 
 
@@ -1984,7 +2085,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">70</span>
+                    <span class="site-state-item-count">72</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>

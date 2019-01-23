@@ -519,6 +519,166 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/Scratch3.0本地部署遇到的坑与井/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/18/瓦力工厂/Scratch3.0本地部署遇到的坑与井/" class="post-title-link" itemprop="http://yoursite.com/page/7/index.html">Scratch3.0本地部署遇到的坑与井</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-12-04 23:56:45" itemprop="dateModified" datetime="2018-12-04T23:56:45+08:00">2018-12-04</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="Scratch-clone"><a href="#Scratch-clone" class="headerlink" title="Scratch clone"></a>Scratch clone</h3><p>Scratch3.0 已经大致完工，界面漂亮，但是要访问其官网则需要科学上网，其速度也非常慢。想要和学生一起随着3.0成长则不免要本地部署。<br>Scratch3.0 在github上的位<br><a href="https://github.com/LLK" target="_blank" rel="noopener">https://github.com/LLK</a><br>我们只需要scratch-gui，于是一行如下代码<br>git clone git@github.com:LLK/scratch-gui.git<br>10k/s,多久没有这么慢的速度了，工作的时候电脑下载了，下载了2天没有下载完成。各种断开重来。<br>于是在网上查资料，得到曲线救国的方案。<br>git clone –depth=1 git@github.com:LLK/scratch-gui.git<br>只下载最新一层的更新，然后在项目目录下：<br>git fetch –unshallow #转换为一个完整的仓库<br>git 完成后，运行命令：<br>nmp install<br>nmp start<br>本地Scratch3.0已经可以运行，心中美美的。接着在局域网另一台电脑上输入本机IP地址，悲剧了，连不上。<br>接着找资料，各种论坛狂逛，有一篇说是安装Scratch-www的可以访问，于是Scratch-www、Scratch-wm、等等一并下载安装。满怀期待这样就能解决局域网连接问题，然而，确是伴随着一系列的解决问题时的失望。<br>接着就和webpack较上了劲。webpack-dev-server的使用一阵狂查，网上各种帖说webpack-dev-server<br>有默认本机访问，局域网访问需要指定本机IP地址。按帖子的方法一个个实验，都是无功而返。一不做二不休，问题还是要解决的，于是我上webpack-dev-server的官网，英文说明书一阵狂看，有点费劲，继而找到中文最新官方文档，从头看到尾，终于找到解决方案。<br><a href="https://github.com/webpack/webpack/releases" target="_blank" rel="noopener">https://github.com/webpack/webpack/releases</a><br><a href="https://webpack.docschina.org/concepts/" target="_blank" rel="noopener">https://webpack.docschina.org/concepts/</a><br><a href="https://webpack.docschina.org/configuration/dev-server" target="_blank" rel="noopener">https://webpack.docschina.org/configuration/dev-server</a></p>
+<p>devServer.host<br>string</p>
+<p>指定使用一个 host。默认是 localhost。如果你希望服务器外部可访问，指定如下：</p>
+<p>module.exports = {<br>  //…<br>  devServer: {<br>    host: ‘0.0.0.0’<br>  }<br>};<br>通过 CLI 使用</p>
+<p>webpack-dev-server –host 0.0.0.0</p>
+<p>按照官方最新文档进行配置，然而…<br>突然想起在安装Scratch需要在root权限下，于是切换到root  npm start  …<br>算了，用nginx 架站来处理吧。<br>于是看到 …<br>2.调整防火墙，以免出现各种问题<br>$ sudo ufw app list<br>对，ufw，于是查询ufw文档<br><a href="http://wiki.ubuntu.org.cn/Ufw%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97" target="_blank" rel="noopener">http://wiki.ubuntu.org.cn/Ufw%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97</a><br>于是简单粗暴<br>ufw disable<br>在局域网另一台电脑上登录，一下子天朗气清，所有问题都解决了。<br>突然想起前几天配置ftp服务器失败，一定和 ufw有关，因为ftp服务器不只搭建一次了。<br>看来要好好熟悉一下ufw了</p>
+<p>什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/Scratch3.0本地部署遇到的坑与井/瓦力.jpeg" alt=""></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/DPJ-049-扎气球机器人/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -636,6 +796,345 @@
 <p><img src="/2018/12/18/瓦力工厂/DPJ-049-扎气球机器人/009.png" alt=""></p>
 <h3 id="扎气球机器人程序设计："><a href="#扎气球机器人程序设计：" class="headerlink" title="扎气球机器人程序设计："></a>扎气球机器人程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-049-扎气球机器人/010.png" alt=""></p>
 <p>扎气球机器人完成了，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/DPJ-049-扎气球机器人/瓦力.jpeg" alt=""></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/" class="post-title-link" itemprop="http://yoursite.com/page/7/index.html">DPJ-048-六足昆虫机器人</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-12-02 22:03:39" itemprop="dateModified" datetime="2018-12-02T22:03:39+08:00">2018-12-02</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦力在打扫卫生的时候钥匙掉到了桌子底下，怎么办，瓦力想，做一个昆虫机器人帮我捡回来，技术在手，什么都有，NO Problem！</p>
+<p><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/001.png" alt=""></p>
+<h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/002.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/004.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/005.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/006.png" alt=""></p>
+<h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有伺服马达控制鱼尾游动。<br>３．需要控制伺服马达的指令。</p>
+<h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、马达、伺服马达、CPU、触碰开关、聲音傳感器、附件</p>
+<h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.认识昆虫、认识声音传感器.<br>2.仿生搭建昆虫，认识连杆机构.<br>3.声音传感器的使用方法。</p>
+<h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/007.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/008.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/009.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/010.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/011.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/012.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/013.png" alt=""></p>
+<h3 id="六足昆虫机器人程序设计："><a href="#六足昆虫机器人程序设计：" class="headerlink" title="六足昆虫机器人程序设计："></a>六足昆虫机器人程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/014.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/015.png" alt=""></p>
+<p>六足昆虫机器人已完成，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/瓦力.jpeg" alt=""></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/" class="post-title-link" itemprop="http://yoursite.com/page/7/index.html">Scratch3.0-打地鼠</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-12-05 14:31:03" itemprop="dateModified" datetime="2018-12-05T14:31:03+08:00">2018-12-05</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>输入IP地址 <a href="http://192.168.0.103:8061/" target="_blank" rel="noopener">http://192.168.0.103:8061/</a> 打开Scratch3.0 客户端</p>
+<p>从ftp 服务器上下载所需的素材文件夹</p>
+<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/001.png" alt=""></p>
+<p>点击上传背景图，上传desert.jpg</p>
+<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/002.png" alt=""></p>
+<p>删除默认的角色</p>
+<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/003.png" alt=""><br>点击上传角色，依次上传角色洞、地鼠、火花、锤子。</p>
+<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/004.png" alt=""><br>添加程序所需的变量：地鼠个数、总分、时间。</p>
+<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/005.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/006.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/007.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/008.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/009.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/010.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/011.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/012.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/001.png" alt="">/瓦力.jpeg)</p>
 
           
         
@@ -862,7 +1361,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/橡皮筋枪/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="王俊杰">
@@ -882,7 +1381,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/" class="post-title-link" itemprop="http://yoursite.com/page/7/index.html">DPJ-048-六足昆虫机器人</a>
+                <a href="/2018/12/18/瓦力工厂/橡皮筋枪/" class="post-title-link" itemprop="http://yoursite.com/page/7/index.html">橡皮筋枪</a>
               
             
           </h1>
@@ -924,7 +1423,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2018-12-02 22:03:39" itemprop="dateModified" datetime="2018-12-02T22:03:39+08:00">2018-12-02</time>
+                <time title="修改时间：2018-12-07 14:53:39" itemprop="dateModified" datetime="2018-12-07T14:53:39+08:00">2018-12-07</time>
               
             
           </span>
@@ -959,188 +1458,36 @@
       
         
           
-            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦力在打扫卫生的时候钥匙掉到了桌子底下，怎么办，瓦力想，做一个昆虫机器人帮我捡回来，技术在手，什么都有，NO Problem！</p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/001.png" alt=""></p>
-<h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/002.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/004.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/005.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/006.png" alt=""></p>
-<h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有伺服马达控制鱼尾游动。<br>３．需要控制伺服马达的指令。</p>
-<h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、马达、伺服马达、CPU、触碰开关、聲音傳感器、附件</p>
-<h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.认识昆虫、认识声音传感器.<br>2.仿生搭建昆虫，认识连杆机构.<br>3.声音传感器的使用方法。</p>
-<h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/007.png" alt=""></p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/008.png" alt=""></p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/009.png" alt=""></p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/010.png" alt=""></p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/011.png" alt=""></p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/012.png" alt=""></p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/013.png" alt=""></p>
-<h3 id="六足昆虫机器人程序设计："><a href="#六足昆虫机器人程序设计：" class="headerlink" title="六足昆虫机器人程序设计："></a>六足昆虫机器人程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/014.png" alt=""></p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/015.png" alt=""></p>
-<p>六足昆虫机器人已完成，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/DPJ-048-六足昆虫机器人/瓦力.jpeg" alt=""></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/技术等级考试/第三章跷跷板/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/18/技术等级考试/第三章跷跷板/" class="post-title-link" itemprop="http://yoursite.com/page/7/index.html">全国青少年机器人技术等级考试---跷跷板</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-11-08 16:39:14" itemprop="dateModified" datetime="2018-11-08T16:39:14+08:00">2018-11-08</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>考试安排如下，详询瓦力工厂工作人员！<br><img src="/2018/12/18/技术等级考试/第三章跷跷板/19年考级时间安排.png" alt=""><br>跷跷板是我国一种民间游戏，所用器材是由一块中间有横轴的条形厚木板架在支柱上。两个小朋友对坐两端轮流用脚蹬地是一端翘起。另一端下落，如此反复。</p>
-<h3 id="探索"><a href="#探索" class="headerlink" title="探索"></a>探索</h3><p>在玩跷跷板时，我们会发现，越是重量大的小朋友越容易压下来，而体重轻的小朋友就不容易压下来把对方翘起来，重量轻的小朋友。可能会发现一个现象。当他努力往后坐的时候就能够把比自己重的小朋友翘起来。<br><img src="/2018/12/18/技术等级考试/第三章跷跷板/001.jpg" alt=""></p>
-<h3 id="制作"><a href="#制作" class="headerlink" title="制作"></a>制作</h3><p>下面我们先来制作一个跷跷板吧，跷跷板通常有翘板和支架两个部分组成，我们也按照照样的组成来制作跷跷板。</p>
-<p>制作有座椅的翘板<br>￼<img src="/2018/12/18/技术等级考试/第三章跷跷板/002.png" alt=""><br>制作一个支架<br><img src="/2018/12/18/技术等级考试/第三章跷跷板/003.png" alt=""><br>将支架和壳板通过一个短轴连在一起<br>￼<img src="/2018/12/18/技术等级考试/第三章跷跷板/004.png" alt=""></p>
-<h3 id="杠杆原理"><a href="#杠杆原理" class="headerlink" title="杠杆原理"></a>杠杆原理</h3><p>￼在前面的内容当中，我们说过扳手利用的时杠杆原理，而跷跷板就是最基本的杠杆结构。<br>￼<br>杠杆是能绕某一固定点转动的杆，对于翘翘板来说，翘板这个杆能够绕支架上的点旋转儿扳手，这个杆能够绕螺丝的中心轴旋转，在-杆结果中那个固定的点称为支点，支点两边的力的关系是:</p>
-<p>一边的重量X物体到指定的距离=另一边的重量X另一边物体到支点的距离<br><img src="/2018/12/18/技术等级考试/第三章跷跷板/005.png" alt=""></p>
-<p>杠杆原理的公式是:</p>
-<p><img src="/2018/12/18/技术等级考试/第三章跷跷板/006.png" alt=""></p>
-<p>在跷跷板中，当一边小朋友的重量乘以它到支点的距离等于另一边小朋友的重量乘以它到支点的距离时，跷跷板是平衡的，否则就是那边乘积大哪边会往下沉。<br>小朋友坐的位置离中心支点的距离一样时，跷跷板为一种等臂杠杆，此时哪边小朋友重量大，哪边就会沉下来。<br>而如果重量轻的小朋友尽量的向后排座，此时它到支点的距离变大了，重量和距离的乘积也变大了，这样重量轻的小朋友就可能把比自己重的小朋友翘起来了。</p>
-<h3 id="杠杆的起源"><a href="#杠杆的起源" class="headerlink" title="杠杆的起源"></a>杠杆的起源</h3><p>古希腊科学家阿基米德有一句流传很久的名言，给我一个支点，我就能撬起整个地球。这句话说的便是杠杆原理。推动地球的说法是他在亚力山大留学时候的事。<br>￼当时他从埃及农民提水用的吊杆和奴隶们撬石头用的撬棍受到启发，发现可以借助一种杠杆来达到省力的目的，同时还发现手握的地方到支点的这一段距离越长，就越省力气。<br>由此他提出了这样一个定理，力臂和力的关系成反比，这就是杠杆原理用现代的表达是表述就是动力X动力臂=阻力X阻力臂。<br>为此，他曾给当时的国王亥尼洛写信，说我不会吹飞之力就可以随便移动任何重量的东西，只要给我一个支点，给我一根足够长的-杆，我连地球都可以推动。<br>阿基米德在论《平面图形的平衡》一书中，最早提出了杠杆原理。他首先把杠杆实际应用中的一些经验知识当作不证自明的公理。<br>然后从这些公理出发，运用几何学通过严密的逻辑论证，得出了杠杆原理。<br>杠杆原理的五要素是：<br>动力点：是杠杆转动的力叫做动力使力的点叫做动力作用点。<br>动力臂：从支点到动力作用线的垂直距离叫做动力臂。<br>支点：杠杆绕着转动的固定点叫做支点。<br>阻力点：阻碍杠杆转动的力叫做阻力。使力的点叫阻力作用点。<br>阻力臂：从支点到阻力作用线的垂直距离叫做阻力臂。</p>
-<h3 id="杠杆的分类"><a href="#杠杆的分类" class="headerlink" title="杠杆的分类"></a>杠杆的分类</h3><p> 生活中的杠杆按照施加动力的大小，分为省力杠杆，费力杠杆和等臂杠杆。<br> <img src="/2018/12/18/技术等级考试/第三章跷跷板/007.png" alt=""></p>
-<h3 id="杠杆的应用"><a href="#杠杆的应用" class="headerlink" title="杠杆的应用"></a>杠杆的应用</h3><p>我们在生活中应用杠杆原理的时候，并不是都要使用省力杠杆，而是要看具体的情况，有些情况下，为了省力，有些情况下是为了节省距离，为了省力，就应该用动力臂比阻力臂长的杠杆。为了省距离，就应该用动力臂比阻力臂短的杠杆。</p>
-<p>在杠结构中，要想省力，就必须多移动距离要想少移动距离，就必须多费些力。要想又省力而又少移动距离，是不可能实现的。<br>￼下面我们就来列举一些生活中常见的-杆结构，大家可以分析一下其中包含的-杆五要素。<br>费力杠杆：镊子，钓鱼竿，筷子。费力杠杆的应用主要是为了省距离。<br> <img src="/2018/12/18/技术等级考试/第三章跷跷板/008.png" alt=""><br>省力杠杆：榨汁机，胡桃夹，门把手，扳手，铁钳、指甲刀等省力杠杆的应用是为了省力。<br><img src="/2018/12/18/技术等级考试/第三章跷跷板/009.png" alt=""><br>等臂杠杆：天平主要用来测量两测物体质量。<br><img src="/2018/12/18/技术等级考试/第三章跷跷板/010.png" alt=""><br>￼<br><img src="/2018/12/18/技术等级考试/第三章跷跷板/瓦力二维码.jpeg" alt=""></p>
+            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>大家都看过战狼2吧，主人公冷锋（吴京 饰）遭遇人生滑铁卢，被“开除军籍”，本想漂泊一生的他，正当他打算这么做的时候，一场突如其来的意外打破了他的计划，突然被卷入了一场非洲国家叛乱，本可以安全撤离，却因无法忘记曾经为军人的使命，孤身犯险冲回沦陷区，带领身陷屠杀中的同胞和难民，展开生死逃亡。随着斗争的持续，体内的狼性逐渐复苏，最终孤身闯入战乱区域，为同胞而战斗。看完战狼2，你一定会为影片中林林总总的枪支而着迷，为影片中精彩绝伦的枪战而惊呼，现在咱们一起来做咱们的橡皮筋枪吧。</p>
+<p><img src="/2018/12/18/瓦力工厂/橡皮筋枪/005.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/橡皮筋枪/006.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/橡皮筋枪/007.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/橡皮筋枪/008.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/橡皮筋枪/009.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/橡皮筋枪/010.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/橡皮筋枪/011.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/橡皮筋枪/012.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/橡皮筋枪/013.png" alt=""></p>
+<h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.认识触碰开关。</p>
+<p>2.能用如果那么控制语句进行编程。</p>
+<p>3.进行橡皮筋枪的搭建。</p>
+<h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>如果机械能守恒的前提下有：机械能=势能+动能。</p>
+<p>机械能守恒下，动能与势能之间可以完全的相互转化，且总量不变。</p>
+<p>机械能是动能与势能的总和，这里的势能分为重力势能和弹性势能。我们把动能、重力势能和弹性势能统称为机械能。决定动能的是质量与速度；决定重力势能的是质量和高度；决定弹性势能的是劲度系数与形变量。机械能只是动能与势能的和。机械能是表示物体运动状态与高度的物理量。物体的动能和势能之间是可以转化的。在只有动能和势能相互转化的过程中，机械能的总量保持不变，即机械能是守恒的。</p>
+<h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力</p>
+<p>２．需要有橡皮筋枪的发射系统</p>
+<h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、CPU、触碰开关、马达</p>
+<h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/橡皮筋枪/015.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/橡皮筋枪/016.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/橡皮筋枪/017.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/橡皮筋枪/019.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/橡皮筋枪/020.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/橡皮筋枪/021.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/橡皮筋枪/022.png" alt=""></p>
+<h3 id="橡皮筋枪程序设计："><a href="#橡皮筋枪程序设计：" class="headerlink" title="橡皮筋枪程序设计："></a>橡皮筋枪程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/橡皮筋枪/023.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/橡皮筋枪/014.png" alt=""></p>
+<h1 id="思考"><a href="#思考" class="headerlink" title="思考"></a>思考</h1><p>1.怎么提高橡皮筋枪的射程<br>2.你能给橡皮筋枪发射时加上响声吗？</p>
+<p>橡皮筋枪完成了，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/橡皮筋枪/瓦力.jpeg" alt=""></p>
 
           
         
@@ -1670,320 +2017,11 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/技术等级考试/教育1/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/18/技术等级考试/教育1/" class="post-title-link" itemprop="http://yoursite.com/page/7/index.html">未命名</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2018-12-18 21:10:42" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:42+08:00">2018-12-18</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-11-13 18:05:10" itemprop="dateModified" datetime="2018-11-13T18:05:10+08:00">2018-11-13</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>“走近机器人，探索科技的奥秘”</p>
-<p>随着经济发展对人才的需要，STEAM教育逐步走进人们的视野。根据《未来工作:第四次工业革命的就业、技能和劳动力战略》报告中指出，至2020年，就业市场对拥有解决复杂问题能力和社交技能人才的需要会远远高于对体力和专业技能人才的需要，所以STEAM教育所培养的复合型人才将会是就业市场的主要需求之一。所以中国越来越重视STEAM教育呢？<br>瓦力工厂机器人教育是STEAM教育的重要载体，通过组装、搭建、运行机器人，激发学生学习兴趣、培养学生综合能力。有效锻炼孩子思维逻辑性，解决问题的能力，动手能力，提高专注力，塑造孩子空间思维与创造性。<br>机器人教育通过专门课程的方式，使所有学生普遍掌握关于机器人学的基本知识与基本技能。让孩子掌握事物背后的原理，解决孩子对事物探索的好奇心。</p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/技术等级考试/DPJ-029-避障机器人/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/18/技术等级考试/DPJ-029-避障机器人/" class="post-title-link" itemprop="http://yoursite.com/page/7/index.html">DPJ-029-避障机器人</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2018-12-18 21:10:42" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:42+08:00">2018-12-18</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-11-15 08:41:06" itemprop="dateModified" datetime="2018-11-15T08:41:06+08:00">2018-11-15</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦力工程师接到一个新任务，就是设计出一套智能避障装置，来装备到一家大型的综合餐厅，能给每位顾客送饭。<br><img src="/2018/12/18/技术等级考试/DPJ-029-避障机器人/001.jpeg" alt=""><br><img src="/2018/12/18/技术等级考试/DPJ-029-避障机器人/002.jpg" alt=""></p>
-<h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3>
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/6/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/">6</a><span class="page-number current">7</span>
+    <a class="extend prev" rel="prev" href="/page/6/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/">6</a><span class="page-number current">7</span><a class="page-number" href="/page/8/">8</a><a class="extend next" rel="next" href="/page/8/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
   </nav>
 
 
@@ -2026,7 +2064,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">70</span>
+                    <span class="site-state-item-count">72</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
