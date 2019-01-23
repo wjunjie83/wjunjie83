@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-23T09:22:44.058Z</updated>
+  <updated>2019-01-23T10:48:51.654Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,13 +17,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>幸运大转盘</title>
-    <link href="http://yoursite.com/2019/01/23/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E5%B9%B8%E8%BF%90%E5%A4%A7%E8%BD%AC%E7%9B%98-%E7%A5%9E%E7%AE%97%E6%89%8B/"/>
-    <id>http://yoursite.com/2019/01/23/瓦力工厂/幸运大转盘-神算手/</id>
-    <published>2019-01-23T09:22:44.058Z</published>
-    <updated>2019-01-23T09:22:44.058Z</updated>
+    <title>神算熊猫</title>
+    <link href="http://yoursite.com/2019/01/23/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/Scratch-%E7%A5%9E%E7%AE%97%E7%86%8A%E7%8C%AB/"/>
+    <id>http://yoursite.com/2019/01/23/瓦力工厂/Scratch-神算熊猫/</id>
+    <published>2019-01-23T10:48:51.654Z</published>
+    <updated>2019-01-23T10:48:51.654Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>打开 <a href="https://ide.makeblock.com" target="_blank" rel="noopener">https://ide.makeblock.com</a><br><img src="https://s2.ax1x.com/2019/01/23/kAjsoR.png" alt="kAjsoR.png"><br>切换到角色选项卡并删除Panda这个角色，切换到背景选项卡，现在来制作幸运大转盘的盘面。<br>点击背景选项卡下加号，弹出背景选择对话框。<br><img src="https://s2.ax1x.com/2019/01/23/kAvB1f.png" alt="kAvB1f.png"><br>点击绘制背景。<br><img src="https://s2.ax1x.com/2019/01/23/kAvUAA.png" alt="kAvUAA.png"><br>点击圆圈图标，并按住Shift键，能画出一个正圆，并调整填充与线条。<br><img src="https://s2.ax1x.com/2019/01/23/kAz0OS.png" alt="kAz0OS.png"><br>点击直线图标，用直线命令把圆六/八等分，完成幸运大转盘盘面绘制。<br><img src="https://s2.ax1x.com/2019/01/23/kAzjOO.png" alt="kAzjOO.png"><br>回到角色选项卡，点击添加角色，弹出角色库，在食物角色库选取六/八种食物，一种食物占位一格。<br><img src="https://s2.ax1x.com/2019/01/23/kEkriF.png" alt="kEkriF.png"><br>添加指针（也可以自己绘制），点击添加角色音乐里选“Note”，并设置填充、轮廓、和其端点（旋转中心），并在舞台种调整其大小。</p><p><img src="https://s2.ax1x.com/2019/01/23/kEEuAf.png" alt="kEEuAf.png"></p><p>点击关闭角色编辑按钮，进入编程界面，下面我们来编写第一段程序。</p><p><img src="https://s2.ax1x.com/2019/01/23/kEe6Ds.png" alt="kEe6Ds.png"></p><p>可以看到，幸运大转盘指针开始转动起来，但是指针是匀速转动的（不符合实际种大转盘越转越慢最后停下的实际），幸运大转盘指针每次转动的圈数都是一样的，这也不符合因为转动幸运大转盘人的力气不同，实际每次转动的圈数不一样的实际情况。</p><p><img src="https://s2.ax1x.com/2019/01/23/kEnw6g.png" alt="kEnw6g.png"><br>可以看到，这一版程序能够让幸运大转盘指针转动的速度越来越慢，直到停止。<br>那么，怎么才能实现幸运大转盘每次转的圈数不一样呢？这里，我们引入随机数的概念。<br><img src="https://s2.ax1x.com/2019/01/23/kEKaLQ.png" alt="kEKaLQ.png"></p><p>可以看出，这一次程序每一次转动的圈数都不一样，基本实现了咱们的要求 。但是，仔细观察可以看出，幸运大转盘指针减慢的速度不流畅。咱们总不能30°到0°之间每一个数都加入循环吧！理论上讲，当然可以，但是方法上显得太过笨拙。请看下面程序。<br><img src="https://s2.ax1x.com/2019/01/23/kElhwQ.png" alt="kElhwQ.png"></p><p>幸运大转盘与神算手已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>打开 <a href="https://ide.makeblock.com" target="_blank" rel="noopener">https://ide.makeblock.com</a></p><p>切换到背景选项卡，在“学校”情景中选择一个背景。<br><img src="https://s2.ax1x.com/2019/01/23/kE8IFH.png" alt="kE8IFH.png"><br>把熊猫博士在讲台上站一个适当的位置，切换到角色选项卡，用矩形工具绘制“+”号和“=”号二个角色。<br><img src="https://s2.ax1x.com/2019/01/23/kEGlX6.png" alt="kEGlX6.png"><br>并在舞台上缩放其大小，并放置在适当的位置。</p><p><img src="https://s2.ax1x.com/2019/01/23/kEJ9ED.png" alt="kEJ9ED.png"></p><p>下图就是神算熊猫的程序。<br><img src="https://s2.ax1x.com/2019/01/23/kEaP1J.png" alt="kEaP1J.png"><br>神算熊猫的程序基本就完成了，但是似乎还缺少点什么？<br>对，加一个开始按钮，就像所有标准的程序一样。点击添加角色按钮，在”图标”选项卡种选择”Gamebutton8”图标。并在舞台上缩放其大小，放置一个适当的位置。<br><img src="https://s2.ax1x.com/2019/01/23/kEB7sH.png" alt="kEB7sH.png"><br>现在点击”Gamebutton8”图标，程序就开始运行了，不难看出，”Gamebutton8”图标的作用就相当于军队里的通讯兵，首长下了命令后，通讯兵负责命令的传达。<br><img src="https://s2.ax1x.com/2019/01/23/kEBYrj.png" alt="kEBYrj.png"><br>幸运大转盘与神算手已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="2019寒假班" scheme="http://yoursite.com/categories/2019%E5%AF%92%E5%81%87%E7%8F%AD/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>幸运大转盘</title>
+    <link href="http://yoursite.com/2019/01/23/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/Scratch-%E5%B9%B8%E8%BF%90%E5%A4%A7%E8%BD%AC%E7%9B%98/"/>
+    <id>http://yoursite.com/2019/01/23/瓦力工厂/Scratch-幸运大转盘/</id>
+    <published>2019-01-23T10:33:10.587Z</published>
+    <updated>2019-01-23T10:33:10.587Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>打开 <a href="https://ide.makeblock.com" target="_blank" rel="noopener">https://ide.makeblock.com</a><br><img src="https://s2.ax1x.com/2019/01/23/kAjsoR.png" alt="kAjsoR.png"><br>切换到角色选项卡并删除Panda这个角色，切换到背景选项卡，现在来制作幸运大转盘的盘面。<br>点击背景选项卡下加号，弹出背景选择对话框。<br><img src="https://s2.ax1x.com/2019/01/23/kAvB1f.png" alt="kAvB1f.png"><br>点击绘制背景。<br><img src="https://s2.ax1x.com/2019/01/23/kAvUAA.png" alt="kAvUAA.png"><br>点击圆圈图标，并按住Shift键，能画出一个正圆，并调整填充与线条。<br><img src="https://s2.ax1x.com/2019/01/23/kAz0OS.png" alt="kAz0OS.png"><br>点击直线图标，用直线命令把圆六/八等分，完成幸运大转盘盘面绘制。<br><img src="https://s2.ax1x.com/2019/01/23/kAzjOO.png" alt="kAzjOO.png"><br>回到角色选项卡，点击添加角色，弹出角色库，在食物角色库选取六/八种食物，一种食物占位一格。<br><img src="https://s2.ax1x.com/2019/01/23/kEkriF.png" alt="kEkriF.png"><br>添加指针（也可以自己绘制），点击添加角色音乐里选“Note”，并设置填充、轮廓、和其端点（旋转中心），并在舞台种调整其大小。</p><p><img src="https://s2.ax1x.com/2019/01/23/kEEuAf.png" alt="kEEuAf.png"></p><p>点击关闭角色编辑按钮，进入编程界面，下面我们来编写第一段程序。</p><p><img src="https://s2.ax1x.com/2019/01/23/kEe6Ds.png" alt="kEe6Ds.png"></p><p>可以看到，幸运大转盘指针开始转动起来，但是指针是匀速转动的（不符合实际种大转盘越转越慢最后停下的实际），幸运大转盘指针每次转动的圈数都是一样的，这也不符合因为转动幸运大转盘人的力气不同，实际每次转动的圈数不一样的实际情况。</p><p><img src="https://s2.ax1x.com/2019/01/23/kEnw6g.png" alt="kEnw6g.png"><br>可以看到，这一版程序能够让幸运大转盘指针转动的速度越来越慢，直到停止。<br>那么，怎么才能实现幸运大转盘每次转的圈数不一样呢？这里，我们引入随机数的概念。<br><img src="https://s2.ax1x.com/2019/01/23/kEKaLQ.png" alt="kEKaLQ.png"></p><p>可以看出，这一次程序每一次转动的圈数都不一样，基本实现了咱们的要求 。但是，仔细观察可以看出，幸运大转盘指针减慢的速度不流畅。咱们总不能30°到0°之间每一个数都加入循环吧！理论上讲，当然可以，但是方法上显得太过笨拙。请看下面程序。<br><img src="https://s2.ax1x.com/2019/01/23/kElhwQ.png" alt="kElhwQ.png"></p><p>这里引入了一个变量角度，并让循环每执行一次，角度减1°。这样幸运大转盘指针转动的就比较平稳了，并且程序看起来简洁多了。</p><p>幸运大转盘与神算手已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
     
     <summary type="html">
     
@@ -438,29 +461,6 @@
     <updated>2018-12-27T10:01:03.708Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦力探险队在中国西部发现了一个很大的地下洞穴,但由于不清楚洞穴中是否有毒气,因此需要一个探测机器人进入洞穴进行探测,只能靠机器人自己在洞穴中躲避障碍物。现在，瓦力探险队把这个难题抛给瓦力工程师，作为瓦力工程师的我们，我们有责任和义务帮助瓦力探险队尽快设计出这种探测机器人。</p><p><img src="/2018/12/27/瓦力工厂/DPJ-018-保险杠机器人/001.png" alt=""></p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>开关的词语解释为开启和关闭。它还是指一个可以使电路开路、使电流中断或使其流到其他电路的电子元件。最常见的开关是让人操作的机电设备，其中有一个或数个电子接点。接点的“闭合”（closed）表示电子接点导通，允许电流流过；开关的“开路”（open）表示电子接点不导通形成开路，不允许电流流过。<br>机械轻触开关：仍然是传统的按钮开关，只是改进后行程短，所需按下的距离小而已。<br><img src="/2018/12/27/瓦力工厂/DPJ-018-保险杠机器人/002.png" alt=""></p><h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要触碰开关感受到信号。<br>３．需要通过触碰开关信号，控制车轮运动。</p><h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、马达、CPU、LED灯、触碰开关、附件</p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.学习触碰开关工作原理.<br>2.学习保险杠机器人的工作原理。<br>3.熟练应用 while、break和触碰开关模块编程。</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/27/瓦力工厂/DPJ-018-保险杠机器人/003.png" alt=""><br><img src="/2018/12/27/瓦力工厂/DPJ-018-保险杠机器人/004.png" alt=""><br><img src="/2018/12/27/瓦力工厂/DPJ-018-保险杠机器人/005.png" alt=""><br><img src="/2018/12/27/瓦力工厂/DPJ-018-保险杠机器人/006.png" alt=""><br><img src="/2018/12/27/瓦力工厂/DPJ-018-保险杠机器人/007.png" alt=""><br><img src="/2018/12/27/瓦力工厂/DPJ-018-保险杠机器人/008.png" alt=""><br><img src="/2018/12/27/瓦力工厂/DPJ-018-保险杠机器人/009.png" alt=""><br><img src="/2018/12/27/瓦力工厂/DPJ-018-保险杠机器人/010.png" alt=""></p><h3 id="保险杠机器人程序设计："><a href="#保险杠机器人程序设计：" class="headerlink" title="保险杠机器人程序设计："></a>保险杠机器人程序设计：</h3><p><img src="/2018/12/27/瓦力工厂/DPJ-018-保险杠机器人/011.png" alt=""><br>保险杠机器人已完成，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/27/瓦力工厂/DPJ-018-保险杠机器人/瓦力.jpeg" alt=""></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="单片机第一年" scheme="http://yoursite.com/categories/%E5%8D%95%E7%89%87%E6%9C%BA%E7%AC%AC%E4%B8%80%E5%B9%B4/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>装甲车机器人</title>
-    <link href="http://yoursite.com/2018/12/27/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E8%A3%85%E7%94%B2%E8%BD%A6%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
-    <id>http://yoursite.com/2018/12/27/瓦力工厂/装甲车机器人/</id>
-    <published>2018-12-27T10:00:59.617Z</published>
-    <updated>2018-12-27T10:00:59.617Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦力工程师接到一个新任务，就是为“国防部”设计装甲车。来满足国防和维稳中用装甲车反坦克、扫雷、通讯和反恐的需要。现在要求制作发射导弹的装甲车，导弹发射时的角度可以自由调整。<br><img src="/2018/12/27/瓦力工厂/装甲车机器人/001.jpg" alt=""><br><img src="/2018/12/27/瓦力工厂/装甲车机器人/002.jpg" alt=""></p><h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有轮子（为什么呢？观察生活）<br>３．需要有前进、加速、减速、停止、转弯、后退的控制方法<br>４．需要有装甲车的形状、特点。<br>5.调整发射角度，利用马达导杆，控制发射角度。</p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>装甲车是具有装甲防护的各种履带或轮式军用车辆，是装有装甲的军用或警用车辆的统称。坦克也是装甲车履带式装甲车辆的一种，但是在习惯上通常因作战用途另外独立分类，而装甲车辆多半是指防护力与火力较坦克弱的车种。<br>装甲车的特性为具有高度的越野机动性能，有一定的防护和火力作用，分为履带式和轮式两种，一般装备一至两门中小口径火炮及数挺机枪，一些还装有反坦克导弹，结构以装甲车体、武器系统、动力装置等组成。</p><h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、轮子、CPU、触碰开光、LED灯、蜂鸣器，伺服马达，导杆系统<br><img src="/2018/12/27/瓦力工厂/装甲车机器人/003.jpg" alt=""></p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.三个马达的控制方法<br>2.了解装甲车的基础知识。<br>3.了解导杆系统在控制系统角度方面的应用。</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/27/瓦力工厂/装甲车机器人/装甲车机器人_07.png" alt=""><br><img src="/2018/12/27/瓦力工厂/装甲车机器人/装甲车机器人_08.png" alt=""><br><img src="/2018/12/27/瓦力工厂/装甲车机器人/装甲车机器人_09.png" alt=""><br><img src="/2018/12/27/瓦力工厂/装甲车机器人/装甲车机器人_10.png" alt=""><br><img src="/2018/12/27/瓦力工厂/装甲车机器人/装甲车机器人_11.png" alt=""><br><img src="/2018/12/27/瓦力工厂/装甲车机器人/装甲车机器人_12.png" alt=""><br><img src="/2018/12/27/瓦力工厂/装甲车机器人/装甲车机器人_13.png" alt=""><br><img src="/2018/12/27/瓦力工厂/装甲车机器人/装甲车机器人_14.png" alt=""><br><img src="/2018/12/27/瓦力工厂/装甲车机器人/装甲车机器人_15.png" alt=""><br><img src="/2018/12/27/瓦力工厂/装甲车机器人/装甲车机器人_16.jpg" alt=""><br><img src="/2018/12/27/瓦力工厂/装甲车机器人/装甲车机器人_17.jpg" alt=""></p><h3 id="装甲车机器人程序设计："><a href="#装甲车机器人程序设计：" class="headerlink" title="装甲车机器人程序设计："></a>装甲车机器人程序设计：</h3><p><img src="/2018/12/27/瓦力工厂/装甲车机器人/装甲车机器人_18.jpg" alt=""><br>装甲车机器人，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/27/瓦力工厂/装甲车机器人/瓦力.jpeg" alt=""></p>]]></content>
     
     <summary type="html">
     
