@@ -357,6 +357,356 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程006/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程006/" class="post-title-link" itemprop="http://yoursite.com/page/5/index.html">Python零基础快速入门趣味教程006-条件</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-12-24 23:43:03" itemprop="dateCreated datePublished" datetime="2018-12-24T23:43:03+08:00">2018-12-24</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Python-入门/" itemprop="url" rel="index"><span itemprop="name">Python 入门</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>前面的教程中，我们已经可以让小海龟绘制出各种图形了。但是，所有绘图的代码都是预先编好的，程序一旦运行起来，运行结果（绘制的图形）就是固定不变的。这一节中，瓦力博士将教大家如何让海龟响应用户的输入。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line"></span><br><span class="line">def move():</span><br><span class="line">    direction = turtle.textinput(&apos;Input direction&apos;, &apos;Go left or right?&apos;)</span><br><span class="line">    if direction == &apos;left&apos;:</span><br><span class="line">        turtle.left(60)</span><br><span class="line">        turtle.forward(100)</span><br><span class="line"></span><br><span class="line">    if direction == &apos;right&apos;:</span><br><span class="line">        turtle.right(60)</span><br><span class="line">        turtle.forward(100)</span><br><span class="line">move()</span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure></p>
+<p>程序运行起来之后，会先弹出一个输入框，询问你海龟的运动方向。你可以输入 left 或者 right。<br><img src="/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程006/001.png" alt=""></p>
+<p>当你按下 ok 按钮之后，海龟就会根据你的输入（left 或 right），相应地向左或向右运动。</p>
+<p><img src="/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程006/002.png" alt=""></p>
+<p>这个例子中，程序的运行结果不完全取决于事先编写的代码，它还和你的输入有关。</p>
+<p>第 5 行 direction = turtle.textinput(‘Input direction’, ‘Go left or right?’) 弹出一个输入框。输入框（窗口）的标题是 Input direction，输入框的提示文字为 Go left or right?。</p>
+<p>当用户完成输入点击 ok 按钮时，变量 direction 将获得用户输入的值。<br>当用户点击 cancel 按钮时，变量 direction 的值为 None （None 为Python 中的关键字，表示什么也没有的意思）。<br>第 7, 8, 9 行称为条件语句。每个 if 语句（第 7 行）表示一个条件，它只有 2 种情况：要么成立（为真，值为 True），要么不成立（为假，值为 False）。</p>
+<p>第 7 行 if direction == ‘left’: 对应的条件是判断变量 direction 与字符串 ‘left’ 是否相等。如果相等则执行第 8, 9 行的代码，否则就不执行第 8, 9 行的代码。</p>
+<p>翻译成大白话就像下面这样<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">如果变量 direction 等于 left，则执行下面的语句</span><br><span class="line">    turtle.left(60)</span><br><span class="line">    turtle.forward(100)</span><br></pre></td></tr></table></figure></p>
+<p>  所以，当用户输入 left，并点击 ok 按钮时，direction 接收到用户的输入 left，它的值等于 left，海龟就先向左转 60 度（执行第 8 行代码），再前进 100 个单位（执行第 9 行代码）。</p>
+<p>要注意的是 Python 中比较 2 个东西是否相等，要用 == （即 2 个连续的等号），因为单独的 = （等号）在 Python 中表达的是将某个值赋值给某个变量的意思，因此，比较是否相等就得用另外的符号（即 ==）了。</p>
+<p>另外，还要注意缩进，第 8, 9 行的代码要比 if 语句所在的行（第 7 行），向右缩进一些。这样 Python 才知道，当 if 语句为真时（即条件成立时），需要执行哪些代码。和瓦力博士在前面的教程中谈到的一样，我们一般用连续的 4 个空格符号来表示一级的缩进。</p>
+<p>第 11, 12, 13 行也是条件语句，它们和第 7, 8, 9 行代码类似，只不过条件成立的条件改成了变量 direction 的值等于 right。</p>
+<p>if 语句还有其他一些语法。下面，瓦力博士给大家展示的是 if … else 的语法。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line"></span><br><span class="line">def move():</span><br><span class="line">    direction = turtle.textinput(&apos;Input direction&apos;, &apos;Go left or right?&apos;)</span><br><span class="line"></span><br><span class="line">    if direction == &apos;left&apos;:</span><br><span class="line">        turtle.left(60)</span><br><span class="line">        turtle.forward(100)</span><br><span class="line">    else:</span><br><span class="line">        turtle.right(60)</span><br><span class="line">        turtle.forward(100)</span><br><span class="line"></span><br><span class="line">move()</span><br><span class="line"></span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+<p> 将 7-12 行的代码翻译成大白话就像下面这样，<br> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"> 如果变量 direction 等于 left，则执行下面的语句</span><br><span class="line">    turtle.left(60)</span><br><span class="line">    turtle.forward(100)</span><br><span class="line">否则，执行下面的语句</span><br><span class="line">    turtle.right(60)</span><br><span class="line">    turtle.forward(100)</span><br></pre></td></tr></table></figure></p>
+<p> 注意体会前后 2 个版本细微的差别。考虑用户输入一个既不是 left 也不是 right 的字符串（或者直接点击 cancel 按钮）。</p>
+<p> 前一个版本中，海龟不会发生运动。因为此时， if direction == ‘left’: 不成立， if direction == ‘right’: 也不成立，所有的绘图代码都没有机会执行。<br> 后一个版本中，海龟会往右下方向运动。因为，后一个版本只检查 if direction == ‘left’: 是否成立。当该条件不成立时，不论变量 direction 的值是多少，它都会执行 else 对应的语句。<br> 要实现和第 1  个版本一样的效果，我们可以用 if … elif 这样的语法。</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"> import turtle</span><br><span class="line"></span><br><span class="line">def move():</span><br><span class="line">    direction = turtle.textinput(&apos;Input direction&apos;, &apos;Go left or right?&apos;)</span><br><span class="line">    if direction == &apos;left&apos;:</span><br><span class="line">        turtle.left(60)</span><br><span class="line">        turtle.forward(100)</span><br><span class="line">    elif direction == &apos;right&apos;:</span><br><span class="line">        turtle.right(60)</span><br><span class="line">        turtle.forward(100)</span><br><span class="line">move()</span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+<p> 这个版本中，程序会依次，</p>
+<p>先检查 if direction == ‘left’: （第 7 行）的条件，如果成立则执行相应的代码（第 8, 9 行），并忽略剩余的其他条件。如果不成立，则顺次检查下一个条件  if direction == ‘right’: （第 10 行）。<br>类似地，如果该条件成立，则执行相应的代码（第 11, 12 行），并忽略剩余的其他条件，否则再顺次检查下一个条件。<br>这样一直重复下去，直至没有可检查的条件为止。<br>虽然，第 3 个版本和第 1 个版本，最终呈现的效果是一模一样的，但它们的内部的执行过程，仍然有细微的差别。</p>
+<p>第 1 个版本中，程序一定会检查条件 if direction == ‘right’: 是否成立，无论前一个条件  if direction == ‘left’: 是否成立。<br>最后一个版本中，程序只有在前一个条件 if direction == ‘left’: 不成立的时候，才会检查条件  if direction == ‘right’: 是否成立。<br>因此，虽然最终的效果是一样的，但从执行效率上来看，最后一个版本要略微高效一些。</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程005/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程005/" class="post-title-link" itemprop="http://yoursite.com/page/5/index.html">Python零基础快速入门趣味教程005-参数</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-12-24 23:42:59" itemprop="dateCreated datePublished" datetime="2018-12-24T23:42:59+08:00">2018-12-24</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Python-入门/" itemprop="url" rel="index"><span itemprop="name">Python 入门</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>上一个教程中，瓦力博士带大家学习了函数的使用。例如，line_without_moving 函数，可以让海龟先画出一条线段，然后再回来起点。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">def line_without_moving():</span><br><span class="line">    turtle.forward(100)</span><br><span class="line">    turtle.backward(100)</span><br></pre></td></tr></table></figure></p>
+<p>  但是，这个函数还是有一些局限性的。譬如，海龟所画线段的长度是固定的，这样就显得不够灵活。那么有什么办法，让函数变得更灵活一些呢？答案就是使用参数。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">def line_without_moving(length):</span><br><span class="line">  turtle.forward(length)</span><br><span class="line">  turtle.backward(length)</span><br></pre></td></tr></table></figure></p>
+<p>对比前后 2 段代码，新版的 line_without_moving 在函数声明的地方（第 1 行），在小括号里面写上了 length；又将函数体中（第 2, 3 行）的数字 100 替换成 length。这里的 length 就称为函数的参数，我们在函数调用时，可以向函数参数传递不同的值，这样函数体中用到 length 参数的地方，也就间接地用到我们提供的值啦。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line"></span><br><span class="line">def line_without_moving(length):</span><br><span class="line">    turtle.forward(length)</span><br><span class="line">    turtle.backward(length)</span><br><span class="line"></span><br><span class="line">line_without_moving(100)</span><br><span class="line">turtle.right(90)</span><br><span class="line">line_without_moving(150)</span><br><span class="line">turtle.right(90)</span><br><span class="line">line_without_moving(200)</span><br><span class="line">turtle.right(90)</span><br><span class="line">line_without_moving(250)</span><br><span class="line"></span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+<p>运行上面这段画十字型的代码，我们看到构成十字型的 4 条线段长短不一。这是因为我们在调用 line_without_moving 函数时，使用了不同的参数（第 9, 11, 13, 15 行）。<br><img src="/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程005/001.png" alt=""></p>
+<p>关于函数参数，瓦力博士要提醒大家的是，函数参数只能在本函数内部（即本函数体中）使用。函数之外，函数参数就无效了。例如，函数 line_without_moving 的参数 length 就只能在 line_without_moving 函数中使用，你不能在其他的地方使用它。</p>
+<p>还记得上个教程中，瓦力博士给大家留的那个画蜂巢的作业吗？聪明的你，是不是已经画出来了呢？</p>
+<p>下面是瓦力博士的代码，代大家参考。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line"></span><br><span class="line">def hexagon():</span><br><span class="line">  for i in range(6):</span><br><span class="line">      turtle.forward(50)</span><br><span class="line">      turtle.left(60)</span><br><span class="line"></span><br><span class="line">def honeycomb():</span><br><span class="line">    for i in range (6):</span><br><span class="line">        hexagon()</span><br><span class="line">        turtle.forward(50)</span><br><span class="line">        turtle.right(60)</span><br><span class="line"></span><br><span class="line">honeycomb()</span><br><span class="line"></span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+<p>现在，蜂巢的大小的固定的。使用这节课的知识，通过函数参数，我们可以很方便地控制蜂巢的大小。</p>
+<p>下面是瓦力博士改进后的代码。通过参数 size，我们可以自由地控制蜂巢的大小。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">import turtle</span><br><span class="line"></span><br><span class="line">def hexagon(size):</span><br><span class="line">  for i in range(6):</span><br><span class="line">      turtle.forward(size)</span><br><span class="line">      turtle.left(60)</span><br><span class="line"></span><br><span class="line">def honeycomb(size):</span><br><span class="line">    for i in range (6):</span><br><span class="line">        hexagon(size)</span><br><span class="line">        turtle.forward(size)</span><br><span class="line">        turtle.right(60)</span><br><span class="line"></span><br><span class="line">honeycomb(80)</span><br><span class="line"></span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+<p><img src="/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程005/002.png" alt=""></p>
+<p>参数的传递过程如下：</p>
+<p>第 14 行，我们在调用函数 honeycomb  时，将 80 传递给了 honeycomb 的参数 size<br>函数 honeycomb 接受了 80 这个参数值（第 8 行），因此函数 honeycomb 中，所有使用到参数 size 的地方（第 10, 11 行），都得到了 80 这个值<br>函数 honeycomb 中，又将 80 这个值传递给被调用的函数，第 10 传递给函数 hexagon, 第 11 行传递给函数 turtle.forward<br>函数 hexagon 接受了 80 个参数值（第 3 行），因此函数 hexagon 中，所有使用到参数 size 的地方（第 5 行），都得到了 80 这个值<br>……<br>这里，瓦力博士要提醒大家的是：函数 hexagon 和 honeycomb 中都有参数 size，这 2 个 size 虽然同名，而且在参数传递的过程中，都被赋予相同的值（80），但它们不是同一个参数！hexagon 中的参数 size，其作用域（即有效范围）是第 3-6 行；honeycomb 中的参数 size，其作用域是第 8-12 行。</p>
+<h3 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h3><p>尝试编写一个带参数的函数，实现任意正多边形的绘制<br><img src="/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程005/003.png" alt=""></p>
+<h3 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h3><p>设计一个名为 draw_polygon 的函数来绘制任意正多边形<br>draw_polygon 接受 2 个参数 sides 和 length（多个参数之间用英文逗号分隔）<br>sides 用于控制正多边形的边数（内角）<br>length 用于控制正多边的边长（大小）</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">def draw_polygon(sides, length):</span><br><span class="line">    pass</span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程004/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1357,6 +1707,162 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/日积月累/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/18/瓦力工厂/日积月累/" class="post-title-link" itemprop="http://yoursite.com/page/5/index.html">日积月累</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-11-10 11:43:30" itemprop="dateModified" datetime="2018-11-10T11:43:30+08:00">2018-11-10</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="瓦力币的含义"><a href="#瓦力币的含义" class="headerlink" title="瓦力币的含义"></a>瓦力币的含义</h3><p>红色：比赛<br>绿色：团队<br>蓝色：动手<br>黄色：语言<br>紫色：全勤</p>
+<h3 id="遥控板连接"><a href="#遥控板连接" class="headerlink" title="遥控板连接"></a>遥控板连接</h3><p>6按键遥控接收板印有红框内标记的 ”瓦力工厂“ 字样！接收板连接到接收板的 “RXD” 引脚位置</p>
+<p><img src="/2018/12/18/瓦力工厂/日积月累/瓦力.jpeg" alt=""></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/DPJ-021感应机器人/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1506,493 +2012,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/" class="post-title-link" itemprop="http://yoursite.com/page/5/index.html">DPJ-046-鳐鱼机器人</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-11-18 11:53:06" itemprop="dateModified" datetime="2018-11-18T11:53:06+08:00">2018-11-18</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>武器装备部要求瓦力工厂制造一种仿生鱼，用于侦测水下敌方的潜艇，瓦力工厂把这个光荣的任务交给我们瓦力工程师，为了保家卫国，维护世界的和平，我们瓦力工程师流点汗，加点班也没什么。技术在手，什么都有，NO Problem！</p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/002.jpg" alt=""></p>
-<h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>鱼身体呈流线型中间大两头小，身体表面覆盖鳞片，保护身体；鳞片表面有一层粘液，游泳时减小水的阻力；身体两侧有一行侧线，侧线和神经相连，主要是测定方向和感知水流的作用；鱼的身体长有胸鳍、背鳍、腹鳍和尾鳍是鱼在水中的运动器官；体内有鳔，主要作用是调节身体的比重，鳔在鳍的协同下，可以使鱼停留在不同的水层里。<br>鱼鳍的作用：背鳍和臀鳍主要在行动时起稳定作用和平衡作用。尾鳍和体侧肌肉配合，起推动鱼体和掌握方向的作用。胸鳍和腹鳍的主要作用是保持鱼体平衡，配合鱼体转向，调整鱼体升降。但胸鳍比腹鳍用途更广，可以像船桨一样，一下一下地划动，使鱼体徐徐前进。</p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/001.jpg" alt=""></p>
-<p>鳐鱼，属于软骨鱼纲鳐形目 Rajiformes和鲼形鱼目，是多种扁体软骨鱼的统称。分布于全世界大部分水区，从包括2亚目，共8科约49属315种。中国产6科8属28种。我国各地俗称不一，舟山渔民称黄貂鳐叫黄虎，称蝠鲼叫燕子花鱼、黑虎、双头花鱼，称何氏鳐叫猫猫花鱼，而胶东渔民则叫劳子鱼、老板鱼。鳐鱼体型大小各异，小鳐成体仅50厘米，大鳐可长达8米。鳐鱼无害，底栖，常常部分埋于水底沙中。</p>
-<h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有伺服马达控制鱼尾游动。<br>３．需要控制伺服马达的指令。</p>
-<h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、马达、伺服马达、CPU、触碰开关、附件</p>
-<h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.伺服马达的认识与应用.<br>2.伺服马达的多功能用途.<br>3.遥控器控制双马达分开编程。</p>
-<h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/004.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/005.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/006.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/007.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/008.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/009.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/010.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/011.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/012.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/013.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/014.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/015.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/016.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/017.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/018.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/019.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/020.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/021.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/022.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/023.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/024.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/025.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/026.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/027.png" alt=""></p>
-<h3 id="接力赛机器人程序设计："><a href="#接力赛机器人程序设计：" class="headerlink" title="接力赛机器人程序设计："></a>接力赛机器人程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/017.png" alt=""><br>道闸机器人已完成，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/DPJ-046-鳐鱼机器人/瓦力.jpeg" alt=""></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/线控机器人/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/18/瓦力工厂/线控机器人/" class="post-title-link" itemprop="http://yoursite.com/page/5/index.html">线控机器人</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-11-10 18:32:34" itemprop="dateModified" datetime="2018-11-10T18:32:34+08:00">2018-11-10</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦力工程师接到一个新任务，新年快要到了，瓦力工厂要求瓦力工程师为新年增加气氛。为新年联欢会设计线控机器人。<br><img src="/2018/12/18/瓦力工厂/线控机器人/001.jpg" alt=""></p>
-<h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>皮影戏，旧称“影子戏”或“灯影戏”，是一种用蜡烛或燃烧的酒精等光源照射兽皮或纸板做成的人物剪影以表演故事的民间戏剧。表演时，艺人们在白色幕布后面，一边操纵戏曲人物，一边用当地流行的曲调唱述故事（有时用方言），同时配以打击乐器和弦乐，有浓厚的乡土气息。在河南、山西、陕西、甘肃天水等地农村，这种拙朴的汉族民间艺术形式很受人们的欢迎。<br>“皮影”是对皮影戏和皮影戏人物（包括场面道具景物）制品的通用称谓。皮影戏是让观众通过白色幕布，观看一种平面人偶表演的灯影来达到艺术效果的戏剧形式；而皮影戏中的平面人偶以及场面景物，通常是民间艺人用手工，刀雕彩绘而成的皮制品，故称之为皮影。在过去还没有电影、电视的年代，皮影戏曾是十分受欢迎的民间娱乐活动之一。</p>
-<h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有轮子（为什么呢？观察生活）<br>３．需要有前进、停止、的控制方法（不能手动）</p>
-<h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、轮子、CPU、触碰开光、附件</p>
-<h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>课程目标：<br>1.了解输入和输出的概念<br>2.分清输入设备和输出设备<br>3.自己设计并且完成线控机器人<br>的制作</p>
-<p><img src="/2018/12/18/瓦力工厂/线控机器人/002.jpg" alt=""></p>
-<h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/线控机器人/003.png" alt=""><br><img src="/2018/12/18/瓦力工厂/线控机器人/004.png" alt=""><br><img src="/2018/12/18/瓦力工厂/线控机器人/005.png" alt=""><br><img src="/2018/12/18/瓦力工厂/线控机器人/006.png" alt=""><br><img src="/2018/12/18/瓦力工厂/线控机器人/007.png" alt=""><br><img src="/2018/12/18/瓦力工厂/线控机器人/008.png" alt=""><br><img src="/2018/12/18/瓦力工厂/线控机器人/009.png" alt=""><br><img src="/2018/12/18/瓦力工厂/线控机器人/010.png" alt=""><br><img src="/2018/12/18/瓦力工厂/线控机器人/011.png" alt=""></p>
-<h3 id="接力赛机器人程序设计："><a href="#接力赛机器人程序设计：" class="headerlink" title="接力赛机器人程序设计："></a>接力赛机器人程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/线控机器人/012.png" alt=""><br>线控机器人已完成，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/线控机器人/瓦力.jpeg" alt=""></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/" class="post-title-link" itemprop="http://yoursite.com/page/5/index.html">DPJ-016-道闸机器人</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-11-17 18:37:33" itemprop="dateModified" datetime="2018-11-17T18:37:33+08:00">2018-11-17</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>小瓦力工程师爸爸的单位要改造进出的大门，要求有自动道闸系统，这项任务单位交给了小瓦力工程师的爸爸，可把爸爸急坏了。小瓦力工程师听说后，自告奋勇的对爸爸说，这事交给我，对于这样的问题，我们瓦力工程师只能说NO Problem！</p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/001.jpg" alt=""></p>
-<h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>道闸控制板根据操作指令控制电机进行正向反转;电机带动减速机输入轴转动;减速机在减速输出轴并带动摇臂在后半周180º的上下转动;减速机摇臂通过下关节轴承、连杆、上关节轴承带动主轴驱动臂在后半周90º范围内作上下运动;主轴驱动臂驱动与主轴连接的闸杆在水平与垂直的90º范围内作升降运动。</p>
-<p>ETC是不停车电子收费系统，ETC专用车道是给那些装了ETC车载器的车辆使用的，采用电子收费方式．<br>ETC( Electronic Toll Collection ) 不停车收费系统是目前世界上最先进的路桥收费方式。通过安装在车辆挡风玻璃上的车载电子标签与在收费站 ETC 车道上的微波天线之间的微波专用短程通讯，利用计算机联网技术与银行进行后台结算处理，从而达到车辆通过路桥收费站不需停车而能交纳路桥费的目的</p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/002.jpeg" alt=""></p>
-<h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有抬起杆子的开关。<br>３．需要有需要有抬起杆子的指令。</p>
-<h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、马达、CPU、触碰开关、附件</p>
-<h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.了解道闸结构.<br>2.了解不停车电子收费系统.<br>3.自己设计并切完成道闸机器人的制作。</p>
-<h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/003.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/004.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/005.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/006.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/007.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/008.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/009.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/010.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/011.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/012.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/013.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/014.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/015.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/016.png" alt=""></p>
-<h3 id="接力赛机器人程序设计："><a href="#接力赛机器人程序设计：" class="headerlink" title="接力赛机器人程序设计："></a>接力赛机器人程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/017.png" alt=""><br>道闸机器人已完成，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/DPJ-016-道闸机器人/瓦力.jpeg" alt=""></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -2040,7 +2059,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">75</span>
+                    <span class="site-state-item-count">77</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
