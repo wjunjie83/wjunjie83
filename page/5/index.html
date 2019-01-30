@@ -357,6 +357,189 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程007/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程007/" class="post-title-link" itemprop="http://yoursite.com/page/5/index.html">Python零基础快速入门趣味教程007-条件循环</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-12-24 23:43:08" itemprop="dateCreated datePublished" datetime="2018-12-24T23:43:08+08:00">2018-12-24</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Python-入门/" itemprop="url" rel="index"><span itemprop="name">Python 入门</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>条件循环能够让程序在条件成立时（即为真时）重复执行循环体中的语句。如果条件一直成立（即永远不会为假），则循环会一直进行下去，不会停止。如果初始时，条件不成立，则循环 1 次也不会执行。Python 中条件循环使用 while 关键字来实现。</p>
+<p>看下面这段示例代码，</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line"></span><br><span class="line">turtle.shape(&quot;turtle&quot;)</span><br><span class="line">turtle.speed(0)</span><br><span class="line">def forward(max_distance):</span><br><span class="line">    distance = 0</span><br><span class="line">    step = 1</span><br><span class="line">    while distance &lt; max_distance:</span><br><span class="line">        turtle.forward(step)</span><br><span class="line">        distance += step</span><br><span class="line">forward(100)</span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+<p>函数 forward 实现的功能和原版的 turtle.forward 是一样的，但这里我们是借助条件循环来实现的。</p>
+<p><img src="/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程007/001.png" alt=""></p>
+<p>第 5 行 turtle.speed(0) 设置海龟爬行的速度。速度的取值为 [0, 10]。当取值在 [1, 10] 之间时，数值越大，绘图的速度就越快。当取值为 0 时，海龟将以最快的速度绘图。这里，我们让海龟以最快的速度爬行。因为，在我们自定义的 forward 函数中（第 8-13 行），我们要让海龟移动很多步，但每次只移动 1 个很小的距离，为了尽快看到最终绘图的效果，我们得让海龟爬得快一些。</p>
+<p>第 8 行 def forward(max_distance): 声明 forward 函数，它有 1 个参数 max_distance。这个函数要实现的功能是，让海龟一直爬行，直到海龟总的爬行距离达到（或超过） max_distance 时才停止爬行。</p>
+<p>第 9 行 distance = 0 变量 distance 用于记录当前海龟已经累计爬行了多远的距离。初始时，海龟还没有开始爬行，因此 distance 的初始值为 0。</p>
+<p>第 10 行 step = 1 设置海龟爬行的步长，即每 1 步要爬多远的距离。</p>
+<p>第 11-13 行是用 while 语句实现的条件循环，其中第 11 行， while distance &lt; max_distance: 指明了循环条件为  distance &lt; max_distance 即，当海龟累计爬行距离 (distance) 小于规定的最大爬行距离 (max_distance) 时，执行循环体中的语句（第 12, 13 行）。</p>
+<p>第 12, 13 行是循环体，其中第 12 行 turtle.forward(step) 让海龟以指定步长 step 前进一小段距离。第 13 行 distance += step 这是一种简写的形式，它等价于 distance = distance + step ，即将海龟刚才（第 12 行）爬行的那一小段距离累加到 distance 变量中。类似 for 循环，while 循环的循环体（第 12, 13 行）也要比 while  语句所在的行（第 11 行），向右缩进一些，通常我们用连续的 4 个空格来表示一级的缩进。</p>
+<p>不过，现在的 forward 跟原版的 turtle.forward 效果是一样的，没啥意思，瓦力博士把代码改进一下，让它变得好玩一些。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">import turtle</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">turtle.shape(&quot;turtle&quot;)</span><br><span class="line">turtle.speed(0)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def forward(max_distance, max_radius):</span><br><span class="line">    distance = 0</span><br><span class="line">    step = 1</span><br><span class="line">    while distance &lt; max_distance:</span><br><span class="line">        if turtle.distance(0,0) &gt;= max_radius:</span><br><span class="line">            angle = turtle.towards(0,0)</span><br><span class="line">            turtle.setheading(angle)</span><br><span class="line">        turtle.forward(step)</span><br><span class="line">        distance += step</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">forward(550, 100)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+<p>再次运行程序，你会看到海龟在一条直线上折返爬行。</p>
+<p><img src="/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程007/002.png" alt=""></p>
+<p>第 8 行 def forward(max_distance, max_radius): 我们为 forward 函数引入了一个新的参数 max_radius。后面，我们要实现的功能是当海龟离开原点的距离达到（或超过） max_radius 时，就调头往回爬，即往复爬行。</p>
+<p>实现往复爬行对应的代码在第 12-14 行。</p>
+<p>第 12 行 if turtle.distance(0,0) &gt;= max_radius: ，其中 turtle.distance(0,0) 返回的是海龟与原点 (0, 0) 的距离。因此，当海龟与原点的距离达到或超过 max_radius 时，if 条件成立，程序将执行相应的语句（第 13, 14 行）。</p>
+<p>第 13 行 angle = turtle.towards(0,0) ，其中  turtle.towards(0,0) 返回的是海龟朝向原点 (0, 0) 的角度。计算角度时，水平向右为 0 度，逆时针方向为角度增大的方向。</p>
+<p>第 14 行 turtle.setheading(angle) 直接设定海龟的朝向，由于前面（第 13 行），将 angle 的值设置为海龟朝向原点的角度，所以这里经过 setheading 设置之后，海龟将朝向原点的方向。因此，后面再调用 turtle.forward  （第 15 行），海龟就会往原点的方向移动，即往回爬行。</p>
+<p>现在，海龟能够在一条直线上往复爬行，虽然比之前改进了一些，但还是显得比较单调。接下来，瓦力博士再进一步改进代码，让它变得更生动一些。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">import turtle</span><br><span class="line">import random</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">turtle.shape(&quot;turtle&quot;)</span><br><span class="line">turtle.speed(0)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def forward(max_distance, max_radius):</span><br><span class="line">    distance = 0</span><br><span class="line">    step = 1</span><br><span class="line">    while distance &lt; max_distance:</span><br><span class="line">        if turtle.distance(0,0) &gt;= max_radius:</span><br><span class="line">            angle = turtle.towards(0,0) + random.randint(-45, 45)</span><br><span class="line">            turtle.setheading(angle)</span><br><span class="line">        turtle.forward(step)</span><br><span class="line">        distance += step</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">forward(10000, 100)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+<p>运行上面的代码，你会看到海龟随机地往返爬行。刚开始，你看不出什么规律，但等它爬行一段时间之后，你会发现海龟实际上是被限制在一个圆圈当中运动。</p>
+<p><img src="/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程007/003.png" alt=""></p>
+<p>第 2 行 import random 导入 random 模块，用于生成随机数。</p>
+<p>第 14  行 angle = turtle.towards(0,0) + random.randint(-45, 45) 其中的  random.randint(-45, 45) 用于产生 [-45, 45] 之间的随机整数，将这个随机整数加到朝向原点的角度上，这样海龟就不再精确地朝向原点，而是有一个随机波动的角度。因此，海龟就不再精确地按原路返回，从而摆脱直线的束缚。</p>
+<p>但是，原来的 2 个约束依然存在：</p>
+<p>海龟离开原点的距离不能超过 max_radius（第 13 行），所以它被限制在一个圆圈中运动<br>海龟总的运动距离不能超过 max_distance （第 12 行），所以它最终会停止运动</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程006/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1848,170 +2031,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/DPJ-021感应机器人/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/18/瓦力工厂/DPJ-021感应机器人/" class="post-title-link" itemprop="http://yoursite.com/page/5/index.html">DPJ-021感应机器人</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-11-17 16:51:03" itemprop="dateModified" datetime="2018-11-17T16:51:03+08:00">2018-11-17</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>小瓦力来到一处神秘的宫殿，瓦力打开宫殿大门，刚走出一步，突然感到脚下的石头像一个开关一样咯地响了一声，然后抬头一看，一块石头从正上方掉了下来，看来有机关，危险。迅速后退。不能灵活躲避落石的机器人永远无法通过最后的机关，瓦力心里想到。怎么办呢？有了，用螳螂机器人带我过去。</p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/001.jpeg" alt=""></p>
-<h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>螳螂是昆虫中体型偏大的，体长一般55到105毫米，非洲的螳螂是世界最<br>螳螂。大的，身体流线型，以绿色，褐色为主，也具有花斑的种类；标志性特征是有两把“大刀”，即前肢，上有一排坚硬的锯齿，大刀钩末端长有攀爬的吸盘。头部呈扇形，较小；复眼突出，大而透亮，以黄绿色为主，晚上在灯光下呈现黑色，单眼，在两眼之间有3个小点即单眼；触角细长；颈部可180度转动；咀嚼式口器，上颚强劲。前足腿节和胫节有利刺，胫节镰刀状，常向腿节折叠，形成可以捕捉猎物的前足；前翅轻柔，遮住身体全部为覆翅，后翅比前翅要薄，边缘透明色，中间成放射状的紫红色、伸展开呈现扇状，休息时收敛和前翅相合；腹部肥大。前足锋利发达善于捕捉，中、后足适于步行，但有时前足也会用来保持平衡，发育呈变态发育。</p>
-<p> 红外避障传感器基本原理：利用物体的反射性质。在一定范围内，如果没有障碍物，发射出去的红外线，因为传播距离越远而逐渐减弱，最后消失。如果有障碍物，红外线遇到障碍物，被反射到达传感器接收头。传感器检测到这一信号，就可以确认正前方有障碍物，并送给单片机，单片机进行一系列的处理分析，协调小车两轮工作，完成一个漂亮的躲避障碍物动作。</p>
-<h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有轮子（为什么呢？观察生活）<br>３．需要有前进、后退、转弯的控制方法（不能手动）</p>
-<h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、马达、轮子、CPU、红外避障传感器、附件</p>
-<h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>课程目标：<br>1.自然界的光线<br>2.红外传感器的原理<br>3．如果那么模块的使用</p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/002.jpeg" alt=""></p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/003.jpeg" alt=""></p>
-<h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/004.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/005.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/006.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/007.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/008.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/009.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/010.png" alt=""></p>
-<h3 id="接力赛机器人程序设计："><a href="#接力赛机器人程序设计：" class="headerlink" title="接力赛机器人程序设计："></a>接力赛机器人程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/011.png" alt=""><br>感应机器人已完成，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/DPJ-021感应机器人/瓦力.jpeg" alt=""></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -2059,7 +2078,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">77</span>
+                    <span class="site-state-item-count">78</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
