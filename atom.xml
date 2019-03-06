@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-30T06:21:22.528Z</updated>
+  <updated>2019-03-06T07:07:19.515Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>汽车机器人</title>
+    <link href="http://yoursite.com/2019/03/06/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E5%9B%B4%E6%A3%8B%E9%AB%98%E6%89%8B0/"/>
+    <id>http://yoursite.com/2019/03/06/瓦力工厂/围棋高手0/</id>
+    <published>2019-03-06T07:07:19.515Z</published>
+    <updated>2019-03-06T07:07:19.515Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>日前，特斯拉再次大幅下调了全系车型的价格，价格已经和比亚迪唐和蔚来汽车差不多了。作为科技感和体验感都属于第一梯队的特斯拉来说，降到这个价格，受打击最大的便是诸如蔚来、小鹏、威马等国产造车新势力。小瓦力当然不甘落后，也要制造出一辆闪光点十足的电动汽车出来，为中国智造争光。</p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>　电动汽车（BEV）是指以车载电源为动力，用电机驱动车轮行驶，符合道路交通、安全法规各项要求的车辆。其组成包括：电力驱动及控制系统、驱动力传动等机械系统、完成既定任务的工作装置等。由于对环境影响相对传统汽车较小，其前景被广泛看好，但当前技术尚不成熟。工作原理：蓄电池—电流—电力调节器—电动机—动力传动系统—驱动汽车行驶。</p><p><a href="https://imgchr.com/i/kvVaY4" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/06/kvVaY4.jpg" alt="kvVaY4.jpg"></a></p><h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、马达、CPU、LED灯、蜂鸣器、附件</p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.运用之前学习的知识搭建一个汽车机器人<br>2.掌握重心,机器人重量对于速度的影响,学习两轮驱动的编<br>程。<br>3.组织进行竞速比赛</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><a href="https://imgchr.com/i/kvVUkF" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/06/kvVUkF.png" alt="kvVUkF.png"></a></p><p><a href="https://imgchr.com/i/kvVym6" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/06/kvVym6.png" alt="kvVym6.png"></a><br><a href="https://imgchr.com/i/kvVYwT" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/06/kvVYwT.png" alt="kvVYwT.png"></a><br><a href="https://imgchr.com/i/kvVBlR" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/06/kvVBlR.png" alt="kvVBlR.png"></a><br><a href="https://imgchr.com/i/kvVdfJ" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/06/kvVdfJ.png" alt="kvVdfJ.png"></a><br><a href="https://imgchr.com/i/kvV0p9" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/06/kvV0p9.png" alt="kvV0p9.png"></a><br><a href="https://imgchr.com/i/kvVrOx" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/06/kvVrOx.png" alt="kvVrOx.png"></a><br><a href="https://imgchr.com/i/kvVD61" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/06/kvVD61.png" alt="kvVD61.png"></a><br><a href="https://imgchr.com/i/kvV60K" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/06/kvV60K.png" alt="kvV60K.png"></a><br><a href="https://imgchr.com/i/kvVRte" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/06/kvVRte.png" alt="kvVRte.png"></a><br><a href="https://imgchr.com/i/kvVcTO" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/06/kvVcTO.png" alt="kvVcTO.png"></a><br><a href="https://imgchr.com/i/kvV2kD" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/06/kvV2kD.png" alt="kvV2kD.png"></a><br><a href="https://imgchr.com/i/kvVWfH" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/06/kvVWfH.png" alt="kvVWfH.png"></a></p><h3 id="汽车机器人程序设计："><a href="#汽车机器人程序设计：" class="headerlink" title="汽车机器人程序设计："></a>汽车机器人程序设计：</h3><p><a href="https://imgchr.com/i/kvVhpd" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/06/kvVhpd.png" alt="kvVhpd.png"></a><br>汽车机器人已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="单片机第一年" scheme="http://yoursite.com/categories/%E5%8D%95%E7%89%87%E6%9C%BA%E7%AC%AC%E4%B8%80%E5%B9%B4/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Python零基础快速入门趣味教程007-条件循环</title>
+    <link href="http://yoursite.com/2019/02/01/%E6%8A%80%E6%9C%AF%E7%AD%89%E7%BA%A7%E8%80%83%E8%AF%95/Python%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%E8%B6%A3%E5%91%B3%E6%95%99%E7%A8%8B009-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <id>http://yoursite.com/2019/02/01/技术等级考试/Python零基础快速入门趣味教程009-常用命令/</id>
+    <published>2019-02-01T01:53:56.942Z</published>
+    <updated>2019-02-01T01:53:56.942Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>turtle是python比较好用的画图模块，通过控制pen的移动，很方便实现画图功能。常用的函数如下表：</p><table><thead><tr><th>函数</th><th>功能</th></tr></thead><tbody><tr><td>turtle.setup(width=0.5, height=0.75, startx=None, starty=None)</td><td>参数：width, height:输入宽和高为整数时, 表示像素; 为小数时, 表示占据电脑屏幕的比例，(startx, starty): 这一坐标表示矩形窗口左上角顶点的位置, 如果为空,则窗口位于屏幕中心。</td></tr><tr><td>turtle.bgcolor(“black”)</td><td>设置画面背景色</td></tr><tr><td>turtle.bgpic(“xxx.gif”)</td><td>设置背景图片，只支持gif格式</td></tr><tr><td>turtle.bye()</td><td>退出turtle，无任何提示信息</td></tr><tr><td>turtle.exitonclick()</td><td>点击后退出turtle</td></tr><tr><td>turtle.done()</td><td>关闭turtle，一般在使用完turtle后添加，否则会无响应</td></tr><tr><td>turtle.pendown()</td><td>放下画笔</td></tr><tr><td>turtle.penup()</td><td>抬起画笔</td></tr><tr><td>turtle.pensize(int)</td><td>设置画笔宽度，值为整数型</td></tr><tr><td>turtle.forward(float)</td><td>画笔前进长度，以像素为单位</td></tr><tr><td>turtle.backward(float)</td><td>画笔后退长度，以像素为单位</td></tr><tr><td>turtle.right(angle)</td><td>将画笔右转指定的角度</td></tr><tr><td>turtle.left(angle)</td><td>将画笔左转指定的角度</td></tr><tr><td>turtle.goto(x,y)</td><td>将画笔移动到一个指定的绝对坐标</td></tr><tr><td>turtle.setx(x)</td><td>设置画笔向x方向移动的距离，值为实数</td></tr><tr><td>turtle.sety(y)</td><td>设置画笔向y方向移动的距离，值为实数</td></tr><tr><td>turtle.setheading(angle)</td><td>设定turtle箭头的方向为指定方向，0–东90—北</td></tr><tr><td>turtle.home()</td><td>将画笔返回到原点</td></tr><tr><td>turtle.circle(r,ext,steps=int)</td><td>绘制一个设置半径和阶数的圆(设置之后会绘制多边形)</td></tr><tr><td>turtle.dot(d,color)</td><td>绘制一个指定直径的圆点，颜色为字符串类型</td></tr><tr><td>turtle.undo()</td><td>取消最后一个图操作</td></tr><tr><td>turtle.speed(s)</td><td>设置画笔速度，为整数类型，且取值在1-10之间</td></tr><tr><td>turtle.color(‘str’)</td><td>设置画笔颜色，为字符串类型</td></tr><tr><td>turtle.fillcolor(‘str’)</td><td>设置填充颜色，为字符串类型</td></tr><tr><td>turtle.begin_fill()</td><td>开始填充</td></tr><tr><td>turtle.end_fill()                               结束填充</td></tr><tr><td>turtle.filling()</td><td>返回填充状态，True表示填充，False表示没有填充</td></tr><tr><td>turtle.clear()</td><td>清除窗口所有内容</td></tr><tr><td>turtle.reset()</td><td>清除窗口，将状态和位置复位为初始值</td></tr><tr><td>turtle.screensize(w,h)</td><td>设置turtle显示的大小，并设置宽度和高度</td></tr><tr><td>turtle.hideturtle()</td><td>隐藏turtle箭头</td></tr><tr><td>turtle.showturtle()</td><td>显示turtle窗口</td></tr><tr><td>turtle.done()</td><td>使turtle窗口不会自动消失</td></tr><tr><td>turtle.isvisible()</td><td></td><td>如果turtle可见，返回turtle</td></tr><tr><td>turtle.write(‘TTTTT’,font=(‘Arial’,8,’normal’))</td><td>在turtle位置编写字符串s，字体由字体名、字体大小、字体类型三部分组成</td></tr><tr><td>turtle.position()</td><td>获取画笔的坐标，返回一个元组，值为浮点型</td></tr></tbody></table>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="Python 入门" scheme="http://yoursite.com/categories/Python-%E5%85%A5%E9%97%A8/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>打地鼠简易</title>
@@ -415,52 +461,6 @@
     <updated>2018-12-30T05:56:17.902Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="什么是机器人"><a href="#什么是机器人" class="headerlink" title="什么是机器人:"></a>什么是机器人:</h3><p><a href="https://imgchr.com/i/FfjOuF" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/30/FfjOuF.png" alt="FfjOuF.png"></a></p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><iframe frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=f0820eus5rc" allowfullscreen="true"></iframe><iframe frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=j0820yhmwtj" allowfullscreen="true"></iframe><iframe frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=j0820kvvgnx" allowfullscreen="true"></iframe><iframe frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=u08203g3i23" allowfullscreen="true"></iframe><iframe frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=v0820weo00x" allowfullscreen="true"></iframe><iframe frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=m0820nktkg7" allowfullscreen="true"></iframe><iframe frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=i0820ksu5ko" allowfullscreen="true"></iframe><p><a href="https://imgchr.com/i/FfjxE9" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/30/FfjxE9.png" alt="FfjxE9.png"></a></p><p><a href="https://imgchr.com/i/FfjjHJ" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/30/FfjjHJ.png" alt="FfjjHJ.png"></a></p><p><a href="https://imgchr.com/i/FfjXB4" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/30/FfjXB4.png" alt="FfjXB4.png"></a></p><p><a href="https://imgchr.com/i/FfjqjU" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/30/FfjqjU.png" alt="FfjqjU.png"></a></p><p><a href="https://imgchr.com/i/FfvS41" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/30/FfvS41.png" alt="FfvS41.png"></a></p><p><a href="https://imgchr.com/i/Ffv99x" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/30/Ffv99x.png" alt="Ffv99x.png"></a></p><p><a href="https://imgchr.com/i/FfjzNR" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/30/FfjzNR.png" alt="FfjzNR.png"></a></p><p><a href="https://imgchr.com/i/FfvC36" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/30/FfvC36.png" alt="FfvC36.png"></a></p><p><a href="https://imgchr.com/i/FfvPgK" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/30/FfvPgK.png" alt="FfvPgK.png"></a></p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><a href="https://imgchr.com/i/Fhp1Wn" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/30/Fhp1Wn.png" alt="Fhp1Wn.png"></a></p><p><a href="https://imgchr.com/i/FhpJyV" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/30/FhpJyV.png" alt="FhpJyV.png"></a></p><p><a href="https://imgchr.com/i/Fhp3zq" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/30/Fhp3zq.png" alt="Fhp3zq.png"></a></p><h3 id="单片机机器人程序设计："><a href="#单片机机器人程序设计：" class="headerlink" title="单片机机器人程序设计："></a>单片机机器人程序设计：</h3><p><a href="https://imgchr.com/i/Fh9xED" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/30/Fh9xED.png" alt="Fh9xED.png"></a></p><p>神奇的单片机机器人已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="单片机第一年" scheme="http://yoursite.com/categories/%E5%8D%95%E7%89%87%E6%9C%BA%E7%AC%AC%E4%B8%80%E5%B9%B4/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>DPJ-052-赛车机器人</title>
-    <link href="http://yoursite.com/2018/12/29/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/DPJ-052-%E8%B5%9B%E8%BD%A6%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
-    <id>http://yoursite.com/2018/12/29/瓦力工厂/DPJ-052-赛车机器人/</id>
-    <published>2018-12-29T08:00:28.010Z</published>
-    <updated>2018-12-29T08:00:28.010Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦力工在电视上看到F1（世界一级方程式锦标赛）感觉非常酷，于是瓦力决定邀请小朋友来制作赛车，来一场勇气与智慧的比拼吧。<a href="https://imgchr.com/i/FfZTFf" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfZTFf.png" alt="FfZTFf.png"></a></p><p><a href="https://imgchr.com/i/FfZITP" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfZITP.png" alt="FfZITP.png"></a></p><p><a href="https://imgchr.com/i/FfZ4eI" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfZ4eI.png" alt="FfZ4eI.png"></a></p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>　世界一级方程式锦标赛（FIA Formula 1 World Championship），简称F1，是由国际汽车运动联合会（FIA）举办的最高等级的年度系列场地赛车比赛，与奥运会、世界杯足球赛并称为“世界三大体育盛事”。世界首次汽车比赛赛事创办于1893年，比赛从巴黎到里昂，1950年国际汽联第一次举办了世界锦标赛。<br>世界一级方程式赛车锦标赛是当今世界最高水平的赛车比赛，年收视率高达600亿人次。F1比赛可以说是高科技、团队精神、车手智慧与勇气的集合体。F1是赛车中的顶级赛事，全年的统筹安排，每站比赛的赛事组织，车队工作，电视转播等各个方面都井井有条，F1世界已被整改得经非常健全。但同任何其他事物一样，F1也有它的起源、发展过程，而且在前进道路上也有不少曲折。</p><p><a href="https://imgchr.com/i/FfZ5wt" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfZ5wt.png" alt="FfZ5wt.png"></a></p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.了解F1赛事。<br>2.复合连杆结构的搭建。<br>3.能用遥控器控制赛车的转向。</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><a href="https://imgchr.com/i/FfZfOA" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfZfOA.png" alt="FfZfOA.png"></a></p><p><a href="https://imgchr.com/i/FfZHfS" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfZHfS.png" alt="FfZHfS.png"></a></p><p><a href="https://imgchr.com/i/FfZqSg" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfZqSg.png" alt="FfZqSg.png"></a></p><p><a href="https://imgchr.com/i/FfZ7Y8" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfZ7Y8.png" alt="FfZ7Y8.png"></a></p><p><a href="https://imgchr.com/i/FfZLlQ" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfZLlQ.png" alt="FfZLlQ.png"></a></p><p><a href="https://imgchr.com/i/FfZvmn" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfZvmn.png" alt="FfZvmn.png"></a></p><p><a href="https://imgchr.com/i/FfZOyj" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfZOyj.png" alt="FfZOyj.png"></a></p><p><a href="https://imgchr.com/i/FfZzT0" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfZzT0.png" alt="FfZzT0.png"></a></p><p><a href="https://imgchr.com/i/FfZXOs" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfZXOs.png" alt="FfZXOs.png"></a></p><p><a href="https://imgchr.com/i/FfepkV" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfepkV.png" alt="FfepkV.png"></a></p><p><a href="https://imgchr.com/i/Ffe9YT" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/Ffe9YT.png" alt="Ffe9YT.png"></a></p><h3 id="赛车机器人程序设计："><a href="#赛车机器人程序设计：" class="headerlink" title="赛车机器人程序设计："></a>赛车机器人程序设计：</h3><p><a href="https://imgchr.com/i/FfZxwq" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfZxwq.png" alt="FfZxwq.png"></a><br><a href="https://imgchr.com/i/FfeipF" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfeipF.png" alt="FfeipF.png"></a><br><a href="https://imgchr.com/i/FfeCfU" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfeCfU.png" alt="FfeCfU.png"></a></p><p>赛车机器人已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="单片机第二年" scheme="http://yoursite.com/categories/%E5%8D%95%E7%89%87%E6%9C%BA%E7%AC%AC%E4%BA%8C%E5%B9%B4/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>莫尔斯码机器人</title>
-    <link href="http://yoursite.com/2018/12/29/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E8%8E%AB%E5%B0%94%E6%96%AF%E7%A0%81%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
-    <id>http://yoursite.com/2018/12/29/瓦力工厂/莫尔斯码机器人/</id>
-    <published>2018-12-29T07:46:58.788Z</published>
-    <updated>2018-12-29T07:46:58.788Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦力工程师接到一个新任务，就是为国际救援组织设计摩尔斯码求救机器人，那就是遇到危险的时候，按一下求救按钮，不断的发出SOS 求救信号。</p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>　摩尔斯电码（Morse alphabet）（又译为摩斯电码）是一种时通时断的信号代码，这种信号代码通过不同的排列顺序来表达不同的英文字母、数字和标点符号等。它由美国人艾尔菲德·维尔发明，当时（1835年）他正在协助萨缪尔·摩尔斯进行摩尔斯电报机的发明。 摩尔斯电码是一种早期的数字化通信形式，但是它不同于现代只使用零和一两种状态的二进制代码，它的代码包括五种： 点（.） 划（-） 点和划之间的停顿 每个字符间短的停顿（在点和划之间） 每个词之间中等的停顿 以及句子之间长的停顿。</p><p>程序块：程序块是在编写程序中的一个功能模块，为了编写程序的方便，需要把程序中的功能分解成一个个功能模块，每个模块分别编程以后，在主程序中用到该功能时，只需要调用该程序模块即可。</p><h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、轮子、CPU、触碰开光、LED灯、蜂鸣器</p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.了解莫尔斯码<br>2.了解程序块的设计与调用。</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><a href="https://imgchr.com/i/FWbxX9" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FWbxX9.png" alt="FWbxX9.png"></a></p><p><a href="https://imgchr.com/i/FWqp01" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FWqp01.png" alt="FWqp01.png"></a></p><p><a href="https://imgchr.com/i/FWqSmR" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FWqSmR.png" alt="FWqSmR.png"></a></p><p><a href="https://imgchr.com/i/FWq9Tx" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FWq9Tx.png" alt="FWq9Tx.png"></a></p><p><a href="https://imgchr.com/i/FWbv6J" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FWbv6J.png" alt="FWbv6J.png"></a></p><p><a href="https://imgchr.com/i/FWqFfO" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FWqFfO.png" alt="FWqFfO.png"></a></p><p><a href="https://imgchr.com/i/FWqPk6" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FWqPk6.png" alt="FWqPk6.png"></a></p><p><a href="https://imgchr.com/i/FWqitK" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FWqitK.png" alt="FWqitK.png"></a></p><p><a href="https://imgchr.com/i/FWqE1e" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FWqE1e.png" alt="FWqE1e.png"></a></p><p><a href="https://imgchr.com/i/FWqV6H" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FWqV6H.png" alt="FWqV6H.png"></a></p><p><a href="https://imgchr.com/i/FWqApD" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FWqApD.png" alt="FWqApD.png"></a></p><h3 id="莫尔斯码机器人程序设计："><a href="#莫尔斯码机器人程序设计：" class="headerlink" title="莫尔斯码机器人程序设计："></a>莫尔斯码机器人程序设计：</h3><p>S.O.S是国际摩尔斯电码救难信号，并非任何单词的缩写。鉴于当时海难事件频繁发生，往往由于不能及时发出求救信号和最快组织施救，结果造成很大的人员伤亡和财产损失，国际无线电报公约组织于1908年正式将它确定为国际通用海难求救信号。这三个字母组合没有任何实际意义，只是因为它的电码“ …—…”（三个圆点，三个破折号，然后再加三个圆点）在电报中是发报方最容易发出，接报方最容易辨识的电码。光线发射方法为：短光——长光——短光。<br>下图定义了莫尔斯码</p><h4 id="定义："><a href="#定义：" class="headerlink" title="定义："></a>定义：</h4><p>基准时间：t=300ms<br>间隔时间：滴=1t，嗒=3t，滴嗒间=1t，字符间=3t，单词间=7t</p><p><img src="https://s1.ax1x.com/2018/12/29/FWOksH.png" alt="FWOksH.png"></p><p><a href="https://imgchr.com/i/FWvnF1" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FWvnF1.jpg" alt="FWvnF1.jpg"></a></p><p><a href="https://imgchr.com/i/FWvuJx" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FWvuJx.jpg" alt="FWvuJx.jpg"></a></p><p>莫尔斯码机器人已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
     
     <summary type="html">
     
