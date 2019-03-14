@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-03-14T07:12:16.035Z</updated>
+  <updated>2019-03-14T07:28:19.363Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,13 +17,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>分配任务</title>
-    <link href="http://yoursite.com/2019/03/14/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E5%88%86%E9%85%8D%E4%BB%BB%E5%8A%A1/"/>
-    <id>http://yoursite.com/2019/03/14/瓦力工厂/分配任务/</id>
-    <published>2019-03-14T07:12:16.035Z</published>
-    <updated>2019-03-14T07:12:16.035Z</updated>
+    <title>1010. 邮寄包裹</title>
+    <link href="http://yoursite.com/2019/03/14/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/1010.%20%E9%82%AE%E5%AF%84%E5%8C%85%E8%A3%B9/"/>
+    <id>http://yoursite.com/2019/03/14/瓦力工厂/1010. 邮寄包裹/</id>
+    <published>2019-03-14T07:28:19.363Z</published>
+    <updated>2019-03-14T07:28:19.363Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>在社会实践活动中有三项任务分别是：种树、采茶、送水。依据小组人数及男生、女生人数决定小组的接受任务，人数小于10人的小组负责送水（输出water），人数大于等于10人且男生多于女生的小组负责种树（输出tree），人数大于等于10人且男生不多于女生的小组负责采茶（输出tea）。输入小组男生人数、女生人数，输出小组接受的任务。</p><p><a href="https://imgchr.com/i/AAi9yD" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAi9yD.png" alt="AAi9yD.png"></a></p><p><a href="https://imgchr.com/i/AAiKOg" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAiKOg.png" alt="AAiKOg.png"></a></p><p>猜数游戏已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>某邮局对邮寄包裹有如下规定：若包裹的重量超过30千克,不予邮寄，对可以邮寄的包裹每件收手续费0.2元，再加上根据下表按重量wei计算的结果：</p><p>重量(千克)      收费标准(元/公斤)<br>wei&lt;=10              0.80<br>10&lt;wei&lt;=20        0.75<br>20&lt;wei&lt;=30        0.70<br>请你编写一个程序，输入包裹重量，输出所需费用或”Fail”表示无法邮寄。</p><p><a href="https://imgchr.com/i/AANGqg" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AANGqg.png" alt="AANGqg.png"></a></p><p><a href="https://imgchr.com/i/AANYZQ" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AANYZQ.png" alt="AANYZQ.png"></a></p><p>猜数游戏已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
     
     <summary type="html">
     
@@ -40,13 +40,13 @@
   </entry>
   
   <entry>
-    <title>1010. 邮寄包裹</title>
-    <link href="http://yoursite.com/2019/03/14/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/1010.%20%E9%82%AE%E5%AF%84%E5%8C%85%E8%A3%B9/"/>
-    <id>http://yoursite.com/2019/03/14/瓦力工厂/1010. 邮寄包裹/</id>
-    <published>2019-03-14T07:12:09.283Z</published>
-    <updated>2019-03-14T07:12:09.283Z</updated>
+    <title>分配任务</title>
+    <link href="http://yoursite.com/2019/03/14/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E5%88%86%E9%85%8D%E4%BB%BB%E5%8A%A1/"/>
+    <id>http://yoursite.com/2019/03/14/瓦力工厂/分配任务/</id>
+    <published>2019-03-14T07:12:16.035Z</published>
+    <updated>2019-03-14T07:12:16.035Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>计算两个双精度浮点数a和b相除的余数，a和b都是正数。这里余数（r）的定义是：a = k * b + r，其中 k是整数， 0 &lt;= r &lt; b。</p><p><a href="https://imgchr.com/i/AAGlBd" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAGlBd.png" alt="AAGlBd.png"></a></p><p><a href="https://imgchr.com/i/AAG1HA" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAG1HA.png" alt="AAG1HA.png"></a><br>猜数游戏已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>在社会实践活动中有三项任务分别是：种树、采茶、送水。依据小组人数及男生、女生人数决定小组的接受任务，人数小于10人的小组负责送水（输出water），人数大于等于10人且男生多于女生的小组负责种树（输出tree），人数大于等于10人且男生不多于女生的小组负责采茶（输出tea）。输入小组男生人数、女生人数，输出小组接受的任务。</p><p><a href="https://imgchr.com/i/AAi9yD" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAi9yD.png" alt="AAi9yD.png"></a></p><p><a href="https://imgchr.com/i/AAiKOg" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAiKOg.png" alt="AAiKOg.png"></a></p><p>猜数游戏已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
     
     <summary type="html">
     
