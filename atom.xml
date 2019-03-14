@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-03-13T11:03:10.648Z</updated>
+  <updated>2019-03-14T03:20:08.012Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,13 +17,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>三角形</title>
-    <link href="http://yoursite.com/2019/03/13/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E4%B8%89%E8%A7%92%E5%BD%A2/"/>
-    <id>http://yoursite.com/2019/03/13/瓦力工厂/三角形/</id>
-    <published>2019-03-13T11:03:10.648Z</published>
-    <updated>2019-03-13T11:03:10.648Z</updated>
+    <title>猜数游戏</title>
+    <link href="http://yoursite.com/2019/03/14/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E7%8C%9C%E6%95%B0%E6%B8%B8%E6%88%8F/"/>
+    <id>http://yoursite.com/2019/03/14/瓦力工厂/猜数游戏/</id>
+    <published>2019-03-14T03:20:08.012Z</published>
+    <updated>2019-03-14T03:20:08.012Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>输入三角形三边长a,b,c（保证能构成三角形），输出三角形面积。</p><p>海伦常用公式</p><p>$S=\sqrt {p(p-a)(p-b)(p-c)}$</p><p>[公式描述] 公式中a，b，c分别为三角形三边长，p为半周长，S为三角形的面积。</p><p><a href="https://imgchr.com/i/Ak1VIK" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/13/Ak1VIK.png" alt="Ak1VIK.png"></a></p><p><a href="https://imgchr.com/i/AkGRSS" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/13/AkGRSS.png" alt="AkGRSS.png"></a></p><p>三角形程序已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>有一个“就是它”的猜数游戏，步骤如下：请你对任意输入的一个三位数x，在这三位数后重复一遍，得到一个六位数，467–&gt;467467.把这个数连续除以7、11、13，输出最后的商。</p><p><a href="https://imgchr.com/i/AAi9yD" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAi9yD.png" alt="AAi9yD.png"></a></p><p><a href="https://imgchr.com/i/AAiKOg" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAiKOg.png" alt="AAiKOg.png"></a></p><p>猜数游戏已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
     
     <summary type="html">
     
@@ -40,13 +40,13 @@
   </entry>
   
   <entry>
-    <title>温度转换</title>
-    <link href="http://yoursite.com/2019/03/13/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E6%B8%A9%E5%BA%A6%E8%BD%AC%E6%8D%A21/"/>
-    <id>http://yoursite.com/2019/03/13/瓦力工厂/温度转换1/</id>
-    <published>2019-03-13T09:41:55.802Z</published>
-    <updated>2019-03-13T09:41:55.802Z</updated>
+    <title>三角形</title>
+    <link href="http://yoursite.com/2019/03/13/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E4%B8%89%E8%A7%92%E5%BD%A2/"/>
+    <id>http://yoursite.com/2019/03/13/瓦力工厂/三角形/</id>
+    <published>2019-03-13T11:03:10.648Z</published>
+    <updated>2019-03-13T11:03:10.648Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>将输入的华氏温度转换为摄氏温度。由华氏温度F与摄氏温度C的转换公式为：F＝C×9/5＋32。</p><p><a href="https://imgchr.com/i/AkuJmV" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/13/AkuJmV.png" alt="AkuJmV.png"></a></p><p><a href="https://imgchr.com/i/AkmpnK" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/13/AkmpnK.png" alt="AkmpnK.png"></a></p><p>双翼战斗机机器人已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>输入三角形三边长a,b,c（保证能构成三角形），输出三角形面积。</p><p>海伦常用公式</p><p>$S=\sqrt {p(p-a)(p-b)(p-c)}$</p><p>[公式描述] 公式中a，b，c分别为三角形三边长，p为半周长，S为三角形的面积。</p><p><a href="https://imgchr.com/i/Ak1VIK" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/13/Ak1VIK.png" alt="Ak1VIK.png"></a></p><p><a href="https://imgchr.com/i/AkGRSS" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/13/AkGRSS.png" alt="AkGRSS.png"></a></p><p>三角形程序已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
     
     <summary type="html">
     
