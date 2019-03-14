@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-03-14T03:20:08.012Z</updated>
+  <updated>2019-03-14T03:35:16.832Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,167 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1004. 填充矩形</title>
+    <link href="http://yoursite.com/2019/03/14/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E7%8C%9C%E6%95%B0%E6%B8%B8%E6%88%8F0/"/>
+    <id>http://yoursite.com/2019/03/14/瓦力工厂/猜数游戏0/</id>
+    <published>2019-03-14T03:35:16.832Z</published>
+    <updated>2019-03-14T03:35:16.832Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>已知矩形的大小为n×m，现用a×a的正方形填充该矩形。输入三个正整数n,m,a（n,m,a≤10^9），计算至多能填入多少正方形？（正方形可以正好碰到矩形边界，但不能超出矩形外）</p><p><a href="https://imgchr.com/i/AAFX26" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAFX26.png" alt="AAFX26.png"></a></p><p><a href="https://imgchr.com/i/AAFjxK" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAFjxK.png" alt="AAFjxK.png"></a></p><p>填充矩形已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="CCF中学生计算机程序设计入门篇" scheme="http://yoursite.com/categories/CCF%E4%B8%AD%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8%E7%AF%87/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>猜数游戏</title>
+    <link href="http://yoursite.com/2019/03/14/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E7%8C%9C%E6%95%B0%E6%B8%B8%E6%88%8F6/"/>
+    <id>http://yoursite.com/2019/03/14/瓦力工厂/猜数游戏6/</id>
+    <published>2019-03-14T03:23:36.343Z</published>
+    <updated>2019-03-14T03:23:36.343Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>有一个“就是它”的猜数游戏，步骤如下：请你对任意输入的一个三位数x，在这三位数后重复一遍，得到一个六位数，467–&gt;467467.把这个数连续除以7、11、13，输出最后的商。</p><p><a href="https://imgchr.com/i/AAi9yD" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAi9yD.png" alt="AAi9yD.png"></a></p><p><a href="https://imgchr.com/i/AAiKOg" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAiKOg.png" alt="AAiKOg.png"></a></p><p>猜数游戏已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="CCF中学生计算机程序设计入门篇" scheme="http://yoursite.com/categories/CCF%E4%B8%AD%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8%E7%AF%87/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>猜数游戏</title>
+    <link href="http://yoursite.com/2019/03/14/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E7%8C%9C%E6%95%B0%E6%B8%B8%E6%88%8F5/"/>
+    <id>http://yoursite.com/2019/03/14/瓦力工厂/猜数游戏5/</id>
+    <published>2019-03-14T03:23:36.151Z</published>
+    <updated>2019-03-14T03:23:36.151Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>有一个“就是它”的猜数游戏，步骤如下：请你对任意输入的一个三位数x，在这三位数后重复一遍，得到一个六位数，467–&gt;467467.把这个数连续除以7、11、13，输出最后的商。</p><p><a href="https://imgchr.com/i/AAi9yD" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAi9yD.png" alt="AAi9yD.png"></a></p><p><a href="https://imgchr.com/i/AAiKOg" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAiKOg.png" alt="AAiKOg.png"></a></p><p>猜数游戏已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="CCF中学生计算机程序设计入门篇" scheme="http://yoursite.com/categories/CCF%E4%B8%AD%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8%E7%AF%87/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>猜数游戏</title>
+    <link href="http://yoursite.com/2019/03/14/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E7%8C%9C%E6%95%B0%E6%B8%B8%E6%88%8F4/"/>
+    <id>http://yoursite.com/2019/03/14/瓦力工厂/猜数游戏4/</id>
+    <published>2019-03-14T03:23:35.955Z</published>
+    <updated>2019-03-14T03:23:35.955Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>有一个“就是它”的猜数游戏，步骤如下：请你对任意输入的一个三位数x，在这三位数后重复一遍，得到一个六位数，467–&gt;467467.把这个数连续除以7、11、13，输出最后的商。</p><p><a href="https://imgchr.com/i/AAi9yD" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAi9yD.png" alt="AAi9yD.png"></a></p><p><a href="https://imgchr.com/i/AAiKOg" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAiKOg.png" alt="AAiKOg.png"></a></p><p>猜数游戏已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="CCF中学生计算机程序设计入门篇" scheme="http://yoursite.com/categories/CCF%E4%B8%AD%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8%E7%AF%87/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>猜数游戏</title>
+    <link href="http://yoursite.com/2019/03/14/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E7%8C%9C%E6%95%B0%E6%B8%B8%E6%88%8F3/"/>
+    <id>http://yoursite.com/2019/03/14/瓦力工厂/猜数游戏3/</id>
+    <published>2019-03-14T03:23:35.687Z</published>
+    <updated>2019-03-14T03:23:35.687Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>有一个“就是它”的猜数游戏，步骤如下：请你对任意输入的一个三位数x，在这三位数后重复一遍，得到一个六位数，467–&gt;467467.把这个数连续除以7、11、13，输出最后的商。</p><p><a href="https://imgchr.com/i/AAi9yD" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAi9yD.png" alt="AAi9yD.png"></a></p><p><a href="https://imgchr.com/i/AAiKOg" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAiKOg.png" alt="AAiKOg.png"></a></p><p>猜数游戏已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="CCF中学生计算机程序设计入门篇" scheme="http://yoursite.com/categories/CCF%E4%B8%AD%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8%E7%AF%87/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>猜数游戏</title>
+    <link href="http://yoursite.com/2019/03/14/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E7%8C%9C%E6%95%B0%E6%B8%B8%E6%88%8F2/"/>
+    <id>http://yoursite.com/2019/03/14/瓦力工厂/猜数游戏2/</id>
+    <published>2019-03-14T03:23:35.235Z</published>
+    <updated>2019-03-14T03:23:35.235Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>有一个“就是它”的猜数游戏，步骤如下：请你对任意输入的一个三位数x，在这三位数后重复一遍，得到一个六位数，467–&gt;467467.把这个数连续除以7、11、13，输出最后的商。</p><p><a href="https://imgchr.com/i/AAi9yD" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAi9yD.png" alt="AAi9yD.png"></a></p><p><a href="https://imgchr.com/i/AAiKOg" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAiKOg.png" alt="AAiKOg.png"></a></p><p>猜数游戏已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="CCF中学生计算机程序设计入门篇" scheme="http://yoursite.com/categories/CCF%E4%B8%AD%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8%E7%AF%87/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>猜数游戏</title>
+    <link href="http://yoursite.com/2019/03/14/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E7%8C%9C%E6%95%B0%E6%B8%B8%E6%88%8F1/"/>
+    <id>http://yoursite.com/2019/03/14/瓦力工厂/猜数游戏1/</id>
+    <published>2019-03-14T03:23:34.975Z</published>
+    <updated>2019-03-14T03:23:34.975Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>有一个“就是它”的猜数游戏，步骤如下：请你对任意输入的一个三位数x，在这三位数后重复一遍，得到一个六位数，467–&gt;467467.把这个数连续除以7、11、13，输出最后的商。</p><p><a href="https://imgchr.com/i/AAi9yD" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAi9yD.png" alt="AAi9yD.png"></a></p><p><a href="https://imgchr.com/i/AAiKOg" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAiKOg.png" alt="AAiKOg.png"></a></p><p>猜数游戏已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="CCF中学生计算机程序设计入门篇" scheme="http://yoursite.com/categories/CCF%E4%B8%AD%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8%E7%AF%87/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>猜数游戏</title>
@@ -311,167 +472,6 @@
     </summary>
     
       <category term="一级考试" scheme="http://yoursite.com/categories/%E4%B8%80%E7%BA%A7%E8%80%83%E8%AF%95/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>全国青少年机器人技术等级考试---秋千</title>
-    <link href="http://yoursite.com/2019/01/26/%E6%8A%80%E6%9C%AF%E7%AD%89%E7%BA%A7%E8%80%83%E8%AF%95/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E7%A7%8B%E5%8D%83/"/>
-    <id>http://yoursite.com/2019/01/26/技术等级考试/第二章秋千/</id>
-    <published>2019-01-26T11:28:37.898Z</published>
-    <updated>2019-01-26T11:28:37.898Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>考试安排如下，详询瓦力工厂课程顾问！<br><img src="https://s2.ax1x.com/2019/01/24/kZWY1s.png" alt="kZWY1s.png"><br>秋千是一种运动器具，或者是游戏用具，我们在公园、学校、或者社区都能看到。小朋友坐在座椅上，由他人推动或自己的脚用力，人随座椅来回摆动。</p><h3 id="秋千的起源"><a href="#秋千的起源" class="headerlink" title="秋千的起源"></a>秋千的起源</h3><p>说起秋千可以追溯到几十万年前的上古时代。<br>那是我们的祖先为了谋生，需要上树采摘野果或猎取野兽。在攀援和奔跑中，他们抓住粗壮的蔓生植物。依靠藤条的摇荡摆动，上树或跨越沟涧，这应该是秋千的原始雏形。<br><img src="/2019/01/26/技术等级考试/第二章秋千/001.jpeg" alt=""><br>春秋时期，我国北方有了将绳索悬挂于木架下，下面装上踏板的秋千。如今公园，社区处处可见秋千，认真观察秋千会发现，一般来说秋千的支架两边都是由三角形构成的。<br><img src="/2019/01/26/技术等级考试/第二章秋千/002.jpg" alt=""><br>那么，为什么秋千的支架都是三角形的呢？<br><img src="/2019/01/26/技术等级考试/第二章秋千/003.png" alt=""><br>用长条和螺丝分别制作出三角形和四边形，用手推动一个角。会发现有什么变化吗？</p><p>实验证明三角形结构和稳定，不会形变而四边形结构在一定力量的挤压下会发生形变。根据三角形和四边形的特性，想一想生活中哪些地方应用到了三角形和四边形呢？<br>金字塔、房子、吊车等需要稳定的结构中都用到了三角形，而在拉伸门等需要变形的结构中，则用到了四边形。</p><p><img src="/2019/01/26/技术等级考试/第二章秋千/004.jpg" alt=""></p><h3 id="制作"><a href="#制作" class="headerlink" title="制作"></a>制作</h3><p>秋千通常有框架和底座组成，我们也按照这样的组成来自坐秋千。<br>1.制作秋千的框架。这需要两个稳定的三角形结构。<br><img src="/2019/01/26/技术等级考试/第二章秋千/005.png" alt=""><br>秋千的底座<br><img src="/2019/01/26/技术等级考试/第二章秋千/006.png" alt=""><br>完成整个秋千利用一个圆轴将座椅装在支架上。<br><img src="/2019/01/26/技术等级考试/第二章秋千/007.png" alt=""><br>用瓦力工厂小颗粒教具完成的秋千图片<br><img src="https://s2.ax1x.com/2019/01/23/kEqAW8.png" alt="kEqAW8.png"></p><h3 id="稳定性分析"><a href="#稳定性分析" class="headerlink" title="稳定性分析"></a>稳定性分析</h3><p>每个物体都是由简单的图形构成的，也就是说物体的每个面都是由圆、三角形，四边形和多边形构成的。<br>三角形有着稳固、耐压的特点，三角形框架，起重机，三角形吊臂，屋顶，钢架桥中都有三角形的身影。<br>三角形稳定性分析：任取三角形两条边在两条边角度不变的情况下，在两条边的非公共端点连接第三条边。<br>因为第三条边不可伸缩和只弯折，所以两端点距离固定，按照相同的方式任取两条边都符合上述情况。所以三角形固定具有稳定性。<br> 一个结构是否稳定，除了考虑结构外，还要考虑放置的位置和物体的重心。总体来说，要符合一下原则<br> 1.与地面接触面积越大，物体越稳。<br> 2.重心越低，物体越稳。<br>￼3.通过重心做竖直向下的直线与地面的交点，如果在接触面上，则物体较稳，如果在接触面外物体不稳.</p><h3 id="能量转化"><a href="#能量转化" class="headerlink" title="能量转化"></a>能量转化</h3><p>一切物质都具有能量，能量由以多种不同的形式存在。按照物质的不同运动形式分类，能量可分为机械能，化学能，热能，电能，辐射能，核能，光能，潮汐能等。这些不同形式的能量之间可以通过物理效应和化学反应而相互转化。<br>￼秋千中涉及的能量转化是动能和势能之间的转化。动能是物体在运动时具有的能。<br>￼势能包括重力势能和弹性势能，重力势能是物体由于被举高而产生的能量，弹性势能是物体由于弹性形变而产生的能量。机械能是动能和势能的总和，两者之间的转化关系当物体下落时，高度越小，那么它的重力势能就越来越小，但是物体的速度会越来越快，动能也就越来越大，如果不考虑空气阻力的话，机械能是不变的重力势能减小的部分就变成了动能。在荡秋千时，从最低点到最高点的过程中，速度越来越小，而高度越来越大，这时动能转化为重力势能当达到最高点时速度为零，动能为零，全部能量转化为重力势能从最高点下降到最低点的过程中，速度越来越大，而高度越来越小，这时重力势能转化为动能。到达最低点时速度最大，动能最大，重力势能最小。<br><img src="/2019/01/26/技术等级考试/第二章秋千/008.png" alt=""><br>能量守恒，能量不会凭空消失，也不会凭空产生，它只会从一种形式转化为其他形式，或者从一个物体转移到另一个物体，而在转化和转移的过程中，能量的总和保持不变。<br> 能量守恒：能量不会凭空消失，也不会凭空产生，它只会从一种形式转化为其他形式，或者从一个物体转移到另一个物体，而在转化和转移的过程中，能量的总和保持不变。</p><h3 id="单摆"><a href="#单摆" class="headerlink" title="单摆"></a>单摆</h3><p>玩秋千的时候我们可能会发现秋千摆动的幅度越来越小，但摆动一周的时间却没有跟着变短。时间始终是差不多的，这是为什么呢？因为秋千是一个近似的单摆运动（单摆是摆动角度小于100的小幅摆动）。单摆运动的周期T和摆动的幅度以及小朋友的重量无关，而与单摆的长度L（秋千绳索的长度）和重力加速度有关（如果只在地球上进行单摆运动的话，可以认为系也是一个常量）<br>单摆周期公式：</p><p><img src="/2019/01/26/技术等级考试/第二章秋千/009.png" alt=""></p><p>现在人们公认是伽利略发现了单摆的等时性原理，伽利略在比萨教堂里注意到一盏悬灯的摆动，随后用线悬铜球做模拟实验，验证了微小百度的灯时星以及摆长对周期的影响，因此创造出脉搏计用来测量短时间间隔。<br>￼尽管在伽利略之前的好几个世纪等时性早已经为阿拉伯人所熟知，但以科学的态度去研究这一现象的科学家还是首推伽利略。虽然伽利略在1602年注意到了单摆运动，当时他误认为单摆在大摆动条件下也成立。而最早系统地研究单摆的是惠更斯，并且开始用无穷小的机和方法推导出了钟摆的周期公式。</p><p><img src="/2019/01/26/技术等级考试/第二章秋千/瓦力二维码.jpeg" alt=""></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="一级考试" scheme="http://yoursite.com/categories/%E4%B8%80%E7%BA%A7%E8%80%83%E8%AF%95/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>全国青少年机器人技术等级考试---起重机</title>
-    <link href="http://yoursite.com/2019/01/26/%E6%8A%80%E6%9C%AF%E7%AD%89%E7%BA%A7%E8%80%83%E8%AF%95/%E8%B5%B7%E9%87%8D%E6%9C%BA/"/>
-    <id>http://yoursite.com/2019/01/26/技术等级考试/起重机/</id>
-    <published>2019-01-26T11:28:35.539Z</published>
-    <updated>2019-01-26T11:28:35.539Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>考试安排如下，详询瓦力工厂课程顾问！<br><img src="https://s2.ax1x.com/2019/01/24/kZWY1s.png" alt="kZWY1s.png"></p><p>起重机是指在一定范围内垂直提升和水平搬运重物的起重机械，又称吊车。在起重机工作时，我们能够看到起重机前端的钩子上面挂着长长的绳索，这些绳索通常还不是一根而是来来回回好几圈。</p><p><img src="https://s2.ax1x.com/2019/01/24/keptnP.png" alt="keptnP.png"></p><p>很久之前人们往高处搬运建筑材料只能依靠人背，很吃力，而且还有很多重物是人类抬不起的。比如城门的吊桥。这个时候为了能够将吊桥升起来，人们会使用滑轮通过固定位置的滑轮，许多人一起就能将吊桥拉起来，这样的方式虽然解决了问题，但是并没有省力。</p><p><img src="https://s2.ax1x.com/2019/01/24/kepDpj.png" alt="kepDpj.png"></p><p>再后来人们发现用绳索绕过一个不固定的滑轮，滑轮上安装钩子吊起物体就能达到省力的目的。在实际生活中将这种固定在一个位置的滑轮称为定滑轮而将这种位置会发生变化的滑轮称为动滑轮。现在的大型起重机缠绕绳索的地方是通过多个滑轮组成的滑轮组。下面让我们做一个简单的起重机吧！</p><p> <img src="https://s2.ax1x.com/2019/01/24/kepgBV.png" alt="kepgBV.png"></p><h3 id="制作"><a href="#制作" class="headerlink" title="制作"></a>制作</h3><p>1.制作框架如图下图所示框架主要是用来安装定滑轮的要保证这个定滑轮距地面有一定的高度。</p><p><img src="https://s2.ax1x.com/2019/01/24/keATiV.png" alt="keATiV.png"></p><p>2.安装定滑轮如下图所示，这里我们同时还添加了一个负责收放绳索的轮轴。通过转动，这个轮轴就能够收放起重机前面的绳索。</p><p> <img src="https://s2.ax1x.com/2019/01/24/keECRO.png" alt="keECRO.png"></p><p> 3.组装动滑轮如下图所示，这个动滑轮下方要连接着一个挂钩。</p><p> <img src="https://s2.ax1x.com/2019/01/24/keEVeA.png" alt="keEVeA.png"></p><p> 4.连接绳索将绳索的一头拴在起重机头上的横条上，另一头穿过动滑轮以及上面的定滑轮最终固定在起重机后边的轮轴上，如下图所示。</p><p> <img src="https://s2.ax1x.com/2019/01/24/keEQSS.png" alt="keEQSS.png"></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">注意：不要将绳索缠在一起。</span><br></pre></td></tr></table></figure><h3 id="滑轮"><a href="#滑轮" class="headerlink" title="滑轮"></a>滑轮</h3><p>由可绕中心轴转动有沟槽的圆盘和跨过圆盘的绳索所组成的可绕着中心轴旋转的简单机械叫做滑轮。<br>滑轮是可以用来提升重物，并能省力的简单机械，滑轮有动滑轮和定滑轮之分。</p><h4 id="定滑轮"><a href="#定滑轮" class="headerlink" title="定滑轮"></a>定滑轮</h4><p>定滑轮是中心轴的位置固定不变的滑轮。定滑轮具有以下特点：<br>1.改变力的方向，如下图所示，如果想让物体上升，那就要向下施力。</p><p><img src="https://s2.ax1x.com/2019/01/24/keZ4Zd.png" alt="keZ4Zd.png"></p><p>定滑轮改变力的方向是可以根据实际情况来确定的，并不一定是反方向，如下图中展示的是两个不同的施力方向，这两个力的大小是一样的。</p><p><img src="https://s2.ax1x.com/2019/01/24/keZxds.png" alt="keZxds.png"></p><p>2.不改变力的大小，不省力也不费力。<br>3.施力端运动距离和物体上升的距离相同。</p><p>###定滑轮原理<br>定滑轮实质上是一个等臂杠杆，如下图所示定滑轮中心的轴就是这个等臂杠杆的支点，重物端的滑轮圆边上的为阻力点，施力端的滑轮别为动力点，此时无论什么方向拉动绳子，阻力臂等于动力臂相当都是滑轮的半径，所以，定滑轮是等臂杠杆。</p><p><img src="https://s2.ax1x.com/2019/01/25/keLGWt.png" alt="keLGWt.png"></p><h4 id="动滑轮"><a href="#动滑轮" class="headerlink" title="动滑轮"></a>动滑轮</h4><p>中心轴的位置，随着随着被拉一起运动的滑轮叫动滑轮，动滑轮动滑轮特点是：<br>1.不改变力的方向，如下图所示，利用动滑轮要想让物体向上就要向上拉物体途中动滑轮。f乙的方向向上，物体向上运动。而定滑轮f甲的方向向下物体是向上运动。<br>2.改变力的大小，如下图竖直向上用力时，力的大小为重物的一半，所以省了一半力。<br>3.力端距离为物体上升距离的两倍。</p><p><img src="https://s2.ax1x.com/2019/01/25/kmzwVK.png" alt="kmzwVK.png"></p><h4 id="动滑轮的原理："><a href="#动滑轮的原理：" class="headerlink" title="动滑轮的原理："></a>动滑轮的原理：</h4><p>动滑轮实质是一个省力杠杆。如下图所示动滑轮的中心轴拉着重物的作为主力点。实力端的圆边为动力点而支点为左侧的边界40动力臂的长度是圆的直径而阻力臂的长度是圆的，半径索动力臂是阻力臂的两倍，因此动滑轮省力且动力是阻力的一半。</p><p><img src="https://s2.ax1x.com/2019/01/25/kniRqs.png" alt="kniRqs.png"></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">思考：</span><br><span class="line">动滑轮中。实力方向不是竖直向上的，</span><br><span class="line">而是斜向上的，力的大小是否也是物体重量的一半呢？</span><br></pre></td></tr></table></figure><h3 id="滑轮组"><a href="#滑轮组" class="headerlink" title="滑轮组"></a>滑轮组</h3><p>滑轮组是有多个动滑轮和定滑轮组成的机构。如下图两个滑轮就是组合在一起的滑轮组。</p><p><img src="https://s2.ax1x.com/2019/01/25/kmz2rt.png" alt="kmz2rt.png"></p><h4 id="滑轮组的特点是："><a href="#滑轮组的特点是：" class="headerlink" title="滑轮组的特点是："></a>滑轮组的特点是：</h4><p>1.定滑轮可以改变力的方向，但不能省力地拉动物体。动滑轮不可以改变力的方向，但能省一半的力拉动物体。滑轮组结合了定滑轮和动滑轮。这样既可以改变力的方向，又能很省力的拉动物体。<br>2.滑轮组用几段绳子吊着物体，提起物体所用的力就是总重的几分之一。绳子的自由端绕过动滑轮的算一段，而绕过定滑轮的就不算了。如下图所示，绳子的段数只计算绕过动滑轮的绳子段数，在图中左上侧的滑轮组中是4段绳子，所以f是物体总重量的四分之一。<br>3.使用滑轮组虽然省了力，但费了距离。施力端移动的距离会比重物移动的距离大很多。如下图左上侧的滑轮组所示。虽然施力是物体重量的四分之一，但移动距离也增大了原来的四倍。</p><h3 id="功的介绍"><a href="#功的介绍" class="headerlink" title="功的介绍"></a>功的介绍</h3><p>这里我们介绍一个功的概念。当一个力作用在物体上的时候，如果这个力让物体在这个力的方向上移动了一段距离，那么这个力的作用就显示出了成效，在力学里就说这个力做了功。</p><p>功的大小是力乘以力的方向上移动的距离单位是焦耳。因此功包含的两个必要因素就是：作用在物体上的力以及物体在这个力的方向上移动的距离。</p><p>在了解了功的概念后，我们来看一下之前学过的杠杆和滑轮。在这两个机械机构中，只要省力就会费距离，费力就会省距离，且力和距离的乘积是固定的。</p><p>在力学中有一个重要的结论任何机械都不省功。</p><h3 id="起重机的历史"><a href="#起重机的历史" class="headerlink" title="起重机的历史"></a>起重机的历史</h3><p>在公元前10年古罗马建筑师维特路维斯。曾在其建筑手册中描述了一种起重机械。这种机械有一根桅杆。杆顶装有滑轮。有牵索固定桅杆的位置，用绞盘拉动通过滑轮的绳索，以吊起重物。<br>有些超重机械可以用两根桅杆，构成人字形。把吊起物横向移动，但幅度很小，操作也十分吃力。到15世纪意大利发明了转臂式起重机，才解决了这个问题。这种起重机，有根倾斜的悬臂，臂顶装有滑轮，既可以升降又可以旋转。一直到18世纪人类所使用的各种起重机械还都是以人力和畜力为动力。所以在起重量，使用范围和工作效率上很有限。18世纪中后期，英国瓦特改进和发明蒸汽机之后，为起重机械提供了动力条件。1805年，英格兰工程师，伦尼为伦敦船坞建造了第一批蒸汽起重机，1846年英国的阿姆斯特朗，把新堡船坞的一台蒸汽起重机改为水力起重机。20世纪初期欧洲开始使用塔式起重机。</p><p>有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="一级考试" scheme="http://yoursite.com/categories/%E4%B8%80%E7%BA%A7%E8%80%83%E8%AF%95/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>神算熊猫</title>
-    <link href="http://yoursite.com/2019/01/24/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/Scratch-%E7%A5%9E%E7%AE%97%E7%86%8A%E7%8C%AB/"/>
-    <id>http://yoursite.com/2019/01/24/瓦力工厂/Scratch-神算熊猫/</id>
-    <published>2019-01-24T09:24:21.556Z</published>
-    <updated>2019-01-24T09:24:21.556Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>打开：<a href="https://scratch.mit.edu/projects/editor/?tutorial=getStarted" target="_blank" rel="noopener">https://scratch.mit.edu/projects/editor/?tutorial=getStarted</a><br>打开 <a href="https://ide.makeblock.com" target="_blank" rel="noopener">https://ide.makeblock.com</a></p><p>切换到背景选项卡，在“学校”情景中选择一个背景。<br><img src="https://s2.ax1x.com/2019/01/23/kE8IFH.png" alt="kE8IFH.png"><br>把熊猫博士在讲台上站一个适当的位置，切换到角色选项卡，用矩形工具绘制“+”号和“=”号二个角色。<br><img src="https://s2.ax1x.com/2019/01/23/kEGlX6.png" alt="kEGlX6.png"><br>并在舞台上缩放其大小，并放置在适当的位置。</p><p><img src="https://s2.ax1x.com/2019/01/23/kEJ9ED.png" alt="kEJ9ED.png"></p><p>下图就是神算熊猫的程序。<br><img src="https://s2.ax1x.com/2019/01/23/kEaP1J.png" alt="kEaP1J.png"><br>神算熊猫的程序基本就完成了，但是似乎还缺少点什么？<br>对，加一个开始按钮，就像所有标准的程序一样。点击添加角色按钮，在”图标”选项卡种选择”Gamebutton8”图标。并在舞台上缩放其大小，放置一个适当的位置。<br><img src="https://s2.ax1x.com/2019/01/23/kEB7sH.png" alt="kEB7sH.png"><br>现在点击”Gamebutton8”图标，程序就开始运行了，不难看出，”Gamebutton8”图标的作用就相当于军队里的通讯兵，首长下了命令后，通讯兵负责命令的传达。<br><img src="https://s2.ax1x.com/2019/01/23/kEBYrj.png" alt="kEBYrj.png"><br>幸运大转盘与神算手已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="2019寒假班" scheme="http://yoursite.com/categories/2019%E5%AF%92%E5%81%87%E7%8F%AD/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>幸运大转盘</title>
-    <link href="http://yoursite.com/2019/01/23/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/Scratch-%E5%B9%B8%E8%BF%90%E5%A4%A7%E8%BD%AC%E7%9B%98/"/>
-    <id>http://yoursite.com/2019/01/23/瓦力工厂/Scratch-幸运大转盘/</id>
-    <published>2019-01-23T11:13:35.652Z</published>
-    <updated>2019-01-23T11:13:35.652Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>打开：<a href="https://scratch.mit.edu/projects/editor/?tutorial=getStarted" target="_blank" rel="noopener">https://scratch.mit.edu/projects/editor/?tutorial=getStarted</a><br>打开 <a href="https://ide.makeblock.com" target="_blank" rel="noopener">https://ide.makeblock.com</a></p><p><img src="https://s2.ax1x.com/2019/01/23/kAjsoR.png" alt="kAjsoR.png"><br>切换到角色选项卡并删除Panda这个角色，切换到背景选项卡，现在来制作幸运大转盘的盘面。<br>点击背景选项卡下加号，弹出背景选择对话框。<br><img src="https://s2.ax1x.com/2019/01/23/kAvB1f.png" alt="kAvB1f.png"><br>点击绘制背景。<br><img src="https://s2.ax1x.com/2019/01/23/kAvUAA.png" alt="kAvUAA.png"><br>点击圆圈图标，并按住Shift键，能画出一个正圆，并调整填充与线条。<br><img src="https://s2.ax1x.com/2019/01/23/kAz0OS.png" alt="kAz0OS.png"><br>点击直线图标，用直线命令把圆六/八等分，完成幸运大转盘盘面绘制。<br><img src="https://s2.ax1x.com/2019/01/23/kAzjOO.png" alt="kAzjOO.png"><br>回到角色选项卡，点击添加角色，弹出角色库，在食物角色库选取六/八种食物，一种食物占位一格。<br><img src="https://s2.ax1x.com/2019/01/23/kEkriF.png" alt="kEkriF.png"><br>添加指针（也可以自己绘制），点击添加角色音乐里选“Note”，并设置填充、轮廓、和其端点（旋转中心），并在舞台种调整其大小。</p><p><img src="https://s2.ax1x.com/2019/01/23/kEEuAf.png" alt="kEEuAf.png"></p><p>点击关闭角色编辑按钮，进入编程界面，下面我们来编写第一段程序。</p><p><img src="https://s2.ax1x.com/2019/01/23/kEe6Ds.png" alt="kEe6Ds.png"></p><p>可以看到，幸运大转盘指针开始转动起来，但是指针是匀速转动的（不符合实际种大转盘越转越慢最后停下的实际），幸运大转盘指针每次转动的圈数都是一样的，这也不符合因为转动幸运大转盘人的力气不同，实际每次转动的圈数不一样的实际情况。</p><p><img src="https://s2.ax1x.com/2019/01/23/kEnw6g.png" alt="kEnw6g.png"><br>可以看到，这一版程序能够让幸运大转盘指针转动的速度越来越慢，直到停止。<br>那么，怎么才能实现幸运大转盘每次转的圈数不一样呢？这里，我们引入随机数的概念。<br><img src="https://s2.ax1x.com/2019/01/23/kEKaLQ.png" alt="kEKaLQ.png"></p><p>可以看出，这一次程序每一次转动的圈数都不一样，基本实现了咱们的要求 。但是，仔细观察可以看出，幸运大转盘指针减慢的速度不流畅。咱们总不能30°到0°之间每一个数都加入循环吧！理论上讲，当然可以，但是方法上显得太过笨拙。请看下面程序。<br><img src="https://s2.ax1x.com/2019/01/23/kElhwQ.png" alt="kElhwQ.png"></p><p>这里引入了一个变量角度，并让循环每执行一次，角度减1°。这样幸运大转盘指针转动的就比较平稳了，并且程序看起来简洁多了。</p><p>幸运大转盘与神算手已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="2019寒假班" scheme="http://yoursite.com/categories/2019%E5%AF%92%E5%81%87%E7%8F%AD/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>反击机器人</title>
-    <link href="http://yoursite.com/2019/01/19/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E5%8F%8D%E5%87%BB%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
-    <id>http://yoursite.com/2019/01/19/瓦力工厂/反击机器人/</id>
-    <published>2019-01-19T04:01:23.261Z</published>
-    <updated>2019-01-19T04:01:23.261Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p><a href="https://imgchr.com/i/k9xTVP" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9xTVP.png" alt="k9xTVP.png"></a></p><p><a href="https://imgchr.com/i/k9xfvd" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9xfvd.png" alt="k9xfvd.png"></a></p><p><a href="https://imgchr.com/i/k9x5DI" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9x5DI.png" alt="k9x5DI.png"></a></p><p><a href="https://imgchr.com/i/k9x4KA" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9x4KA.png" alt="k9x4KA.png"></a></p><p><a href="https://imgchr.com/i/k9x7Uf" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9x7Uf.png" alt="k9x7Uf.png"></a></p><p><a href="https://imgchr.com/i/k9xH58" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9xH58.png" alt="k9xH58.png"></a></p><p><a href="https://imgchr.com/i/k9xO2Q" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9xO2Q.png" alt="k9xO2Q.png"></a></p><p><a href="https://imgchr.com/i/k9xvKs" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9xvKs.png" alt="k9xvKs.png"></a></p><p><a href="https://imgchr.com/i/k9xL8g" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9xL8g.png" alt="k9xL8g.png"></a></p><p><a href="https://imgchr.com/i/k9xqPS" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9xqPS.png" alt="k9xqPS.png"></a></p><p><a href="https://imgchr.com/i/k9xXvj" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9xXvj.png" alt="k9xXvj.png"></a></p><p>反击机器人已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="2019寒假班" scheme="http://yoursite.com/categories/2019%E5%AF%92%E5%81%87%E7%8F%AD/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>侦查机器人</title>
-    <link href="http://yoursite.com/2019/01/19/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E4%BE%A6%E6%9F%A5%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
-    <id>http://yoursite.com/2019/01/19/瓦力工厂/侦查机器人/</id>
-    <published>2019-01-19T03:59:52.569Z</published>
-    <updated>2019-01-19T03:59:52.569Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p><a href="https://imgchr.com/i/k9vEYF" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9vEYF.png" alt="k9vEYF.png"></a></p><p><a href="https://imgchr.com/i/k9vVW4" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9vVW4.png" alt="k9vVW4.png"></a></p><p><a href="https://imgchr.com/i/k9veSJ" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9veSJ.png" alt="k9veSJ.png"></a></p><p><a href="https://imgchr.com/i/k9vml9" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9vml9.png" alt="k9vml9.png"></a></p><p><a href="https://imgchr.com/i/k9vnyR" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9vnyR.png" alt="k9vnyR.png"></a></p><p><a href="https://imgchr.com/i/k9vuO1" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9vuO1.png" alt="k9vuO1.png"></a></p><p><a href="https://imgchr.com/i/k9vMex" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9vMex.png" alt="k9vMex.png"></a></p><p><a href="https://imgchr.com/i/k9vQw6" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9vQw6.png" alt="k9vQw6.png"></a></p><p><a href="https://imgchr.com/i/k9vlTK" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9vlTK.png" alt="k9vlTK.png"></a></p><p><a href="https://imgchr.com/i/k9v3FO" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9v3FO.png" alt="k9v3FO.png"></a></p><p>侦查机器人已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="2019寒假班" scheme="http://yoursite.com/categories/2019%E5%AF%92%E5%81%87%E7%8F%AD/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>幸运大转盘</title>
-    <link href="http://yoursite.com/2019/01/19/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E5%B9%B8%E8%BF%90%E5%A4%A7%E8%BD%AC%E7%9B%98/"/>
-    <id>http://yoursite.com/2019/01/19/瓦力工厂/幸运大转盘/</id>
-    <published>2019-01-19T02:27:06.760Z</published>
-    <updated>2019-01-19T02:27:06.760Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>新年就要到了，瓦力工程师接到一个新任务，就是要为大卖场设计一个幸运大转盘。让顾客来到商场，除了购物外，还能有一天的好运气！</p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>随机：即将发生的事情是可能出现情况中的任何一种，无法预先确定。<br>如掷色子（无任何作弊情况下），下一次会出现的数字就是随机。</p><p>随机试验是一个 概率论的基本概念。 概况的讲，在概率论中把符合下面三个特点的试验叫做随机试验：(random experiment)</p><p>1.每次试验的可能结果不止一个，并且能事先明确试验的所有可能结果。</p><p>2.进行一次试验之前无法确定哪一个结果会出现。</p><p>3.可以在同一条件下重复进行试验。</p><h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、马达、CPU、触碰开关、附件</p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.了解随机<br>2.了解程序中随机指令。<br>3.会设计递减程序。<br>4.认识 For循环。</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><a href="https://imgchr.com/i/k9HhGR" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9HhGR.jpg" alt="k9HhGR.jpg"></a></p><p><a href="https://imgchr.com/i/k9Hfi9" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9Hfi9.jpg" alt="k9Hfi9.jpg"></a></p><p><a href="https://imgchr.com/i/k9HRIJ" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9HRIJ.jpg" alt="k9HRIJ.jpg"></a></p><p><a href="https://imgchr.com/i/k9H5xx" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9H5xx.jpg" alt="k9H5xx.jpg"></a></p><p><a href="https://imgchr.com/i/k9H2a4" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9H2a4.jpg" alt="k9H2a4.jpg"></a></p><p><a href="https://imgchr.com/i/k9H4R1" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9H4R1.jpg" alt="k9H4R1.jpg"></a></p><p><a href="https://imgchr.com/i/k9HoM6" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9HoM6.jpg" alt="k9HoM6.jpg"></a></p><p><a href="https://imgchr.com/i/k9HTsK" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9HTsK.jpg" alt="k9HTsK.jpg"></a></p><p><a href="https://imgchr.com/i/k9H7qO" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9H7qO.jpg" alt="k9H7qO.jpg"></a></p><h3 id="幸运大转盘机器人程序设计："><a href="#幸运大转盘机器人程序设计：" class="headerlink" title="幸运大转盘机器人程序设计："></a>幸运大转盘机器人程序设计：</h3><p><a href="https://imgchr.com/i/k9bPeS" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9bPeS.jpg" alt="k9bPeS.jpg"></a></p><p><a href="https://imgchr.com/i/k9bidg" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9bidg.jpg" alt="k9bidg.jpg"></a></p><p><a href="https://imgchr.com/i/k9b9L8" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/19/k9b9L8.jpg" alt="k9b9L8.jpg"></a></p><p>幸运大转盘机器人已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="单片机第一年" scheme="http://yoursite.com/categories/%E5%8D%95%E7%89%87%E6%9C%BA%E7%AC%AC%E4%B8%80%E5%B9%B4/"/>
     
     
   </entry>
