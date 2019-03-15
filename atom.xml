@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-03-15T02:05:53.666Z</updated>
+  <updated>2019-03-15T03:00:38.901Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1013. 识别三角形</title>
+    <link href="http://yoursite.com/2019/03/15/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/1013.%20%E8%AF%86%E5%88%AB%E4%B8%89%E8%A7%92%E5%BD%A2/"/>
+    <id>http://yoursite.com/2019/03/15/瓦力工厂/1013. 识别三角形/</id>
+    <published>2019-03-15T03:00:38.901Z</published>
+    <updated>2019-03-15T03:00:38.901Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>输入三个正整数，判断能否构成三角形的三边，如果不能，输出“NO”。如果能构成三角形，判断构成什么三角形？按等边、直角、一般三角形分类，依次输出对应的三角形类型“Equilateral”、“Right”、“General”。</p><p><a href="https://imgchr.com/i/AEJG0H" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/15/AEJG0H.png" alt="AEJG0H.png"></a></p><p><a href="https://imgchr.com/i/AEJJ7d" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/15/AEJJ7d.png" alt="AEJJ7d.png"></a></p><p>正方形已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="CCF中学生计算机程序设计入门篇" scheme="http://yoursite.com/categories/CCF%E4%B8%AD%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8%E7%AF%87/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1011. 正方形</title>
@@ -438,29 +461,6 @@
     <updated>2019-01-27T08:21:08.022Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>考试安排如下，详询瓦力工厂课程顾问！<br><img src="https://s2.ax1x.com/2019/01/24/kZWY1s.png" alt="kZWY1s.png"></p><h3 id="探索"><a href="#探索" class="headerlink" title="探索"></a>探索</h3><p>在制作糕点时，需要将蛋黄蛋清分开，并把蛋清搅拌至奶油状，这是一项浩大的工程，为此人们发明了打蛋器。图示为个手动打蛋器。<br><img src="/2019/01/27/技术等级考试/第四章搅拌器/001.png" alt=""><br>使用手动打蛋器时，需要人们一直往同一方向快速搅拌蛋液直到将蛋清搅拌至奶油状，相对于其他工具，手动搅拌器确实省了很大的力气，但搅拌需要快速长时间的操作手部依旧会感到很酸痛。<br>为了解决这个问题，人们想到可以加入加速齿轮组，这样手腕转动速度就可以减慢，以减轻手部负担。最终设计人员还加上了把手，将手动打蛋器升级成为了手摇式打蛋器。<br><img src="/2019/01/27/技术等级考试/第四章搅拌器/002.png" alt=""><br>在手摇式打蛋器中，我们加入了齿轮组，由大齿轮作为主动啮合小齿轮。当我们转动大齿轮一周，小齿轮却能转动好几周。从而搅拌叶转动几周，这样就不需要我们迅速的转动手腕也能将蛋清搅拌至奶油状。</p><h3 id="制作"><a href="#制作" class="headerlink" title="制作"></a>制作</h3><p>下面我们来制作打蛋器。<br>1.首先需要制作一个可以用来支撑轴齿轮组的框架。<br><img src="/2019/01/27/技术等级考试/第四章搅拌器/003.png" alt=""><br>在框架上横着穿一根轴再竖着穿一根轴。横轴的中间安装一个大齿轮，而竖轴靠近横轴的一端装一个小齿轮，这个小齿轮要和横轴上的大齿轮咬合在一起，在竖轴的另一端再安装一个齿轮。另外，在横轴的一端装一个小把手，安装效果如图所示：<br><img src="/2019/01/27/技术等级考试/第四章搅拌器/004.png" alt=""><br>制作搅拌叶搅拌叶比较简单，找两个U型的或四个L型的叶片状零件即可。完成效果如图所示：<br><img src="/2019/01/27/技术等级考试/第四章搅拌器/005.png" alt=""><br>将做好的搅拌叶固定在一个轴的一端，同时在这个轴上再增加一个小齿轮，我们要在框架的这一端再制作一个加速的齿轮组。将安装了搅拌叶的轴插入框架当中，这里要注意要让两个齿轮啮合在一起，安装效果如图：<br> <img src="/2019/01/27/技术等级考试/第四章搅拌器/006.png" alt=""><br>￼用我们的器材制作的搅拌器如下：<br><img src="/2019/01/27/技术等级考试/第四章搅拌器/007.png" alt=""></p><h3 id="齿轮"><a href="#齿轮" class="headerlink" title="齿轮"></a>齿轮</h3><p>￼齿轮是一种轮缘上有齿且能连续啮合传递运动和动力的机械零件。齿轮上每一个用于啮合的凸部分称为轮齿，一般叫作齿，这些凸起部分一般呈辐射状排列，配对齿轮上的轮齿互相接触可使齿轮持续啮合传动。<br>在齿轮的整个圆周上轮齿的总数称为齿数。</p><p>齿轮三要素：齿数、模数、压力角。<br>能够相互啮合的轮齿，必须是模数一样的，所以相互啮合的轮齿中直径大的齿数就会多一些直径小的齿数就会少一些，但齿轮在转动中转过的齿数是一样的，直径大的齿轮转动一周，直径小的齿轮就会转动好几周。所以直径大的齿轮带动直径小的齿轮转速会变快，被称为加速齿轮装置。</p><p>齿轮啮合时可以平行啮合也可以垂直啮合。图示齿轮组a是平行啮合对应是搅拌机中框架靠近叶片一端的两个齿轮，而齿轮组b是垂直啮合对应的是框架中横轴和竖轴交叉处的两个齿轮。</p><p>注意</p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">注意平行啮合时齿轮转动的方向在同一平面上转动方向相反。垂直啮合时齿轮转动的方向，在垂直的两个平面上转动方向改变了而力的方向也改变了。</span><br></pre></td></tr></table></figure><h3 id="轮轴"><a href="#轮轴" class="headerlink" title="轮轴"></a>轮轴</h3><p>在搅拌机中，还有一个轮轴的结构那就是横轴上的把手。这种能绕共同轴线，旋转的机械都叫轮轴。在轮轴中外环叫轮，内环叫轴，轮轴两个环是同心圆。<br>轮轴的实质实际是一个能够连续旋转的杠杆，这个杠杆的支点就在轴线上，轮轴在转动时轮轴有相同的转速，动力点就是轮的外圆。<br>动力臂就是把手到轴中心的距离而阻力点就是轴的外圆阻力臂就是轴的半径。所以当动力作用在轮上,轮轴为省力杠杆。轮和轴的半径相差越大，则越省力，但越费距离，动力作用在轴上则轮轴为费力杠杆，轮和轴的半径相差越大，则越费力，但越省距离。</p><h3 id="齿轮种类"><a href="#齿轮种类" class="headerlink" title="齿轮种类"></a>齿轮种类</h3><p>齿轮的种类多种多样按照外形分一般分为平齿轮、冠齿轮、和涡轮。<br>之前我们用到的都独属于平齿轮。下图所示的齿轮称为冠齿轮，冠齿轮的齿分布在端面，而不是在抡元上一般用在机械的变数。换向离合器上在玩具上也有广泛的应用。<br>而涡轮上的齿，看起来好像有点扁，并不是垂直于整个轮面的这是因为，涡轮，的用法，和平齿轮的用法不太一样，涡轮通常适合杆一起使用的，蜗轮蜗杆机构常用来传递两交错轴之间的运动和动力，涡杆上有螺丝上，相似的螺旋，螺丝上的螺旋转动的时候，会让罗斯进入，被固定件，而涡轮上的螺旋转动时会带动涡轮转动，涡轮。与我感在一起中间平面内有点像齿轮与齿条。<br>蜗轮蜗杆有一个其他齿轮组和布局贝的特点，我敢可以轻易转动涡轮单波轮无法转动，蜗杆这是因为蜗杆上的突脚很浅，当沃伦尝试旋转蜗杆时涡轮与蜗杆之间的摩擦力，让蜗杆保持原位。以实现运动的机械自锁。</p><p>有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="一级考试" scheme="http://yoursite.com/categories/%E4%B8%80%E7%BA%A7%E8%80%83%E8%AF%95/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>全国青少年机器人技术等级考试---烤肉架</title>
-    <link href="http://yoursite.com/2019/01/27/%E6%8A%80%E6%9C%AF%E7%AD%89%E7%BA%A7%E8%80%83%E8%AF%95/%E7%83%A4%E8%82%89%E6%9E%B6/"/>
-    <id>http://yoursite.com/2019/01/27/技术等级考试/烤肉架/</id>
-    <published>2019-01-27T07:49:47.029Z</published>
-    <updated>2019-01-27T07:49:47.029Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>考试安排如下，详询瓦力工厂课程顾问！<br><img src="https://s2.ax1x.com/2019/01/24/kZWY1s.png" alt="kZWY1s.png"></p><p>烤肉架，烤肉架是一种烧烤食品的机械设备，其主要功能是做各种烧烤食品，主要用于烧烤店铺、流动烤肉等。</p><h3 id="探索"><a href="#探索" class="headerlink" title="探索"></a>探索</h3><p>烧烤是以燃料来加热和干燥空气，然后将食物放置于炙热的干燥空气中，在一个比较接近热源的位置来加热食物。烧烤应该是人类最原始的烹调方式，早在原始社会，人类就会用木头搭起一个支架在火上烤鸡烤羊烤鱼。</p><p><img src="https://s2.ax1x.com/2019/01/26/kuCrEq.png" alt="kuCrEq.png"></p><p>一般来说，烧烤是在火上将食物烹调之，可食用食物多为肉类，因此台湾一有称此为烤肉。在现代社会由于有多种加热方式烧烤方式也逐渐多样化发展出各式烧烤炉烧烤架。而现在烧烤本身也成为一种多人聚会休闲的娱乐方式。</p><p><img src="https://s2.ax1x.com/2019/01/26/kuCsU0.png" alt="kuCsU0.png"></p><p>下面我们就来制作一个烤肉架，不过这个烤肉架是一次能够烤很多只鸡或很多只鱼的立式烤肉架。<br>1.制作烤肉架支架。我们这个烤肉架上有很多轴，所以我们需要搭建一个有很多个孔的立架。如下图所示：</p><p><img src="https://s2.ax1x.com/2019/01/26/kuC22F.png" alt="kuC22F.png"></p><p>制作齿轮传动机构。这里这么多轴，并不是分离的，而是透过齿轮组合在一起最终有一个把手带动的如下图所示：</p><p><img src="https://s2.ax1x.com/2019/01/26/kuCq2D.png" alt="kuCq2D.png"></p><p>最终完成的模型如下图所示，这里要注意各个轴的长度，为了保证有足够的空间，实际上我们只有两根轴能够用来烧烤。</p><p><img src="https://s2.ax1x.com/2019/01/26/kuPVqs.png" alt="kuPVqs.png"></p><p><img src="https://s2.ax1x.com/2019/01/26/kuup8A.png" alt="kuup8A.png"></p><p><img src="https://s2.ax1x.com/2019/01/26/kuQSC4.png" alt="kuQSC4.png"></p><p><img src="https://s2.ax1x.com/2019/01/26/kuQiK1.png" alt="kuQiK1.png"></p><h3 id="齿轮速度比"><a href="#齿轮速度比" class="headerlink" title="齿轮速度比"></a>齿轮速度比</h3><p>在之前“奇怪的时钟”中我们学习了，在齿轮传动时由于齿轮大小的不同齿数不同，主动轮与从动轮转动的速度不同，这里我们继续学习齿轮传动的特点。</p><p>###齿轮传动的方向<br>两齿轮平行啮合：两个齿轮转动的方向相反，当大齿轮作为主动轮顺时针转动时小齿轮作逆时针转动。</p><p>多个齿轮啮合：靠近的两个齿轮传动方向相反，中间隔了一个齿轮的一号齿轮的一号齿轮转动方向相同，如下图所示图中，一号齿轮和二号，齿轮啮合转动方向相反，二号齿轮与三号齿轮啮合转动方向相反所以一号齿轮和三号齿轮的转动方向相同。</p><h3 id="多个齿轮传动的速度比"><a href="#多个齿轮传动的速度比" class="headerlink" title="多个齿轮传动的速度比"></a>多个齿轮传动的速度比</h3><p>在多个齿轮组成的齿轮组中计算传动速度比大致分为以下两种情况:<br>1.齿轮并排依次啮合。（各齿轮都不在同一轴上）根据两个齿轮啮合的速度比。大齿轮与小齿轮半径比为3:1，那么一号齿轮和二号齿轮的速度比为1:3，二号齿轮和三号齿轮的速度比为3:1，所以一号齿轮与三号齿轮的速度比为1:1。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">计算并排依次啮合的齿轮间输出的齿轮速度</span><br><span class="line">可以越过J中间所有的传动过程直接比较主动</span><br><span class="line">轮和输出轮的半径比或齿轮比。图中两个齿</span><br><span class="line">轮，一号和三号的半径比为1:1所以一号和三</span><br><span class="line">号的速度比为1:1。</span><br></pre></td></tr></table></figure><p><img src="https://s2.ax1x.com/2019/01/27/kuLf54.png" alt="kuLf54.png"></p><p>2.多重加速齿轮装置。这种情况下，根据两个齿轮啮合的转动速度比，与把手同轴的大齿轮带动小齿轮，大齿轮与小齿轮半径比为3:1，那么大齿轮与小齿轮的转动速度比为1:3，而同一轴上的齿轮的转动速度相同，中间轴上的大齿轮带动小齿轮速度比为1:3，所以，主动轮与输出轮的传动比为1:9。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">多重加速装置，最终速度比不能按照主动轮</span><br><span class="line">和输出轮的半径或齿轮比直接计算，需要一</span><br><span class="line">步步计算，按照倍数乘积得出最后的速度。</span><br></pre></td></tr></table></figure><p><img src="https://s2.ax1x.com/2019/01/27/kuLI2R.png" alt="kuLI2R.png"></p><h3 id="齿轮装置的特点"><a href="#齿轮装置的特点" class="headerlink" title="齿轮装置的特点"></a>齿轮装置的特点</h3><p>优点：<br>第一，可以准确无误地传递动力，齿轮传动时是通过轮齿啮合，主动轮转动一个轮齿，从动轮跟着转动一个轮齿，这样的传递方式，保证了运动的准确性；<br>第二，齿轮传动力大，齿轮传动，通过轮齿与轮齿之间的啮合，传动力大于皮带等装置；<br>第三，结构紧凑，适用于，近距离传动，不能直接啮合时可以通过多个齿轮传动。<br>缺点：<br>缺点：<br>第一，噪音大齿轮传动力大，所以产生的噪音较大；<br>第二易损坏。变速时由于传动力大，齿轮的轮齿容易断裂。</p><p>有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
     
     <summary type="html">
     
