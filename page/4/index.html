@@ -357,6 +357,190 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/01/05/瓦力工厂/神奇的海龟/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/01/05/瓦力工厂/神奇的海龟/" class="post-title-link" itemprop="http://yoursite.com/page/4/index.html">神奇的海龟</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-01-05 10:43:22" itemprop="dateCreated datePublished" datetime="2019-01-05T10:43:22+08:00">2019-01-05</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/单片机第一年/" itemprop="url" rel="index"><span itemprop="name">单片机第一年</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>星期天学校组织看了一场电影《海龟:奇妙之旅 神奇小海龟奇妙漂游记》小瓦力决定自己做一个爱爬行的小海龟。</p>
+<p><img src="https://s2.ax1x.com/2019/01/05/FTxmYF.png" alt="FTxmYF.png"></p>
+<iframe height="498" width="510" src="https://player.youku.com/embed/XNTQ5MDg2Nzgw" frameborder="0" 'allowfullscreen'=""></iframe>
+
+
+<h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>　海龟这一世界上最古老的动物， 亿年以上海龟在地球海洋中生存了。海龟为重要的角色, 帮助坚持海洋的环境和平。</p>
+<p>Python 语言中的海龟库：<br>Turtle绘图体系诞生于1969年，主要用于程序设计的诞生，是python的标准库之一，也是入门级的图形绘制函数库。<br>Python 的“turtle”库，是Turtle绘图体系的Python 语言的实现，并莫认为标准库。</p>
+<pre><code>调用出海龟，并且出一条直线。
+</code></pre><p><img src="https://s2.ax1x.com/2019/01/05/FTx8w6.png" alt="FTx8w6.png"></p>
+<p>队长盾牌</p>
+<p><a href="https://imgchr.com/i/FTxbhF" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/05/FTxbhF.png" alt="FTxbhF.png"></a></p>
+<p>漂亮的麻点点</p>
+<p><a href="https://imgchr.com/i/FTxO1J" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/05/FTxO1J.png" alt="FTxO1J.png"></a></p>
+<p>大雄和哆啦A梦</p>
+<p><a href="https://imgchr.com/i/FTxLp4" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/05/FTxLp4.png" alt="FTxLp4.png"></a></p>
+<p>下面是漂亮的麻点点Python 代码：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">import turtle as t</span><br><span class="line">screen = t.Screen()</span><br><span class="line">t.getscreen()</span><br><span class="line">t.tracer(100)</span><br><span class="line">screen.setup(600,600)</span><br><span class="line">t.hideturtle()</span><br><span class="line">colors = [&quot;red&quot;,&quot;green&quot;,&quot;yellow&quot;,&quot;blue4&quot;,&quot;blue&quot;,&quot;pink&quot;]</span><br><span class="line">for i in range(36):</span><br><span class="line">    a=10*i</span><br><span class="line">    for d in range(26):</span><br><span class="line">        t.pu()</span><br><span class="line">        t.home()</span><br><span class="line">        t.seth(a)</span><br><span class="line">        t.pd()</span><br><span class="line">        b=3+d/18</span><br><span class="line">        t.right(b*(d+1))</span><br><span class="line">        t.pu()</span><br><span class="line">        t.fd((10+d**2/29)*3.14*(b*(d+1)/180+2))</span><br><span class="line">        t.pd()</span><br><span class="line">        t.pencolor(colors[i%3*2+d%2])</span><br><span class="line">        t.begin_fill()</span><br><span class="line">        t.fillcolor(colors[i%3*2+d%2])</span><br><span class="line">        t.circle(d/3)</span><br><span class="line">        t.end_fill()    </span><br><span class="line">t.pu()</span><br><span class="line">t.home()</span><br></pre></td></tr></table></figure>
+<h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、轮子、CPU、马达。</p>
+<h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.了解海龟。<br>2.了解Python海龟库。<br>3.学习循环递增与 循环递减编程。<br>4.学会条件判断。</p>
+<h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><a href="https://imgchr.com/i/FTxr0P" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/05/FTxr0P.png" alt="FTxr0P.png"></a></p>
+<p><a href="https://imgchr.com/i/FTxsTf" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/05/FTxsTf.png" alt="FTxsTf.png"></a></p>
+<p><a href="https://imgchr.com/i/FTxgfg" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/05/FTxgfg.png" alt="FTxgfg.png"></a></p>
+<p><a href="https://imgchr.com/i/FTxDmt" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/05/FTxDmt.png" alt="FTxDmt.png"></a></p>
+<p><a href="https://imgchr.com/i/FTx0OI" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/05/FTx0OI.png" alt="FTx0OI.png"></a></p>
+<p><a href="https://imgchr.com/i/FTx6k8" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/05/FTx6k8.png" alt="FTx6k8.png"></a></p>
+<p><a href="https://imgchr.com/i/FTxctS" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/05/FTxctS.png" alt="FTxctS.png"></a></p>
+<h3 id="程序设计："><a href="#程序设计：" class="headerlink" title="程序设计："></a>程序设计：</h3><p><img src="https://s2.ax1x.com/2019/01/05/F7pCSe.png" alt="F7pCSe.png"></p>
+<p>神奇的海龟已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p>
+<p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/31/瓦力工厂/全国青少年机器人等级考试一二级内容概述/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1914,168 +2098,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/27/瓦力工厂/装甲车机器人/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/27/瓦力工厂/装甲车机器人/" class="post-title-link" itemprop="http://yoursite.com/page/4/index.html">装甲车机器人</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2018-12-27 18:00:59" itemprop="dateCreated datePublished" datetime="2018-12-27T18:00:59+08:00">2018-12-27</time>
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/单片机第一年/" itemprop="url" rel="index"><span itemprop="name">单片机第一年</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦力工程师接到一个新任务，就是为“国防部”设计装甲车。来满足国防和维稳中用装甲车反坦克、扫雷、通讯和反恐的需要。现在要求制作发射导弹的装甲车，导弹发射时的角度可以自由调整。<br><img src="/2018/12/27/瓦力工厂/装甲车机器人/001.jpg" alt=""><br><img src="/2018/12/27/瓦力工厂/装甲车机器人/002.jpg" alt=""></p>
-<h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有轮子（为什么呢？观察生活）<br>３．需要有前进、加速、减速、停止、转弯、后退的控制方法<br>４．需要有装甲车的形状、特点。<br>5.调整发射角度，利用马达导杆，控制发射角度。</p>
-<h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>装甲车是具有装甲防护的各种履带或轮式军用车辆，是装有装甲的军用或警用车辆的统称。坦克也是装甲车履带式装甲车辆的一种，但是在习惯上通常因作战用途另外独立分类，而装甲车辆多半是指防护力与火力较坦克弱的车种。<br>装甲车的特性为具有高度的越野机动性能，有一定的防护和火力作用，分为履带式和轮式两种，一般装备一至两门中小口径火炮及数挺机枪，一些还装有反坦克导弹，结构以装甲车体、武器系统、动力装置等组成。</p>
-<h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、轮子、CPU、触碰开光、LED灯、蜂鸣器，伺服马达，导杆系统<br><img src="/2018/12/27/瓦力工厂/装甲车机器人/003.jpg" alt=""></p>
-<h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.三个马达的控制方法<br>2.了解装甲车的基础知识。<br>3.了解导杆系统在控制系统角度方面的应用。</p>
-<h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/27/瓦力工厂/装甲车机器人/装甲车机器人_07.png" alt=""><br><img src="/2018/12/27/瓦力工厂/装甲车机器人/装甲车机器人_08.png" alt=""><br><img src="/2018/12/27/瓦力工厂/装甲车机器人/装甲车机器人_09.png" alt=""><br><img src="/2018/12/27/瓦力工厂/装甲车机器人/装甲车机器人_10.png" alt=""><br><img src="/2018/12/27/瓦力工厂/装甲车机器人/装甲车机器人_11.png" alt=""><br><img src="/2018/12/27/瓦力工厂/装甲车机器人/装甲车机器人_12.png" alt=""><br><img src="/2018/12/27/瓦力工厂/装甲车机器人/装甲车机器人_13.png" alt=""><br><img src="/2018/12/27/瓦力工厂/装甲车机器人/装甲车机器人_14.png" alt=""><br><img src="/2018/12/27/瓦力工厂/装甲车机器人/装甲车机器人_15.png" alt=""><br><img src="/2018/12/27/瓦力工厂/装甲车机器人/装甲车机器人_16.jpg" alt=""><br><img src="/2018/12/27/瓦力工厂/装甲车机器人/装甲车机器人_17.jpg" alt=""></p>
-<h3 id="装甲车机器人程序设计："><a href="#装甲车机器人程序设计：" class="headerlink" title="装甲车机器人程序设计："></a>装甲车机器人程序设计：</h3><p><img src="/2018/12/27/瓦力工厂/装甲车机器人/装甲车机器人_18.jpg" alt=""><br>装甲车机器人，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/27/瓦力工厂/装甲车机器人/瓦力.jpeg" alt=""></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -2123,7 +2145,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">92</span>
+                    <span class="site-state-item-count">93</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
