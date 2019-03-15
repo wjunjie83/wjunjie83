@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-03-15T03:00:38.901Z</updated>
+  <updated>2019-03-15T03:30:03.187Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1014. 写评语</title>
+    <link href="http://yoursite.com/2019/03/15/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/1014.%20%E5%86%99%E8%AF%84%E8%AF%AD/"/>
+    <id>http://yoursite.com/2019/03/15/瓦力工厂/1014. 写评语/</id>
+    <published>2019-03-15T03:30:03.187Z</published>
+    <updated>2019-03-15T03:30:03.187Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>输入某学生成绩score，根据成绩好坏输出相应评语。如果成绩在大于等于90，输出“Excellent”；如果成绩在大于等于80分且小于90分，输出“Good”；如果成绩大于等于60分且小于80分，输出“Pass”；成绩小于60分，输出“Fail”。</p><p><a href="https://imgchr.com/i/AENJ74" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/15/AENJ74.png" alt="AENJ74.png"></a></p><p><a href="https://imgchr.com/i/AENtAJ" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/15/AENtAJ.png" alt="AENtAJ.png"></a><br>正方形已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="CCF中学生计算机程序设计入门篇" scheme="http://yoursite.com/categories/CCF%E4%B8%AD%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8%E7%AF%87/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1013. 识别三角形</title>
@@ -438,29 +461,6 @@
     <updated>2019-01-27T08:22:55.343Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>考试安排如下，详询瓦力工厂课程顾问！<br><img src="https://s2.ax1x.com/2019/01/24/kZWY1s.png" alt="kZWY1s.png"></p><p>时钟是一种度量和显示时间的仪器作为人类最早的发明之一，始终被人们用来度量比自然时间（比如，年、月、日）更短的时间。</p><h3 id="钟表的历史"><a href="#钟表的历史" class="headerlink" title="钟表的历史"></a>钟表的历史</h3><p>如今，我们只需瞧一下时钟就能说出具体的时间。我们把这看成很自然的事。在长达几千年的时间里，根本就没有任何测定时间的精确方法。人们通过太阳在天空中的位置，或者通过日晷或沙漏这样的装置来判断时间。在沙漏中是通过沙子从一个双头玻璃容器中漏落下来，指示时间的。</p><p><img src="https://s2.ax1x.com/2019/01/24/kZ4AtU.png" alt="kZ4AtU.png"><br>最早发明机械钟的人是一位叫做一行（唐代僧人，俗名张遂）的中国杰出天文学家，他生活于公元八世纪他与另一位中国发明家梁令瓒一起设计了擒纵器装置。擒纵器就是所有机械钟中心部位的那套齿轮嵌齿结构。</p><p><img src="https://s2.ax1x.com/2019/01/24/kZ4anI.png" alt="kZ4anI.png"><br>机械钟，在中世纪来到欧洲到14世纪时欧洲建造了极大又不灵巧的家庭机械钟，他们用钟锤驱动，精度每天大约误差在一小时以内，15世纪时，德国锁匠P.莱恩开发出了由弹簧驱动的钟，接着惠更斯在1656年，制造出了带有钟摆的更精确的钟。并且1859年，他在威斯敏斯特教堂安装了大本钟，该钟成为所有精确钟楼的标准。1929年石英晶体首先用于计时。天文台石英钟误差不过万分之一秒/每天。1951年，第一座原子钟开始运作，误差小于10亿分之一，是目前最准确的时钟。</p><h3 id="制作"><a href="#制作" class="headerlink" title="制作"></a>制作</h3><p> 我们的时钟主要介绍的是其中复杂的齿轮装置，可是它奇怪在什么地方呢？大家动手制作之后就知道了。<br> 1.制作时钟的底座和支架。因为我们要搭建一个复杂的齿轮组，所以先搭建了一个多孔的立面支架，如下图所示：</p><p> <img src="https://s2.ax1x.com/2019/01/24/kZ5ZUf.png" alt="kZ5ZUf.png"></p><p> 2.制作时针和分针，这里我们用两个齿轮加上铁条来完成，如图所示，这里我们使用大齿的齿轮装了一个较短的铁条表示时针，而小齿的齿轮装了一个较长的铁条表示分针。</p><p> <img src="https://s2.ax1x.com/2019/01/24/kZ50M9.png" alt="kZ50M9.png"></p><p> 利用齿轮组将时针和分针装在支架上，这里要用到两根轴，第一根在上方，框架内要装一个大的平齿轮，我们叫齿轮B，在框架外的轴上要安装时针和分针，其中分针在内，时针在外，另外轴上要串上一些垫片，如下图所示。<br> 第二根轴在下方，框架内要装上一个小的，平齿轮，我们叫齿轮A，注意这个小的平齿轮A要和第一根轴上的大平齿轮B咬合在一起。这根轴上在框架外两端都需要连接元件，在时钟分针这一端要连接一个和分针齿一样的平齿轮，我们叫齿轮C，且这个平齿轮C要和分针的平齿轮咬合在一起。而在在另一端要连接一个把手形成一个轮轴的结构。</p><p> <img src="https://s2.ax1x.com/2019/01/24/kZIUTP.png" alt="kZIUTP.png"></p><p> 这里要注意分针的齿轮不能固定在轴上，它是能够自由的绕轴旋转，完成后，如下图所示。另外还要注意下面的轴靠近时针分针这一端不能突出太多，不能挡住时针的转动。</p><p> <img src="https://s2.ax1x.com/2019/01/24/kZIhfU.png" alt="kZIhfU.png"></p><p> 组装完成后一定要试一试，转动把手能不能让这个齿轮组正常运转，为了保险起见，我们可以先将所有齿轮上的固定螺丝松开，再依次拧紧，顺序是先拧紧小平齿轮A的螺丝，此时转动把手应该能够让齿轮A带动大平齿轮转动；然后拧紧齿轮C，此时转动把手应该能够让齿轮A、齿轮B、齿轮C，以及分针齿轮转动；最后拧紧时针齿轮，此时转动把手的话，时针也会跟着动。<br> 此时发现，我们动了手柄，通过齿轮组，能够同时带动时针分针转动，关键是这两者转速不一样，有点像我们看到的钟表，不过和实际的钟表相比，两者之间的比例不太协调，正式由于这个原因，所以我们称为奇怪的时钟。</p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">注意：齿轮在同一平面啮合时，齿轮的转动速度相反。</span><br></pre></td></tr></table></figure><p> 这个时钟中有两根轴，其中一根是主动轴，主动轴是与动力源相近，能够产生动力的轴，另一根是从动轴，从动轴是接收动力的轴。轴和轴之间，通过齿轮来传递动力。在齿轮直接啮合的情况下，小齿轮带动大齿轮的情况属于减速装置，大齿轮带动小齿轮的情况属于加速装置。假设小齿轮与大的齿数比为1:3，两个齿轮以啮合的方式传动，所转动的齿数相同，大齿轮的齿数多，小齿轮的齿数少，大齿轮转动一周时，小齿轮转动三周，所以转速为1:3，小齿轮转速快。大齿轮带动小齿轮成为加速装置，反之小齿轮带动大齿轮为减速装置。</p><h3 id="角速度与线速度"><a href="#角速度与线速度" class="headerlink" title="角速度与线速度"></a>角速度与线速度</h3><p>这里我们再介绍几个概念。<br>角速度:圆周运动中在单位时间内转过的弧度及齿轮，每秒转动的角度。<br>线速度：圆周运动中在单位时间内转过的曲线长度。<br>转速：圆周运动中在单位时间内转过的圈数。<br>在齿轮啮合方式传动下：<br>1.转动的次数相同过耳线速度相同，角速度和转速根据齿轮大小而判断齿轮越大角速度和转速越小，如下图所示：</p><p><img src="https://s2.ax1x.com/2019/01/24/kZzI54.png" alt="kZzI54.png"></p><p>2.在同一根轴上的两个齿轮传动由于同轴传动的速度相同，所以焦速度和转速相同，而线速度根据持轮小判断齿轮越大，现速度越大，如下图所示：</p><p><img src="https://s2.ax1x.com/2019/01/24/keSpPH.png" alt="keSpPH.png"></p><p>我们现在分析一下这个奇怪的时钟，假设齿轮A和齿轮B齿数比为1:9，那么在把手转动一周的情况下，主动轴和从动轴之间，因为是齿轮A和齿轮B相互啮合，所以从动轴会转动1/9周，又因为齿轮B和时针齿轮是同轴齿轮，所以时针转动1/9周。同时又因为齿轮A和齿轮C是同轴齿轮，所以齿轮C也是转动一周。而齿轮C与分针齿轮是1:1的所以分针齿轮也转动一周，所以实际上分针和时针的转速比为9:1。</p><p>有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="一级考试" scheme="http://yoursite.com/categories/%E4%B8%80%E7%BA%A7%E8%80%83%E8%AF%95/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>全国青少年机器人技术等级考试---搅拌器</title>
-    <link href="http://yoursite.com/2019/01/27/%E6%8A%80%E6%9C%AF%E7%AD%89%E7%BA%A7%E8%80%83%E8%AF%95/%E7%AC%AC%E5%9B%9B%E7%AB%A0%E6%90%85%E6%8B%8C%E5%99%A8/"/>
-    <id>http://yoursite.com/2019/01/27/技术等级考试/第四章搅拌器/</id>
-    <published>2019-01-27T08:21:08.022Z</published>
-    <updated>2019-01-27T08:21:08.022Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>考试安排如下，详询瓦力工厂课程顾问！<br><img src="https://s2.ax1x.com/2019/01/24/kZWY1s.png" alt="kZWY1s.png"></p><h3 id="探索"><a href="#探索" class="headerlink" title="探索"></a>探索</h3><p>在制作糕点时，需要将蛋黄蛋清分开，并把蛋清搅拌至奶油状，这是一项浩大的工程，为此人们发明了打蛋器。图示为个手动打蛋器。<br><img src="/2019/01/27/技术等级考试/第四章搅拌器/001.png" alt=""><br>使用手动打蛋器时，需要人们一直往同一方向快速搅拌蛋液直到将蛋清搅拌至奶油状，相对于其他工具，手动搅拌器确实省了很大的力气，但搅拌需要快速长时间的操作手部依旧会感到很酸痛。<br>为了解决这个问题，人们想到可以加入加速齿轮组，这样手腕转动速度就可以减慢，以减轻手部负担。最终设计人员还加上了把手，将手动打蛋器升级成为了手摇式打蛋器。<br><img src="/2019/01/27/技术等级考试/第四章搅拌器/002.png" alt=""><br>在手摇式打蛋器中，我们加入了齿轮组，由大齿轮作为主动啮合小齿轮。当我们转动大齿轮一周，小齿轮却能转动好几周。从而搅拌叶转动几周，这样就不需要我们迅速的转动手腕也能将蛋清搅拌至奶油状。</p><h3 id="制作"><a href="#制作" class="headerlink" title="制作"></a>制作</h3><p>下面我们来制作打蛋器。<br>1.首先需要制作一个可以用来支撑轴齿轮组的框架。<br><img src="/2019/01/27/技术等级考试/第四章搅拌器/003.png" alt=""><br>在框架上横着穿一根轴再竖着穿一根轴。横轴的中间安装一个大齿轮，而竖轴靠近横轴的一端装一个小齿轮，这个小齿轮要和横轴上的大齿轮咬合在一起，在竖轴的另一端再安装一个齿轮。另外，在横轴的一端装一个小把手，安装效果如图所示：<br><img src="/2019/01/27/技术等级考试/第四章搅拌器/004.png" alt=""><br>制作搅拌叶搅拌叶比较简单，找两个U型的或四个L型的叶片状零件即可。完成效果如图所示：<br><img src="/2019/01/27/技术等级考试/第四章搅拌器/005.png" alt=""><br>将做好的搅拌叶固定在一个轴的一端，同时在这个轴上再增加一个小齿轮，我们要在框架的这一端再制作一个加速的齿轮组。将安装了搅拌叶的轴插入框架当中，这里要注意要让两个齿轮啮合在一起，安装效果如图：<br> <img src="/2019/01/27/技术等级考试/第四章搅拌器/006.png" alt=""><br>￼用我们的器材制作的搅拌器如下：<br><img src="/2019/01/27/技术等级考试/第四章搅拌器/007.png" alt=""></p><h3 id="齿轮"><a href="#齿轮" class="headerlink" title="齿轮"></a>齿轮</h3><p>￼齿轮是一种轮缘上有齿且能连续啮合传递运动和动力的机械零件。齿轮上每一个用于啮合的凸部分称为轮齿，一般叫作齿，这些凸起部分一般呈辐射状排列，配对齿轮上的轮齿互相接触可使齿轮持续啮合传动。<br>在齿轮的整个圆周上轮齿的总数称为齿数。</p><p>齿轮三要素：齿数、模数、压力角。<br>能够相互啮合的轮齿，必须是模数一样的，所以相互啮合的轮齿中直径大的齿数就会多一些直径小的齿数就会少一些，但齿轮在转动中转过的齿数是一样的，直径大的齿轮转动一周，直径小的齿轮就会转动好几周。所以直径大的齿轮带动直径小的齿轮转速会变快，被称为加速齿轮装置。</p><p>齿轮啮合时可以平行啮合也可以垂直啮合。图示齿轮组a是平行啮合对应是搅拌机中框架靠近叶片一端的两个齿轮，而齿轮组b是垂直啮合对应的是框架中横轴和竖轴交叉处的两个齿轮。</p><p>注意</p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">注意平行啮合时齿轮转动的方向在同一平面上转动方向相反。垂直啮合时齿轮转动的方向，在垂直的两个平面上转动方向改变了而力的方向也改变了。</span><br></pre></td></tr></table></figure><h3 id="轮轴"><a href="#轮轴" class="headerlink" title="轮轴"></a>轮轴</h3><p>在搅拌机中，还有一个轮轴的结构那就是横轴上的把手。这种能绕共同轴线，旋转的机械都叫轮轴。在轮轴中外环叫轮，内环叫轴，轮轴两个环是同心圆。<br>轮轴的实质实际是一个能够连续旋转的杠杆，这个杠杆的支点就在轴线上，轮轴在转动时轮轴有相同的转速，动力点就是轮的外圆。<br>动力臂就是把手到轴中心的距离而阻力点就是轴的外圆阻力臂就是轴的半径。所以当动力作用在轮上,轮轴为省力杠杆。轮和轴的半径相差越大，则越省力，但越费距离，动力作用在轴上则轮轴为费力杠杆，轮和轴的半径相差越大，则越费力，但越省距离。</p><h3 id="齿轮种类"><a href="#齿轮种类" class="headerlink" title="齿轮种类"></a>齿轮种类</h3><p>齿轮的种类多种多样按照外形分一般分为平齿轮、冠齿轮、和涡轮。<br>之前我们用到的都独属于平齿轮。下图所示的齿轮称为冠齿轮，冠齿轮的齿分布在端面，而不是在抡元上一般用在机械的变数。换向离合器上在玩具上也有广泛的应用。<br>而涡轮上的齿，看起来好像有点扁，并不是垂直于整个轮面的这是因为，涡轮，的用法，和平齿轮的用法不太一样，涡轮通常适合杆一起使用的，蜗轮蜗杆机构常用来传递两交错轴之间的运动和动力，涡杆上有螺丝上，相似的螺旋，螺丝上的螺旋转动的时候，会让罗斯进入，被固定件，而涡轮上的螺旋转动时会带动涡轮转动，涡轮。与我感在一起中间平面内有点像齿轮与齿条。<br>蜗轮蜗杆有一个其他齿轮组和布局贝的特点，我敢可以轻易转动涡轮单波轮无法转动，蜗杆这是因为蜗杆上的突脚很浅，当沃伦尝试旋转蜗杆时涡轮与蜗杆之间的摩擦力，让蜗杆保持原位。以实现运动的机械自锁。</p><p>有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
     
     <summary type="html">
     
