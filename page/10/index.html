@@ -357,6 +357,338 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/DPJ-025-送餐机器人单巡线/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/18/瓦力工厂/DPJ-025-送餐机器人单巡线/" class="post-title-link" itemprop="http://yoursite.com/page/10/index.html">DPJ-025-送餐机器人单巡线</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-12-15 11:24:59" itemprop="dateModified" datetime="2018-12-15T11:24:59+08:00">2018-12-15</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦力来到了一个特殊的餐厅，这里的服务员只有机器人。点菜、送餐、结账都是由机器人来完成，瓦力对送餐机器人很感兴趣，并发现了一个奇怪的方，每个送餐机器人的脚下都有一条黑线，他们会沿黑色的线行走。瓦力回家查阅资料才明白，原来是利用红外线巡线原理完成的，聪明的瓦力工程师们，让我们一起制作一个巡线机器人吧。</p>
+<h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.单巡线机器人的原理。</p>
+<p>2.单巡线机器人搭建时重心的稳定。</p>
+<p>3.单巡线机器人的编程逻辑。</p>
+<h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>随着科技的发展，已经有一些餐厅使用机器人送餐了。在餐厅营业期间，机器人脚底踩着轨道，手上稳稳端着托盘，沿着提前铺设好的环形轨道，面带微笑，端着酒水送着食物。客人可以在行走期间随意将食品拿到桌上，机器人也会沿着轨道继续前行。由于器人是根据设程序设定沿轨道前行，一旦有人出现在行驶路线上，红外感应器就会反应，机器人会自动停下，并语音提示，可以保证店内食客的安全。<br>红外传感器特性：<br>1.反射 ： 在有效范围内，红外线发射管发射的红外线可以被反射，接收管接收到信号。<br>2.吸收： 发射管发出的红外线遇到黑色物体时，会被吸收掉，没有返回信号。<br><img src="/2018/12/18/瓦力工厂/DPJ-025-送餐机器人单巡线/001.png" alt=""></p>
+<h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力</p>
+<p>２．需要有轮子。</p>
+<p>３．需要有黑线的检测原件。</p>
+<h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、CPU、轮子、蜂鸣器、LED灯、红外传感器。</p>
+<h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-025-送餐机器人单巡线/002.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/DPJ-025-送餐机器人单巡线/003.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/DPJ-025-送餐机器人单巡线/004.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/DPJ-025-送餐机器人单巡线/005.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/DPJ-025-送餐机器人单巡线/006.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/DPJ-025-送餐机器人单巡线/007.png" alt=""></p>
+<h3 id="送餐机器人程序设计："><a href="#送餐机器人程序设计：" class="headerlink" title="送餐机器人程序设计："></a>送餐机器人程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-025-送餐机器人单巡线/008.png" alt=""></p>
+<p>送餐机器人完成了，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/DPJ-025-送餐机器人单巡线/瓦力.jpeg" alt=""></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/DPJ-029-避障机器人/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/18/瓦力工厂/DPJ-029-避障机器人/" class="post-title-link" itemprop="http://yoursite.com/page/10/index.html">DPJ-029-避障机器人</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-11-15 10:04:51" itemprop="dateModified" datetime="2018-11-15T10:04:51+08:00">2018-11-15</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦力工程师接到一个新任务，就是设计出一套智能避障装置，然后研发出智能避障机器人，来装备到一家大型的综合餐厅，能给每位顾客送饭。<br><img src="/2018/12/18/瓦力工厂/DPJ-029-避障机器人/002.png" alt=""></p>
+<p><img src="/2018/12/18/瓦力工厂/DPJ-029-避障机器人/002.jpeg" alt=""></p>
+<h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>红外避障传感器基本原理：利用物体的反射性质。在一定范围内，如果没有障碍物，发射出去的红外线，因为传播距离越远而逐渐减弱，最后消失。如果有障碍物，红外线遇到障碍物，被反射到达传感器接收头。传感器检测到这一信号，就可以确认正前方有障碍物，并送给单片机，单片机进行一系列的处理分析，协调小车两轮工作，完成一个漂亮的躲避障碍物动作。<br>超声波其实就是声波的一种，因为频率高于20kHz，所以人耳听不见，并且指向性更强。</p>
+<p>超声波测距的原理比红外线更加简单，因为声波遇到障碍物会反射，而声波的速度已知，所以只需要知道发射到接收的时间差，就能轻松计算出测量距离，再结合发射器和接收器的距离，就能算出障碍物的实际距离，如下图所示。<br><img src="/2018/12/18/瓦力工厂/DPJ-029-避障机器人/004.jpg" alt=""><br>超声波测距相比红外测距，价格更加便宜，相应的感应速度和精度也逊色一些。同样，由于需要主动发射声波，所以对于太远的障碍物，精度也会随着声波的衰减而降低，此外，对于海绵等吸收声波的物体或者在大风干扰的情况下，超声波将无法工作。<br><img src="/2018/12/18/瓦力工厂/DPJ-029-避障机器人/006.jpeg" alt=""></p>
+<h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有轮子（为什么呢？观察生活）<br>３．需要有前进、停止、转弯、后退的控制方法<br>5.需要有避障系统。</p>
+<h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、轮子、CPU、触碰开光、LED灯、红外避障传感器。</p>
+<h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.了解避障机器人工作原理<br>2.了解红外避障传感器的工作原理<br>3.搭建标准避障小车。</p>
+<h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-029-避障机器人/007.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-029-避障机器人/008.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-029-避障机器人/009.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-029-避障机器人/010.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-029-避障机器人/011.png" alt=""></p>
+<h3 id="避障机器人程序设计："><a href="#避障机器人程序设计：" class="headerlink" title="避障机器人程序设计："></a>避障机器人程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-029-避障机器人/012.png" alt=""><br>避障机器人完成了，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/DPJ-029-避障机器人/瓦力.jpeg" alt=""></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/技术等级考试/瓦力工厂许昌校区风采/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -475,161 +807,6 @@
 <p><img src="/2018/12/18/技术等级考试/瓦力工厂许昌校区风采/003.png" alt=""></p>
 <p>￼</p>
 <p><img src="/2018/12/18/技术等级考试/瓦力工厂许昌校区风采/瓦力二维码.jpeg" alt=""></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/" class="post-title-link" itemprop="http://yoursite.com/page/10/index.html">全国青少年机器人技术等级考试---一级模拟试题</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2018-12-18 21:10:42" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:42+08:00">2018-12-18</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-11-06 18:27:21" itemprop="dateModified" datetime="2018-11-06T18:27:21+08:00">2018-11-06</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>考试安排如下，详询瓦力工厂工作人员！<br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/19年考级时间安排.png" alt=""></p>
-<h3 id="2019年全国青少年机器人技术等级考试"><a href="#2019年全国青少年机器人技术等级考试" class="headerlink" title="2019年全国青少年机器人技术等级考试"></a>2019年全国青少年机器人技术等级考试</h3><p><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_00.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_02.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_03.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_04.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_05.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_06.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_07.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_08.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_09.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_10.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_11.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_12.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_13.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_14.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_15.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/瓦力二维码.jpeg" alt=""></p>
 
           
         
@@ -1000,6 +1177,161 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/" class="post-title-link" itemprop="http://yoursite.com/page/10/index.html">全国青少年机器人技术等级考试---一级模拟试题</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-12-18 21:10:42" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:42+08:00">2018-12-18</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-11-06 18:27:21" itemprop="dateModified" datetime="2018-11-06T18:27:21+08:00">2018-11-06</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>考试安排如下，详询瓦力工厂工作人员！<br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/19年考级时间安排.png" alt=""></p>
+<h3 id="2019年全国青少年机器人技术等级考试"><a href="#2019年全国青少年机器人技术等级考试" class="headerlink" title="2019年全国青少年机器人技术等级考试"></a>2019年全国青少年机器人技术等级考试</h3><p><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_00.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_02.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_03.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_04.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_05.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_06.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_07.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_08.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_09.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_10.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_11.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_12.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_13.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_14.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/全国青少年机器人技术等级考试---一级模拟试题_15.png" alt=""><br><img src="/2018/12/18/技术等级考试/全国青少年机器人技术等级考试---一级模拟试题/瓦力二维码.jpeg" alt=""></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/技术等级考试/DPJ-029-避障机器人/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1186,7 +1518,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">95</span>
+                    <span class="site-state-item-count">97</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
