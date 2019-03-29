@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-03-15T07:18:39.831Z</updated>
+  <updated>2019-03-29T06:57:44.007Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,282 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>第一课  龟兔赛跑</title>
+    <link href="http://yoursite.com/2019/03/29/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E7%AC%AC%E4%B8%80%E8%AF%BE%20%20%E9%BE%9F%E5%85%94%E8%B5%9B%E8%B7%91/"/>
+    <id>http://yoursite.com/2019/03/29/瓦力工厂/第一课  龟兔赛跑/</id>
+    <published>2019-03-29T06:57:44.007Z</published>
+    <updated>2019-03-29T06:57:44.007Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr><p>同学们喜欢计算机吗、喜欢编程吗，下面我介绍一下几位与编程有关的牛人的少儿时代的故事。</p><p>比尔盖茨、扎克伯格、埃隆·马斯克等一批硅谷精英无一例外在少年时代和计算机有过亲密的接触，都在学习编程的过程中忘记了时间与吃饭。</p><p>现在计算机编程被越来越多的人认可，美国麻省理工学院媒体实验室专门为青少年设计了一款图形化编程工具–Scratch。</p><p>Scratch教育在国内Steam教育风头正劲。我们采用慧编程这款加入硬件支持的Scratch国产化后的软件进行教学与学习。<br>本节课将会教大家用慧编程制作简单的动画–熊猫散步。请同学们想一想制作一个动画需要添加一些什么元素？<br>元素：<br>1、需要角色熊猫。<br>2、熊猫能够移动。<br>这就构成了制作一个动画的最简要素。<br>下面我们来完成熊猫散步这一动画。</p><p><a href="https://imgchr.com/i/A0f43D" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/29/A0f43D.png" alt="A0f43D.png"></a></p><p>首先，添加一个熊猫散步的场景，调整好熊猫的位置。</p><p><a href="https://imgchr.com/i/A0fW4K" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/29/A0fW4K.png" alt="A0fW4K.png"></a><br>用 <strong>事件</strong>中<em>当绿旗被点击时</em>、<strong>运动</strong>中<em>移动1步</em>、<strong>控制</strong>中<em>循环执行</em><br>来让熊猫来走几步。</p><p><a href="https://imgchr.com/i/A0f5ge" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/29/A0f5ge.png" alt="A0f5ge.png"></a></p><p>细心的你可以发现，熊猫走到边缘就走不动了，那么加入<em>碰到边缘就反弹</em>，熊猫现在可以来回走了，但是熊猫练起了飞檐走壁，头朝下就直接开走了，怎么办呢？</p><p>[^_^]:<br>    <a href="https://imgchr.com/i/A0f7DA" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/29/A0f7DA.png" alt="A0f7DA.png"></a></p><p>现在熊猫就可以正常散步了。<br><a href="https://imgchr.com/i/A0fqEt" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/29/A0fqEt.png" alt="A0fqEt.png"></a></p><p>下面我们用今天所学的知识，来制作一段龟兔赛跑的故事吧！<br><a href="https://imgchr.com/i/A0fIjH" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/29/A0fIjH.png" alt="A0fIjH.png"></a><br>添加一个适当的背景，角色为乌龟、兔子、当然还有一棵树。</p><p><a href="https://imgchr.com/i/A0fHHI" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/29/A0fHHI.png" alt="A0fHHI.png"></a></p><p>龟兔赛跑已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="Scratch 初级" scheme="http://yoursite.com/categories/Scratch-%E5%88%9D%E7%BA%A7/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>13 岁编程！少年比尔·盖茨如何成为最成功的自学成才程序员？</title>
+    <link href="http://yoursite.com/2019/03/29/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/13%20%E5%B2%81%E7%BC%96%E7%A8%8B%EF%BC%81%E5%B0%91%E5%B9%B4%E6%AF%94%E5%B0%94%C2%B7%E7%9B%96%E8%8C%A8%E5%A6%82%E4%BD%95%E6%88%90%E4%B8%BA%E6%9C%80%E6%88%90%E5%8A%9F%E7%9A%84%E8%87%AA%E5%AD%A6%E6%88%90%E6%89%8D%E7%A8%8B%E5%BA%8F%E5%91%98%EF%BC%9F/"/>
+    <id>http://yoursite.com/2019/03/29/瓦力工厂/13 岁编程！少年比尔·盖茨如何成为最成功的自学成才程序员？/</id>
+    <published>2019-03-29T02:17:38.842Z</published>
+    <updated>2019-03-29T02:17:25.782Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr><p>自1987年以来，比尔·盖茨首次出现在福布斯全球富豪榜上，就开始了他的辉煌时代。科技上，他建立起了微软这个庞大的科技帝国；慈善上，他捐赠了数十亿美元用于全球健康项目——毋庸置疑，比尔·盖茨绝对是全球最受尊重的偶像之一。</p><p>而这位出生于1955年的首富，少年时就对编程有着极为浓厚的兴趣，也正是这种“自学成才”的精神，助他一步步走上人生的巅峰。</p><p>比尔·盖茨是当今世界上最富有的人之一。作为微软的联合创始人，盖茨建立起了一个庞大的科技帝国。作为比尔和梅琳达·盖茨基金会的联合创始人，他捐赠了数十亿美元。但是，比尔·盖茨在创立微软之前是个怎样的人呢？</p><p>比尔·盖茨在年轻的时候是一个勇于挑战和打破现有规则的人。这一点，也许是他能成为历史上最成功的自学成才的程序员的原因之一。</p><p>在他11岁的时候，比尔·盖茨变得爱和人争论并且沉默寡言。他的父母，威廉和玛丽·盖茨，认为他们的儿子在学校可能让人讨厌，没有朋友，因而十分担心。比尔·盖茨在家也拒绝做家务，并且和母亲争吵。盖茨曾经对他的一位顾问说过：“在那个时候，我和我的父母就谁应该拥有控制权而斗争。”</p><p>对控制权的争取和对现有规则的蔑视，对比尔·盖茨的发展提供了积极的引导作用，把他从一个郁郁寡欢的孩子变成了一个自学成才的青年程序员。所有的这一切，都是从盖茨的父母让他在西雅图的莱克赛德学校（Lakeside）上学的时候开始的。</p><p>这所预备学校是全国最早拥有计算机的学校之一。正如比尔·盖茨后来解释的那样，“我13岁的时候就喜欢上了编程。那个时候，我所在的学校刚刚成为全国第一批拥有计算机终端的学校之一。这台机器又大又慢，甚至连屏幕都没有，但是，我还是被它吸引住了。”</p><p>在1968年，盖茨和他的朋友们每天都在电脑上花上几个小时，来学习电脑的编程语言：BASIC或初学者通用的符号指令代码。很快，盖茨就可以自己编程。</p><p>盖茨第一次的编程实践是和一个流行的游戏相关。盖茨说：“我13岁的时候，写了我的第一个软件程序。这是为了玩井字游戏进行的开发。当时，我用的电脑虽然又大又笨重，而且速度又很慢，但是它绝对引人注目。”</p><p>当比尔?盖茨在20世纪60年代开始自学编程时，那个时代的计算机和我们今天看到的大不相同。盖茨回忆说，“当时的计算机终端没有屏幕。为了玩，我们在打字机式的键盘上输入我们的动作。”在井字游戏中，进入每一步之后，玩家都必须等待计算机打印出他们的动作。</p><p>盖茨开发这个程序的时候，没有太在意效率。“使用铅笔和纸张玩一个井字游戏需要30秒的时间，这可能会占用大部分午餐时间，但是没有人在乎。当时，在机器上，我们也只有这些东西可玩。”</p><p>在莱克赛德学校，比尔·盖茨在计算机房遇到了比他大两岁的学生保罗?艾伦。他们很快学会了以系统操作员的身份登录到计算机系统，从而避免了使用机器的时间限制。当他们暂时无法访问莱克赛德学校的计算机的时候，他们就假冒大学生，去华盛顿大学。</p><p>当比尔·盖茨假冒大学生来使用那些功能强大的计算机的时候，他才十几岁。与艾伦一起，盖茨使用了CDC6400和Burroughs5500，这两种机器需要使用包含运行程序代码的穿孔卡片。</p><p>盖茨在读高中的时候，就利用他的编程能力进行商业运作。他使用另一种编程语言Fortran创建名为Traf-O-Data的一家公司。保罗·艾伦解释说：“如果不是因为我们在traf-0-data所作的尝试，微软可能就不会出现。”</p><p>Traf-O-Data公司主要开发统计西雅图交通量的计算机系统。当他们通过Traf-O-Data公司赚到2万美元的时候，艾伦和盖茨还都只是十几岁的孩子。虽然他们的公司最终破产了，但它也给盖茨宝贵的经验教训，比如将编程和商机进行结合所能创造的价值。</p><p>在莱克赛德学校学习的这些年，盖茨曾经多次潜入华盛顿大学校园，偷偷访问他们不同地点的计算机系统。他和艾伦听说物理大楼的PDP-10每天凌晨都可以使用几个小时，盖茨后来说,“一位朋友有物理大楼的钥匙，所以我们偷偷地去了很多次。”</p><p>后来，他去了哈佛大学并且在学习不到两年后就退学。这时，盖茨已经拥有丰富的编程经验。他创立了一家公司，他为政府机构编写代码，并且他自学了很多编程语言。正如盖茨后来所说，“自我探索是伟大的，因为你培养了一种自信心。”</p><p>编程给了盖茨方向。“如果你的程序错了，尝试之后你就知道。如果程序不能工作，你就会解决问题，然后再一次进行尝试。”</p><p>在很小的时候，盖茨就开始尝试控制计算机。盖茨以成人的身份解释说，他对计算机很着迷，因为计算机给了他一种孩提时代的控制感。“我们太小了，不能开车，也不能做大人可以玩的其他事情，但是我们可以给这台大机器下订单，它会一直服从的。”</p><p>比尔·盖茨知道什么时候该改变规则，什么时候该遵守规则。他从小就重视自我探索。后来，这种推动的意愿帮助微软取得了成功。</p><p>我们能从比尔·盖茨的青年时代学到什么？</p><p>学习什么时候可以改变规则。比尔·盖茨可能偷偷溜进了大学的计算机实验室，但他这样做是有原因的。盖茨无法正常使用华盛顿大学的高级计算机,但盖茨想办法得到了他想要的。正如他解释的那样，“那里的人们给了我们很多帮助。他们借给我们手册和让我们能从垃圾箱中找到操作系统清单。”</p><p>保持前进的动力并不断进行探索。当比尔?盖茨的第一家公司Traf-o-data倒闭时，他并没有放弃。当他在1977年因交通违规被捕时，他也没有放弃。他一直致力于实现让数百万人使用计算机的目标 - 他成功了。 比尔?盖茨在创建微软之前是谁？他是一个自学成才的程序员，他利用自己的技能实现自己的目标。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="Scratch 入门" scheme="http://yoursite.com/categories/Scratch-%E5%85%A5%E9%97%A8/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>滑板车机器人</title>
+    <link href="http://yoursite.com/2019/03/29/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E6%BB%91%E6%9D%BF%E8%BD%A6%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
+    <id>http://yoursite.com/2019/03/29/瓦力工厂/滑板车机器人/</id>
+    <published>2019-03-29T01:58:24.057Z</published>
+    <updated>2019-03-29T01:58:24.057Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦力工程师接到一个新任务，就是为“最后一公里”设计机器人。“最后一公里”指的是人们在上下学或上下班的途中，乘坐公共交通工具到达公交站，地铁站后，还需要走最后一公里才能达到目的地。作为瓦力工程师的我们怎么设计滑板车机器人，来帮助人们更方便的完成最后一公里呢？<br><img src="/2019/03/29/瓦力工厂/滑板车机器人/002.jpg" alt=""><br><img src="/2019/03/29/瓦力工厂/滑板车机器人/003.jpg" alt=""></p><h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有轮子（为什么呢？观察生活）<br>３．需要有前进、加速、减速、停止、转弯、后退？的控制方法<br>４．需要有声光指示、装饰</p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>平衡车原理：当我们在驾驶平衡车的时候，平衡车的两个轮子就代替了双脚。与身体的平衡系统非常类似，当我们的重心前倾时，智能系统就会自动感应到，并精确地驱动轮子向前运动，以保持平衡;同样地，当我们身体的重心后倾时，轮子就会向后运动。<br>这套工作原理被称为“动态平衡”原理，这也是平衡车被叫做“平衡车”的原因，采用第二代运动补偿算法，利用其内部的陀螺仪和加速度传感器，来精确检测车体姿态的微小变化，并利用精密的伺服控制系统，灵敏地驱动电机，进行相应的调整，以保持整个车体的稳定和平衡。</p><h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、轮子、CPU、触碰开光、LED灯、蜂鸣器<br><img src="/2019/03/29/瓦力工厂/滑板车机器人/004.png" alt=""></p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.复习触碰开关的工作原理。<br>2.了解人们的代步工具。<br>3.熟练运用循环模块（While）进行输入、输出控制。</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2019/03/29/瓦力工厂/滑板车机器人/滑板车机器人_06.png" alt=""><br><img src="/2019/03/29/瓦力工厂/滑板车机器人/滑板车机器人_07.png" alt=""><br><img src="/2019/03/29/瓦力工厂/滑板车机器人/滑板车机器人_08.png" alt=""><br><img src="/2019/03/29/瓦力工厂/滑板车机器人/滑板车机器人_09.png" alt=""><br><img src="/2019/03/29/瓦力工厂/滑板车机器人/滑板车机器人_10.png" alt=""><br><img src="/2019/03/29/瓦力工厂/滑板车机器人/滑板车机器人_11.png" alt=""><br><img src="/2019/03/29/瓦力工厂/滑板车机器人/滑板车机器人_12.png" alt=""><br><img src="/2019/03/29/瓦力工厂/滑板车机器人/滑板车机器人_13.png" alt=""><br><img src="/2019/03/29/瓦力工厂/滑板车机器人/滑板车机器人_14.png" alt=""><br><img src="/2019/03/29/瓦力工厂/滑板车机器人/滑板车机器人_15.png" alt=""><br><img src="/2019/03/29/瓦力工厂/滑板车机器人/滑板车机器人_16.png" alt=""></p><h3 id="程序设计："><a href="#程序设计：" class="headerlink" title="程序设计："></a>程序设计：</h3><p><img src="/2019/03/29/瓦力工厂/滑板车机器人/滑板车机器人_17.png" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="单片机第一年" scheme="http://yoursite.com/categories/%E5%8D%95%E7%89%87%E6%9C%BA%E7%AC%AC%E4%B8%80%E5%B9%B4/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>线控机器人</title>
+    <link href="http://yoursite.com/2019/03/29/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E7%BA%BF%E6%8E%A7%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
+    <id>http://yoursite.com/2019/03/29/瓦力工厂/线控机器人/</id>
+    <published>2019-03-29T01:58:22.965Z</published>
+    <updated>2019-03-29T01:58:22.965Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦力工程师接到一个新任务，新年快要到了，瓦力工厂要求瓦力工程师为新年增加气氛。为新年联欢会设计线控机器人。<br><img src="/2019/03/29/瓦力工厂/线控机器人/001.jpg" alt=""></p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>皮影戏，旧称“影子戏”或“灯影戏”，是一种用蜡烛或燃烧的酒精等光源照射兽皮或纸板做成的人物剪影以表演故事的民间戏剧。表演时，艺人们在白色幕布后面，一边操纵戏曲人物，一边用当地流行的曲调唱述故事（有时用方言），同时配以打击乐器和弦乐，有浓厚的乡土气息。在河南、山西、陕西、甘肃天水等地农村，这种拙朴的汉族民间艺术形式很受人们的欢迎。<br>“皮影”是对皮影戏和皮影戏人物（包括场面道具景物）制品的通用称谓。皮影戏是让观众通过白色幕布，观看一种平面人偶表演的灯影来达到艺术效果的戏剧形式；而皮影戏中的平面人偶以及场面景物，通常是民间艺人用手工，刀雕彩绘而成的皮制品，故称之为皮影。在过去还没有电影、电视的年代，皮影戏曾是十分受欢迎的民间娱乐活动之一。</p><h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有轮子（为什么呢？观察生活）<br>３．需要有前进、停止、的控制方法（不能手动）</p><h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、轮子、CPU、触碰开光、附件</p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>课程目标：<br>1.了解输入和输出的概念<br>2.分清输入设备和输出设备<br>3.自己设计并且完成线控机器人<br>的制作</p><p><img src="/2019/03/29/瓦力工厂/线控机器人/002.jpg" alt=""></p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2019/03/29/瓦力工厂/线控机器人/003.png" alt=""><br><img src="/2019/03/29/瓦力工厂/线控机器人/004.png" alt=""><br><img src="/2019/03/29/瓦力工厂/线控机器人/005.png" alt=""><br><img src="/2019/03/29/瓦力工厂/线控机器人/006.png" alt=""><br><img src="/2019/03/29/瓦力工厂/线控机器人/007.png" alt=""><br><img src="/2019/03/29/瓦力工厂/线控机器人/008.png" alt=""><br><img src="/2019/03/29/瓦力工厂/线控机器人/009.png" alt=""><br><img src="/2019/03/29/瓦力工厂/线控机器人/010.png" alt=""><br><img src="/2019/03/29/瓦力工厂/线控机器人/011.png" alt=""></p><h3 id="接力赛机器人程序设计："><a href="#接力赛机器人程序设计：" class="headerlink" title="接力赛机器人程序设计："></a>接力赛机器人程序设计：</h3><p><img src="/2019/03/29/瓦力工厂/线控机器人/012.png" alt=""><br>线控机器人已完成，有什么疑问，加老师微信进行咨询吧！<br><img src="/2019/03/29/瓦力工厂/线控机器人/瓦力.jpeg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="单片机第一年" scheme="http://yoursite.com/categories/%E5%8D%95%E7%89%87%E6%9C%BA%E7%AC%AC%E4%B8%80%E5%B9%B4/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>DPJ-016-道闸机器人</title>
+    <link href="http://yoursite.com/2019/03/29/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/DPJ-016-%E9%81%93%E9%97%B8%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
+    <id>http://yoursite.com/2019/03/29/瓦力工厂/DPJ-016-道闸机器人/</id>
+    <published>2019-03-29T01:58:22.437Z</published>
+    <updated>2019-03-29T01:58:22.437Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>小瓦力工程师爸爸的单位要改造进出的大门，要求有自动道闸系统，这项任务单位交给了小瓦力工程师的爸爸，可把爸爸急坏了。小瓦力工程师听说后，自告奋勇的对爸爸说，这事交给我，对于这样的问题，我们瓦力工程师只能说NO Problem！</p><p><img src="/2019/03/29/瓦力工厂/DPJ-016-道闸机器人/001.jpg" alt=""></p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>道闸控制板根据操作指令控制电机进行正向反转;电机带动减速机输入轴转动;减速机在减速输出轴并带动摇臂在后半周180º的上下转动;减速机摇臂通过下关节轴承、连杆、上关节轴承带动主轴驱动臂在后半周90º范围内作上下运动;主轴驱动臂驱动与主轴连接的闸杆在水平与垂直的90º范围内作升降运动。</p><p>ETC是不停车电子收费系统，ETC专用车道是给那些装了ETC车载器的车辆使用的，采用电子收费方式．<br>ETC( Electronic Toll Collection ) 不停车收费系统是目前世界上最先进的路桥收费方式。通过安装在车辆挡风玻璃上的车载电子标签与在收费站 ETC 车道上的微波天线之间的微波专用短程通讯，利用计算机联网技术与银行进行后台结算处理，从而达到车辆通过路桥收费站不需停车而能交纳路桥费的目的</p><p><img src="/2019/03/29/瓦力工厂/DPJ-016-道闸机器人/002.jpeg" alt=""></p><h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有抬起杆子的开关。<br>３．需要有需要有抬起杆子的指令。</p><h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、马达、CPU、触碰开关、附件</p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.了解道闸结构.<br>2.了解不停车电子收费系统.<br>3.自己设计并切完成道闸机器人的制作。</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2019/03/29/瓦力工厂/DPJ-016-道闸机器人/003.png" alt=""><br><img src="/2019/03/29/瓦力工厂/DPJ-016-道闸机器人/004.png" alt=""><br><img src="/2019/03/29/瓦力工厂/DPJ-016-道闸机器人/005.png" alt=""><br><img src="/2019/03/29/瓦力工厂/DPJ-016-道闸机器人/006.png" alt=""><br><img src="/2019/03/29/瓦力工厂/DPJ-016-道闸机器人/007.png" alt=""><br><img src="/2019/03/29/瓦力工厂/DPJ-016-道闸机器人/008.png" alt=""><br><img src="/2019/03/29/瓦力工厂/DPJ-016-道闸机器人/009.png" alt=""><br><img src="/2019/03/29/瓦力工厂/DPJ-016-道闸机器人/010.png" alt=""><br><img src="/2019/03/29/瓦力工厂/DPJ-016-道闸机器人/011.png" alt=""><br><img src="/2019/03/29/瓦力工厂/DPJ-016-道闸机器人/012.png" alt=""><br><img src="/2019/03/29/瓦力工厂/DPJ-016-道闸机器人/013.png" alt=""><br><img src="/2019/03/29/瓦力工厂/DPJ-016-道闸机器人/014.png" alt=""><br><img src="/2019/03/29/瓦力工厂/DPJ-016-道闸机器人/015.png" alt=""><br><img src="/2019/03/29/瓦力工厂/DPJ-016-道闸机器人/016.png" alt=""></p><h3 id="接力赛机器人程序设计："><a href="#接力赛机器人程序设计：" class="headerlink" title="接力赛机器人程序设计："></a>接力赛机器人程序设计：</h3><p><img src="/2019/03/29/瓦力工厂/DPJ-016-道闸机器人/017.png" alt=""><br>道闸机器人已完成，有什么疑问，加老师微信进行咨询吧！<br><img src="/2019/03/29/瓦力工厂/DPJ-016-道闸机器人/瓦力.jpeg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="单片机第一年" scheme="http://yoursite.com/categories/%E5%8D%95%E7%89%87%E6%9C%BA%E7%AC%AC%E4%B8%80%E5%B9%B4/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>DPJ-021感应机器人</title>
+    <link href="http://yoursite.com/2019/03/29/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/DPJ-021%E6%84%9F%E5%BA%94%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
+    <id>http://yoursite.com/2019/03/29/瓦力工厂/DPJ-021感应机器人/</id>
+    <published>2019-03-29T01:58:21.953Z</published>
+    <updated>2019-03-29T01:58:21.953Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>小瓦力来到一处神秘的宫殿，瓦力打开宫殿大门，刚走出一步，突然感到脚下的石头像一个开关一样咯地响了一声，然后抬头一看，一块石头从正上方掉了下来，看来有机关，危险。迅速后退。不能灵活躲避落石的机器人永远无法通过最后的机关，瓦力心里想到。怎么办呢？有了，用螳螂机器人带我过去。</p><p><img src="/2019/03/29/瓦力工厂/DPJ-021感应机器人/001.jpeg" alt=""></p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>螳螂是昆虫中体型偏大的，体长一般55到105毫米，非洲的螳螂是世界最<br>螳螂。大的，身体流线型，以绿色，褐色为主，也具有花斑的种类；标志性特征是有两把“大刀”，即前肢，上有一排坚硬的锯齿，大刀钩末端长有攀爬的吸盘。头部呈扇形，较小；复眼突出，大而透亮，以黄绿色为主，晚上在灯光下呈现黑色，单眼，在两眼之间有3个小点即单眼；触角细长；颈部可180度转动；咀嚼式口器，上颚强劲。前足腿节和胫节有利刺，胫节镰刀状，常向腿节折叠，形成可以捕捉猎物的前足；前翅轻柔，遮住身体全部为覆翅，后翅比前翅要薄，边缘透明色，中间成放射状的紫红色、伸展开呈现扇状，休息时收敛和前翅相合；腹部肥大。前足锋利发达善于捕捉，中、后足适于步行，但有时前足也会用来保持平衡，发育呈变态发育。</p><p> 红外避障传感器基本原理：利用物体的反射性质。在一定范围内，如果没有障碍物，发射出去的红外线，因为传播距离越远而逐渐减弱，最后消失。如果有障碍物，红外线遇到障碍物，被反射到达传感器接收头。传感器检测到这一信号，就可以确认正前方有障碍物，并送给单片机，单片机进行一系列的处理分析，协调小车两轮工作，完成一个漂亮的躲避障碍物动作。</p><h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有轮子（为什么呢？观察生活）<br>３．需要有前进、后退、转弯的控制方法（不能手动）</p><h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、马达、轮子、CPU、红外避障传感器、附件</p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>课程目标：<br>1.自然界的光线<br>2.红外传感器的原理<br>3．如果那么模块的使用</p><p><img src="/2019/03/29/瓦力工厂/DPJ-021感应机器人/002.jpeg" alt=""></p><p><img src="/2019/03/29/瓦力工厂/DPJ-021感应机器人/003.jpeg" alt=""></p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2019/03/29/瓦力工厂/DPJ-021感应机器人/004.png" alt=""><br><img src="/2019/03/29/瓦力工厂/DPJ-021感应机器人/005.png" alt=""><br><img src="/2019/03/29/瓦力工厂/DPJ-021感应机器人/006.png" alt=""><br><img src="/2019/03/29/瓦力工厂/DPJ-021感应机器人/007.png" alt=""><br><img src="/2019/03/29/瓦力工厂/DPJ-021感应机器人/008.png" alt=""><br><img src="/2019/03/29/瓦力工厂/DPJ-021感应机器人/009.png" alt=""><br><img src="/2019/03/29/瓦力工厂/DPJ-021感应机器人/010.png" alt=""></p><h3 id="接力赛机器人程序设计："><a href="#接力赛机器人程序设计：" class="headerlink" title="接力赛机器人程序设计："></a>接力赛机器人程序设计：</h3><p><img src="/2019/03/29/瓦力工厂/DPJ-021感应机器人/011.png" alt=""><br>感应机器人已完成，有什么疑问，加老师微信进行咨询吧！<br><img src="/2019/03/29/瓦力工厂/DPJ-021感应机器人/瓦力.jpeg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="单片机第一年" scheme="http://yoursite.com/categories/%E5%8D%95%E7%89%87%E6%9C%BA%E7%AC%AC%E4%B8%80%E5%B9%B4/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>DPJ-022-宠物狗</title>
+    <link href="http://yoursite.com/2019/03/29/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/DPJ-022-%E5%AE%A0%E7%89%A9%E7%8B%97/"/>
+    <id>http://yoursite.com/2019/03/29/瓦力工厂/DPJ-022-宠物狗/</id>
+    <published>2019-03-29T01:58:21.425Z</published>
+    <updated>2019-03-29T01:58:21.425Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>小瓦力认识一位老爷爷，老爷爷的子女出国工作去了，因此自己一个人在家里很寂寞，想让小瓦力送他一个宠物。小瓦力制作了一只可爱的宠物机器狗送给这位爷爷，陪伴他，让他不再那么寂寞。</p><p><img src="/2019/03/29/瓦力工厂/DPJ-022-宠物狗/001.png" alt=""></p><p><img src="/2019/03/29/瓦力工厂/DPJ-022-宠物狗/002.jpg" alt=""></p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>科学家认为狗是由早期人类从灰狼驯化而来，驯养时间在4万年前~1.5万年前，发展至今日。被称为“人类最忠实的朋友”，现如今是饲养率最高的宠物。其寿命约十多年。</p><p>红外避障传感器基本原理：利用物体的反射性质。在一定范围内，如果没有障碍物，发射出去的红外线，因为传播距离越远而逐渐减弱，最后消失。如果有障碍物，红外线遇到障碍物，被反射到达传感器接收头。传感器检测到这一信号，就可以确认正前方有障碍物，并送给单片机，单片机进行一系列的处理分析，协调小车两轮工作，完成一个漂亮的躲避障碍物动作。</p><h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有轮子（为什么呢？观察生活）<br>３．需要有前进、停止、转弯、后退的控制方法<br>5.需要有避障系统。</p><h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、轮子、CPU、蜂鸣器、LED灯、红外避障传感器。</p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.了解人类最忠实的朋友狗。<br>2.复习红外避障传感器的工作原理<br>3.搭建宠物狗造型避障小车。</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2019/03/29/瓦力工厂/DPJ-022-宠物狗/003.png" alt=""><br><img src="/2019/03/29/瓦力工厂/DPJ-022-宠物狗/004png" alt=""><br><img src="/2019/03/29/瓦力工厂/DPJ-022-宠物狗/005.png" alt=""><br><img src="/2019/03/29/瓦力工厂/DPJ-022-宠物狗/006.png" alt=""><br><img src="/2019/03/29/瓦力工厂/DPJ-022-宠物狗/007.png" alt=""><br><img src="/2019/03/29/瓦力工厂/DPJ-022-宠物狗/008.png" alt=""><br><img src="/2019/03/29/瓦力工厂/DPJ-022-宠物狗/009.png" alt=""><br><img src="/2019/03/29/瓦力工厂/DPJ-022-宠物狗/010png" alt=""><br><img src="/2019/03/29/瓦力工厂/DPJ-022-宠物狗/011.png" alt=""><br><img src="/2019/03/29/瓦力工厂/DPJ-022-宠物狗/012.png" alt=""></p><h3 id="避障机器人程序设计："><a href="#避障机器人程序设计：" class="headerlink" title="避障机器人程序设计："></a>避障机器人程序设计：</h3><p><img src="/2019/03/29/瓦力工厂/DPJ-022-宠物狗/013.png" alt=""><br>宠物狗完成了，有什么疑问，加老师微信进行咨询吧！<br><img src="/2019/03/29/瓦力工厂/DPJ-022-宠物狗/瓦力.jpeg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="单片机第一年" scheme="http://yoursite.com/categories/%E5%8D%95%E7%89%87%E6%9C%BA%E7%AC%AC%E4%B8%80%E5%B9%B4/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>DPJ-023-悬崖勒马机器人</title>
+    <link href="http://yoursite.com/2019/03/29/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/DPJ-023-%E6%82%AC%E5%B4%96%E5%8B%92%E9%A9%AC%E6%9C%BA%E5%99%A8%E4%BA%BA%20/"/>
+    <id>http://yoursite.com/2019/03/29/瓦力工厂/DPJ-023-悬崖勒马机器人 /</id>
+    <published>2019-03-29T01:58:20.889Z</published>
+    <updated>2019-03-29T01:58:20.889Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>小瓦力来到了一处崎岖的山路，本来有一座吊桥可以通过，但是吊桥断了，只能绕着盘旋的山路行走了。山路上有巨石路的两侧是悬崖，这样的路怎样才能通过呢？小瓦力灵机一动，制作了一个既可以躲避障碍又可以防止跌落悬崖的智能机器人载着小瓦力出发了。</p><p><img src="/2019/03/29/瓦力工厂/DPJ-023-悬崖勒马机器人 /001.png" alt=""></p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>“悬崖勒马”这句成语就是用来比喻人到了危险的边缘而及时回头。清代.纪昀的《阅微草堂笔记.卷八.如是我闻二》中也有一段故事，说到一位书生借宿在京城的云居寺。认识了同住的一个约十四五岁的童子，两个人非常要好。后来才知道这个童子是“杏花精”变的。虽然童子辩称“精”和“魅”不同，却无法不承认，他亲近书生是为了吸其精气，让自己化成人形。书生警觉到这和鬼魅没有不同，立即推开童子离去。所以纪昀称赞他说:“书生悬崖勒马，可谓大智慧矣。”意思就是说这位书生能警悟险境，及时回头，是具有很高的智慧啊!</p><h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有轮子（为什么呢？观察生活）<br>３．需要有前进、停止、转弯、后退的控制方法<br>4.需要有“悬崖检测”系统。</p><h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、轮子、CPU、蜂鸣器、LED灯、红外传感器。</p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.复习选择模块。<br>2.选择模块的嵌套使用。<br>3.红外传感器的不同搭建方式的应用。</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2019/03/29/瓦力工厂/DPJ-023-悬崖勒马机器人 /002.png" alt=""></p><p><img src="/2019/03/29/瓦力工厂/DPJ-023-悬崖勒马机器人 /003.png" alt=""></p><p><img src="/2019/03/29/瓦力工厂/DPJ-023-悬崖勒马机器人 /004.png" alt=""></p><p><img src="/2019/03/29/瓦力工厂/DPJ-023-悬崖勒马机器人 /005.png" alt=""></p><p><img src="/2019/03/29/瓦力工厂/DPJ-023-悬崖勒马机器人 /006.png" alt=""></p><p><img src="/2019/03/29/瓦力工厂/DPJ-023-悬崖勒马机器人 /007.png" alt=""></p><p><img src="/2019/03/29/瓦力工厂/DPJ-023-悬崖勒马机器人 /008.png" alt=""></p><h3 id="悬崖勒马机器人程序设计："><a href="#悬崖勒马机器人程序设计：" class="headerlink" title="悬崖勒马机器人程序设计："></a>悬崖勒马机器人程序设计：</h3><p><img src="/2019/03/29/瓦力工厂/DPJ-023-悬崖勒马机器人 /009.png" alt=""><br>悬崖勒马机器人完成了，有什么疑问，加老师微信进行咨询吧！<br><img src="/2019/03/29/瓦力工厂/DPJ-023-悬崖勒马机器人 /瓦力.jpeg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="单片机第一年" scheme="http://yoursite.com/categories/%E5%8D%95%E7%89%87%E6%9C%BA%E7%AC%AC%E4%B8%80%E5%B9%B4/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>DPJ-024-安检门机器人</title>
+    <link href="http://yoursite.com/2019/03/29/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/DPJ-024-%E5%AE%89%E6%A3%80%E9%97%A8%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
+    <id>http://yoursite.com/2019/03/29/瓦力工厂/DPJ-024-安检门机器人/</id>
+    <published>2019-03-29T01:58:20.333Z</published>
+    <updated>2019-03-29T01:58:20.333Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦力工厂要举办一场机器人大赛，门票卖出去了几千张，预计比赛当天会人山人海，瓦力工厂要求我们瓦力工程师为机器人大赛设计安检门系统，这种问题在我们瓦力工程师看来，当然是小菜一碟。</p><p><img src="/2019/03/29/瓦力工厂/DPJ-024-安检门机器人/001.png" alt=""></p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.了解地铁安检及作用。</p><p>2.搭建安检门。</p><p>3.红外传感器的编程逻辑。</p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>当我们上地铁的时候也要通过安检。然后刷卡通过闸机乘坐地铁。今天我们来制作一个既可以安检，又可以当做闸机的机器人。<br>闸机是一种通道阻挡装置。用于管理人流，并规范行人出入，主要应用于地铁闸机系统，收费检票。闸机系统起最基本，最核心的功能是实现一次只能通过一人，可以用于各种收费门禁场合的入口通道。</p><h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力</p><p>２．需要有通行检测系统</p><p>３．需要有开门、关门的控制方法</p><p>4 ．需要有通行提醒装置</p><h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、CPU、蜂鸣器、LED灯、红外传感器。</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2019/03/29/瓦力工厂/DPJ-024-安检门机器人/002.png" alt=""></p><p><img src="/2019/03/29/瓦力工厂/DPJ-024-安检门机器人/003.png" alt=""></p><p><img src="/2019/03/29/瓦力工厂/DPJ-024-安检门机器人/004.png" alt=""></p><p><img src="/2019/03/29/瓦力工厂/DPJ-024-安检门机器人/005.png" alt=""></p><p><img src="/2019/03/29/瓦力工厂/DPJ-024-安检门机器人/006.png" alt=""></p><h3 id="安检门机器人程序设计："><a href="#安检门机器人程序设计：" class="headerlink" title="安检门机器人程序设计："></a>安检门机器人程序设计：</h3><p><img src="/2019/03/29/瓦力工厂/DPJ-024-安检门机器人/007.png" alt=""></p><p><img src="/2019/03/29/瓦力工厂/DPJ-024-安检门机器人/008.png" alt=""></p><p><img src="/2019/03/29/瓦力工厂/DPJ-024-安检门机器人/009.png" alt=""></p><p>安检门机器人完成了，有什么疑问，加老师微信进行咨询吧！<br><img src="/2019/03/29/瓦力工厂/DPJ-024-安检门机器人/瓦力.jpeg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="单片机第一年" scheme="http://yoursite.com/categories/%E5%8D%95%E7%89%87%E6%9C%BA%E7%AC%AC%E4%B8%80%E5%B9%B4/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>DPJ-025-送餐机器人单巡线</title>
+    <link href="http://yoursite.com/2019/03/29/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/DPJ-025-%E9%80%81%E9%A4%90%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%8D%95%E5%B7%A1%E7%BA%BF/"/>
+    <id>http://yoursite.com/2019/03/29/瓦力工厂/DPJ-025-送餐机器人单巡线/</id>
+    <published>2019-03-29T01:58:19.737Z</published>
+    <updated>2019-03-29T01:58:19.737Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦力来到了一个特殊的餐厅，这里的服务员只有机器人。点菜、送餐、结账都是由机器人来完成，瓦力对送餐机器人很感兴趣，并发现了一个奇怪的方，每个送餐机器人的脚下都有一条黑线，他们会沿黑色的线行走。瓦力回家查阅资料才明白，原来是利用红外线巡线原理完成的，聪明的瓦力工程师们，让我们一起制作一个巡线机器人吧。</p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.单巡线机器人的原理。</p><p>2.单巡线机器人搭建时重心的稳定。</p><p>3.单巡线机器人的编程逻辑。</p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>随着科技的发展，已经有一些餐厅使用机器人送餐了。在餐厅营业期间，机器人脚底踩着轨道，手上稳稳端着托盘，沿着提前铺设好的环形轨道，面带微笑，端着酒水送着食物。客人可以在行走期间随意将食品拿到桌上，机器人也会沿着轨道继续前行。由于器人是根据设程序设定沿轨道前行，一旦有人出现在行驶路线上，红外感应器就会反应，机器人会自动停下，并语音提示，可以保证店内食客的安全。<br>红外传感器特性：<br>1.反射 ： 在有效范围内，红外线发射管发射的红外线可以被反射，接收管接收到信号。<br>2.吸收： 发射管发出的红外线遇到黑色物体时，会被吸收掉，没有返回信号。<br><img src="/2019/03/29/瓦力工厂/DPJ-025-送餐机器人单巡线/001.png" alt=""></p><h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力</p><p>２．需要有轮子。</p><p>３．需要有黑线的检测原件。</p><h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、CPU、轮子、蜂鸣器、LED灯、红外传感器。</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2019/03/29/瓦力工厂/DPJ-025-送餐机器人单巡线/002.png" alt=""></p><p><img src="/2019/03/29/瓦力工厂/DPJ-025-送餐机器人单巡线/003.png" alt=""></p><p><img src="/2019/03/29/瓦力工厂/DPJ-025-送餐机器人单巡线/004.png" alt=""></p><p><img src="/2019/03/29/瓦力工厂/DPJ-025-送餐机器人单巡线/005.png" alt=""></p><p><img src="/2019/03/29/瓦力工厂/DPJ-025-送餐机器人单巡线/006.png" alt=""></p><p><img src="/2019/03/29/瓦力工厂/DPJ-025-送餐机器人单巡线/007.png" alt=""></p><h3 id="送餐机器人程序设计："><a href="#送餐机器人程序设计：" class="headerlink" title="送餐机器人程序设计："></a>送餐机器人程序设计：</h3><p><img src="/2019/03/29/瓦力工厂/DPJ-025-送餐机器人单巡线/008.png" alt=""></p><p>送餐机器人完成了，有什么疑问，加老师微信进行咨询吧！<br><img src="/2019/03/29/瓦力工厂/DPJ-025-送餐机器人单巡线/瓦力.jpeg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="单片机第一年" scheme="http://yoursite.com/categories/%E5%8D%95%E7%89%87%E6%9C%BA%E7%AC%AC%E4%B8%80%E5%B9%B4/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>扫地机器人</title>
+    <link href="http://yoursite.com/2019/03/27/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/DPJ-051-%E6%89%AB%E5%9C%B0%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
+    <id>http://yoursite.com/2019/03/27/瓦力工厂/DPJ-051-扫地机器人/</id>
+    <published>2019-03-27T07:16:20.332Z</published>
+    <updated>2019-03-27T07:16:20.332Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>有一天瓦力放学回家，看妈妈在打扫卫生，特别辛苦，瓦理想，何不做一个扫地机器人帮妈妈分担家务呢？</p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>学习目标：<br>1.同时使用2个伺服马达2个伺服马达将线分别插在OUT1 OUT2，在编程时务必选择相对应端口。调好适当的角度。<br>2.利用前面学到的遥控器组合键完成清扫任务。<br>3.连杆结构完成任务。</p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力</p><p>２．需要有轮子。</p><p>３．需要有抬起放下手臂的执行原件。</p><h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、CPU、轮子、马达、伺服马达、遥控器。</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2019/03/27/瓦力工厂/DPJ-051-扫地机器人/002.png" alt=""></p><p><img src="/2019/03/27/瓦力工厂/DPJ-051-扫地机器人/003.png" alt=""></p><p><img src="/2019/03/27/瓦力工厂/DPJ-051-扫地机器人/004.png" alt=""></p><p><img src="/2019/03/27/瓦力工厂/DPJ-051-扫地机器人/005.png" alt=""></p><p><img src="/2019/03/27/瓦力工厂/DPJ-051-扫地机器人/006.png" alt=""></p><p><img src="/2019/03/27/瓦力工厂/DPJ-051-扫地机器人/007.png" alt=""></p><h3 id="扫地机器人程序设计："><a href="#扫地机器人程序设计：" class="headerlink" title="扫地机器人程序设计："></a>扫地机器人程序设计：</h3><p><img src="/2019/03/27/瓦力工厂/DPJ-051-扫地机器人/008.png" alt=""></p><p>扫地机器人完成了，有什么疑问，加老师微信进行咨询吧！<br><img src="/2019/03/27/瓦力工厂/DPJ-051-扫地机器人/瓦力.jpeg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="单片机第二年" scheme="http://yoursite.com/categories/%E5%8D%95%E7%89%87%E6%9C%BA%E7%AC%AC%E4%BA%8C%E5%B9%B4/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>DPJ-052-赛车机器人</title>
+    <link href="http://yoursite.com/2019/03/27/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/DPJ-052-%E8%B5%9B%E8%BD%A6%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
+    <id>http://yoursite.com/2019/03/27/瓦力工厂/DPJ-052-赛车机器人/</id>
+    <published>2019-03-27T07:16:18.652Z</published>
+    <updated>2019-03-27T07:16:18.652Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦力工在电视上看到F1（世界一级方程式锦标赛）感觉非常酷，于是瓦力决定邀请小朋友来制作赛车，来一场勇气与智慧的比拼吧。<a href="https://imgchr.com/i/FfZTFf" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfZTFf.png" alt="FfZTFf.png"></a></p><p><a href="https://imgchr.com/i/FfZITP" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfZITP.png" alt="FfZITP.png"></a></p><p><a href="https://imgchr.com/i/FfZ4eI" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfZ4eI.png" alt="FfZ4eI.png"></a></p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>　世界一级方程式锦标赛（FIA Formula 1 World Championship），简称F1，是由国际汽车运动联合会（FIA）举办的最高等级的年度系列场地赛车比赛，与奥运会、世界杯足球赛并称为“世界三大体育盛事”。世界首次汽车比赛赛事创办于1893年，比赛从巴黎到里昂，1950年国际汽联第一次举办了世界锦标赛。<br>世界一级方程式赛车锦标赛是当今世界最高水平的赛车比赛，年收视率高达600亿人次。F1比赛可以说是高科技、团队精神、车手智慧与勇气的集合体。F1是赛车中的顶级赛事，全年的统筹安排，每站比赛的赛事组织，车队工作，电视转播等各个方面都井井有条，F1世界已被整改得经非常健全。但同任何其他事物一样，F1也有它的起源、发展过程，而且在前进道路上也有不少曲折。</p><p><a href="https://imgchr.com/i/FfZ5wt" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfZ5wt.png" alt="FfZ5wt.png"></a></p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.了解F1赛事。<br>2.复合连杆结构的搭建。<br>3.能用遥控器控制赛车的转向。</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><a href="https://imgchr.com/i/FfZfOA" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfZfOA.png" alt="FfZfOA.png"></a></p><p><a href="https://imgchr.com/i/FfZHfS" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfZHfS.png" alt="FfZHfS.png"></a></p><p><a href="https://imgchr.com/i/FfZqSg" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfZqSg.png" alt="FfZqSg.png"></a></p><p><a href="https://imgchr.com/i/FfZ7Y8" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfZ7Y8.png" alt="FfZ7Y8.png"></a></p><p><a href="https://imgchr.com/i/FfZLlQ" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfZLlQ.png" alt="FfZLlQ.png"></a></p><p><a href="https://imgchr.com/i/FfZvmn" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfZvmn.png" alt="FfZvmn.png"></a></p><p><a href="https://imgchr.com/i/FfZOyj" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfZOyj.png" alt="FfZOyj.png"></a></p><p><a href="https://imgchr.com/i/FfZzT0" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfZzT0.png" alt="FfZzT0.png"></a></p><p><a href="https://imgchr.com/i/FfZXOs" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfZXOs.png" alt="FfZXOs.png"></a></p><p><a href="https://imgchr.com/i/FfepkV" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfepkV.png" alt="FfepkV.png"></a></p><p><a href="https://imgchr.com/i/Ffe9YT" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/Ffe9YT.png" alt="Ffe9YT.png"></a></p><h3 id="赛车机器人程序设计："><a href="#赛车机器人程序设计：" class="headerlink" title="赛车机器人程序设计："></a>赛车机器人程序设计：</h3><p><a href="https://imgchr.com/i/FfZxwq" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfZxwq.png" alt="FfZxwq.png"></a><br><a href="https://imgchr.com/i/FfeipF" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfeipF.png" alt="FfeipF.png"></a><br><a href="https://imgchr.com/i/FfeCfU" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/12/29/FfeCfU.png" alt="FfeCfU.png"></a></p><p>赛车机器人已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="单片机第二年" scheme="http://yoursite.com/categories/%E5%8D%95%E7%89%87%E6%9C%BA%E7%AC%AC%E4%BA%8C%E5%B9%B4/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1015. 星期几</title>
@@ -196,282 +472,6 @@
     </summary>
     
       <category term="CCF中学生计算机程序设计入门篇" scheme="http://yoursite.com/categories/CCF%E4%B8%AD%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8%E7%AF%87/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1007. 计算余数</title>
-    <link href="http://yoursite.com/2019/03/14/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/1007.%20%E8%AE%A1%E7%AE%97%E4%BD%99%E6%95%B0/"/>
-    <id>http://yoursite.com/2019/03/14/瓦力工厂/1007. 计算余数/</id>
-    <published>2019-03-14T06:43:07.095Z</published>
-    <updated>2019-03-14T06:43:07.095Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>计算两个双精度浮点数a和b相除的余数，a和b都是正数。这里余数（r）的定义是：a = k * b + r，其中 k是整数， 0 &lt;= r &lt; b。</p><p><a href="https://imgchr.com/i/AAGlBd" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAGlBd.png" alt="AAGlBd.png"></a></p><p><a href="https://imgchr.com/i/AAG1HA" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAG1HA.png" alt="AAG1HA.png"></a><br>猜数游戏已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="CCF中学生计算机程序设计入门篇" scheme="http://yoursite.com/categories/CCF%E4%B8%AD%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8%E7%AF%87/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1006. 捡石头</title>
-    <link href="http://yoursite.com/2019/03/14/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/1006.%20%E6%8D%A1%E7%9F%B3%E5%A4%B4/"/>
-    <id>http://yoursite.com/2019/03/14/瓦力工厂/1006. 捡石头/</id>
-    <published>2019-03-14T06:33:08.451Z</published>
-    <updated>2019-03-14T06:33:08.451Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>憨厚的老农夫昨天捡到了3块小石头，他想再去捡一个小石头,让这4个石头正好一共重20斤，请问他应该去捡一个多少斤的石头?</p><p><a href="https://imgchr.com/i/AA8VSS" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AA8VSS.png" alt="AA8VSS.png"></a></p><p><a href="https://imgchr.com/i/AA8ZQg" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AA8ZQg.png" alt="AA8ZQg.png"></a></p><p>捡石头已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="CCF中学生计算机程序设计入门篇" scheme="http://yoursite.com/categories/CCF%E4%B8%AD%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8%E7%AF%87/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1005. 存款收益</title>
-    <link href="http://yoursite.com/2019/03/14/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/1005.%20%E5%AD%98%E6%AC%BE%E6%94%B6%E7%9B%8A/"/>
-    <id>http://yoursite.com/2019/03/14/瓦力工厂/1005. 存款收益/</id>
-    <published>2019-03-14T06:22:30.547Z</published>
-    <updated>2019-03-14T06:22:13.407Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>按年利率R%存入本钱X，存入P年后的本利合计为Y=X*((100+R)/100)^P，求Y的值。</p><p><a href="https://imgchr.com/i/AA3i2F" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AA3i2F.png" alt="AA3i2F.png"></a></p><p><a href="https://imgchr.com/i/AA3P8U" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AA3P8U.png" alt="AA3P8U.png"></a></p><p>猜数游戏已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="CCF中学生计算机程序设计入门篇" scheme="http://yoursite.com/categories/CCF%E4%B8%AD%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8%E7%AF%87/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1004. 填充矩形</title>
-    <link href="http://yoursite.com/2019/03/14/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/1004.%20%E5%A1%AB%E5%85%85%E7%9F%A9%E5%BD%A2/"/>
-    <id>http://yoursite.com/2019/03/14/瓦力工厂/1004. 填充矩形/</id>
-    <published>2019-03-14T03:36:01.396Z</published>
-    <updated>2019-03-14T03:35:16.832Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>已知矩形的大小为n×m，现用a×a的正方形填充该矩形。输入三个正整数n,m,a（n,m,a≤10^9），计算至多能填入多少正方形？（正方形可以正好碰到矩形边界，但不能超出矩形外）</p><p><a href="https://imgchr.com/i/AAFX26" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAFX26.png" alt="AAFX26.png"></a></p><p><a href="https://imgchr.com/i/AAFjxK" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAFjxK.png" alt="AAFjxK.png"></a></p><p>填充矩形已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="CCF中学生计算机程序设计入门篇" scheme="http://yoursite.com/categories/CCF%E4%B8%AD%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8%E7%AF%87/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>猜数游戏</title>
-    <link href="http://yoursite.com/2019/03/14/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E7%8C%9C%E6%95%B0%E6%B8%B8%E6%88%8F6/"/>
-    <id>http://yoursite.com/2019/03/14/瓦力工厂/猜数游戏6/</id>
-    <published>2019-03-14T03:23:36.343Z</published>
-    <updated>2019-03-14T03:23:36.343Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>有一个“就是它”的猜数游戏，步骤如下：请你对任意输入的一个三位数x，在这三位数后重复一遍，得到一个六位数，467–&gt;467467.把这个数连续除以7、11、13，输出最后的商。</p><p><a href="https://imgchr.com/i/AAi9yD" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAi9yD.png" alt="AAi9yD.png"></a></p><p><a href="https://imgchr.com/i/AAiKOg" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAiKOg.png" alt="AAiKOg.png"></a></p><p>猜数游戏已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="CCF中学生计算机程序设计入门篇" scheme="http://yoursite.com/categories/CCF%E4%B8%AD%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8%E7%AF%87/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>猜数游戏</title>
-    <link href="http://yoursite.com/2019/03/14/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E7%8C%9C%E6%95%B0%E6%B8%B8%E6%88%8F/"/>
-    <id>http://yoursite.com/2019/03/14/瓦力工厂/猜数游戏/</id>
-    <published>2019-03-14T03:20:08.012Z</published>
-    <updated>2019-03-14T03:20:08.012Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>有一个“就是它”的猜数游戏，步骤如下：请你对任意输入的一个三位数x，在这三位数后重复一遍，得到一个六位数，467–&gt;467467.把这个数连续除以7、11、13，输出最后的商。</p><p><a href="https://imgchr.com/i/AAi9yD" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAi9yD.png" alt="AAi9yD.png"></a></p><p><a href="https://imgchr.com/i/AAiKOg" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAiKOg.png" alt="AAiKOg.png"></a></p><p>猜数游戏已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="CCF中学生计算机程序设计入门篇" scheme="http://yoursite.com/categories/CCF%E4%B8%AD%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8%E7%AF%87/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>三角形</title>
-    <link href="http://yoursite.com/2019/03/13/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E4%B8%89%E8%A7%92%E5%BD%A2/"/>
-    <id>http://yoursite.com/2019/03/13/瓦力工厂/三角形/</id>
-    <published>2019-03-13T11:03:10.648Z</published>
-    <updated>2019-03-13T11:03:10.648Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>输入三角形三边长a,b,c（保证能构成三角形），输出三角形面积。</p><p>海伦常用公式</p><p>$S=\sqrt {p(p-a)(p-b)(p-c)}$</p><p>[公式描述] 公式中a，b，c分别为三角形三边长，p为半周长，S为三角形的面积。</p><p><a href="https://imgchr.com/i/Ak1VIK" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/13/Ak1VIK.png" alt="Ak1VIK.png"></a></p><p><a href="https://imgchr.com/i/AkGRSS" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/13/AkGRSS.png" alt="AkGRSS.png"></a></p><p>三角形程序已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="CCF中学生计算机程序设计入门篇" scheme="http://yoursite.com/categories/CCF%E4%B8%AD%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8%E7%AF%87/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>温度转换</title>
-    <link href="http://yoursite.com/2019/03/13/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E6%B8%A9%E5%BA%A6%E8%BD%AC%E6%8D%A2/"/>
-    <id>http://yoursite.com/2019/03/13/瓦力工厂/温度转换/</id>
-    <published>2019-03-13T08:57:50.968Z</published>
-    <updated>2019-03-13T08:57:50.968Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>将输入的华氏温度转换为摄氏温度。由华氏温度F与摄氏温度C的转换公式为：F＝C×9/5＋32。</p><p><a href="https://imgchr.com/i/AkuJmV" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/13/AkuJmV.png" alt="AkuJmV.png"></a></p><p><a href="https://imgchr.com/i/AkmpnK" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/13/AkmpnK.png" alt="AkmpnK.png"></a></p><p>双翼战斗机机器人已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="CCF中学生计算机程序设计入门篇" scheme="http://yoursite.com/categories/CCF%E4%B8%AD%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8%E7%AF%87/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>双翼战斗机</title>
-    <link href="http://yoursite.com/2019/03/10/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E5%8F%8C%E7%BF%BC%E6%88%98%E6%96%97%E6%9C%BA/"/>
-    <id>http://yoursite.com/2019/03/10/瓦力工厂/双翼战斗机/</id>
-    <published>2019-03-10T10:15:32.047Z</published>
-    <updated>2019-03-10T10:15:32.047Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>特兄弟(Wright Brothers)是美国著名的科学家,哥哥是威尔伯·莱特,他们是美国<br>的发明家、飞机的制造者。1903年12月17日,莱特兄弟首次试飞了完全受控、依靠<br>自身动力、机身比空气重、持续滞空不落地的飞机,也就是“世界上第一架飞机”。<br>1878 年 6 月,圣诞节莱特兄弟的爸爸给他们带回了一个”蝴蝶“玩具,爸爸告诉他们,<br>这是飞螺旋,能在空中高高地飞去。“鸟才能飞呢!它怎么也会飞!”威尔伯有点<br>怀疑,爸爸当场做了表演。只见他先把上面的橡皮筋扭好,一松手,它就发出呜呜<br>的声音,向空中高高地飞去。兄弟这才相信,除了鸟、蝴蝶之外,人工制造的东西,<br>也可以飞上天。于是,弟兄俩便把它拆开了,想从中探索一下,它为何能飞上天去。<br>1903年12月17日,这天清晨,美国北卡罗莱纳州的基蒂霍克还在沉睡,天气寒冷,<br>刮着大风,空旷的沙滩上静静地停放着一个带着巨大双翼的怪家伙,这就是人类历<br>史上第一架飞机——“飞行者一号”。空旷的场地上冷冷清清,到现场观看的只有5<br>个人。</p><p><a href="https://imgchr.com/i/A9PFbV" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/10/A9PFbV.png" alt="A9PFbV.png"></a></p><h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、马达、CPU、LED灯、蜂鸣器、附件</p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.熟记器材、工具使用的技巧<br>2.马达与LED灯的混合使用<br>3.LED灯闪烁的编程使用方法</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><a href="https://imgchr.com/i/A9PAET" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/10/A9PAET.png" alt="A9PAET.png"></a></p><p><a href="https://imgchr.com/i/A9Pm8J" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/10/A9Pm8J.png" alt="A9Pm8J.png"></a></p><p><a href="https://imgchr.com/i/A9PeC4" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/10/A9PeC4.png" alt="A9PeC4.png"></a></p><p><a href="https://imgchr.com/i/A9PEUU" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/10/A9PEUU.png" alt="A9PEUU.png"></a></p><p><a href="https://imgchr.com/i/A9PV5F" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/10/A9PV5F.png" alt="A9PV5F.png"></a></p><p><a href="https://imgchr.com/i/A9PuvR" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/10/A9PuvR.png" alt="A9PuvR.png"></a></p><p><a href="https://imgchr.com/i/A9Pn29" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/10/A9Pn29.png" alt="A9Pn29.png"></a></p><p><a href="https://imgchr.com/i/A9PMK1" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/10/A9PMK1.png" alt="A9PMK1.png"></a></p><p><a href="https://imgchr.com/i/A9PG5D" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/10/A9PG5D.png" alt="A9PG5D.png"></a></p><p><a href="https://imgchr.com/i/A9P8UO" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/10/A9P8UO.png" alt="A9P8UO.png"></a></p><p><a href="https://imgchr.com/i/A9Plb6" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/10/A9Plb6.png" alt="A9Plb6.png"></a></p><p><a href="https://imgchr.com/i/A9PQDx" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/10/A9PQDx.png" alt="A9PQDx.png"></a></p><p><a href="https://imgchr.com/i/A9PN2d" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/10/A9PN2d.png" alt="A9PN2d.png"></a></p><p><a href="https://imgchr.com/i/A9PYPe" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/10/A9PYPe.png" alt="A9PYPe.png"></a></p><p><a href="https://imgchr.com/i/A9Pt8H" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/10/A9Pt8H.png" alt="A9Pt8H.png"></a></p><h3 id="双翼战斗机机器人程序设计："><a href="#双翼战斗机机器人程序设计：" class="headerlink" title="双翼战斗机机器人程序设计："></a>双翼战斗机机器人程序设计：</h3><p>1.程序开始<br>2.战斗机螺旋桨（马达）开始转动。<br>3.等待0.8秒，LED灯1、LED灯2亮起、蜂鸣器响起。<br>4.等待0.7秒，LED灯1、LED灯2关闭、蜂鸣器静默。<br>双翼战斗机机器人已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="单片机第一年" scheme="http://yoursite.com/categories/%E5%8D%95%E7%89%87%E6%9C%BA%E7%AC%AC%E4%B8%80%E5%B9%B4/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>汽车机器人</title>
-    <link href="http://yoursite.com/2019/03/06/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E6%B1%BD%E8%BD%A6%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
-    <id>http://yoursite.com/2019/03/06/瓦力工厂/汽车机器人/</id>
-    <published>2019-03-06T09:22:41.327Z</published>
-    <updated>2019-03-06T07:07:19.515Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>日前，特斯拉再次大幅下调了全系车型的价格，价格已经和比亚迪唐和蔚来汽车差不多了。作为科技感和体验感都属于第一梯队的特斯拉来说，降到这个价格，受打击最大的便是诸如蔚来、小鹏、威马等国产造车新势力。小瓦力当然不甘落后，也要制造出一辆闪光点十足的电动汽车出来，为中国智造争光。</p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>　电动汽车（BEV）是指以车载电源为动力，用电机驱动车轮行驶，符合道路交通、安全法规各项要求的车辆。其组成包括：电力驱动及控制系统、驱动力传动等机械系统、完成既定任务的工作装置等。由于对环境影响相对传统汽车较小，其前景被广泛看好，但当前技术尚不成熟。工作原理：蓄电池—电流—电力调节器—电动机—动力传动系统—驱动汽车行驶。</p><p><a href="https://imgchr.com/i/kvVaY4" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/06/kvVaY4.jpg" alt="kvVaY4.jpg"></a></p><h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、马达、CPU、LED灯、蜂鸣器、附件</p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.运用之前学习的知识搭建一个汽车机器人<br>2.掌握重心,机器人重量对于速度的影响,学习两轮驱动的编<br>程。<br>3.组织进行竞速比赛</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><a href="https://imgchr.com/i/kvVUkF" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/06/kvVUkF.png" alt="kvVUkF.png"></a></p><p><a href="https://imgchr.com/i/kvVym6" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/06/kvVym6.png" alt="kvVym6.png"></a><br><a href="https://imgchr.com/i/kvVYwT" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/06/kvVYwT.png" alt="kvVYwT.png"></a><br><a href="https://imgchr.com/i/kvVBlR" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/06/kvVBlR.png" alt="kvVBlR.png"></a><br><a href="https://imgchr.com/i/kvVdfJ" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/06/kvVdfJ.png" alt="kvVdfJ.png"></a><br><a href="https://imgchr.com/i/kvV0p9" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/06/kvV0p9.png" alt="kvV0p9.png"></a><br><a href="https://imgchr.com/i/kvVrOx" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/06/kvVrOx.png" alt="kvVrOx.png"></a><br><a href="https://imgchr.com/i/kvVD61" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/06/kvVD61.png" alt="kvVD61.png"></a><br><a href="https://imgchr.com/i/kvV60K" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/06/kvV60K.png" alt="kvV60K.png"></a><br><a href="https://imgchr.com/i/kvVRte" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/06/kvVRte.png" alt="kvVRte.png"></a><br><a href="https://imgchr.com/i/kvVcTO" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/06/kvVcTO.png" alt="kvVcTO.png"></a><br><a href="https://imgchr.com/i/kvV2kD" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/06/kvV2kD.png" alt="kvV2kD.png"></a><br><a href="https://imgchr.com/i/kvVWfH" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/06/kvVWfH.png" alt="kvVWfH.png"></a></p><h3 id="汽车机器人程序设计："><a href="#汽车机器人程序设计：" class="headerlink" title="汽车机器人程序设计："></a>汽车机器人程序设计：</h3><p><a href="https://imgchr.com/i/kvVhpd" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/06/kvVhpd.png" alt="kvVhpd.png"></a><br>汽车机器人已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="单片机第一年" scheme="http://yoursite.com/categories/%E5%8D%95%E7%89%87%E6%9C%BA%E7%AC%AC%E4%B8%80%E5%B9%B4/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Python零基础快速入门趣味教程007-条件循环</title>
-    <link href="http://yoursite.com/2019/02/01/%E6%8A%80%E6%9C%AF%E7%AD%89%E7%BA%A7%E8%80%83%E8%AF%95/Python%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%E8%B6%A3%E5%91%B3%E6%95%99%E7%A8%8B009-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
-    <id>http://yoursite.com/2019/02/01/技术等级考试/Python零基础快速入门趣味教程009-常用命令/</id>
-    <published>2019-02-01T01:53:56.942Z</published>
-    <updated>2019-02-01T01:53:56.942Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>turtle是python比较好用的画图模块，通过控制pen的移动，很方便实现画图功能。常用的函数如下表：</p><table><thead><tr><th>函数</th><th>功能</th></tr></thead><tbody><tr><td>turtle.setup(width=0.5, height=0.75, startx=None, starty=None)</td><td>参数：width, height:输入宽和高为整数时, 表示像素; 为小数时, 表示占据电脑屏幕的比例，(startx, starty): 这一坐标表示矩形窗口左上角顶点的位置, 如果为空,则窗口位于屏幕中心。</td></tr><tr><td>turtle.bgcolor(“black”)</td><td>设置画面背景色</td></tr><tr><td>turtle.bgpic(“xxx.gif”)</td><td>设置背景图片，只支持gif格式</td></tr><tr><td>turtle.bye()</td><td>退出turtle，无任何提示信息</td></tr><tr><td>turtle.exitonclick()</td><td>点击后退出turtle</td></tr><tr><td>turtle.done()</td><td>关闭turtle，一般在使用完turtle后添加，否则会无响应</td></tr><tr><td>turtle.pendown()</td><td>放下画笔</td></tr><tr><td>turtle.penup()</td><td>抬起画笔</td></tr><tr><td>turtle.pensize(int)</td><td>设置画笔宽度，值为整数型</td></tr><tr><td>turtle.forward(float)</td><td>画笔前进长度，以像素为单位</td></tr><tr><td>turtle.backward(float)</td><td>画笔后退长度，以像素为单位</td></tr><tr><td>turtle.right(angle)</td><td>将画笔右转指定的角度</td></tr><tr><td>turtle.left(angle)</td><td>将画笔左转指定的角度</td></tr><tr><td>turtle.goto(x,y)</td><td>将画笔移动到一个指定的绝对坐标</td></tr><tr><td>turtle.setx(x)</td><td>设置画笔向x方向移动的距离，值为实数</td></tr><tr><td>turtle.sety(y)</td><td>设置画笔向y方向移动的距离，值为实数</td></tr><tr><td>turtle.setheading(angle)</td><td>设定turtle箭头的方向为指定方向，0–东90—北</td></tr><tr><td>turtle.home()</td><td>将画笔返回到原点</td></tr><tr><td>turtle.circle(r,ext,steps=int)</td><td>绘制一个设置半径和阶数的圆(设置之后会绘制多边形)</td></tr><tr><td>turtle.dot(d,color)</td><td>绘制一个指定直径的圆点，颜色为字符串类型</td></tr><tr><td>turtle.undo()</td><td>取消最后一个图操作</td></tr><tr><td>turtle.speed(s)</td><td>设置画笔速度，为整数类型，且取值在1-10之间</td></tr><tr><td>turtle.color(‘str’)</td><td>设置画笔颜色，为字符串类型</td></tr><tr><td>turtle.fillcolor(‘str’)</td><td>设置填充颜色，为字符串类型</td></tr><tr><td>turtle.begin_fill()</td><td>开始填充</td></tr><tr><td>turtle.end_fill()                               结束填充</td></tr><tr><td>turtle.filling()</td><td>返回填充状态，True表示填充，False表示没有填充</td></tr><tr><td>turtle.clear()</td><td>清除窗口所有内容</td></tr><tr><td>turtle.reset()</td><td>清除窗口，将状态和位置复位为初始值</td></tr><tr><td>turtle.screensize(w,h)</td><td>设置turtle显示的大小，并设置宽度和高度</td></tr><tr><td>turtle.hideturtle()</td><td>隐藏turtle箭头</td></tr><tr><td>turtle.showturtle()</td><td>显示turtle窗口</td></tr><tr><td>turtle.done()</td><td>使turtle窗口不会自动消失</td></tr><tr><td>turtle.isvisible()</td><td></td><td>如果turtle可见，返回turtle</td></tr><tr><td>turtle.write(‘TTTTT’,font=(‘Arial’,8,’normal’))</td><td>在turtle位置编写字符串s，字体由字体名、字体大小、字体类型三部分组成</td></tr><tr><td>turtle.position()</td><td>获取画笔的坐标，返回一个元组，值为浮点型</td></tr></tbody></table>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="Python 入门" scheme="http://yoursite.com/categories/Python-%E5%85%A5%E9%97%A8/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>打地鼠简易</title>
-    <link href="http://yoursite.com/2019/01/30/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/Scratch-%E6%89%93%E5%9C%B0%E9%BC%A0%E7%AE%80%E6%98%93/"/>
-    <id>http://yoursite.com/2019/01/30/瓦力工厂/Scratch-打地鼠简易/</id>
-    <published>2019-01-30T06:21:22.528Z</published>
-    <updated>2019-01-30T06:21:22.528Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>打开：<a href="https://scratch.mit.edu/projects/editor/?tutorial=getStarted" target="_blank" rel="noopener">https://scratch.mit.edu/projects/editor/?tutorial=getStarted</a><br>打开 <a href="https://ide.makeblock.com" target="_blank" rel="noopener">https://ide.makeblock.com</a></p><p><img src="https://s2.ax1x.com/2019/01/30/klNpM6.png" alt="klNpM6.png"></p><p><img src="https://s2.ax1x.com/2019/01/30/klN9sK.png" alt="klN9sK.png"></p><p><img src="https://s2.ax1x.com/2019/01/30/klNCqO.png" alt="klNCqO.png"></p><p><img src="https://s2.ax1x.com/2019/01/30/klNiZD.png" alt="klNiZD.png"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="2019寒假班" scheme="http://yoursite.com/categories/2019%E5%AF%92%E5%81%87%E7%8F%AD/"/>
     
     
   </entry>
