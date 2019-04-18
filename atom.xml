@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-18T01:22:19.792Z</updated>
+  <updated>2019-04-18T01:40:26.401Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>猫抓老鼠</title>
+    <link href="http://yoursite.com/2019/04/18/Scratch%20%20%E5%B8%B8%E8%A7%84%E8%AF%BE/%E7%AC%AC%E5%85%AD%E8%AF%BE%20%E7%8C%AB%E6%8A%93%E8%80%81%E9%BC%A0/"/>
+    <id>http://yoursite.com/2019/04/18/Scratch  常规课/第六课 猫抓老鼠/</id>
+    <published>2019-04-18T01:40:26.401Z</published>
+    <updated>2019-04-18T01:40:26.401Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>打开：<a href="https://scratch.mit.edu/projects/editor/?tutorial=getStarted" target="_blank" rel="noopener">https://scratch.mit.edu/projects/editor/?tutorial=getStarted</a><br>打开 <a href="https://ide.makeblock.com" target="_blank" rel="noopener">https://ide.makeblock.com</a></p><iframe height="498" width="510" src="http://player.youku.com/embed/XMjY0NzQ4OTUyOA==" frameborder="0" 'allowfullscreen'=""></iframe><p>猫抓老鼠已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="Scratch 常规课" scheme="http://yoursite.com/categories/Scratch-%E5%B8%B8%E8%A7%84%E8%AF%BE/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>幸运大转盘</title>
@@ -132,13 +155,13 @@
   </entry>
   
   <entry>
-    <title>三角形</title>
-    <link href="http://yoursite.com/2019/03/29/NOIP%20Scratch/%E4%B8%89%E8%A7%92%E5%BD%A2/"/>
-    <id>http://yoursite.com/2019/03/29/NOIP Scratch/三角形/</id>
+    <title>分配任务</title>
+    <link href="http://yoursite.com/2019/03/29/NOIP%20Scratch/%E5%88%86%E9%85%8D%E4%BB%BB%E5%8A%A1/"/>
+    <id>http://yoursite.com/2019/03/29/NOIP Scratch/分配任务/</id>
     <published>2019-03-29T07:43:13.761Z</published>
-    <updated>2019-03-13T11:03:10.648Z</updated>
+    <updated>2019-03-14T07:12:16.035Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>输入三角形三边长a,b,c（保证能构成三角形），输出三角形面积。</p><p>海伦常用公式</p><p>$S=\sqrt {p(p-a)(p-b)(p-c)}$</p><p>[公式描述] 公式中a，b，c分别为三角形三边长，p为半周长，S为三角形的面积。</p><p><a href="https://imgchr.com/i/Ak1VIK" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/13/Ak1VIK.png" alt="Ak1VIK.png"></a></p><p><a href="https://imgchr.com/i/AkGRSS" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/13/AkGRSS.png" alt="AkGRSS.png"></a></p><p>三角形程序已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>在社会实践活动中有三项任务分别是：种树、采茶、送水。依据小组人数及男生、女生人数决定小组的接受任务，人数小于10人的小组负责送水（输出water），人数大于等于10人且男生多于女生的小组负责种树（输出tree），人数大于等于10人且男生不多于女生的小组负责采茶（输出tea）。输入小组男生人数、女生人数，输出小组接受的任务。</p><p><a href="https://imgchr.com/i/AAi9yD" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAi9yD.png" alt="AAi9yD.png"></a></p><p><a href="https://imgchr.com/i/AAiKOg" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAiKOg.png" alt="AAiKOg.png"></a></p><p>猜数游戏已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
     
     <summary type="html">
     
@@ -155,13 +178,13 @@
   </entry>
   
   <entry>
-    <title>分配任务</title>
-    <link href="http://yoursite.com/2019/03/29/NOIP%20Scratch/%E5%88%86%E9%85%8D%E4%BB%BB%E5%8A%A1/"/>
-    <id>http://yoursite.com/2019/03/29/NOIP Scratch/分配任务/</id>
+    <title>三角形</title>
+    <link href="http://yoursite.com/2019/03/29/NOIP%20Scratch/%E4%B8%89%E8%A7%92%E5%BD%A2/"/>
+    <id>http://yoursite.com/2019/03/29/NOIP Scratch/三角形/</id>
     <published>2019-03-29T07:43:13.761Z</published>
-    <updated>2019-03-14T07:12:16.035Z</updated>
+    <updated>2019-03-13T11:03:10.648Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>在社会实践活动中有三项任务分别是：种树、采茶、送水。依据小组人数及男生、女生人数决定小组的接受任务，人数小于10人的小组负责送水（输出water），人数大于等于10人且男生多于女生的小组负责种树（输出tree），人数大于等于10人且男生不多于女生的小组负责采茶（输出tea）。输入小组男生人数、女生人数，输出小组接受的任务。</p><p><a href="https://imgchr.com/i/AAi9yD" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAi9yD.png" alt="AAi9yD.png"></a></p><p><a href="https://imgchr.com/i/AAiKOg" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAiKOg.png" alt="AAiKOg.png"></a></p><p>猜数游戏已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>输入三角形三边长a,b,c（保证能构成三角形），输出三角形面积。</p><p>海伦常用公式</p><p>$S=\sqrt {p(p-a)(p-b)(p-c)}$</p><p>[公式描述] 公式中a，b，c分别为三角形三边长，p为半周长，S为三角形的面积。</p><p><a href="https://imgchr.com/i/Ak1VIK" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/13/Ak1VIK.png" alt="Ak1VIK.png"></a></p><p><a href="https://imgchr.com/i/AkGRSS" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/13/AkGRSS.png" alt="AkGRSS.png"></a></p><p>三角形程序已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
     
     <summary type="html">
     
@@ -247,29 +270,6 @@
   </entry>
   
   <entry>
-    <title>1013. 识别三角形</title>
-    <link href="http://yoursite.com/2019/03/29/NOIP%20Scratch/1013.%20%E8%AF%86%E5%88%AB%E4%B8%89%E8%A7%92%E5%BD%A2/"/>
-    <id>http://yoursite.com/2019/03/29/NOIP Scratch/1013. 识别三角形/</id>
-    <published>2019-03-29T07:40:59.483Z</published>
-    <updated>2019-03-15T03:00:38.901Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>输入三个正整数，判断能否构成三角形的三边，如果不能，输出“NO”。如果能构成三角形，判断构成什么三角形？按等边、直角、一般三角形分类，依次输出对应的三角形类型“Equilateral”、“Right”、“General”。</p><p><a href="https://imgchr.com/i/AEJG0H" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/15/AEJG0H.png" alt="AEJG0H.png"></a></p><p><a href="https://imgchr.com/i/AEJJ7d" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/15/AEJJ7d.png" alt="AEJJ7d.png"></a></p><p>正方形已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="CCF中学生计算机程序设计入门篇" scheme="http://yoursite.com/categories/CCF%E4%B8%AD%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8%E7%AF%87/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>1014. 写评语</title>
     <link href="http://yoursite.com/2019/03/29/NOIP%20Scratch/1014.%20%E5%86%99%E8%AF%84%E8%AF%AD/"/>
     <id>http://yoursite.com/2019/03/29/NOIP Scratch/1014. 写评语/</id>
@@ -316,36 +316,13 @@
   </entry>
   
   <entry>
-    <title>1007. 计算余数</title>
-    <link href="http://yoursite.com/2019/03/29/NOIP%20Scratch/1007.%20%E8%AE%A1%E7%AE%97%E4%BD%99%E6%95%B0/"/>
-    <id>http://yoursite.com/2019/03/29/NOIP Scratch/1007. 计算余数/</id>
-    <published>2019-03-29T07:40:59.479Z</published>
-    <updated>2019-03-14T06:43:07.095Z</updated>
+    <title>1013. 识别三角形</title>
+    <link href="http://yoursite.com/2019/03/29/NOIP%20Scratch/1013.%20%E8%AF%86%E5%88%AB%E4%B8%89%E8%A7%92%E5%BD%A2/"/>
+    <id>http://yoursite.com/2019/03/29/NOIP Scratch/1013. 识别三角形/</id>
+    <published>2019-03-29T07:40:59.483Z</published>
+    <updated>2019-03-15T03:00:38.901Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>计算两个双精度浮点数a和b相除的余数，a和b都是正数。这里余数（r）的定义是：a = k * b + r，其中 k是整数， 0 &lt;= r &lt; b。</p><p><a href="https://imgchr.com/i/AAGlBd" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAGlBd.png" alt="AAGlBd.png"></a></p><p><a href="https://imgchr.com/i/AAG1HA" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAG1HA.png" alt="AAG1HA.png"></a><br>猜数游戏已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="CCF中学生计算机程序设计入门篇" scheme="http://yoursite.com/categories/CCF%E4%B8%AD%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8%E7%AF%87/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1011. 正方形</title>
-    <link href="http://yoursite.com/2019/03/29/NOIP%20Scratch/1011.%20%E6%AD%A3%E6%96%B9%E5%BD%A2/"/>
-    <id>http://yoursite.com/2019/03/29/NOIP Scratch/1011. 正方形/</id>
-    <published>2019-03-29T07:40:59.479Z</published>
-    <updated>2019-03-15T02:05:53.666Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>有一个正方形，四个角的坐标分别是（1，-1），（1，1），（-1，-1），（-1，1）。写一个程序，判断一个给定的点（x,y）是否在这个正方形内（包括正方形边界），如果在正方形内输出“Yes”，否则输出“No”。</p><p><a href="https://imgchr.com/i/AE1TYV" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/15/AE1TYV.png" alt="AE1TYV.png"></a></p><p><a href="https://imgchr.com/i/AE17WT" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/15/AE17WT.png" alt="AE17WT.png"></a></p><p>正方形已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>输入三个正整数，判断能否构成三角形的三边，如果不能，输出“NO”。如果能构成三角形，判断构成什么三角形？按等边、直角、一般三角形分类，依次输出对应的三角形类型“Equilateral”、“Right”、“General”。</p><p><a href="https://imgchr.com/i/AEJG0H" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/15/AEJG0H.png" alt="AEJG0H.png"></a></p><p><a href="https://imgchr.com/i/AEJJ7d" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/15/AEJJ7d.png" alt="AEJJ7d.png"></a></p><p>正方形已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
     
     <summary type="html">
     
@@ -385,6 +362,29 @@
   </entry>
   
   <entry>
+    <title>1011. 正方形</title>
+    <link href="http://yoursite.com/2019/03/29/NOIP%20Scratch/1011.%20%E6%AD%A3%E6%96%B9%E5%BD%A2/"/>
+    <id>http://yoursite.com/2019/03/29/NOIP Scratch/1011. 正方形/</id>
+    <published>2019-03-29T07:40:59.479Z</published>
+    <updated>2019-03-15T02:05:53.666Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>有一个正方形，四个角的坐标分别是（1，-1），（1，1），（-1，-1），（-1，1）。写一个程序，判断一个给定的点（x,y）是否在这个正方形内（包括正方形边界），如果在正方形内输出“Yes”，否则输出“No”。</p><p><a href="https://imgchr.com/i/AE1TYV" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/15/AE1TYV.png" alt="AE1TYV.png"></a></p><p><a href="https://imgchr.com/i/AE17WT" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/15/AE17WT.png" alt="AE17WT.png"></a></p><p>正方形已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="CCF中学生计算机程序设计入门篇" scheme="http://yoursite.com/categories/CCF%E4%B8%AD%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8%E7%AF%87/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>1010. 邮寄包裹</title>
     <link href="http://yoursite.com/2019/03/29/NOIP%20Scratch/1010.%20%E9%82%AE%E5%AF%84%E5%8C%85%E8%A3%B9/"/>
     <id>http://yoursite.com/2019/03/29/NOIP Scratch/1010. 邮寄包裹/</id>
@@ -408,13 +408,13 @@
   </entry>
   
   <entry>
-    <title>1004. 填充矩形</title>
-    <link href="http://yoursite.com/2019/03/29/NOIP%20Scratch/1004.%20%E5%A1%AB%E5%85%85%E7%9F%A9%E5%BD%A2/"/>
-    <id>http://yoursite.com/2019/03/29/NOIP Scratch/1004. 填充矩形/</id>
-    <published>2019-03-29T07:40:59.475Z</published>
-    <updated>2019-03-14T03:35:16.832Z</updated>
+    <title>1007. 计算余数</title>
+    <link href="http://yoursite.com/2019/03/29/NOIP%20Scratch/1007.%20%E8%AE%A1%E7%AE%97%E4%BD%99%E6%95%B0/"/>
+    <id>http://yoursite.com/2019/03/29/NOIP Scratch/1007. 计算余数/</id>
+    <published>2019-03-29T07:40:59.479Z</published>
+    <updated>2019-03-14T06:43:07.095Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>已知矩形的大小为n×m，现用a×a的正方形填充该矩形。输入三个正整数n,m,a（n,m,a≤10^9），计算至多能填入多少正方形？（正方形可以正好碰到矩形边界，但不能超出矩形外）</p><p><a href="https://imgchr.com/i/AAFX26" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAFX26.png" alt="AAFX26.png"></a></p><p><a href="https://imgchr.com/i/AAFjxK" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAFjxK.png" alt="AAFjxK.png"></a></p><p>填充矩形已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>计算两个双精度浮点数a和b相除的余数，a和b都是正数。这里余数（r）的定义是：a = k * b + r，其中 k是整数， 0 &lt;= r &lt; b。</p><p><a href="https://imgchr.com/i/AAGlBd" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAGlBd.png" alt="AAGlBd.png"></a></p><p><a href="https://imgchr.com/i/AAG1HA" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAG1HA.png" alt="AAG1HA.png"></a><br>猜数游戏已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
     
     <summary type="html">
     
@@ -454,13 +454,13 @@
   </entry>
   
   <entry>
-    <title>13 岁编程！少年比尔·盖茨如何成为最成功的自学成才程序员？</title>
-    <link href="http://yoursite.com/2019/03/29/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/13%20%E5%B2%81%E7%BC%96%E7%A8%8B%EF%BC%81%E5%B0%91%E5%B9%B4%E6%AF%94%E5%B0%94%C2%B7%E7%9B%96%E8%8C%A8%E5%A6%82%E4%BD%95%E6%88%90%E4%B8%BA%E6%9C%80%E6%88%90%E5%8A%9F%E7%9A%84%E8%87%AA%E5%AD%A6%E6%88%90%E6%89%8D%E7%A8%8B%E5%BA%8F%E5%91%98%EF%BC%9F/"/>
-    <id>http://yoursite.com/2019/03/29/瓦力工厂/13 岁编程！少年比尔·盖茨如何成为最成功的自学成才程序员？/</id>
-    <published>2019-03-29T02:17:38.842Z</published>
-    <updated>2019-03-29T02:17:25.782Z</updated>
+    <title>1004. 填充矩形</title>
+    <link href="http://yoursite.com/2019/03/29/NOIP%20Scratch/1004.%20%E5%A1%AB%E5%85%85%E7%9F%A9%E5%BD%A2/"/>
+    <id>http://yoursite.com/2019/03/29/NOIP Scratch/1004. 填充矩形/</id>
+    <published>2019-03-29T07:40:59.475Z</published>
+    <updated>2019-03-14T03:35:16.832Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr><p>自1987年以来，比尔·盖茨首次出现在福布斯全球富豪榜上，就开始了他的辉煌时代。科技上，他建立起了微软这个庞大的科技帝国；慈善上，他捐赠了数十亿美元用于全球健康项目——毋庸置疑，比尔·盖茨绝对是全球最受尊重的偶像之一。</p><p>而这位出生于1955年的首富，少年时就对编程有着极为浓厚的兴趣，也正是这种“自学成才”的精神，助他一步步走上人生的巅峰。</p><p>比尔·盖茨是当今世界上最富有的人之一。作为微软的联合创始人，盖茨建立起了一个庞大的科技帝国。作为比尔和梅琳达·盖茨基金会的联合创始人，他捐赠了数十亿美元。但是，比尔·盖茨在创立微软之前是个怎样的人呢？</p><p>比尔·盖茨在年轻的时候是一个勇于挑战和打破现有规则的人。这一点，也许是他能成为历史上最成功的自学成才的程序员的原因之一。</p><p>在他11岁的时候，比尔·盖茨变得爱和人争论并且沉默寡言。他的父母，威廉和玛丽·盖茨，认为他们的儿子在学校可能让人讨厌，没有朋友，因而十分担心。比尔·盖茨在家也拒绝做家务，并且和母亲争吵。盖茨曾经对他的一位顾问说过：“在那个时候，我和我的父母就谁应该拥有控制权而斗争。”</p><p>对控制权的争取和对现有规则的蔑视，对比尔·盖茨的发展提供了积极的引导作用，把他从一个郁郁寡欢的孩子变成了一个自学成才的青年程序员。所有的这一切，都是从盖茨的父母让他在西雅图的莱克赛德学校（Lakeside）上学的时候开始的。</p><p>这所预备学校是全国最早拥有计算机的学校之一。正如比尔·盖茨后来解释的那样，“我13岁的时候就喜欢上了编程。那个时候，我所在的学校刚刚成为全国第一批拥有计算机终端的学校之一。这台机器又大又慢，甚至连屏幕都没有，但是，我还是被它吸引住了。”</p><p>在1968年，盖茨和他的朋友们每天都在电脑上花上几个小时，来学习电脑的编程语言：BASIC或初学者通用的符号指令代码。很快，盖茨就可以自己编程。</p><p>盖茨第一次的编程实践是和一个流行的游戏相关。盖茨说：“我13岁的时候，写了我的第一个软件程序。这是为了玩井字游戏进行的开发。当时，我用的电脑虽然又大又笨重，而且速度又很慢，但是它绝对引人注目。”</p><p>当比尔?盖茨在20世纪60年代开始自学编程时，那个时代的计算机和我们今天看到的大不相同。盖茨回忆说，“当时的计算机终端没有屏幕。为了玩，我们在打字机式的键盘上输入我们的动作。”在井字游戏中，进入每一步之后，玩家都必须等待计算机打印出他们的动作。</p><p>盖茨开发这个程序的时候，没有太在意效率。“使用铅笔和纸张玩一个井字游戏需要30秒的时间，这可能会占用大部分午餐时间，但是没有人在乎。当时，在机器上，我们也只有这些东西可玩。”</p><p>在莱克赛德学校，比尔·盖茨在计算机房遇到了比他大两岁的学生保罗?艾伦。他们很快学会了以系统操作员的身份登录到计算机系统，从而避免了使用机器的时间限制。当他们暂时无法访问莱克赛德学校的计算机的时候，他们就假冒大学生，去华盛顿大学。</p><p>当比尔·盖茨假冒大学生来使用那些功能强大的计算机的时候，他才十几岁。与艾伦一起，盖茨使用了CDC6400和Burroughs5500，这两种机器需要使用包含运行程序代码的穿孔卡片。</p><p>盖茨在读高中的时候，就利用他的编程能力进行商业运作。他使用另一种编程语言Fortran创建名为Traf-O-Data的一家公司。保罗·艾伦解释说：“如果不是因为我们在traf-0-data所作的尝试，微软可能就不会出现。”</p><p>Traf-O-Data公司主要开发统计西雅图交通量的计算机系统。当他们通过Traf-O-Data公司赚到2万美元的时候，艾伦和盖茨还都只是十几岁的孩子。虽然他们的公司最终破产了，但它也给盖茨宝贵的经验教训，比如将编程和商机进行结合所能创造的价值。</p><p>在莱克赛德学校学习的这些年，盖茨曾经多次潜入华盛顿大学校园，偷偷访问他们不同地点的计算机系统。他和艾伦听说物理大楼的PDP-10每天凌晨都可以使用几个小时，盖茨后来说,“一位朋友有物理大楼的钥匙，所以我们偷偷地去了很多次。”</p><p>后来，他去了哈佛大学并且在学习不到两年后就退学。这时，盖茨已经拥有丰富的编程经验。他创立了一家公司，他为政府机构编写代码，并且他自学了很多编程语言。正如盖茨后来所说，“自我探索是伟大的，因为你培养了一种自信心。”</p><p>编程给了盖茨方向。“如果你的程序错了，尝试之后你就知道。如果程序不能工作，你就会解决问题，然后再一次进行尝试。”</p><p>在很小的时候，盖茨就开始尝试控制计算机。盖茨以成人的身份解释说，他对计算机很着迷，因为计算机给了他一种孩提时代的控制感。“我们太小了，不能开车，也不能做大人可以玩的其他事情，但是我们可以给这台大机器下订单，它会一直服从的。”</p><p>比尔·盖茨知道什么时候该改变规则，什么时候该遵守规则。他从小就重视自我探索。后来，这种推动的意愿帮助微软取得了成功。</p><p>我们能从比尔·盖茨的青年时代学到什么？</p><p>学习什么时候可以改变规则。比尔·盖茨可能偷偷溜进了大学的计算机实验室，但他这样做是有原因的。盖茨无法正常使用华盛顿大学的高级计算机,但盖茨想办法得到了他想要的。正如他解释的那样，“那里的人们给了我们很多帮助。他们借给我们手册和让我们能从垃圾箱中找到操作系统清单。”</p><p>保持前进的动力并不断进行探索。当比尔?盖茨的第一家公司Traf-o-data倒闭时，他并没有放弃。当他在1977年因交通违规被捕时，他也没有放弃。他一直致力于实现让数百万人使用计算机的目标 - 他成功了。 比尔?盖茨在创建微软之前是谁？他是一个自学成才的程序员，他利用自己的技能实现自己的目标。</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>已知矩形的大小为n×m，现用a×a的正方形填充该矩形。输入三个正整数n,m,a（n,m,a≤10^9），计算至多能填入多少正方形？（正方形可以正好碰到矩形边界，但不能超出矩形外）</p><p><a href="https://imgchr.com/i/AAFX26" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAFX26.png" alt="AAFX26.png"></a></p><p><a href="https://imgchr.com/i/AAFjxK" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAFjxK.png" alt="AAFjxK.png"></a></p><p>填充矩形已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
     
     <summary type="html">
     
@@ -471,7 +471,7 @@
     
     </summary>
     
-      <category term="Scratch 入门" scheme="http://yoursite.com/categories/Scratch-%E5%85%A5%E9%97%A8/"/>
+      <category term="CCF中学生计算机程序设计入门篇" scheme="http://yoursite.com/categories/CCF%E4%B8%AD%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8%E7%AF%87/"/>
     
     
   </entry>
