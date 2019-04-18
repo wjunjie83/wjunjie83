@@ -357,6 +357,181 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程001/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程001/" class="post-title-link" itemprop="http://yoursite.com/page/9/index.html">Python零基础快速入门趣味教程001-神秘朋友</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-12-24 23:42:38" itemprop="dateCreated datePublished" datetime="2018-12-24T23:42:38+08:00">2018-12-24</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Python-入门/" itemprop="url" rel="index"><span itemprop="name">Python 入门</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>Python  自带了一个非常有趣的 海龟绘图程序 (turtle)，它是本系列课程的主角。</p>
+<p>在 终端中输入中，新建一个项目，然后在代码编辑器中输入anaconda-navigator，启动anaconda平台，在平台上点击jupyter打开jupyter-notebooks。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line">turtle.shape(&quot;turtle&quot;)</span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+<p>点击 Shift+Enter 运行这段代码，便可以召唤出这位可爱的小精灵,上面的代码中 import turtle  用于导入模块，导入之后就可以应用模块的各种功能了turtle.shape(“turtle”) 调用 turtle 的 shape 方法，用于改变海龟的显示方式（默认显示的是一个三角形的小箭头）。执行这句代码之后，turtle 显示为一只形象的小海龟。turtle.exitonclick() 最后这句是告诉海龟保持住，直到遇到鼠标点击的时候才退出 (exit on click)。不然程序执行得太快，我们还来不及看到海龟，它就已经执行完毕并退出了。</p>
+<p><img src="/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程001/001.png" alt=""></p>
+<h3 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h3><p>请不要直接复制、粘贴代码，而是要对照着代码，自己在代码编辑器中一点一点地输入<br>Python 是大小写敏感的编程语言，输入代码时，请务必细心，注意字母大小写<br>Python 相比其他高级编程语言的一个特别之处，在于强制使用缩进，请不要在每行代码的开头随意添加空白字符（空格、Tab 键等）</p>
+<p>现在小海龟位于窗体的正中央，龟头指向右边的方向。</p>
+<p>接下来，我们尝试让海龟走两步。</p>
+<p>关闭窗口（或点击窗体任何位置自动退出），将编辑器中的代码，更改为下面的样子</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line">turtle.shape(&quot;turtle&quot;)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+<p>我们看到小海龟从屏幕中心出发，沿着龟头的方向（右边），爬行（前进）了一段距离。</p>
+<p>这次的代码，跟最开始的代码并没有太多的不同，只增加了 1 条语句 turtle.forward(200) 它的意思就是让海龟沿着当前龟头的指向，前进 200 个单位的距离。<br><img src="/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程001/002.png" alt=""><br>刚才我们已经学会了如何让海龟爬行，接着我们再来看如何让海龟转身。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line">turtle.shape(&quot;turtle&quot;)</span><br><span class="line">turtle.left(45)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+<p>这一次，在海龟出发之前（位于窗体正中央，龟头向右），我们先通过 turtle.left(45) 让海龟向左（逆时针）旋转 45 度。此时，海龟仍然位于窗体正中央，但龟头指向屏幕右上方。接着，再让海龟沿着更改后的龟头方向爬行，turtle.forward(200) ，于是就就画出了指向屏幕右上方的一条线段。</p>
+<p><img src="/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程001/003.png" alt=""></p>
+<h3 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h3><p><img src="/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程001/004.png" alt=""></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line">turtle.shape(&quot;turtle&quot;)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+<p><img src="/2018/12/24/瓦力工厂/Python零基础快速入门趣味教程001/005.png" alt=""></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line">turtle.shape(&quot;turtle&quot;)</span><br><span class="line">turtle.left(15)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(105)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(120)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.forward(200)</span><br><span class="line">turtle.left(90)</span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+<iframe height="498" width="510" src="https://player.youku.com/embed/XMzk3OTYzMjkwOA==" frameborder="0" 'allowfullscreen'=""></iframe>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/fullstack-react-native/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -464,488 +639,6 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line">import React from &apos;react&apos;;</span><br><span class="line">import &#123; StyleSheet, TextInput, View &#125; from &apos;react-native&apos;;</span><br><span class="line">export default class SearchInput extends React.Component &#123;</span><br><span class="line">render() &#123;</span><br><span class="line">return (</span><br><span class="line">&lt;View style=&#123;styles.container&#125;&gt;</span><br><span class="line">&lt;TextInput</span><br><span class="line">autoCorrect=&#123;false&#125;</span><br><span class="line">placeholder=&#123;this.props.placeholder&#125;</span><br><span class="line">placeholderTextColor=&quot;white&quot;</span><br><span class="line">underlineColorAndroid=&quot;transparent&quot;</span><br><span class="line">style=&#123;styles.textInput&#125;</span><br><span class="line">clearButtonMode=&quot;always&quot;</span><br><span class="line">/&gt;</span><br><span class="line">&lt;/View&gt;</span><br><span class="line">);</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">const styles = StyleSheet.create(&#123;</span><br><span class="line">container: &#123;</span><br><span class="line">height: 40,</span><br><span class="line">marginTop: 20,</span><br><span class="line">backgroundColor: &apos;#666&apos;,</span><br><span class="line">marginHorizontal: 40,</span><br><span class="line">paddingHorizontal: 10,</span><br><span class="line">borderRadius: 5,</span><br><span class="line">&#125;,</span><br><span class="line"></span><br><span class="line">textInput: &#123;</span><br><span class="line">flex: 1,</span><br><span class="line">color: &apos;white&apos;,</span><br><span class="line">&#125;,</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
 <p>Let’s break down what this file contains:<br>• We export a component named SearchInput .<br>• This component accepts a placeholder prop.<br>• This component returns a React Native TextInput with a few of its properties specified<br>wrapped within a View . We’ve applied the appropriate styles to our view container including<br>a borderRadius . We also added underlineColorAndroid=”transparent” to remove the dark<br>underline that shows by default on Android.</p>
 <p>this is a special keyword in JavaScript. The details about this are a bit nuanced, but for the<br>purposes of the majority of this book, this will be bound to the React Native component<br>class. So, when we write this.props inside the component, we’re accessing the props<br>property on the component. When we diverge from this rule in later sections, we’ll point it<br>out.<br>For more details on this, check out this page on MDN 35 .</p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/日积月累/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/18/瓦力工厂/日积月累/" class="post-title-link" itemprop="http://yoursite.com/page/9/index.html">日积月累</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-11-10 11:43:30" itemprop="dateModified" datetime="2018-11-10T11:43:30+08:00">2018-11-10</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="瓦力币的含义"><a href="#瓦力币的含义" class="headerlink" title="瓦力币的含义"></a>瓦力币的含义</h3><p>红色：比赛<br>绿色：团队<br>蓝色：动手<br>黄色：语言<br>紫色：全勤</p>
-<h3 id="遥控板连接"><a href="#遥控板连接" class="headerlink" title="遥控板连接"></a>遥控板连接</h3><p>6按键遥控接收板印有红框内标记的 ”瓦力工厂“ 字样！接收板连接到接收板的 “RXD” 引脚位置</p>
-<p><img src="/2018/12/18/瓦力工厂/日积月累/瓦力.jpeg" alt=""></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/" class="post-title-link" itemprop="http://yoursite.com/page/9/index.html">DPJ-026-双寻线机器人</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-12-02 13:32:20" itemprop="dateModified" datetime="2018-12-02T13:32:20+08:00">2018-12-02</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>双11刚刚过去，瓦力工厂就接到一个任务，那就是为明年的双11设计自动送快递的小车，因为双11实在是太火爆了，快递员夜以继日的送快递都不能把快递送完，有的快递员都累病了。这个任务就交到了我们伟大的瓦力工程师手里，对于这样的问题，我们瓦力工程师只能说NO Problem！</p>
-<p><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/001.jpeg" alt=""></p>
-<h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><h4 id="红外避障传感器基本原理："><a href="#红外避障传感器基本原理：" class="headerlink" title="红外避障传感器基本原理："></a>红外避障传感器基本原理：</h4><p> 利用物体的反射性质。在一定范围内，如果没有障碍物，发射出去的红外线，因为传播距离越远而逐渐减弱，最后消失。如果有障碍物，红外线遇到障碍物，被反射到达传感器接收头。传感器检测到这一信号，就可以确认正前方有障碍物，并送给单片机，单片机进行一系列的处理分析，协调小车两轮工作，完成一个漂亮的躲避障碍物动作。<br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/003.png" alt=""></p>
-<h4 id="巡线机器人的实现原理"><a href="#巡线机器人的实现原理" class="headerlink" title="巡线机器人的实现原理"></a>巡线机器人的实现原理</h4><p>  由于黑色具有较强的吸收能力，当循迹模块发射的红外线照射到黑线时，红外线将会被黑线吸收，导致循迹模块上光敏三极管处于关闭状态，此时模块上一个LED熄灭。在没有检测到黑线时，模块上两个LED常亮。</p>
-<h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有轮子（为什么呢？观察生活）<br>３．需要有前进、转弯、停止的控制方法（不能手动）</p>
-<h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、马达、轮子、CPU、红外避障传感器、附件</p>
-<h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>课程目标：<br>1.了解双巡线。<br>2.红外传感器搭建与调试。<br>3.双红外线巡线编程逻辑。<br>4.培养孩子发现问题，分析问题，解决问题，动手搭建能力。</p>
-<h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/004.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/005.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/006.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/007.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/008.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/009.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/010.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/011.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/012.png" alt=""></p>
-<h3 id="接力赛机器人程序设计："><a href="#接力赛机器人程序设计：" class="headerlink" title="接力赛机器人程序设计："></a>接力赛机器人程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/013.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/014.png" alt=""><br>双巡线机器人已完成，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/瓦力.jpeg" alt=""></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/每日点滴/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/18/瓦力工厂/每日点滴/" class="post-title-link" itemprop="http://yoursite.com/page/9/index.html">每日点滴</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-11-10 09:58:00" itemprop="dateModified" datetime="2018-11-10T09:58:00+08:00">2018-11-10</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="在Markdown中插入代码块"><a href="#在Markdown中插入代码块" class="headerlink" title="在Markdown中插入代码块"></a>在Markdown中插入代码块</h3><figure class="highlight plain"><figcaption><span>[title] [] [url] [link text]</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">code snippet</span><br></pre></td></tr></table></figure>
-<h4 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(&apos;Hello World!&apos;);</span><br></pre></td></tr></table></figure>
-<h4 id="另一种常用"><a href="#另一种常用" class="headerlink" title="另一种常用"></a>另一种常用</h4><p>三个反引号</p>
-<h4 id="例子-1"><a href="#例子-1" class="headerlink" title="例子"></a>例子</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#/bin/python3</span><br><span class="line">print&#123;&quot;helloworld&quot;&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="在markdown-插入公式"><a href="#在markdown-插入公式" class="headerlink" title="在markdown 插入公式"></a>在markdown 插入公式</h3><p>Hexo 输入数学公式主要通过MathJax 渲染LaTeX 公式实现的，具体开启步骤以及简要语法介绍如下。</p>
-<h4 id="安装配置"><a href="#安装配置" class="headerlink" title="安装配置"></a>安装配置</h4><p>在next 主题配置文件_config.yaml 中找到 MathJax 选项，将enable 改成 true 即可：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">MathJax Support</span><br><span class="line">mathjax:</span><br><span class="line">    enable: true</span><br><span class="line">    per_page: false</span><br><span class="line">    cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML</span><br></pre></td></tr></table></figure></p>
-<h4 id="页面插入"><a href="#页面插入" class="headerlink" title="页面插入"></a>页面插入</h4><p>页面插入公式有两种形式，一是行内插入公式不居中显示：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$公式$</span><br></pre></td></tr></table></figure></p>
-<p>例如$E=mc^2$$</p>
-<p>第二种是行间插入公式，居中显示：<br>例如$$S=\pi*r^2$$</p>
-<h4 id="语法公式"><a href="#语法公式" class="headerlink" title="语法公式"></a>语法公式</h4><p>[公式]<a href="https://www.jianshu.com/p/e4d4433d418a%}" target="_blank" rel="noopener">https://www.jianshu.com/p/e4d4433d418a%}</a><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br></pre></td><td class="code"><pre><span class="line">语法公式</span><br><span class="line">关于公式的语法格式，主要有以下常用：</span><br><span class="line"></span><br><span class="line">上下标</span><br><span class="line">^ 表示上标，_ 表示下标。</span><br><span class="line"></span><br><span class="line">$$a_&#123;1&#125; x^&#123;2&#125; $$</span><br><span class="line">$$e^&#123;-\alpha t&#125; $$</span><br><span class="line">$$a^&#123;i&#125;_&#123;ij&#125;$$</span><br><span class="line">$$e^&#123;x^2&#125; \neq &#123;e^x&#125;^2$$</span><br><span class="line">$$a_&#123;1&#125;$$</span><br><span class="line"></span><br><span class="line">$$x^&#123;2&#125;$$</span><br><span class="line">$$e^&#123;-\alpha t&#125;$$</span><br><span class="line">$$a^&#123;i&#125;_&#123;ij&#125;$$</span><br><span class="line">$$e&#123;x2&#125; \neq &#123;ex&#125;2$$</span><br><span class="line"></span><br><span class="line">此外，如果左右两边都有上下标，则使用 \sideset 命令，效果如下：</span><br><span class="line"></span><br><span class="line">\sideset&#123;^xy&#125;&#123;^xy&#125;\bigotimes</span><br><span class="line">$$\sideset&#123;xy&#125;&#123;xy&#125;\bigotimes$$</span><br><span class="line"></span><br><span class="line">平方根</span><br><span class="line">平方根输入命令为 \sqrt，n次方根命令为 \sqrt[n]，其符号大小由LaTeX 自动给定：</span><br><span class="line"></span><br><span class="line">$$\sqrt&#123;x&#125;$$ $$\sqrt&#123;x^2+\sqrt&#123;y&#125;$$ $$\sqrt[3]&#123;2&#125;$$</span><br><span class="line">$$\sqrt&#123;x&#125;$$</span><br><span class="line"></span><br><span class="line">$$ \sqrt&#123;x^2+\sqrt&#123;y&#125;&#125;$$</span><br><span class="line"></span><br><span class="line">$$\sqrt[3]&#123;2&#125;$$</span><br><span class="line"></span><br><span class="line">水平线</span><br><span class="line">使用 \overline 和 \underline 分别在表达式上下方画出水平线：</span><br><span class="line"></span><br><span class="line">$$\overline&#123;m + n&#125;$$</span><br><span class="line">$$\underline&#123;m + n&#125;$$</span><br><span class="line">$$\overline&#123;m + n&#125;$$</span><br><span class="line">$$\underline&#123;m + n&#125;$$</span><br><span class="line"></span><br><span class="line">水平大括号</span><br><span class="line">命令 \overbrace 和 \underrace，效果如下：</span><br><span class="line"></span><br><span class="line">$$\underbrace&#123;a+b+\cdots+z&#125;$$</span><br><span class="line">$$\overbrace&#123;a+b+\cdots+z&#125;$$</span><br><span class="line">$$\overbrace&#123;a+b+\cdots+z&#125;$$</span><br><span class="line"></span><br><span class="line">$$\underbrace&#123;a+b+\cdots+z&#125;$$</span><br><span class="line"></span><br><span class="line">矢量</span><br><span class="line">矢量的命令是 \vec，用于单个字母的向量表示。\overrightarrow 和\overleftarrow 分别表示向右和向左的向量箭头：</span><br><span class="line"></span><br><span class="line">$$\vec&#123;a&#125;$$</span><br><span class="line">$$\overrightarrow&#123;AB&#125;$$</span><br><span class="line">$$\overleftarrow&#123;BA&#125;$$</span><br><span class="line">$$\vec&#123;a&#125;$$</span><br><span class="line">$$\overrightarrow&#123;AB&#125;$$</span><br><span class="line">$$\overleftarrow&#123;BA&#125;$$</span><br><span class="line"></span><br><span class="line">分数</span><br><span class="line">分数使用 \frac&#123;...&#125;&#123;...&#125; 进行排版：</span><br><span class="line"></span><br><span class="line">$$1\frac&#123;1&#125;&#123;2&#125;$$</span><br><span class="line">$$\frac&#123;x^2&#125;&#123;k+1&#125;$$</span><br><span class="line">$$x^&#123;1/2&#125;$$</span><br><span class="line">$$1\frac&#123;1&#125;&#123;2&#125;$$</span><br><span class="line">$$\frac&#123;x^2&#125;&#123;k+1&#125;$$</span><br><span class="line">$$x^&#123;1/2&#125;$$</span><br><span class="line"></span><br><span class="line">积分运算符</span><br><span class="line">积分运算符使用 \int 生成。求和运算符使用 \sum 生成。乘积运算符使用 \prod 生成。上下限使用^ 和_ 命令，类似 上下标：</span><br><span class="line"></span><br><span class="line">$$\sum_&#123;i=1&#125;^&#123;n&#125;$$</span><br><span class="line">$$\int_&#123;0&#125;^&#123;\frac&#123;\pi&#125;&#123;2&#125;&#125;$$</span><br><span class="line">$$\prod_\epsilon$$</span><br><span class="line">$$\sum_&#123;i=1&#125;^&#123;n&#125;$$</span><br><span class="line">$$\int_&#123;0&#125;^&#123;\frac&#123;\pi&#125;&#123;2&#125;&#125;$$</span><br><span class="line">$$\prod_\epsilon$$</span><br><span class="line"></span><br><span class="line">希腊字母</span><br><span class="line">$\alpha$ \alpha $\beta$ \beta $\gamma$ \gamma $\delta$ \delta $\epsilon$ \epsilon</span><br><span class="line"></span><br><span class="line">字体转换</span><br><span class="line">要对公式的某一部分字符进行字体转换，可以用&#123;\rm需转换的部分字符&#125;命令，其中\rm可以参照下表选择合适的字体。</span><br><span class="line">一般情况下，公式默认为意大利体。</span><br><span class="line"></span><br><span class="line">\rm 罗马体 \rm test \it 意大利体 \it test</span><br><span class="line"></span><br><span class="line">\bf 黑体 \bf test \cal 花体 \cal test</span><br><span class="line"></span><br><span class="line">\sl 倾斜体 \sl test \sf 等线体 \sf test</span><br><span class="line"></span><br><span class="line">\mit 数学斜体 \mit test \tt 打字机字体 \tt test</span><br><span class="line"></span><br><span class="line">\sc 小体大写字母 \sc test</span><br></pre></td></tr></table></figure></p>
-<p><img src="/2018/12/18/瓦力工厂/每日点滴/瓦力.jpeg" alt=""></p>
 
           
         
@@ -1319,6 +1012,162 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/日积月累/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/18/瓦力工厂/日积月累/" class="post-title-link" itemprop="http://yoursite.com/page/9/index.html">日积月累</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-11-10 11:43:30" itemprop="dateModified" datetime="2018-11-10T11:43:30+08:00">2018-11-10</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="瓦力币的含义"><a href="#瓦力币的含义" class="headerlink" title="瓦力币的含义"></a>瓦力币的含义</h3><p>红色：比赛<br>绿色：团队<br>蓝色：动手<br>黄色：语言<br>紫色：全勤</p>
+<h3 id="遥控板连接"><a href="#遥控板连接" class="headerlink" title="遥控板连接"></a>遥控板连接</h3><p>6按键遥控接收板印有红框内标记的 ”瓦力工厂“ 字样！接收板连接到接收板的 “RXD” 引脚位置</p>
+<p><img src="/2018/12/18/瓦力工厂/日积月累/瓦力.jpeg" alt=""></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/接力赛机器人/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1423,6 +1272,332 @@
 <h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>课程目标：<br>1.了解接力赛的起源<br>2.根据接力任务自主搭建机器人<br>3．综合使用学习的编程模块自主编程<br><img src="/2018/12/18/瓦力工厂/接力赛机器人/003.png" alt=""></p>
 <h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/接力赛机器人/004.png" alt=""><br><img src="/2018/12/18/瓦力工厂/接力赛机器人/005.png" alt=""><br><img src="/2018/12/18/瓦力工厂/接力赛机器人/006.png" alt=""><br><img src="/2018/12/18/瓦力工厂/接力赛机器人/007.png" alt=""><br><img src="/2018/12/18/瓦力工厂/接力赛机器人/008.png" alt=""><br><img src="/2018/12/18/瓦力工厂/接力赛机器人/009.png" alt=""><br><img src="/2018/12/18/瓦力工厂/接力赛机器人/010.png" alt=""><br><img src="/2018/12/18/瓦力工厂/接力赛机器人/011.png" alt=""></p>
 <h3 id="接力赛机器人程序设计："><a href="#接力赛机器人程序设计：" class="headerlink" title="接力赛机器人程序设计："></a>接力赛机器人程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/接力赛机器人/012.png" alt=""><br>接力赛机器人已完成，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/接力赛机器人/瓦力.jpeg" alt=""></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/" class="post-title-link" itemprop="http://yoursite.com/page/9/index.html">DPJ-026-双寻线机器人</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-12-02 13:32:20" itemprop="dateModified" datetime="2018-12-02T13:32:20+08:00">2018-12-02</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>双11刚刚过去，瓦力工厂就接到一个任务，那就是为明年的双11设计自动送快递的小车，因为双11实在是太火爆了，快递员夜以继日的送快递都不能把快递送完，有的快递员都累病了。这个任务就交到了我们伟大的瓦力工程师手里，对于这样的问题，我们瓦力工程师只能说NO Problem！</p>
+<p><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/001.jpeg" alt=""></p>
+<h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><h4 id="红外避障传感器基本原理："><a href="#红外避障传感器基本原理：" class="headerlink" title="红外避障传感器基本原理："></a>红外避障传感器基本原理：</h4><p> 利用物体的反射性质。在一定范围内，如果没有障碍物，发射出去的红外线，因为传播距离越远而逐渐减弱，最后消失。如果有障碍物，红外线遇到障碍物，被反射到达传感器接收头。传感器检测到这一信号，就可以确认正前方有障碍物，并送给单片机，单片机进行一系列的处理分析，协调小车两轮工作，完成一个漂亮的躲避障碍物动作。<br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/003.png" alt=""></p>
+<h4 id="巡线机器人的实现原理"><a href="#巡线机器人的实现原理" class="headerlink" title="巡线机器人的实现原理"></a>巡线机器人的实现原理</h4><p>  由于黑色具有较强的吸收能力，当循迹模块发射的红外线照射到黑线时，红外线将会被黑线吸收，导致循迹模块上光敏三极管处于关闭状态，此时模块上一个LED熄灭。在没有检测到黑线时，模块上两个LED常亮。</p>
+<h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有轮子（为什么呢？观察生活）<br>３．需要有前进、转弯、停止的控制方法（不能手动）</p>
+<h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、马达、轮子、CPU、红外避障传感器、附件</p>
+<h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>课程目标：<br>1.了解双巡线。<br>2.红外传感器搭建与调试。<br>3.双红外线巡线编程逻辑。<br>4.培养孩子发现问题，分析问题，解决问题，动手搭建能力。</p>
+<h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/004.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/005.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/006.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/007.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/008.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/009.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/010.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/011.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/012.png" alt=""></p>
+<h3 id="接力赛机器人程序设计："><a href="#接力赛机器人程序设计：" class="headerlink" title="接力赛机器人程序设计："></a>接力赛机器人程序设计：</h3><p><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/013.png" alt=""><br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/014.png" alt=""><br>双巡线机器人已完成，有什么疑问，加老师微信进行咨询吧！<br><img src="/2018/12/18/瓦力工厂/DPJ-026-双寻线机器人/瓦力.jpeg" alt=""></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/每日点滴/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王俊杰">
+      <meta itemprop="description" content="点点滴滴在编程">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓦力工厂-编程训练营">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/18/瓦力工厂/每日点滴/" class="post-title-link" itemprop="http://yoursite.com/page/9/index.html">每日点滴</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-11-10 09:58:00" itemprop="dateModified" datetime="2018-11-10T09:58:00+08:00">2018-11-10</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="在Markdown中插入代码块"><a href="#在Markdown中插入代码块" class="headerlink" title="在Markdown中插入代码块"></a>在Markdown中插入代码块</h3><figure class="highlight plain"><figcaption><span>[title] [] [url] [link text]</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">code snippet</span><br></pre></td></tr></table></figure>
+<h4 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(&apos;Hello World!&apos;);</span><br></pre></td></tr></table></figure>
+<h4 id="另一种常用"><a href="#另一种常用" class="headerlink" title="另一种常用"></a>另一种常用</h4><p>三个反引号</p>
+<h4 id="例子-1"><a href="#例子-1" class="headerlink" title="例子"></a>例子</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#/bin/python3</span><br><span class="line">print&#123;&quot;helloworld&quot;&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="在markdown-插入公式"><a href="#在markdown-插入公式" class="headerlink" title="在markdown 插入公式"></a>在markdown 插入公式</h3><p>Hexo 输入数学公式主要通过MathJax 渲染LaTeX 公式实现的，具体开启步骤以及简要语法介绍如下。</p>
+<h4 id="安装配置"><a href="#安装配置" class="headerlink" title="安装配置"></a>安装配置</h4><p>在next 主题配置文件_config.yaml 中找到 MathJax 选项，将enable 改成 true 即可：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">MathJax Support</span><br><span class="line">mathjax:</span><br><span class="line">    enable: true</span><br><span class="line">    per_page: false</span><br><span class="line">    cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML</span><br></pre></td></tr></table></figure></p>
+<h4 id="页面插入"><a href="#页面插入" class="headerlink" title="页面插入"></a>页面插入</h4><p>页面插入公式有两种形式，一是行内插入公式不居中显示：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$公式$</span><br></pre></td></tr></table></figure></p>
+<p>例如$E=mc^2$$</p>
+<p>第二种是行间插入公式，居中显示：<br>例如$$S=\pi*r^2$$</p>
+<h4 id="语法公式"><a href="#语法公式" class="headerlink" title="语法公式"></a>语法公式</h4><p>[公式]<a href="https://www.jianshu.com/p/e4d4433d418a%}" target="_blank" rel="noopener">https://www.jianshu.com/p/e4d4433d418a%}</a><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br></pre></td><td class="code"><pre><span class="line">语法公式</span><br><span class="line">关于公式的语法格式，主要有以下常用：</span><br><span class="line"></span><br><span class="line">上下标</span><br><span class="line">^ 表示上标，_ 表示下标。</span><br><span class="line"></span><br><span class="line">$$a_&#123;1&#125; x^&#123;2&#125; $$</span><br><span class="line">$$e^&#123;-\alpha t&#125; $$</span><br><span class="line">$$a^&#123;i&#125;_&#123;ij&#125;$$</span><br><span class="line">$$e^&#123;x^2&#125; \neq &#123;e^x&#125;^2$$</span><br><span class="line">$$a_&#123;1&#125;$$</span><br><span class="line"></span><br><span class="line">$$x^&#123;2&#125;$$</span><br><span class="line">$$e^&#123;-\alpha t&#125;$$</span><br><span class="line">$$a^&#123;i&#125;_&#123;ij&#125;$$</span><br><span class="line">$$e&#123;x2&#125; \neq &#123;ex&#125;2$$</span><br><span class="line"></span><br><span class="line">此外，如果左右两边都有上下标，则使用 \sideset 命令，效果如下：</span><br><span class="line"></span><br><span class="line">\sideset&#123;^xy&#125;&#123;^xy&#125;\bigotimes</span><br><span class="line">$$\sideset&#123;xy&#125;&#123;xy&#125;\bigotimes$$</span><br><span class="line"></span><br><span class="line">平方根</span><br><span class="line">平方根输入命令为 \sqrt，n次方根命令为 \sqrt[n]，其符号大小由LaTeX 自动给定：</span><br><span class="line"></span><br><span class="line">$$\sqrt&#123;x&#125;$$ $$\sqrt&#123;x^2+\sqrt&#123;y&#125;$$ $$\sqrt[3]&#123;2&#125;$$</span><br><span class="line">$$\sqrt&#123;x&#125;$$</span><br><span class="line"></span><br><span class="line">$$ \sqrt&#123;x^2+\sqrt&#123;y&#125;&#125;$$</span><br><span class="line"></span><br><span class="line">$$\sqrt[3]&#123;2&#125;$$</span><br><span class="line"></span><br><span class="line">水平线</span><br><span class="line">使用 \overline 和 \underline 分别在表达式上下方画出水平线：</span><br><span class="line"></span><br><span class="line">$$\overline&#123;m + n&#125;$$</span><br><span class="line">$$\underline&#123;m + n&#125;$$</span><br><span class="line">$$\overline&#123;m + n&#125;$$</span><br><span class="line">$$\underline&#123;m + n&#125;$$</span><br><span class="line"></span><br><span class="line">水平大括号</span><br><span class="line">命令 \overbrace 和 \underrace，效果如下：</span><br><span class="line"></span><br><span class="line">$$\underbrace&#123;a+b+\cdots+z&#125;$$</span><br><span class="line">$$\overbrace&#123;a+b+\cdots+z&#125;$$</span><br><span class="line">$$\overbrace&#123;a+b+\cdots+z&#125;$$</span><br><span class="line"></span><br><span class="line">$$\underbrace&#123;a+b+\cdots+z&#125;$$</span><br><span class="line"></span><br><span class="line">矢量</span><br><span class="line">矢量的命令是 \vec，用于单个字母的向量表示。\overrightarrow 和\overleftarrow 分别表示向右和向左的向量箭头：</span><br><span class="line"></span><br><span class="line">$$\vec&#123;a&#125;$$</span><br><span class="line">$$\overrightarrow&#123;AB&#125;$$</span><br><span class="line">$$\overleftarrow&#123;BA&#125;$$</span><br><span class="line">$$\vec&#123;a&#125;$$</span><br><span class="line">$$\overrightarrow&#123;AB&#125;$$</span><br><span class="line">$$\overleftarrow&#123;BA&#125;$$</span><br><span class="line"></span><br><span class="line">分数</span><br><span class="line">分数使用 \frac&#123;...&#125;&#123;...&#125; 进行排版：</span><br><span class="line"></span><br><span class="line">$$1\frac&#123;1&#125;&#123;2&#125;$$</span><br><span class="line">$$\frac&#123;x^2&#125;&#123;k+1&#125;$$</span><br><span class="line">$$x^&#123;1/2&#125;$$</span><br><span class="line">$$1\frac&#123;1&#125;&#123;2&#125;$$</span><br><span class="line">$$\frac&#123;x^2&#125;&#123;k+1&#125;$$</span><br><span class="line">$$x^&#123;1/2&#125;$$</span><br><span class="line"></span><br><span class="line">积分运算符</span><br><span class="line">积分运算符使用 \int 生成。求和运算符使用 \sum 生成。乘积运算符使用 \prod 生成。上下限使用^ 和_ 命令，类似 上下标：</span><br><span class="line"></span><br><span class="line">$$\sum_&#123;i=1&#125;^&#123;n&#125;$$</span><br><span class="line">$$\int_&#123;0&#125;^&#123;\frac&#123;\pi&#125;&#123;2&#125;&#125;$$</span><br><span class="line">$$\prod_\epsilon$$</span><br><span class="line">$$\sum_&#123;i=1&#125;^&#123;n&#125;$$</span><br><span class="line">$$\int_&#123;0&#125;^&#123;\frac&#123;\pi&#125;&#123;2&#125;&#125;$$</span><br><span class="line">$$\prod_\epsilon$$</span><br><span class="line"></span><br><span class="line">希腊字母</span><br><span class="line">$\alpha$ \alpha $\beta$ \beta $\gamma$ \gamma $\delta$ \delta $\epsilon$ \epsilon</span><br><span class="line"></span><br><span class="line">字体转换</span><br><span class="line">要对公式的某一部分字符进行字体转换，可以用&#123;\rm需转换的部分字符&#125;命令，其中\rm可以参照下表选择合适的字体。</span><br><span class="line">一般情况下，公式默认为意大利体。</span><br><span class="line"></span><br><span class="line">\rm 罗马体 \rm test \it 意大利体 \it test</span><br><span class="line"></span><br><span class="line">\bf 黑体 \bf test \cal 花体 \cal test</span><br><span class="line"></span><br><span class="line">\sl 倾斜体 \sl test \sf 等线体 \sf test</span><br><span class="line"></span><br><span class="line">\mit 数学斜体 \mit test \tt 打字机字体 \tt test</span><br><span class="line"></span><br><span class="line">\sc 小体大写字母 \sc test</span><br></pre></td></tr></table></figure></p>
+<p><img src="/2018/12/18/瓦力工厂/每日点滴/瓦力.jpeg" alt=""></p>
 
           
         
@@ -1806,176 +1981,6 @@ convert page200.png -resize 150% page300.png
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王俊杰">
-      <meta itemprop="description" content="点点滴滴在编程">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="瓦力工厂-编程训练营">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/" class="post-title-link" itemprop="http://yoursite.com/page/9/index.html">Scratch3.0-打地鼠</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2018-12-18 21:10:43" itemprop="dateCreated datePublished" datetime="2018-12-18T21:10:43+08:00">2018-12-18</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-12-05 14:31:03" itemprop="dateModified" datetime="2018-12-05T14:31:03+08:00">2018-12-05</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>输入IP地址 <a href="http://192.168.0.103:8061/" target="_blank" rel="noopener">http://192.168.0.103:8061/</a> 打开Scratch3.0 客户端</p>
-<p>从ftp 服务器上下载所需的素材文件夹</p>
-<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/001.png" alt=""></p>
-<p>点击上传背景图，上传desert.jpg</p>
-<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/002.png" alt=""></p>
-<p>删除默认的角色</p>
-<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/003.png" alt=""><br>点击上传角色，依次上传角色洞、地鼠、火花、锤子。</p>
-<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/004.png" alt=""><br>添加程序所需的变量：地鼠个数、总分、时间。</p>
-<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/005.png" alt=""></p>
-<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/006.png" alt=""></p>
-<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/007.png" alt=""></p>
-<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/008.png" alt=""></p>
-<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/009.png" alt=""></p>
-<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/010.png" alt=""></p>
-<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/011.png" alt=""></p>
-<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/012.png" alt=""></p>
-<p><img src="/2018/12/18/瓦力工厂/Scratch3.0-打地鼠/001.png" alt="">/瓦力.jpeg)</p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-       
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -2023,7 +2028,7 @@ convert page200.png -resize 150% page300.png
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">102</span>
+                    <span class="site-state-item-count">103</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>

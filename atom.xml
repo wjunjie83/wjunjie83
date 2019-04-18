@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-17T10:39:00.501Z</updated>
+  <updated>2019-04-18T01:22:19.792Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>幸运大转盘</title>
+    <link href="http://yoursite.com/2019/04/18/Scratch%20%20%E5%B8%B8%E8%A7%84%E8%AF%BE/%E7%AC%AC%E4%BA%94%E8%AF%BE%20%E5%B9%B8%E8%BF%90%E5%A4%A7%E8%BD%AC%E7%9B%98/"/>
+    <id>http://yoursite.com/2019/04/18/Scratch  常规课/第五课 幸运大转盘/</id>
+    <published>2019-04-18T01:22:19.792Z</published>
+    <updated>2019-04-18T01:22:19.792Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>打开：<a href="https://scratch.mit.edu/projects/editor/?tutorial=getStarted" target="_blank" rel="noopener">https://scratch.mit.edu/projects/editor/?tutorial=getStarted</a><br>打开 <a href="https://ide.makeblock.com" target="_blank" rel="noopener">https://ide.makeblock.com</a></p><p><img src="https://s2.ax1x.com/2019/01/23/kAjsoR.png" alt="kAjsoR.png"><br>切换到角色选项卡并删除Panda这个角色，切换到背景选项卡，现在来制作幸运大转盘的盘面。<br>点击背景选项卡下加号，弹出背景选择对话框。<br><img src="https://s2.ax1x.com/2019/01/23/kAvB1f.png" alt="kAvB1f.png"><br>点击绘制背景。<br><img src="https://s2.ax1x.com/2019/01/23/kAvUAA.png" alt="kAvUAA.png"><br>点击圆圈图标，并按住Shift键，能画出一个正圆，并调整填充与线条。<br><img src="https://s2.ax1x.com/2019/01/23/kAz0OS.png" alt="kAz0OS.png"><br>点击直线图标，用直线命令把圆六/八等分，完成幸运大转盘盘面绘制。<br><img src="https://s2.ax1x.com/2019/01/23/kAzjOO.png" alt="kAzjOO.png"><br>回到角色选项卡，点击添加角色，弹出角色库，在食物角色库选取六/八种食物，一种食物占位一格。<br><img src="https://s2.ax1x.com/2019/01/23/kEkriF.png" alt="kEkriF.png"><br>添加指针（也可以自己绘制），点击添加角色音乐里选“Note”，并设置填充、轮廓、和其端点（旋转中心），并在舞台种调整其大小。</p><p><img src="https://s2.ax1x.com/2019/01/23/kEEuAf.png" alt="kEEuAf.png"></p><p>点击关闭角色编辑按钮，进入编程界面，下面我们来编写第一段程序。</p><p><img src="https://s2.ax1x.com/2019/01/23/kEe6Ds.png" alt="kEe6Ds.png"></p><p>可以看到，幸运大转盘指针开始转动起来，但是指针是匀速转动的（不符合实际种大转盘越转越慢最后停下的实际），幸运大转盘指针每次转动的圈数都是一样的，这也不符合因为转动幸运大转盘人的力气不同，实际每次转动的圈数不一样的实际情况。</p><p><img src="https://s2.ax1x.com/2019/01/23/kEnw6g.png" alt="kEnw6g.png"><br>可以看到，这一版程序能够让幸运大转盘指针转动的速度越来越慢，直到停止。<br>那么，怎么才能实现幸运大转盘每次转的圈数不一样呢？这里，我们引入随机数的概念。<br><img src="https://s2.ax1x.com/2019/01/23/kEKaLQ.png" alt="kEKaLQ.png"></p><p>可以看出，这一次程序每一次转动的圈数都不一样，基本实现了咱们的要求 。但是，仔细观察可以看出，幸运大转盘指针减慢的速度不流畅。咱们总不能30°到0°之间每一个数都加入循环吧！理论上讲，当然可以，但是方法上显得太过笨拙。请看下面程序。<br><img src="https://s2.ax1x.com/2019/01/23/kElhwQ.png" alt="kElhwQ.png"></p><p>这里引入了一个变量角度，并让循环每执行一次，角度减1°。这样幸运大转盘指针转动的就比较平稳了，并且程序看起来简洁多了。</p><p>幸运大转盘与神算手已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="Scratch 常规课" scheme="http://yoursite.com/categories/Scratch-%E5%B8%B8%E8%A7%84%E8%AF%BE/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>第四课  绘画大师</title>
@@ -109,13 +132,13 @@
   </entry>
   
   <entry>
-    <title>分配任务</title>
-    <link href="http://yoursite.com/2019/03/29/NOIP%20Scratch/%E5%88%86%E9%85%8D%E4%BB%BB%E5%8A%A1/"/>
-    <id>http://yoursite.com/2019/03/29/NOIP Scratch/分配任务/</id>
+    <title>三角形</title>
+    <link href="http://yoursite.com/2019/03/29/NOIP%20Scratch/%E4%B8%89%E8%A7%92%E5%BD%A2/"/>
+    <id>http://yoursite.com/2019/03/29/NOIP Scratch/三角形/</id>
     <published>2019-03-29T07:43:13.761Z</published>
-    <updated>2019-03-14T07:12:16.035Z</updated>
+    <updated>2019-03-13T11:03:10.648Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>在社会实践活动中有三项任务分别是：种树、采茶、送水。依据小组人数及男生、女生人数决定小组的接受任务，人数小于10人的小组负责送水（输出water），人数大于等于10人且男生多于女生的小组负责种树（输出tree），人数大于等于10人且男生不多于女生的小组负责采茶（输出tea）。输入小组男生人数、女生人数，输出小组接受的任务。</p><p><a href="https://imgchr.com/i/AAi9yD" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAi9yD.png" alt="AAi9yD.png"></a></p><p><a href="https://imgchr.com/i/AAiKOg" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAiKOg.png" alt="AAiKOg.png"></a></p><p>猜数游戏已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>输入三角形三边长a,b,c（保证能构成三角形），输出三角形面积。</p><p>海伦常用公式</p><p>$S=\sqrt {p(p-a)(p-b)(p-c)}$</p><p>[公式描述] 公式中a，b，c分别为三角形三边长，p为半周长，S为三角形的面积。</p><p><a href="https://imgchr.com/i/Ak1VIK" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/13/Ak1VIK.png" alt="Ak1VIK.png"></a></p><p><a href="https://imgchr.com/i/AkGRSS" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/13/AkGRSS.png" alt="AkGRSS.png"></a></p><p>三角形程序已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
     
     <summary type="html">
     
@@ -132,13 +155,13 @@
   </entry>
   
   <entry>
-    <title>三角形</title>
-    <link href="http://yoursite.com/2019/03/29/NOIP%20Scratch/%E4%B8%89%E8%A7%92%E5%BD%A2/"/>
-    <id>http://yoursite.com/2019/03/29/NOIP Scratch/三角形/</id>
+    <title>分配任务</title>
+    <link href="http://yoursite.com/2019/03/29/NOIP%20Scratch/%E5%88%86%E9%85%8D%E4%BB%BB%E5%8A%A1/"/>
+    <id>http://yoursite.com/2019/03/29/NOIP Scratch/分配任务/</id>
     <published>2019-03-29T07:43:13.761Z</published>
-    <updated>2019-03-13T11:03:10.648Z</updated>
+    <updated>2019-03-14T07:12:16.035Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>输入三角形三边长a,b,c（保证能构成三角形），输出三角形面积。</p><p>海伦常用公式</p><p>$S=\sqrt {p(p-a)(p-b)(p-c)}$</p><p>[公式描述] 公式中a，b，c分别为三角形三边长，p为半周长，S为三角形的面积。</p><p><a href="https://imgchr.com/i/Ak1VIK" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/13/Ak1VIK.png" alt="Ak1VIK.png"></a></p><p><a href="https://imgchr.com/i/AkGRSS" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/13/AkGRSS.png" alt="AkGRSS.png"></a></p><p>三角形程序已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>在社会实践活动中有三项任务分别是：种树、采茶、送水。依据小组人数及男生、女生人数决定小组的接受任务，人数小于10人的小组负责送水（输出water），人数大于等于10人且男生多于女生的小组负责种树（输出tree），人数大于等于10人且男生不多于女生的小组负责采茶（输出tea）。输入小组男生人数、女生人数，输出小组接受的任务。</p><p><a href="https://imgchr.com/i/AAi9yD" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAi9yD.png" alt="AAi9yD.png"></a></p><p><a href="https://imgchr.com/i/AAiKOg" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AAiKOg.png" alt="AAiKOg.png"></a></p><p>猜数游戏已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
     
     <summary type="html">
     
@@ -316,29 +339,6 @@
   </entry>
   
   <entry>
-    <title>1010. 邮寄包裹</title>
-    <link href="http://yoursite.com/2019/03/29/NOIP%20Scratch/1010.%20%E9%82%AE%E5%AF%84%E5%8C%85%E8%A3%B9/"/>
-    <id>http://yoursite.com/2019/03/29/NOIP Scratch/1010. 邮寄包裹/</id>
-    <published>2019-03-29T07:40:59.479Z</published>
-    <updated>2019-03-15T06:32:02.532Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>某邮局对邮寄包裹有如下规定：若包裹的重量超过30千克,不予邮寄，对可以邮寄的包裹每件收手续费0.2元，再加上根据下表按重量wei计算的结果：</p><p>重量(千克)      收费标准(元/公斤)<br>wei&lt;=10              0.80<br>10&lt;wei&lt;=20        0.75<br>20&lt;wei&lt;=30        0.70<br>请你编写一个程序，输入包裹重量，输出所需费用或”Fail”表示无法邮寄。</p><p><a href="https://imgchr.com/i/AANbod" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AANbod.png" alt="AANbod.png"></a></p><p><a href="https://imgchr.com/i/AANYZQ" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AANYZQ.png" alt="AANYZQ.png"></a></p><p>猜数游戏已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="CCF中学生计算机程序设计入门篇" scheme="http://yoursite.com/categories/CCF%E4%B8%AD%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8%E7%AF%87/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>1011. 正方形</title>
     <link href="http://yoursite.com/2019/03/29/NOIP%20Scratch/1011.%20%E6%AD%A3%E6%96%B9%E5%BD%A2/"/>
     <id>http://yoursite.com/2019/03/29/NOIP Scratch/1011. 正方形/</id>
@@ -385,13 +385,13 @@
   </entry>
   
   <entry>
-    <title>1005. 存款收益</title>
-    <link href="http://yoursite.com/2019/03/29/NOIP%20Scratch/1005.%20%E5%AD%98%E6%AC%BE%E6%94%B6%E7%9B%8A/"/>
-    <id>http://yoursite.com/2019/03/29/NOIP Scratch/1005. 存款收益/</id>
-    <published>2019-03-29T07:40:59.475Z</published>
-    <updated>2019-03-14T06:22:13.407Z</updated>
+    <title>1010. 邮寄包裹</title>
+    <link href="http://yoursite.com/2019/03/29/NOIP%20Scratch/1010.%20%E9%82%AE%E5%AF%84%E5%8C%85%E8%A3%B9/"/>
+    <id>http://yoursite.com/2019/03/29/NOIP Scratch/1010. 邮寄包裹/</id>
+    <published>2019-03-29T07:40:59.479Z</published>
+    <updated>2019-03-15T06:32:02.532Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>按年利率R%存入本钱X，存入P年后的本利合计为Y=X*((100+R)/100)^P，求Y的值。</p><p><a href="https://imgchr.com/i/AA3i2F" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AA3i2F.png" alt="AA3i2F.png"></a></p><p><a href="https://imgchr.com/i/AA3P8U" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AA3P8U.png" alt="AA3P8U.png"></a></p><p>猜数游戏已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>某邮局对邮寄包裹有如下规定：若包裹的重量超过30千克,不予邮寄，对可以邮寄的包裹每件收手续费0.2元，再加上根据下表按重量wei计算的结果：</p><p>重量(千克)      收费标准(元/公斤)<br>wei&lt;=10              0.80<br>10&lt;wei&lt;=20        0.75<br>20&lt;wei&lt;=30        0.70<br>请你编写一个程序，输入包裹重量，输出所需费用或”Fail”表示无法邮寄。</p><p><a href="https://imgchr.com/i/AANbod" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AANbod.png" alt="AANbod.png"></a></p><p><a href="https://imgchr.com/i/AANYZQ" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AANYZQ.png" alt="AANYZQ.png"></a></p><p>猜数游戏已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
     
     <summary type="html">
     
@@ -431,6 +431,29 @@
   </entry>
   
   <entry>
+    <title>1005. 存款收益</title>
+    <link href="http://yoursite.com/2019/03/29/NOIP%20Scratch/1005.%20%E5%AD%98%E6%AC%BE%E6%94%B6%E7%9B%8A/"/>
+    <id>http://yoursite.com/2019/03/29/NOIP Scratch/1005. 存款收益/</id>
+    <published>2019-03-29T07:40:59.475Z</published>
+    <updated>2019-03-14T06:22:13.407Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>按年利率R%存入本钱X，存入P年后的本利合计为Y=X*((100+R)/100)^P，求Y的值。</p><p><a href="https://imgchr.com/i/AA3i2F" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AA3i2F.png" alt="AA3i2F.png"></a></p><p><a href="https://imgchr.com/i/AA3P8U" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AA3P8U.png" alt="AA3P8U.png"></a></p><p>猜数游戏已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="CCF中学生计算机程序设计入门篇" scheme="http://yoursite.com/categories/CCF%E4%B8%AD%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8%E7%AF%87/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>13 岁编程！少年比尔·盖茨如何成为最成功的自学成才程序员？</title>
     <link href="http://yoursite.com/2019/03/29/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/13%20%E5%B2%81%E7%BC%96%E7%A8%8B%EF%BC%81%E5%B0%91%E5%B9%B4%E6%AF%94%E5%B0%94%C2%B7%E7%9B%96%E8%8C%A8%E5%A6%82%E4%BD%95%E6%88%90%E4%B8%BA%E6%9C%80%E6%88%90%E5%8A%9F%E7%9A%84%E8%87%AA%E5%AD%A6%E6%88%90%E6%89%8D%E7%A8%8B%E5%BA%8F%E5%91%98%EF%BC%9F/"/>
     <id>http://yoursite.com/2019/03/29/瓦力工厂/13 岁编程！少年比尔·盖茨如何成为最成功的自学成才程序员？/</id>
@@ -449,29 +472,6 @@
     </summary>
     
       <category term="Scratch 入门" scheme="http://yoursite.com/categories/Scratch-%E5%85%A5%E9%97%A8/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>滑板车机器人</title>
-    <link href="http://yoursite.com/2019/03/29/%E7%93%A6%E5%8A%9B%E5%B7%A5%E5%8E%82/%E6%BB%91%E6%9D%BF%E8%BD%A6%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
-    <id>http://yoursite.com/2019/03/29/瓦力工厂/滑板车机器人/</id>
-    <published>2019-03-29T01:58:24.057Z</published>
-    <updated>2019-03-29T01:58:24.057Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>瓦力工程师接到一个新任务，就是为“最后一公里”设计机器人。“最后一公里”指的是人们在上下学或上下班的途中，乘坐公共交通工具到达公交站，地铁站后，还需要走最后一公里才能达到目的地。作为瓦力工程师的我们怎么设计滑板车机器人，来帮助人们更方便的完成最后一公里呢？<br><img src="/2019/03/29/瓦力工厂/滑板车机器人/002.jpg" alt=""><br><img src="/2019/03/29/瓦力工厂/滑板车机器人/003.jpg" alt=""></p><h3 id="任务分解："><a href="#任务分解：" class="headerlink" title="任务分解："></a>任务分解：</h3><p>１．需要外界能量提供动力<br>２．需要有轮子（为什么呢？观察生活）<br>３．需要有前进、加速、减速、停止、转弯、后退？的控制方法<br>４．需要有声光指示、装饰</p><h3 id="知识点拓展："><a href="#知识点拓展：" class="headerlink" title="知识点拓展："></a>知识点拓展：</h3><p>平衡车原理：当我们在驾驶平衡车的时候，平衡车的两个轮子就代替了双脚。与身体的平衡系统非常类似，当我们的重心前倾时，智能系统就会自动感应到，并精确地驱动轮子向前运动，以保持平衡;同样地，当我们身体的重心后倾时，轮子就会向后运动。<br>这套工作原理被称为“动态平衡”原理，这也是平衡车被叫做“平衡车”的原因，采用第二代运动补偿算法，利用其内部的陀螺仪和加速度传感器，来精确检测车体姿态的微小变化，并利用精密的伺服控制系统，灵敏地驱动电机，进行相应的调整，以保持整个车体的稳定和平衡。</p><h3 id="器材分解："><a href="#器材分解：" class="headerlink" title="器材分解："></a>器材分解：</h3><p>电池盒、轮子、CPU、触碰开光、LED灯、蜂鸣器<br><img src="/2019/03/29/瓦力工厂/滑板车机器人/004.png" alt=""></p><h3 id="学习目标："><a href="#学习目标：" class="headerlink" title="学习目标："></a>学习目标：</h3><p>1.复习触碰开关的工作原理。<br>2.了解人们的代步工具。<br>3.熟练运用循环模块（While）进行输入、输出控制。</p><h3 id="构建步骤："><a href="#构建步骤：" class="headerlink" title="构建步骤："></a>构建步骤：</h3><p><img src="/2019/03/29/瓦力工厂/滑板车机器人/滑板车机器人_06.png" alt=""><br><img src="/2019/03/29/瓦力工厂/滑板车机器人/滑板车机器人_07.png" alt=""><br><img src="/2019/03/29/瓦力工厂/滑板车机器人/滑板车机器人_08.png" alt=""><br><img src="/2019/03/29/瓦力工厂/滑板车机器人/滑板车机器人_09.png" alt=""><br><img src="/2019/03/29/瓦力工厂/滑板车机器人/滑板车机器人_10.png" alt=""><br><img src="/2019/03/29/瓦力工厂/滑板车机器人/滑板车机器人_11.png" alt=""><br><img src="/2019/03/29/瓦力工厂/滑板车机器人/滑板车机器人_12.png" alt=""><br><img src="/2019/03/29/瓦力工厂/滑板车机器人/滑板车机器人_13.png" alt=""><br><img src="/2019/03/29/瓦力工厂/滑板车机器人/滑板车机器人_14.png" alt=""><br><img src="/2019/03/29/瓦力工厂/滑板车机器人/滑板车机器人_15.png" alt=""><br><img src="/2019/03/29/瓦力工厂/滑板车机器人/滑板车机器人_16.png" alt=""></p><h3 id="程序设计："><a href="#程序设计：" class="headerlink" title="程序设计："></a>程序设计：</h3><p><img src="/2019/03/29/瓦力工厂/滑板车机器人/滑板车机器人_17.png" alt=""></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="单片机第一年" scheme="http://yoursite.com/categories/%E5%8D%95%E7%89%87%E6%9C%BA%E7%AC%AC%E4%B8%80%E5%B9%B4/"/>
     
     
   </entry>
