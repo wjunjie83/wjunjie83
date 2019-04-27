@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-26T09:51:54.432Z</updated>
+  <updated>2019-04-27T01:50:02.918Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>小蝌蚪找妈妈</title>
+    <link href="http://yoursite.com/2019/04/27/Scratch%20%20%E5%B8%B8%E8%A7%84%E8%AF%BE/%E7%AC%AC%E4%B8%83%E8%AF%BE%20%E5%B0%8F%E8%9D%8C%E8%9A%AA%E6%89%BE%E5%A6%88%E5%A6%88/"/>
+    <id>http://yoursite.com/2019/04/27/Scratch  常规课/第七课 小蝌蚪找妈妈/</id>
+    <published>2019-04-27T01:50:02.918Z</published>
+    <updated>2019-04-27T01:50:02.918Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="情景任务"><a href="#情景任务" class="headerlink" title="情景任务:"></a>情景任务:</h3><p>打开：<a href="https://scratch.mit.edu/projects/editor/?tutorial=getStarted" target="_blank" rel="noopener">https://scratch.mit.edu/projects/editor/?tutorial=getStarted</a><br>打开 <a href="https://ide.makeblock.com" target="_blank" rel="noopener">https://ide.makeblock.com</a></p><p>大家还记得《小蝌蚪找妈妈》这个故事吗？今天我们一起来重温一下吧！小蝌蚪终于找到妈妈了，它们开心极了。</p><p><iframe height="498" width="510" src="http://player.youku.com/embed/XMjY4MzQ2MDgxNg==" frameborder="0" 'allowfullscreen'=""></iframe><br>今天我们要根据小蝌蚪找妈妈的故事来创作我们的Scratch版本的小蝌蚪找妈妈。<br><a href="http://player.youku.com/embed/XMjY4MzQ2MDgxNg==" target="_blank" rel="noopener">http://player.youku.com/embed/XMjY4MzQ2MDgxNg==</a></p><h4 id="重点命令"><a href="#重点命令" class="headerlink" title="重点命令"></a>重点命令</h4><ul><li>移到鼠标指针。</li><li>碰到</li><li>如果……那么<br><a href="https://imgchr.com/i/EnkwqS" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/04/26/EnkwqS.png" alt="EnkwqS.png"></a></li></ul><p><a href="https://imgchr.com/i/EnkBVg" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/04/26/EnkBVg.png" alt="EnkBVg.png"></a><br>通过让老鼠随机爬动复习前面学习的随机数、移动、旋转模式等知识点。<br><a href="https://imgchr.com/i/EnkDaQ" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/04/26/EnkDaQ.png" alt="EnkDaQ.png"></a><br>让学生学会“重复执行……直到”的用法，并复习巩固坐标知识点。<br>下面我们结合以前学过的知识，制作一个完整的猫捉老鼠的小游戏。<br><a href="https://imgchr.com/i/Enkc2q" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/04/26/Enkc2q.png" alt="Enkc2q.png"></a></p><p><a href="https://imgchr.com/i/Enkr5j" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/04/26/Enkr5j.png" alt="Enkr5j.png"></a></p><p><a href="https://imgchr.com/i/EnkyPs" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/04/26/EnkyPs.png" alt="EnkyPs.png"></a></p><p><a href="https://imgchr.com/i/Enk6Gn" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/04/26/Enk6Gn.png" alt="Enk6Gn.png"></a></p><p><a href="https://imgchr.com/i/Enkgx0" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/04/26/Enkgx0.png" alt="Enkgx0.png"></a></p><p>猫抓老鼠已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="Scratch 常规课" scheme="http://yoursite.com/categories/Scratch-%E5%B8%B8%E8%A7%84%E8%AF%BE/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>猫抓老鼠</title>
@@ -339,13 +362,13 @@
   </entry>
   
   <entry>
-    <title>1011. 正方形</title>
-    <link href="http://yoursite.com/2019/03/29/NOIP%20Scratch/1011.%20%E6%AD%A3%E6%96%B9%E5%BD%A2/"/>
-    <id>http://yoursite.com/2019/03/29/NOIP Scratch/1011. 正方形/</id>
+    <title>1010. 邮寄包裹</title>
+    <link href="http://yoursite.com/2019/03/29/NOIP%20Scratch/1010.%20%E9%82%AE%E5%AF%84%E5%8C%85%E8%A3%B9/"/>
+    <id>http://yoursite.com/2019/03/29/NOIP Scratch/1010. 邮寄包裹/</id>
     <published>2019-03-29T07:40:59.479Z</published>
-    <updated>2019-03-15T02:05:53.666Z</updated>
+    <updated>2019-03-15T06:32:02.532Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>有一个正方形，四个角的坐标分别是（1，-1），（1，1），（-1，-1），（-1，1）。写一个程序，判断一个给定的点（x,y）是否在这个正方形内（包括正方形边界），如果在正方形内输出“Yes”，否则输出“No”。</p><p><a href="https://imgchr.com/i/AE1TYV" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/15/AE1TYV.png" alt="AE1TYV.png"></a></p><p><a href="https://imgchr.com/i/AE17WT" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/15/AE17WT.png" alt="AE17WT.png"></a></p><p>正方形已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>某邮局对邮寄包裹有如下规定：若包裹的重量超过30千克,不予邮寄，对可以邮寄的包裹每件收手续费0.2元，再加上根据下表按重量wei计算的结果：</p><p>重量(千克)      收费标准(元/公斤)<br>wei&lt;=10              0.80<br>10&lt;wei&lt;=20        0.75<br>20&lt;wei&lt;=30        0.70<br>请你编写一个程序，输入包裹重量，输出所需费用或”Fail”表示无法邮寄。</p><p><a href="https://imgchr.com/i/AANbod" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AANbod.png" alt="AANbod.png"></a></p><p><a href="https://imgchr.com/i/AANYZQ" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AANYZQ.png" alt="AANYZQ.png"></a></p><p>猜数游戏已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
     
     <summary type="html">
     
@@ -385,29 +408,6 @@
   </entry>
   
   <entry>
-    <title>1010. 邮寄包裹</title>
-    <link href="http://yoursite.com/2019/03/29/NOIP%20Scratch/1010.%20%E9%82%AE%E5%AF%84%E5%8C%85%E8%A3%B9/"/>
-    <id>http://yoursite.com/2019/03/29/NOIP Scratch/1010. 邮寄包裹/</id>
-    <published>2019-03-29T07:40:59.479Z</published>
-    <updated>2019-03-15T06:32:02.532Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>某邮局对邮寄包裹有如下规定：若包裹的重量超过30千克,不予邮寄，对可以邮寄的包裹每件收手续费0.2元，再加上根据下表按重量wei计算的结果：</p><p>重量(千克)      收费标准(元/公斤)<br>wei&lt;=10              0.80<br>10&lt;wei&lt;=20        0.75<br>20&lt;wei&lt;=30        0.70<br>请你编写一个程序，输入包裹重量，输出所需费用或”Fail”表示无法邮寄。</p><p><a href="https://imgchr.com/i/AANbod" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AANbod.png" alt="AANbod.png"></a></p><p><a href="https://imgchr.com/i/AANYZQ" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AANYZQ.png" alt="AANYZQ.png"></a></p><p>猜数游戏已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="CCF中学生计算机程序设计入门篇" scheme="http://yoursite.com/categories/CCF%E4%B8%AD%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8%E7%AF%87/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>1007. 计算余数</title>
     <link href="http://yoursite.com/2019/03/29/NOIP%20Scratch/1007.%20%E8%AE%A1%E7%AE%97%E4%BD%99%E6%95%B0/"/>
     <id>http://yoursite.com/2019/03/29/NOIP Scratch/1007. 计算余数/</id>
@@ -431,13 +431,13 @@
   </entry>
   
   <entry>
-    <title>1005. 存款收益</title>
-    <link href="http://yoursite.com/2019/03/29/NOIP%20Scratch/1005.%20%E5%AD%98%E6%AC%BE%E6%94%B6%E7%9B%8A/"/>
-    <id>http://yoursite.com/2019/03/29/NOIP Scratch/1005. 存款收益/</id>
-    <published>2019-03-29T07:40:59.475Z</published>
-    <updated>2019-03-14T06:22:13.407Z</updated>
+    <title>1011. 正方形</title>
+    <link href="http://yoursite.com/2019/03/29/NOIP%20Scratch/1011.%20%E6%AD%A3%E6%96%B9%E5%BD%A2/"/>
+    <id>http://yoursite.com/2019/03/29/NOIP Scratch/1011. 正方形/</id>
+    <published>2019-03-29T07:40:59.479Z</published>
+    <updated>2019-03-15T02:05:53.666Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>按年利率R%存入本钱X，存入P年后的本利合计为Y=X*((100+R)/100)^P，求Y的值。</p><p><a href="https://imgchr.com/i/AA3i2F" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AA3i2F.png" alt="AA3i2F.png"></a></p><p><a href="https://imgchr.com/i/AA3P8U" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/14/AA3P8U.png" alt="AA3P8U.png"></a></p><p>猜数游戏已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h3><p>有一个正方形，四个角的坐标分别是（1，-1），（1，1），（-1，-1），（-1，1）。写一个程序，判断一个给定的点（x,y）是否在这个正方形内（包括正方形边界），如果在正方形内输出“Yes”，否则输出“No”。</p><p><a href="https://imgchr.com/i/AE1TYV" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/15/AE1TYV.png" alt="AE1TYV.png"></a></p><p><a href="https://imgchr.com/i/AE17WT" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/03/15/AE17WT.png" alt="AE17WT.png"></a></p><p>正方形已经完成，有什么疑问，加老师微信进行咨询吧！<br><img src="https://s1.ax1x.com/2018/12/28/FWnGAx.jpg" alt="FWnGAx.jpg"></p><p>许昌市东城区智慧大道亨源通360广场3号楼7楼707室。<br>咨询：17698012211     15565323000</p>]]></content>
     
     <summary type="html">
     
